@@ -15,31 +15,30 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 02:48+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-05-15 11:44+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/sidebar.jsx:120
 msgid "$0 item"
 msgid_plural "$0 items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 항목"
 
 #: src/sidebar.jsx:122
 msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "($0 숨김)"
 
 #: org.cockpit-project.files.metainfo.xml:7
 msgid "A file system browser for Cockpit."
-msgstr ""
+msgstr "Cockpit를 위한 파일 시스템 탐색기."
 
 #: src/fileActions.jsx:395
 msgid "Access"
@@ -56,7 +55,7 @@ msgstr ""
 
 #: src/index.html:20
 msgid "Cockpit Files"
-msgstr ""
+msgstr "Cockpit 파일"
 
 #: src/fileActions.jsx:508 src/fileActions.jsx:567
 msgid "Copy"
@@ -68,7 +67,7 @@ msgstr ""
 
 #: src/fileActions.jsx:140 src/fileActions.jsx:494
 msgid "Create directory"
-msgstr ""
+msgstr "디렉토리 생성"
 
 #: src/fileActions.jsx:111 src/fileActions.jsx:542 src/fileActions.jsx:572
 msgid "Delete"
@@ -76,7 +75,7 @@ msgstr ""
 
 #: src/fileActions.jsx:67
 msgid "Delete $0 items?"
-msgstr ""
+msgstr "$0 항목을 삭제할까요?"
 
 #: src/fileActions.jsx:83
 msgid "Delete $0?"
@@ -84,35 +83,35 @@ msgstr ""
 
 #: src/fileActions.jsx:80
 msgid "Delete directory $0?"
-msgstr ""
+msgstr "디렉토리 $0를 삭제할까요?"
 
 #: src/fileActions.jsx:72
 msgid "Delete file $0?"
-msgstr ""
+msgstr "파일 $0를 삭제할까요?"
 
 #: src/fileActions.jsx:76
 msgid "Delete link $0?"
-msgstr ""
+msgstr "링크 $0를 삭제할까요?"
 
 #: src/files-card-body.jsx:351
 msgid "Directory is empty"
-msgstr ""
+msgstr "디렉토리가 비었습니다"
 
 #: src/fileActions.jsx:171
 msgid "Directory name"
-msgstr ""
+msgstr "디렉토리 이름"
 
 #: src/fileActions.jsx:444
 msgid "Directory name cannot be empty."
-msgstr ""
+msgstr "디렉토리 이름은 비워 둘 수 없습니다."
 
 #: src/fileActions.jsx:448
 msgid "Directory name cannot include a /."
-msgstr ""
+msgstr "디렉토리 이름은 /를 포함 할 수 없습니다."
 
 #: src/fileActions.jsx:446
 msgid "Directory name too long."
-msgstr ""
+msgstr "디렉토리 이름이 너무 길어요."
 
 #: src/fileActions.jsx:559
 msgid "Download"
@@ -120,11 +119,11 @@ msgstr ""
 
 #: src/sidebar.jsx:182 src/fileActions.jsx:500 src/fileActions.jsx:524
 msgid "Edit permissions"
-msgstr ""
+msgstr "권한을 편집합니다"
 
 #: src/manifest.json:0
 msgid "File browser"
-msgstr ""
+msgstr "파일 탐색기"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
@@ -132,23 +131,23 @@ msgstr ""
 
 #: src/fileActions.jsx:83
 msgid "Force delete $0"
-msgstr ""
+msgstr "$0를 삭제를 강제합니다"
 
 #: src/fileActions.jsx:67
 msgid "Force delete $0 items"
-msgstr ""
+msgstr "$0 항목 삭제를 강제합니다"
 
 #: src/fileActions.jsx:80
 msgid "Force delete directory $0?"
-msgstr ""
+msgstr "디렉토리 $0 삭제를 강제할까요?"
 
 #: src/fileActions.jsx:72
 msgid "Force delete file $0?"
-msgstr ""
+msgstr "파일 $0 삭제를 강제할까요?"
 
 #: src/fileActions.jsx:76
 msgid "Force delete link $0?"
-msgstr ""
+msgstr "링크 $0 삭제를 강제할까요?"
 
 #: src/sidebar.jsx:65 src/fileActions.jsx:379
 msgid "Group"
@@ -156,15 +155,15 @@ msgstr ""
 
 #: src/fileActions.jsx:409
 msgid "Group access"
-msgstr ""
+msgstr "그룹 접근"
 
 #: src/sidebar.jsx:84
 msgid "Group permissions"
-msgstr ""
+msgstr "그룹 권한"
 
 #: src/sidebar.jsx:55
 msgid "Last modified"
-msgstr ""
+msgstr "마지막으로 수정됨"
 
 #: src/files-card-body.jsx:369
 msgid "Name"
@@ -176,11 +175,11 @@ msgstr ""
 
 #: src/sidebar.jsx:89
 msgid "Other permissions"
-msgstr ""
+msgstr "기타 권한"
 
 #: src/fileActions.jsx:421
 msgid "Others access"
-msgstr ""
+msgstr "기타 접근"
 
 #: src/sidebar.jsx:60 src/fileActions.jsx:364
 msgid "Owner"
@@ -188,15 +187,15 @@ msgstr ""
 
 #: src/fileActions.jsx:397
 msgid "Owner access"
-msgstr ""
+msgstr "소유자 접근"
 
 #: src/sidebar.jsx:79
 msgid "Owner permissions"
-msgstr ""
+msgstr "소유자 권한"
 
 #: src/fileActions.jsx:363
 msgid "Ownership"
-msgstr ""
+msgstr "소유권"
 
 #: src/fileActions.jsx:487
 msgid "Paste"
@@ -204,7 +203,7 @@ msgstr ""
 
 #: src/fileActions.jsx:515
 msgid "Paste into directory"
-msgstr ""
+msgstr "디렉토리에 붙여넣기"
 
 #: src/fileActions.jsx:227 src/fileActions.jsx:529
 msgid "Rename"
@@ -212,19 +211,19 @@ msgstr ""
 
 #: src/fileActions.jsx:198
 msgid "Rename directory $0"
-msgstr ""
+msgstr "디렉토리 $0 이름변경"
 
 #: src/fileActions.jsx:194
 msgid "Rename file $0"
-msgstr ""
+msgstr "파일 $0 이름변경"
 
 #: src/fileActions.jsx:196
 msgid "Rename link $0"
-msgstr ""
+msgstr "링크 $0 이름변경"
 
 #: src/settings-dropdown.jsx:49
 msgid "Show hidden items"
-msgstr ""
+msgstr "숨겨진 항목 표시"
 
 #: src/sidebar.jsx:72
 msgid "Size"
