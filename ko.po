@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 02:48+0000\n"
 "PO-Revision-Date: 2024-05-15 11:44+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -42,16 +43,16 @@ msgstr "Cockpit를 위한 파일 시스템 탐색기."
 
 #: src/fileActions.jsx:395
 msgid "Access"
-msgstr ""
+msgstr "접근"
 
 #: src/fileActions.jsx:112 src/fileActions.jsx:153 src/fileActions.jsx:229
 #: src/fileActions.jsx:350
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 #: src/fileActions.jsx:348
 msgid "Change"
-msgstr ""
+msgstr "변경"
 
 #: src/index.html:20
 msgid "Cockpit Files"
@@ -59,11 +60,11 @@ msgstr "Cockpit 파일"
 
 #: src/fileActions.jsx:508 src/fileActions.jsx:567
 msgid "Copy"
-msgstr ""
+msgstr "복사"
 
 #: src/fileActions.jsx:151
 msgid "Create"
-msgstr ""
+msgstr "생성"
 
 #: src/fileActions.jsx:140 src/fileActions.jsx:494
 msgid "Create directory"
@@ -71,7 +72,7 @@ msgstr "디렉토리 생성"
 
 #: src/fileActions.jsx:111 src/fileActions.jsx:542 src/fileActions.jsx:572
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 #: src/fileActions.jsx:67
 msgid "Delete $0 items?"
@@ -79,7 +80,7 @@ msgstr "$0 항목을 삭제할까요?"
 
 #: src/fileActions.jsx:83
 msgid "Delete $0?"
-msgstr ""
+msgstr "$0 삭제?"
 
 #: src/fileActions.jsx:80
 msgid "Delete directory $0?"
@@ -115,7 +116,7 @@ msgstr "디렉토리 이름이 너무 길어요."
 
 #: src/fileActions.jsx:559
 msgid "Download"
-msgstr ""
+msgstr "내려받기"
 
 #: src/sidebar.jsx:182 src/fileActions.jsx:500 src/fileActions.jsx:524
 msgid "Edit permissions"
@@ -127,7 +128,7 @@ msgstr "파일 탐색기"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
-msgstr ""
+msgstr "파일"
 
 #: src/fileActions.jsx:83
 msgid "Force delete $0"
@@ -151,7 +152,7 @@ msgstr "링크 $0 삭제를 강제할까요?"
 
 #: src/sidebar.jsx:65 src/fileActions.jsx:379
 msgid "Group"
-msgstr ""
+msgstr "그룹"
 
 #: src/fileActions.jsx:409
 msgid "Group access"
@@ -167,11 +168,11 @@ msgstr "마지막으로 수정됨"
 
 #: src/files-card-body.jsx:369
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 #: src/fileActions.jsx:241
 msgid "New name"
-msgstr ""
+msgstr "신규 이름"
 
 #: src/sidebar.jsx:89
 msgid "Other permissions"
@@ -183,7 +184,7 @@ msgstr "기타 접근"
 
 #: src/sidebar.jsx:60 src/fileActions.jsx:364
 msgid "Owner"
-msgstr ""
+msgstr "소유자"
 
 #: src/fileActions.jsx:397
 msgid "Owner access"
@@ -199,7 +200,7 @@ msgstr "소유권"
 
 #: src/fileActions.jsx:487
 msgid "Paste"
-msgstr ""
+msgstr "붙여넣기"
 
 #: src/fileActions.jsx:515
 msgid "Paste into directory"
@@ -207,7 +208,7 @@ msgstr "디렉토리에 붙여넣기"
 
 #: src/fileActions.jsx:227 src/fileActions.jsx:529
 msgid "Rename"
-msgstr ""
+msgstr "이름변경"
 
 #: src/fileActions.jsx:198
 msgid "Rename directory $0"
@@ -227,7 +228,7 @@ msgstr "숨겨진 항목 표시"
 
 #: src/sidebar.jsx:72
 msgid "Size"
-msgstr ""
+msgstr "크기"
 
 #: src/manifest.json:0
 msgid "explorer"
@@ -235,11 +236,11 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "files"
-msgstr ""
+msgstr "파일"
 
 #: src/manifest.json:0
 msgid "filesystem"
-msgstr ""
+msgstr "파일 시스템"
 
 #. Translators: $0 represents a filename
 #: src/fileActions.jsx:338
