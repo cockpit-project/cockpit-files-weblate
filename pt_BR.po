@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 02:48+0000\n"
 "PO-Revision-Date: 2024-05-15 12:28+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -44,16 +45,16 @@ msgstr "Um navegador de sistema de arquivos para o Cockpit."
 
 #: src/fileActions.jsx:395
 msgid "Access"
-msgstr ""
+msgstr "Acesso"
 
 #: src/fileActions.jsx:112 src/fileActions.jsx:153 src/fileActions.jsx:229
 #: src/fileActions.jsx:350
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/fileActions.jsx:348
 msgid "Change"
-msgstr ""
+msgstr "Alterar"
 
 #: src/index.html:20
 msgid "Cockpit Files"
@@ -61,11 +62,11 @@ msgstr "Cockpit Files"
 
 #: src/fileActions.jsx:508 src/fileActions.jsx:567
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
 #: src/fileActions.jsx:151
 msgid "Create"
-msgstr ""
+msgstr "Criar"
 
 #: src/fileActions.jsx:140 src/fileActions.jsx:494
 msgid "Create directory"
@@ -73,7 +74,7 @@ msgstr "Criar diretório"
 
 #: src/fileActions.jsx:111 src/fileActions.jsx:542 src/fileActions.jsx:572
 msgid "Delete"
-msgstr ""
+msgstr "Excluir"
 
 #: src/fileActions.jsx:67
 msgid "Delete $0 items?"
@@ -117,7 +118,7 @@ msgstr "Nome do diretório longo demais."
 
 #: src/fileActions.jsx:559
 msgid "Download"
-msgstr ""
+msgstr "Baixar"
 
 #: src/sidebar.jsx:182 src/fileActions.jsx:500 src/fileActions.jsx:524
 msgid "Edit permissions"
@@ -129,7 +130,7 @@ msgstr "Navegador de arquivos"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
-msgstr ""
+msgstr "Arquivos"
 
 #: src/fileActions.jsx:83
 msgid "Force delete $0"
@@ -153,7 +154,7 @@ msgstr "Forçar a exclusão do link de $0?"
 
 #: src/sidebar.jsx:65 src/fileActions.jsx:379
 msgid "Group"
-msgstr ""
+msgstr "Grupo"
 
 #: src/fileActions.jsx:409
 msgid "Group access"
