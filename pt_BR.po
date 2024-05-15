@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 02:48+0000\n"
-"PO-Revision-Date: 2024-05-15 12:28+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-05-16 12:35+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -190,55 +189,55 @@ msgstr "Dono"
 
 #: src/fileActions.jsx:397
 msgid "Owner access"
-msgstr ""
+msgstr "Acesso do proprietário"
 
 #: src/sidebar.jsx:79
 msgid "Owner permissions"
-msgstr ""
+msgstr "Permissões do proprietário"
 
 #: src/fileActions.jsx:363
 msgid "Ownership"
-msgstr ""
+msgstr "Propriedade"
 
 #: src/fileActions.jsx:487
 msgid "Paste"
-msgstr ""
+msgstr "Colar"
 
 #: src/fileActions.jsx:515
 msgid "Paste into directory"
-msgstr ""
+msgstr "Colar no diretório"
 
 #: src/fileActions.jsx:227 src/fileActions.jsx:529
 msgid "Rename"
-msgstr ""
+msgstr "Renomear"
 
 #: src/fileActions.jsx:198
 msgid "Rename directory $0"
-msgstr ""
+msgstr "Renomear o diretório $0"
 
 #: src/fileActions.jsx:194
 msgid "Rename file $0"
-msgstr ""
+msgstr "Renomear o arquivo $0"
 
 #: src/fileActions.jsx:196
 msgid "Rename link $0"
-msgstr ""
+msgstr "Renomear o link $0"
 
 #: src/settings-dropdown.jsx:49
 msgid "Show hidden items"
-msgstr ""
+msgstr "Mostrar itens ocultos"
 
 #: src/sidebar.jsx:72
 msgid "Size"
-msgstr ""
+msgstr "Tamanho"
 
 #: src/manifest.json:0
 msgid "explorer"
-msgstr ""
+msgstr "explorador"
 
 #: src/manifest.json:0
 msgid "files"
-msgstr ""
+msgstr "arquivos"
 
 #: src/manifest.json:0
 msgid "filesystem"
@@ -247,4 +246,4 @@ msgstr ""
 #. Translators: $0 represents a filename
 #: src/fileActions.jsx:338
 msgid "“$0” permissions"
-msgstr ""
+msgstr "Permissões de “$0”"
