@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-15 02:48+0000\n"
 "PO-Revision-Date: 2024-05-16 12:35+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -185,7 +186,7 @@ msgstr "Acesso de outros"
 
 #: src/sidebar.jsx:60 src/fileActions.jsx:364
 msgid "Owner"
-msgstr "Dono"
+msgstr "Proprietário"
 
 #: src/fileActions.jsx:397
 msgid "Owner access"
@@ -241,7 +242,7 @@ msgstr "arquivos"
 
 #: src/manifest.json:0
 msgid "filesystem"
-msgstr ""
+msgstr "sistema de arquivos"
 
 #. Translators: $0 represents a filename
 #: src/fileActions.jsx:338
