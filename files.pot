@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-15 02:48+0000\n"
+"POT-Creation-Date: 2024-05-16 02:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-15 02:48+0000\n"
+"POT-Creation-Date: 2024-05-16 02:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,7 +142,7 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: src/sidebar.jsx:182 src/fileActions.jsx:500 src/fileActions.jsx:524
+#: src/fileActions.jsx:500 src/fileActions.jsx:524 src/sidebar.jsx:182
 msgid "Edit permissions"
 msgstr ""
 
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/sidebar.jsx:65 src/fileActions.jsx:379
+#: src/fileActions.jsx:379 src/sidebar.jsx:65
 msgid "Group"
 msgstr ""
 
@@ -206,7 +206,7 @@ msgstr ""
 msgid "Others access"
 msgstr ""
 
-#: src/sidebar.jsx:60 src/fileActions.jsx:364
+#: src/fileActions.jsx:364 src/sidebar.jsx:60
 msgid "Owner"
 msgstr ""
 
