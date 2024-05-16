@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-15 02:48+0000\n"
+"POT-Creation-Date: 2024-05-16 02:47+0000\n"
 "PO-Revision-Date: 2024-05-16 12:35+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -120,7 +120,7 @@ msgstr "Nome do diretório longo demais."
 msgid "Download"
 msgstr "Baixar"
 
-#: src/sidebar.jsx:182 src/fileActions.jsx:500 src/fileActions.jsx:524
+#: src/fileActions.jsx:500 src/fileActions.jsx:524 src/sidebar.jsx:182
 msgid "Edit permissions"
 msgstr "Editar permissões"
 
@@ -152,7 +152,7 @@ msgstr "Forçar a exclusão do arquivo $0?"
 msgid "Force delete link $0?"
 msgstr "Forçar a exclusão do link de $0?"
 
-#: src/sidebar.jsx:65 src/fileActions.jsx:379
+#: src/fileActions.jsx:379 src/sidebar.jsx:65
 msgid "Group"
 msgstr "Grupo"
 
@@ -184,7 +184,7 @@ msgstr "Outras permissões"
 msgid "Others access"
 msgstr "Acesso de outros"
 
-#: src/sidebar.jsx:60 src/fileActions.jsx:364
+#: src/fileActions.jsx:364 src/sidebar.jsx:60
 msgid "Owner"
 msgstr "Proprietário"
 

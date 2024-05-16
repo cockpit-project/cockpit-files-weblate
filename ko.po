@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-15 02:48+0000\n"
+"POT-Creation-Date: 2024-05-16 02:47+0000\n"
 "PO-Revision-Date: 2024-05-15 12:28+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"cockpit-files/cockpit-files/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
+"files/cockpit-files/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,7 +117,7 @@ msgstr "디렉토리 이름이 너무 길어요."
 msgid "Download"
 msgstr "내려받기"
 
-#: src/sidebar.jsx:182 src/fileActions.jsx:500 src/fileActions.jsx:524
+#: src/fileActions.jsx:500 src/fileActions.jsx:524 src/sidebar.jsx:182
 msgid "Edit permissions"
 msgstr "권한을 편집합니다"
 
@@ -149,7 +149,7 @@ msgstr "파일 $0 삭제를 강제할까요?"
 msgid "Force delete link $0?"
 msgstr "링크 $0 삭제를 강제할까요?"
 
-#: src/sidebar.jsx:65 src/fileActions.jsx:379
+#: src/fileActions.jsx:379 src/sidebar.jsx:65
 msgid "Group"
 msgstr "그룹"
 
@@ -181,7 +181,7 @@ msgstr "기타 권한"
 msgid "Others access"
 msgstr "기타 접근"
 
-#: src/sidebar.jsx:60 src/fileActions.jsx:364
+#: src/fileActions.jsx:364 src/sidebar.jsx:60
 msgid "Owner"
 msgstr "소유자"
 
