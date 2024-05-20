@@ -15,31 +15,32 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 02:48+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-05-21 03:36+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/sidebar.jsx:120
 msgid "$0 item"
 msgid_plural "$0 items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 objekt"
+msgstr[1] "$0 objekt"
 
 #: src/sidebar.jsx:122
 msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "($0 dold)"
+msgstr[1] "($0 dolda)"
 
 #: org.cockpit-project.files.metainfo.xml:7
 msgid "A file system browser for Cockpit."
-msgstr ""
+msgstr "En filsystembläddrare för Cockpit."
 
 #: src/fileActions.jsx:395
 msgid "Access"
@@ -56,7 +57,7 @@ msgstr ""
 
 #: src/index.html:20
 msgid "Cockpit Files"
-msgstr ""
+msgstr "Cockpit filer"
 
 #: src/fileActions.jsx:508 src/fileActions.jsx:567
 msgid "Copy"
@@ -68,7 +69,7 @@ msgstr ""
 
 #: src/fileActions.jsx:140 src/fileActions.jsx:494
 msgid "Create directory"
-msgstr ""
+msgstr "Skapa katalog"
 
 #: src/fileActions.jsx:111 src/fileActions.jsx:542 src/fileActions.jsx:572
 msgid "Delete"
@@ -76,7 +77,7 @@ msgstr ""
 
 #: src/fileActions.jsx:67
 msgid "Delete $0 items?"
-msgstr ""
+msgstr "Radera $0 objekt?"
 
 #: src/fileActions.jsx:83
 msgid "Delete $0?"
@@ -84,47 +85,47 @@ msgstr ""
 
 #: src/fileActions.jsx:80
 msgid "Delete directory $0?"
-msgstr ""
+msgstr "Radera katalog $0?"
 
 #: src/fileActions.jsx:72
 msgid "Delete file $0?"
-msgstr ""
+msgstr "Radera fil $0?"
 
 #: src/fileActions.jsx:76
 msgid "Delete link $0?"
-msgstr ""
+msgstr "Radera länk $0?"
 
 #: src/files-card-body.jsx:351
 msgid "Directory is empty"
-msgstr ""
+msgstr "Katalog är tom"
 
 #: src/fileActions.jsx:171
 msgid "Directory name"
-msgstr ""
+msgstr "Katalognamn"
 
 #: src/fileActions.jsx:444
 msgid "Directory name cannot be empty."
-msgstr ""
+msgstr "Katalognamn kan inte vara tomt."
 
 #: src/fileActions.jsx:448
 msgid "Directory name cannot include a /."
-msgstr ""
+msgstr "Katalognamn kan inte inkludera ett /."
 
 #: src/fileActions.jsx:446
 msgid "Directory name too long."
-msgstr ""
+msgstr "Katalognamn för långt."
 
 #: src/fileActions.jsx:559
 msgid "Download"
-msgstr ""
+msgstr "Hämta"
 
 #: src/fileActions.jsx:500 src/fileActions.jsx:524 src/sidebar.jsx:182
 msgid "Edit permissions"
-msgstr ""
+msgstr "Redigera behörigheter"
 
 #: src/manifest.json:0
 msgid "File browser"
-msgstr ""
+msgstr "Filbläddrare"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
@@ -132,23 +133,23 @@ msgstr ""
 
 #: src/fileActions.jsx:83
 msgid "Force delete $0"
-msgstr ""
+msgstr "Tvinga radering $0"
 
 #: src/fileActions.jsx:67
 msgid "Force delete $0 items"
-msgstr ""
+msgstr "Tvinga radering $0 objekt"
 
 #: src/fileActions.jsx:80
 msgid "Force delete directory $0?"
-msgstr ""
+msgstr "Tvinga radering av katalog $0?"
 
 #: src/fileActions.jsx:72
 msgid "Force delete file $0?"
-msgstr ""
+msgstr "Tvinga radering av fil $0?"
 
 #: src/fileActions.jsx:76
 msgid "Force delete link $0?"
-msgstr ""
+msgstr "Tvinga radering av länk $0?"
 
 #: src/fileActions.jsx:379 src/sidebar.jsx:65
 msgid "Group"
@@ -156,15 +157,15 @@ msgstr ""
 
 #: src/fileActions.jsx:409
 msgid "Group access"
-msgstr ""
+msgstr "Gruppåtkomst"
 
 #: src/sidebar.jsx:84
 msgid "Group permissions"
-msgstr ""
+msgstr "Gruppbehörigheter"
 
 #: src/sidebar.jsx:55
 msgid "Last modified"
-msgstr ""
+msgstr "Senast modifierad"
 
 #: src/files-card-body.jsx:369
 msgid "Name"
@@ -176,11 +177,11 @@ msgstr ""
 
 #: src/sidebar.jsx:89
 msgid "Other permissions"
-msgstr ""
+msgstr "Andra behörigheter"
 
 #: src/fileActions.jsx:421
 msgid "Others access"
-msgstr ""
+msgstr "Andra tillgång"
 
 #: src/fileActions.jsx:364 src/sidebar.jsx:60
 msgid "Owner"
@@ -188,15 +189,15 @@ msgstr ""
 
 #: src/fileActions.jsx:397
 msgid "Owner access"
-msgstr ""
+msgstr "Ägare tillgång"
 
 #: src/sidebar.jsx:79
 msgid "Owner permissions"
-msgstr ""
+msgstr "Ägare behörigheter"
 
 #: src/fileActions.jsx:363
 msgid "Ownership"
-msgstr ""
+msgstr "Ägarskap"
 
 #: src/fileActions.jsx:487
 msgid "Paste"
@@ -204,7 +205,7 @@ msgstr ""
 
 #: src/fileActions.jsx:515
 msgid "Paste into directory"
-msgstr ""
+msgstr "Klistra in i katalog"
 
 #: src/fileActions.jsx:227 src/fileActions.jsx:529
 msgid "Rename"
@@ -212,19 +213,19 @@ msgstr ""
 
 #: src/fileActions.jsx:198
 msgid "Rename directory $0"
-msgstr ""
+msgstr "Byt namn på katalog $0"
 
 #: src/fileActions.jsx:194
 msgid "Rename file $0"
-msgstr ""
+msgstr "Byt namn på fil $0"
 
 #: src/fileActions.jsx:196
 msgid "Rename link $0"
-msgstr ""
+msgstr "Byt namn på länk $0"
 
 #: src/settings-dropdown.jsx:49
 msgid "Show hidden items"
-msgstr ""
+msgstr "Visa dolda objekt"
 
 #: src/sidebar.jsx:72
 msgid "Size"
@@ -232,7 +233,7 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "explorer"
-msgstr ""
+msgstr "utforskare"
 
 #: src/manifest.json:0
 msgid "files"
@@ -245,4 +246,4 @@ msgstr ""
 #. Translators: $0 represents a filename
 #: src/fileActions.jsx:338
 msgid "“$0” permissions"
-msgstr ""
+msgstr "“$0“ behörigheter"
