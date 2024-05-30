@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-29 02:48+0000\n"
+"POT-Creation-Date: 2024-05-30 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-29 02:48+0000\n"
+"POT-Creation-Date: 2024-05-30 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,7 +118,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/files-card-body.jsx:351
+#: src/files-card-body.jsx:353
 msgid "Directory is empty"
 msgstr ""
 
@@ -190,12 +190,16 @@ msgstr ""
 msgid "Last modified"
 msgstr ""
 
-#: src/files-card-body.jsx:369
+#: src/files-card-body.jsx:372
 msgid "Name"
 msgstr ""
 
 #: src/fileActions.jsx:241
 msgid "New name"
+msgstr ""
+
+#: src/files-card-body.jsx:353
+msgid "No matching results"
 msgstr ""
 
 #: src/sidebar.jsx:89
