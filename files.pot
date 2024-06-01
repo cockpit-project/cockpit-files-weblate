@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-31 02:47+0000\n"
+"POT-Creation-Date: 2024-06-01 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-31 02:47+0000\n"
+"POT-Creation-Date: 2024-06-01 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,36 +65,70 @@ msgstr[1] ""
 msgid "A file system browser for Cockpit."
 msgstr ""
 
-#: src/fileActions.jsx:395
+#: src/upload-button.tsx:96
+msgid ""
+"A file with the same name already exists in \"$0\". Replacing it will "
+"overwrite its content."
+msgstr ""
+
+#: src/header.tsx:138
+msgid "A-Z"
+msgstr ""
+
+#: src/fileActions.jsx:397
 msgid "Access"
 msgstr ""
 
-#: src/fileActions.jsx:112 src/fileActions.jsx:153 src/fileActions.jsx:229
-#: src/fileActions.jsx:350
+#: src/upload-button.tsx:119
+msgid "Apply this action to all conflicting files"
+msgstr ""
+
+#: src/common.ts:36
+msgid "Block device"
+msgstr ""
+
+#: src/upload-button.tsx:90 src/fileActions.jsx:112 src/fileActions.jsx:154
+#: src/fileActions.jsx:231 src/fileActions.jsx:352
 msgid "Cancel"
 msgstr ""
 
-#: src/fileActions.jsx:348
+#: src/upload-button.tsx:325
+msgid "Cancel upload of $0"
+msgstr ""
+
+#: src/upload-button.tsx:245
+msgid "Cancelled"
+msgstr ""
+
+#: src/upload-button.tsx:246
+msgid "Cancelled upload of $0"
+msgstr ""
+
+#: src/fileActions.jsx:350
 msgid "Change"
+msgstr ""
+
+#: src/common.ts:37
+msgid "Character device"
 msgstr ""
 
 #: src/index.html:20
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/fileActions.jsx:508 src/fileActions.jsx:567
+#: src/fileActions.jsx:512 src/fileActions.jsx:571
 msgid "Copy"
 msgstr ""
 
-#: src/fileActions.jsx:151
+#: src/fileActions.jsx:152
 msgid "Create"
 msgstr ""
 
-#: src/fileActions.jsx:140 src/fileActions.jsx:494
+#: src/fileActions.jsx:141 src/fileActions.jsx:498
 msgid "Create directory"
 msgstr ""
 
-#: src/fileActions.jsx:111 src/fileActions.jsx:542 src/fileActions.jsx:572
+#: src/fileActions.jsx:111 src/fileActions.jsx:546 src/fileActions.jsx:576
 msgid "Delete"
 msgstr ""
 
@@ -118,40 +152,60 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
+#: src/header.tsx:64
+msgid "Directories & files"
+msgstr ""
+
+#: src/common.ts:38
+msgid "Directory"
+msgstr ""
+
 #: src/files-card-body.jsx:353
 msgid "Directory is empty"
 msgstr ""
 
-#: src/fileActions.jsx:171
+#: src/fileActions.jsx:172
 msgid "Directory name"
 msgstr ""
 
-#: src/fileActions.jsx:444
-msgid "Directory name cannot be empty."
+#: src/header.tsx:120
+msgid "Display as a grid"
 msgstr ""
 
-#: src/fileActions.jsx:448
-msgid "Directory name cannot include a /."
+#: src/header.tsx:119
+msgid "Display as a list"
 msgstr ""
 
-#: src/fileActions.jsx:446
-msgid "Directory name too long."
-msgstr ""
-
-#: src/fileActions.jsx:559
+#: src/fileActions.jsx:563
 msgid "Download"
 msgstr ""
 
-#: src/fileActions.jsx:500 src/fileActions.jsx:524 src/sidebar.jsx:185
+#: src/fileActions.jsx:504 src/fileActions.jsx:528 src/sidebar.jsx:185
 msgid "Edit permissions"
+msgstr ""
+
+#: src/common.ts:26
+msgid "Execute-only"
 msgstr ""
 
 #: src/manifest.json:0
 msgid "File browser"
 msgstr ""
 
+#: src/fileActions.jsx:452
+msgid "File or directory already exists"
+msgstr ""
+
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
+msgstr ""
+
+#: src/header.tsx:70
+msgid "Filter directory"
+msgstr ""
+
+#: src/header.tsx:141
+msgid "First modified"
 msgstr ""
 
 #: src/fileActions.jsx:83
@@ -174,11 +228,11 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/fileActions.jsx:379 src/sidebar.jsx:65
+#: src/fileActions.jsx:381 src/sidebar.jsx:65
 msgid "Group"
 msgstr ""
 
-#: src/fileActions.jsx:409
+#: src/fileActions.jsx:411
 msgid "Group access"
 msgstr ""
 
@@ -186,7 +240,11 @@ msgstr ""
 msgid "Group permissions"
 msgstr ""
 
-#: src/sidebar.jsx:55
+#: src/upload-button.tsx:89
+msgid "Keep original"
+msgstr ""
+
+#: src/header.tsx:140 src/sidebar.jsx:55
 msgid "Last modified"
 msgstr ""
 
@@ -194,7 +252,27 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: src/fileActions.jsx:241
+#: src/fileActions.jsx:446
+msgid "Name cannot be empty."
+msgstr ""
+
+#: src/fileActions.jsx:450
+msgid "Name cannot include a /."
+msgstr ""
+
+#: src/fileActions.jsx:448
+msgid "Name too long."
+msgstr ""
+
+#: src/common.ts:39
+msgid "Named pipe"
+msgstr ""
+
+#: src/upload-button.tsx:105
+msgid "New file"
+msgstr ""
+
+#: src/fileActions.jsx:243
 msgid "New name"
 msgstr ""
 
@@ -202,19 +280,27 @@ msgstr ""
 msgid "No matching results"
 msgstr ""
 
+#: src/common.ts:25
+msgid "None"
+msgstr ""
+
+#: src/upload-button.tsx:110
+msgid "Original file on server"
+msgstr ""
+
 #: src/sidebar.jsx:89
 msgid "Other permissions"
 msgstr ""
 
-#: src/fileActions.jsx:421
+#: src/fileActions.jsx:423
 msgid "Others access"
 msgstr ""
 
-#: src/fileActions.jsx:364 src/sidebar.jsx:60
+#: src/fileActions.jsx:366 src/sidebar.jsx:60
 msgid "Owner"
 msgstr ""
 
-#: src/fileActions.jsx:397
+#: src/fileActions.jsx:399
 msgid "Owner access"
 msgstr ""
 
@@ -222,32 +308,60 @@ msgstr ""
 msgid "Owner permissions"
 msgstr ""
 
-#: src/fileActions.jsx:363
+#: src/fileActions.jsx:365
 msgid "Ownership"
 msgstr ""
 
-#: src/fileActions.jsx:487
+#: src/fileActions.jsx:491
 msgid "Paste"
 msgstr ""
 
-#: src/fileActions.jsx:515
+#: src/fileActions.jsx:519
 msgid "Paste into directory"
 msgstr ""
 
-#: src/fileActions.jsx:227 src/fileActions.jsx:529
+#: src/common.ts:30
+msgid "Read and execute"
+msgstr ""
+
+#: src/common.ts:31
+msgid "Read and write"
+msgstr ""
+
+#: src/common.ts:32
+msgid "Read, write and execute"
+msgstr ""
+
+#: src/common.ts:29
+msgid "Read-only"
+msgstr ""
+
+#: src/common.ts:41
+msgid "Regular file"
+msgstr ""
+
+#: src/fileActions.jsx:229 src/fileActions.jsx:533
 msgid "Rename"
 msgstr ""
 
-#: src/fileActions.jsx:198
+#: src/fileActions.jsx:200
 msgid "Rename directory $0"
 msgstr ""
 
-#: src/fileActions.jsx:194
+#: src/fileActions.jsx:196
 msgid "Rename file $0"
 msgstr ""
 
-#: src/fileActions.jsx:196
+#: src/fileActions.jsx:198
 msgid "Rename link $0"
+msgstr ""
+
+#: src/upload-button.tsx:87
+msgid "Replace"
+msgstr ""
+
+#: src/upload-button.tsx:80
+msgid "Replace file $0?"
 msgstr ""
 
 #: src/settings-dropdown.jsx:49
@@ -256,6 +370,51 @@ msgstr ""
 
 #: src/sidebar.jsx:72
 msgid "Size"
+msgstr ""
+
+#: src/common.ts:42
+msgid "Socket"
+msgstr ""
+
+#: src/upload-button.tsx:265
+msgid "Successfully uploaded file(s)"
+msgstr ""
+
+#: src/common.ts:40
+msgid "Symbolic link"
+msgstr ""
+
+#: src/upload-button.tsx:343
+msgid "Upload"
+msgstr ""
+
+#: src/upload-button.tsx:293
+#, c-format
+msgid "Upload $0% completed"
+msgstr ""
+
+#: src/upload-button.tsx:265
+msgid "Upload complete"
+msgstr ""
+
+#: src/upload-button.tsx:248
+msgid "Upload error"
+msgstr ""
+
+#: src/upload-button.tsx:306
+msgid "Uploads"
+msgstr ""
+
+#: src/common.ts:28
+msgid "Write and execute"
+msgstr ""
+
+#: src/common.ts:27
+msgid "Write-only"
+msgstr ""
+
+#: src/header.tsx:139
+msgid "Z-A"
 msgstr ""
 
 #: src/manifest.json:0
@@ -271,6 +430,6 @@ msgid "filesystem"
 msgstr ""
 
 #. Translators: $0 represents a filename
-#: src/fileActions.jsx:338
+#: src/fileActions.jsx:340
 msgid "“$0” permissions"
 msgstr ""
