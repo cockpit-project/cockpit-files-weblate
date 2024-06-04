@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-03 02:49+0000\n"
+"POT-Creation-Date: 2024-06-04 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-03 02:49+0000\n"
+"POT-Creation-Date: 2024-06-04 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,6 +48,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: src/fileActions.jsx:482
+msgid "\"$0\" exists, not overwriting with paste."
+msgstr ""
 
 #: src/sidebar.jsx:120
 msgid "$0 item"
@@ -116,7 +120,7 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/fileActions.jsx:512 src/fileActions.jsx:571
+#: src/fileActions.jsx:519 src/fileActions.jsx:568
 msgid "Copy"
 msgstr ""
 
@@ -124,11 +128,11 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/fileActions.jsx:141 src/fileActions.jsx:498
+#: src/fileActions.jsx:141 src/fileActions.jsx:505
 msgid "Create directory"
 msgstr ""
 
-#: src/fileActions.jsx:111 src/fileActions.jsx:546 src/fileActions.jsx:576
+#: src/fileActions.jsx:111 src/fileActions.jsx:543 src/fileActions.jsx:573
 msgid "Delete"
 msgstr ""
 
@@ -176,11 +180,11 @@ msgstr ""
 msgid "Display as a list"
 msgstr ""
 
-#: src/fileActions.jsx:563
+#: src/fileActions.jsx:560
 msgid "Download"
 msgstr ""
 
-#: src/fileActions.jsx:504 src/fileActions.jsx:528 src/sidebar.jsx:185
+#: src/fileActions.jsx:511 src/fileActions.jsx:525 src/sidebar.jsx:185
 msgid "Edit permissions"
 msgstr ""
 
@@ -312,12 +316,12 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/fileActions.jsx:491
+#: src/fileActions.jsx:498
 msgid "Paste"
 msgstr ""
 
-#: src/fileActions.jsx:519
-msgid "Paste into directory"
+#: src/fileActions.jsx:481
+msgid "Pasting failed"
 msgstr ""
 
 #: src/common.ts:30
@@ -340,7 +344,7 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/fileActions.jsx:229 src/fileActions.jsx:533
+#: src/fileActions.jsx:229 src/fileActions.jsx:530
 msgid "Rename"
 msgstr ""
 
