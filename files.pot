@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-04 02:48+0000\n"
+"POT-Creation-Date: 2024-06-05 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-04 02:48+0000\n"
+"POT-Creation-Date: 2024-06-05 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,7 +75,7 @@ msgid ""
 "overwrite its content."
 msgstr ""
 
-#: src/header.tsx:138
+#: src/header.tsx:50
 msgid "A-Z"
 msgstr ""
 
@@ -156,7 +156,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/header.tsx:64
+#: src/header.tsx:108
 msgid "Directories & files"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/files-card-body.jsx:353
+#: src/files-card-body.jsx:370
 msgid "Directory is empty"
 msgstr ""
 
@@ -172,11 +172,11 @@ msgstr ""
 msgid "Directory name"
 msgstr ""
 
-#: src/header.tsx:120
+#: src/header.tsx:164
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:119
+#: src/header.tsx:163
 msgid "Display as a list"
 msgstr ""
 
@@ -204,11 +204,11 @@ msgstr ""
 msgid "Files"
 msgstr ""
 
-#: src/header.tsx:70
+#: src/header.tsx:114
 msgid "Filter directory"
 msgstr ""
 
-#: src/header.tsx:141
+#: src/header.tsx:72
 msgid "First modified"
 msgstr ""
 
@@ -248,11 +248,19 @@ msgstr ""
 msgid "Keep original"
 msgstr ""
 
-#: src/header.tsx:140 src/sidebar.jsx:55
+#: src/header.tsx:61
+msgid "Largest size"
+msgstr ""
+
+#: src/header.tsx:76 src/sidebar.jsx:55
 msgid "Last modified"
 msgstr ""
 
-#: src/files-card-body.jsx:372
+#: src/header.tsx:69 src/files-card-body.jsx:385
+msgid "Modified"
+msgstr ""
+
+#: src/header.tsx:47 src/files-card-body.jsx:380
 msgid "Name"
 msgstr ""
 
@@ -280,7 +288,7 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
-#: src/files-card-body.jsx:353
+#: src/files-card-body.jsx:370
 msgid "No matching results"
 msgstr ""
 
@@ -372,8 +380,12 @@ msgstr ""
 msgid "Show hidden items"
 msgstr ""
 
-#: src/sidebar.jsx:72
+#: src/header.tsx:58 src/files-card-body.jsx:381 src/sidebar.jsx:72
 msgid "Size"
+msgstr ""
+
+#: src/header.tsx:65
+msgid "Smallest size"
 msgstr ""
 
 #: src/common.ts:42
@@ -417,7 +429,7 @@ msgstr ""
 msgid "Write-only"
 msgstr ""
 
-#: src/header.tsx:139
+#: src/header.tsx:54
 msgid "Z-A"
 msgstr ""
 
