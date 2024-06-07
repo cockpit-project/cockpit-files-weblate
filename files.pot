@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-06 08:30+0000\n"
+"POT-Creation-Date: 2024-06-07 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-06 08:30+0000\n"
+"POT-Creation-Date: 2024-06-07 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/files-card-body.jsx:370
+#: src/files-card-body.jsx:374
 msgid "Directory is empty"
 msgstr ""
 
@@ -272,11 +272,11 @@ msgstr ""
 msgid "Last modified"
 msgstr ""
 
-#: src/header.tsx:69 src/files-card-body.jsx:385
+#: src/header.tsx:69 src/files-card-body.jsx:389
 msgid "Modified"
 msgstr ""
 
-#: src/header.tsx:47 src/files-card-body.jsx:380
+#: src/header.tsx:47 src/files-card-body.jsx:384
 msgid "Name"
 msgstr ""
 
@@ -304,7 +304,7 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
-#: src/files-card-body.jsx:370
+#: src/files-card-body.jsx:374
 msgid "No matching results"
 msgstr ""
 
@@ -396,7 +396,7 @@ msgstr ""
 msgid "Show hidden items"
 msgstr ""
 
-#: src/header.tsx:58 src/files-card-body.jsx:381 src/sidebar.jsx:72
+#: src/header.tsx:58 src/files-card-body.jsx:385 src/sidebar.jsx:72
 msgid "Size"
 msgstr ""
 
