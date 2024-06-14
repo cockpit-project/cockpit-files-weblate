@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 02:49+0000\n"
+"POT-Creation-Date: 2024-06-14 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 02:49+0000\n"
+"POT-Creation-Date: 2024-06-14 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,7 +96,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: src/upload-button.tsx:325
+#: src/upload-button.tsx:307
 msgid "Cancel upload of $0"
 msgstr ""
 
@@ -420,7 +420,7 @@ msgstr ""
 msgid "Upload"
 msgstr ""
 
-#: src/upload-button.tsx:293
+#: src/upload-button.tsx:324
 #, c-format
 msgid "Upload $0% completed"
 msgstr ""
@@ -433,7 +433,7 @@ msgstr ""
 msgid "Upload error"
 msgstr ""
 
-#: src/upload-button.tsx:306
+#: src/upload-button.tsx:288
 msgid "Uploads"
 msgstr ""
 
