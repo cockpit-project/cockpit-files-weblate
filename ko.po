@@ -265,10 +265,8 @@ msgid "Name"
 msgstr "이름"
 
 #: src/fileActions.jsx:386
-#, fuzzy
-#| msgid "Directory name cannot be empty."
 msgid "Name cannot be empty."
-msgstr "디렉토리 이름은 비워 둘 수 없습니다."
+msgstr "이름을 입력하셔야 합니다."
 
 #: src/fileActions.jsx:390
 #, fuzzy
