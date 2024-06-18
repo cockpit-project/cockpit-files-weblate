@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-18 02:49+0000\n"
-"PO-Revision-Date: 2024-06-18 15:04+0000\n"
+"PO-Revision-Date: 2024-06-19 15:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: src/fileActions.jsx:422
 msgid "\"$0\" exists, not overwriting with paste."
-msgstr ""
+msgstr "\"$0\" 존재하며, 붙여서 덮어쓰지 않습니다."
 
 #: src/sidebar.jsx:120
 msgid "$0 item"
@@ -48,11 +48,12 @@ msgstr "Cockpit를 위한 파일 시스템 탐색기."
 msgid ""
 "A file with the same name already exists in \"$0\". Replacing it will "
 "overwrite its content."
-msgstr ""
+msgstr "동일한 이름을 갖는 파일은 이미 \"$0\"에 존재합니다. 이 대체하기는 해당 "
+"내용을 덮어씁니다."
 
 #: src/header.tsx:50
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #: src/fileActions.jsx:337
 msgid "Access"
@@ -60,7 +61,7 @@ msgstr "접근"
 
 #: src/upload-button.tsx:119
 msgid "Apply this action to all conflicting files"
-msgstr ""
+msgstr "모든 충돌하는 파일에 이와 같은 동작을 적용합니다"
 
 #: src/common.ts:36
 msgid "Block device"
@@ -73,7 +74,7 @@ msgstr "취소"
 
 #: src/upload-button.tsx:307
 msgid "Cancel upload of $0"
-msgstr ""
+msgstr "$0 올려주기 취소"
 
 #: src/upload-button.tsx:245
 msgid "Cancelled"
@@ -81,7 +82,7 @@ msgstr "취소됨"
 
 #: src/upload-button.tsx:246
 msgid "Cancelled upload of $0"
-msgstr ""
+msgstr "$0 올려주기 취소됨"
 
 #: src/fileActions.jsx:290
 msgid "Change"
@@ -132,10 +133,8 @@ msgid "Delete link $0?"
 msgstr "링크 $0를 삭제할까요?"
 
 #: src/header.tsx:108
-#, fuzzy
-#| msgid "Directory is empty"
 msgid "Directories & files"
-msgstr "디렉토리가 비었습니다"
+msgstr "디렉토리 및 파일"
 
 #: src/common.ts:38
 msgid "Directory"
@@ -162,18 +161,16 @@ msgid "Directory name too long."
 msgstr "디렉토리 이름이 너무 길어요."
 
 #: src/dialogs/mkdir.tsx:115
-#, fuzzy
-#| msgid "Directory name"
 msgid "Directory owner"
-msgstr "디렉토리 이름"
+msgstr "디렉토리 소유자"
 
 #: src/header.tsx:164
 msgid "Display as a grid"
-msgstr ""
+msgstr "그리드로 표시"
 
 #: src/header.tsx:163
 msgid "Display as a list"
-msgstr ""
+msgstr "목록으로 표시"
 
 #: src/fileActions.jsx:500
 msgid "Download"
@@ -185,7 +182,7 @@ msgstr "권한을 편집합니다"
 
 #: src/common.ts:26
 msgid "Execute-only"
-msgstr ""
+msgstr "실행-전용"
 
 #: src/manifest.json:0
 msgid "File browser"
@@ -193,23 +190,19 @@ msgstr "파일 탐색기"
 
 #: src/fileActions.jsx:392
 msgid "File or directory already exists"
-msgstr ""
+msgstr "파일 또는 디렉토리가 이미 존재합니다"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
 msgstr "파일"
 
 #: src/header.tsx:114
-#, fuzzy
-#| msgid "Create directory"
 msgid "Filter directory"
-msgstr "디렉토리 생성"
+msgstr "필터 디렉토리"
 
 #: src/header.tsx:72
-#, fuzzy
-#| msgid "Last modified"
 msgid "First modified"
-msgstr "마지막으로 수정됨"
+msgstr "처음 수정됨"
 
 #: src/fileActions.jsx:84
 msgid "Force delete $0"
@@ -245,11 +238,11 @@ msgstr "그룹 권한"
 
 #: src/upload-button.tsx:89
 msgid "Keep original"
-msgstr ""
+msgstr "원본 유지"
 
 #: src/header.tsx:61
 msgid "Largest size"
-msgstr ""
+msgstr "최대 크기"
 
 #: src/header.tsx:76 src/sidebar.jsx:55
 msgid "Last modified"
@@ -268,26 +261,20 @@ msgid "Name cannot be empty."
 msgstr "이름은 비워 둘 수 없습니다."
 
 #: src/fileActions.jsx:390
-#, fuzzy
-#| msgid "Directory name cannot include a /."
 msgid "Name cannot include a /."
-msgstr "디렉토리 이름은 /를 포함 할 수 없습니다."
+msgstr "이름은 /를 포함 할 수 없습니다."
 
 #: src/fileActions.jsx:388
-#, fuzzy
-#| msgid "Directory name too long."
 msgid "Name too long."
-msgstr "디렉토리 이름이 너무 길어요."
+msgstr "이름이 너무 길어요."
 
 #: src/common.ts:39
 msgid "Named pipe"
 msgstr "이름이 지정된 파이프"
 
 #: src/upload-button.tsx:105
-#, fuzzy
-#| msgid "New name"
 msgid "New file"
-msgstr "신규 이름"
+msgstr "신규 파일"
 
 #: src/fileActions.jsx:183
 msgid "New name"
@@ -303,7 +290,7 @@ msgstr "없음"
 
 #: src/upload-button.tsx:110
 msgid "Original file on server"
-msgstr ""
+msgstr "서버에서 원본 파일"
 
 #: src/sidebar.jsx:89
 msgid "Other permissions"
@@ -335,19 +322,19 @@ msgstr "붙여넣기"
 
 #: src/fileActions.jsx:421
 msgid "Pasting failed"
-msgstr ""
+msgstr "붙여넣기 실패함"
 
 #: src/common.ts:30
 msgid "Read and execute"
-msgstr ""
+msgstr "읽기 및 실행"
 
 #: src/common.ts:31
 msgid "Read and write"
-msgstr ""
+msgstr "일기 및 쓰기"
 
 #: src/common.ts:32
 msgid "Read, write and execute"
-msgstr ""
+msgstr "읽기, 쓰기 및 실행"
 
 #: src/common.ts:29
 msgid "Read-only"
@@ -378,10 +365,8 @@ msgid "Replace"
 msgstr ""
 
 #: src/upload-button.tsx:80
-#, fuzzy
-#| msgid "Rename file $0"
 msgid "Replace file $0?"
-msgstr "파일 $0 이름변경"
+msgstr "파일 $0를 교체합니까?"
 
 #: src/settings-dropdown.jsx:49
 msgid "Show hidden items"
@@ -393,7 +378,7 @@ msgstr "크기"
 
 #: src/header.tsx:65
 msgid "Smallest size"
-msgstr ""
+msgstr "최소 크기"
 
 #: src/common.ts:42
 msgid "Socket"
@@ -401,7 +386,7 @@ msgstr ""
 
 #: src/upload-button.tsx:265
 msgid "Successfully uploaded file(s)"
-msgstr ""
+msgstr "성공적으로 파일이 올려짐"
 
 #: src/common.ts:40
 msgid "Symbolic link"
@@ -414,7 +399,7 @@ msgstr ""
 #: src/upload-button.tsx:324
 #, c-format
 msgid "Upload $0% completed"
-msgstr ""
+msgstr "올려주기 $0% c완료"
 
 #: src/upload-button.tsx:265
 msgid "Upload complete"
@@ -422,23 +407,23 @@ msgstr ""
 
 #: src/upload-button.tsx:248
 msgid "Upload error"
-msgstr ""
+msgstr "올려주기 오류"
 
 #: src/upload-button.tsx:288
 msgid "Uploads"
-msgstr ""
+msgstr "올려주기"
 
 #: src/common.ts:28
 msgid "Write and execute"
-msgstr ""
+msgstr "쓰기 및 실행"
 
 #: src/common.ts:27
 msgid "Write-only"
-msgstr ""
+msgstr "쓰기-전용"
 
 #: src/header.tsx:54
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: src/manifest.json:0
 msgid "explorer"
