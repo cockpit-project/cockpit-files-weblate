@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-18 02:49+0000\n"
-"PO-Revision-Date: 2024-06-18 15:02+0000\n"
+"PO-Revision-Date: 2024-06-18 15:03+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -257,10 +257,8 @@ msgid "Last modified"
 msgstr "마지막으로 수정됨"
 
 #: src/header.tsx:69 src/files-card-body.jsx:370
-#, fuzzy
-#| msgid "Last modified"
 msgid "Modified"
-msgstr "마지막으로 수정됨"
+msgstr "수정됨"
 
 #: src/header.tsx:47 src/files-card-body.jsx:365
 msgid "Name"
