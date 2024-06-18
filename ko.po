@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-18 02:49+0000\n"
 "PO-Revision-Date: 2024-06-19 15:36+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -362,7 +363,7 @@ msgstr "링크 $0 이름변경"
 
 #: src/upload-button.tsx:87
 msgid "Replace"
-msgstr ""
+msgstr "교체"
 
 #: src/upload-button.tsx:80
 msgid "Replace file $0?"
@@ -382,7 +383,7 @@ msgstr "최소 크기"
 
 #: src/common.ts:42
 msgid "Socket"
-msgstr ""
+msgstr "소켓"
 
 #: src/upload-button.tsx:265
 msgid "Successfully uploaded file(s)"
@@ -390,11 +391,11 @@ msgstr "성공적으로 파일이 올려짐"
 
 #: src/common.ts:40
 msgid "Symbolic link"
-msgstr ""
+msgstr "심볼릭 링크"
 
 #: src/upload-button.tsx:343
 msgid "Upload"
-msgstr ""
+msgstr "올려주기"
 
 #: src/upload-button.tsx:324
 #, c-format
@@ -403,7 +404,7 @@ msgstr "올려주기 $0% c완료"
 
 #: src/upload-button.tsx:265
 msgid "Upload complete"
-msgstr ""
+msgstr "올려주기 완료"
 
 #: src/upload-button.tsx:248
 msgid "Upload error"
