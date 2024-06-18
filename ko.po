@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-18 02:49+0000\n"
 "PO-Revision-Date: 2024-06-18 15:04+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -266,7 +265,7 @@ msgstr "이름"
 
 #: src/fileActions.jsx:386
 msgid "Name cannot be empty."
-msgstr "이름을 입력하셔야 합니다."
+msgstr "이름은 비워 둘 수 없습니다."
 
 #: src/fileActions.jsx:390
 #, fuzzy
