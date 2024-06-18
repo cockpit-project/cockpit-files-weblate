@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-18 02:49+0000\n"
 "PO-Revision-Date: 2024-06-18 15:04+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -354,10 +355,8 @@ msgid "Read-only"
 msgstr "읽기 전용"
 
 #: src/common.ts:41
-#, fuzzy
-#| msgid "Rename file $0"
 msgid "Regular file"
-msgstr "파일 $0 이름변경"
+msgstr "일반 파일"
 
 #: src/fileActions.jsx:169 src/fileActions.jsx:470
 msgid "Rename"
