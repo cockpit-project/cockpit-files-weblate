@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-19 02:49+0000\n"
+"POT-Creation-Date: 2024-06-20 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-19 02:49+0000\n"
+"POT-Creation-Date: 2024-06-20 02:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/fileActions.jsx:418
+#: src/fileActions.jsx:419
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
@@ -75,11 +75,11 @@ msgid ""
 "overwrite its content."
 msgstr ""
 
-#: src/header.tsx:42
+#: src/header.tsx:43
 msgid "A-Z"
 msgstr ""
 
-#: src/fileActions.jsx:333
+#: src/fileActions.jsx:334
 msgid "Access"
 msgstr ""
 
@@ -91,8 +91,8 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/upload-button.tsx:85 src/dialogs/mkdir.tsx:83 src/fileActions.jsx:109
-#: src/fileActions.jsx:167 src/fileActions.jsx:288
+#: src/dialogs/mkdir.tsx:83 src/upload-button.tsx:85 src/fileActions.jsx:110
+#: src/fileActions.jsx:168 src/fileActions.jsx:289
 msgid "Cancel"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgstr ""
 msgid "Cancelled upload of $0"
 msgstr ""
 
-#: src/fileActions.jsx:286
+#: src/fileActions.jsx:287
 msgid "Change"
 msgstr ""
 
@@ -120,7 +120,7 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/fileActions.jsx:455 src/fileActions.jsx:504
+#: src/fileActions.jsx:456 src/fileActions.jsx:505
 msgid "Copy"
 msgstr ""
 
@@ -128,35 +128,35 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:67 src/fileActions.jsx:441
+#: src/dialogs/mkdir.tsx:67 src/fileActions.jsx:442
 msgid "Create directory"
 msgstr ""
 
-#: src/fileActions.jsx:108 src/fileActions.jsx:479 src/fileActions.jsx:509
+#: src/fileActions.jsx:109 src/fileActions.jsx:480 src/fileActions.jsx:510
 msgid "Delete"
 msgstr ""
 
-#: src/fileActions.jsx:64
+#: src/fileActions.jsx:65
 msgid "Delete $0 items?"
 msgstr ""
 
-#: src/fileActions.jsx:80
+#: src/fileActions.jsx:81
 msgid "Delete $0?"
 msgstr ""
 
-#: src/fileActions.jsx:77
+#: src/fileActions.jsx:78
 msgid "Delete directory $0?"
 msgstr ""
 
-#: src/fileActions.jsx:69
+#: src/fileActions.jsx:70
 msgid "Delete file $0?"
 msgstr ""
 
-#: src/fileActions.jsx:73
+#: src/fileActions.jsx:74
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/header.tsx:100
+#: src/header.tsx:101
 msgid "Directories & files"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/files-card-body.jsx:352
+#: src/files-card-body.jsx:353
 msgid "Directory is empty"
 msgstr ""
 
@@ -188,19 +188,19 @@ msgstr ""
 msgid "Directory owner"
 msgstr ""
 
-#: src/header.tsx:156
+#: src/header.tsx:157
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:155
+#: src/header.tsx:156
 msgid "Display as a list"
 msgstr ""
 
-#: src/fileActions.jsx:496
+#: src/fileActions.jsx:497
 msgid "Download"
 msgstr ""
 
-#: src/fileActions.jsx:447 src/fileActions.jsx:461 src/sidebar.jsx:179
+#: src/fileActions.jsx:448 src/fileActions.jsx:462 src/sidebar.jsx:179
 msgid "Edit permissions"
 msgstr ""
 
@@ -212,7 +212,7 @@ msgstr ""
 msgid "File browser"
 msgstr ""
 
-#: src/fileActions.jsx:388
+#: src/fileActions.jsx:389
 msgid "File or directory already exists"
 msgstr ""
 
@@ -220,39 +220,39 @@ msgstr ""
 msgid "Files"
 msgstr ""
 
-#: src/header.tsx:106
+#: src/header.tsx:107
 msgid "Filter directory"
 msgstr ""
 
-#: src/header.tsx:64
+#: src/header.tsx:65
 msgid "First modified"
 msgstr ""
 
-#: src/fileActions.jsx:80
+#: src/fileActions.jsx:81
 msgid "Force delete $0"
 msgstr ""
 
-#: src/fileActions.jsx:64
+#: src/fileActions.jsx:65
 msgid "Force delete $0 items"
 msgstr ""
 
-#: src/fileActions.jsx:77
+#: src/fileActions.jsx:78
 msgid "Force delete directory $0?"
 msgstr ""
 
-#: src/fileActions.jsx:69
+#: src/fileActions.jsx:70
 msgid "Force delete file $0?"
 msgstr ""
 
-#: src/fileActions.jsx:73
+#: src/fileActions.jsx:74
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/fileActions.jsx:317 src/sidebar.jsx:59
+#: src/fileActions.jsx:318 src/sidebar.jsx:59
 msgid "Group"
 msgstr ""
 
-#: src/fileActions.jsx:347
+#: src/fileActions.jsx:348
 msgid "Group access"
 msgstr ""
 
@@ -264,31 +264,31 @@ msgstr ""
 msgid "Keep original"
 msgstr ""
 
-#: src/header.tsx:53
+#: src/header.tsx:54
 msgid "Largest size"
 msgstr ""
 
-#: src/header.tsx:68 src/sidebar.jsx:49
+#: src/header.tsx:69 src/sidebar.jsx:49
 msgid "Last modified"
 msgstr ""
 
-#: src/header.tsx:61 src/files-card-body.jsx:367
+#: src/header.tsx:62 src/files-card-body.jsx:368
 msgid "Modified"
 msgstr ""
 
-#: src/header.tsx:39 src/files-card-body.jsx:362
+#: src/header.tsx:40 src/files-card-body.jsx:363
 msgid "Name"
 msgstr ""
 
-#: src/fileActions.jsx:382
+#: src/fileActions.jsx:383
 msgid "Name cannot be empty."
 msgstr ""
 
-#: src/fileActions.jsx:386
+#: src/fileActions.jsx:387
 msgid "Name cannot include a /."
 msgstr ""
 
-#: src/fileActions.jsx:384
+#: src/fileActions.jsx:385
 msgid "Name too long."
 msgstr ""
 
@@ -300,11 +300,11 @@ msgstr ""
 msgid "New file"
 msgstr ""
 
-#: src/fileActions.jsx:179
+#: src/fileActions.jsx:180
 msgid "New name"
 msgstr ""
 
-#: src/files-card-body.jsx:352
+#: src/files-card-body.jsx:353
 msgid "No matching results"
 msgstr ""
 
@@ -320,15 +320,15 @@ msgstr ""
 msgid "Other permissions"
 msgstr ""
 
-#: src/fileActions.jsx:359
+#: src/fileActions.jsx:360
 msgid "Others access"
 msgstr ""
 
-#: src/fileActions.jsx:302 src/sidebar.jsx:54
+#: src/fileActions.jsx:303 src/sidebar.jsx:54
 msgid "Owner"
 msgstr ""
 
-#: src/fileActions.jsx:335
+#: src/fileActions.jsx:336
 msgid "Owner access"
 msgstr ""
 
@@ -336,15 +336,15 @@ msgstr ""
 msgid "Owner permissions"
 msgstr ""
 
-#: src/fileActions.jsx:301
+#: src/fileActions.jsx:302
 msgid "Ownership"
 msgstr ""
 
-#: src/fileActions.jsx:434
+#: src/fileActions.jsx:435
 msgid "Paste"
 msgstr ""
 
-#: src/fileActions.jsx:417
+#: src/fileActions.jsx:418
 msgid "Pasting failed"
 msgstr ""
 
@@ -368,19 +368,19 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/fileActions.jsx:165 src/fileActions.jsx:466
+#: src/fileActions.jsx:166 src/fileActions.jsx:467
 msgid "Rename"
 msgstr ""
 
-#: src/fileActions.jsx:136
+#: src/fileActions.jsx:137
 msgid "Rename directory $0"
 msgstr ""
 
-#: src/fileActions.jsx:132
+#: src/fileActions.jsx:133
 msgid "Rename file $0"
 msgstr ""
 
-#: src/fileActions.jsx:134
+#: src/fileActions.jsx:135
 msgid "Rename link $0"
 msgstr ""
 
@@ -392,15 +392,15 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/settings-dropdown.jsx:43
+#: src/settings-dropdown.jsx:45
 msgid "Show hidden items"
 msgstr ""
 
-#: src/header.tsx:50 src/files-card-body.jsx:363 src/sidebar.jsx:66
+#: src/header.tsx:51 src/files-card-body.jsx:364 src/sidebar.jsx:66
 msgid "Size"
 msgstr ""
 
-#: src/header.tsx:57
+#: src/header.tsx:58
 msgid "Smallest size"
 msgstr ""
 
@@ -445,7 +445,7 @@ msgstr ""
 msgid "Write-only"
 msgstr ""
 
-#: src/header.tsx:46
+#: src/header.tsx:47
 msgid "Z-A"
 msgstr ""
 
@@ -462,6 +462,6 @@ msgid "filesystem"
 msgstr ""
 
 #. Translators: $0 represents a filename
-#: src/fileActions.jsx:276
+#: src/fileActions.jsx:277
 msgid "“$0” permissions"
 msgstr ""
