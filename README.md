@@ -3,7 +3,7 @@
 Repository for syncing Weblate translations. If you are not a bot, please ignore this repository.
 
 ## I want to translate cockpit-files plugin
-Great! Please do so in https://translate.stg.fedoraproject.org/projects/cockpit-files
+Great! Please do so in https://translate.fedoraproject.org/projects/cockpit-files/cockpit-files/
 
 ## I found wrong translation
 You can fix it in [Weblate](https://translate.fedoraproject.org/projects/cockpit-files/cockpit-files/) directly, but if you don't want to register and become translator, please [open an issue](https://github.com/cockpit-project/cockpit-files/) and maintainers will fix it in Weblate in your stead.
