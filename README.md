@@ -6,7 +6,7 @@ Repository for syncing Weblate translations. If you are not a bot, please ignore
 Great! Please do so in https://translate.stg.fedoraproject.org/projects/cockpit-files
 
 ## I found wrong translation
-You can fix it in [Weblate](https://translate.stg.fedoraproject.org/projects/cockpit-files) directly, but if you don't want to register and become translator, please [open an issue](https://github.com/cockpit-project/cockpit-files/) and maintainers will fix it in Weblate in your stead.
+You can fix it in [Weblate](https://translate.fedoraproject.org/projects/cockpit-files/cockpit-files/) directly, but if you don't want to register and become translator, please [open an issue](https://github.com/cockpit-project/cockpit-files/) and maintainers will fix it in Weblate in your stead.
 
 ## Then what is this repository good for?
 Weblate introduced a "push" workflow - meaning that the project repository keeps the source document (`.pot` file) upstream and Weblate has hooks that run when it updates.  When strings are translated, Weblate pushes these changes into upstream (or sends pull request).
