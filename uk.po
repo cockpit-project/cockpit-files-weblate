@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-19 02:49+0000\n"
+"POT-Creation-Date: 2024-06-25 07:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -26,17 +26,17 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Cockpit manifest2po\n"
 
-#: src/fileActions.jsx:418
+#: src/menu.tsx:69
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
-#: src/sidebar.jsx:114
+#: src/sidebar.jsx:115
 msgid "$0 item"
 msgid_plural "$0 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/sidebar.jsx:116
+#: src/sidebar.jsx:117
 msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
 msgstr[0] ""
@@ -52,7 +52,7 @@ msgid ""
 "overwrite its content."
 msgstr ""
 
-#: src/header.tsx:42
+#: src/header.tsx:60
 msgid "A-Z"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/upload-button.tsx:85 src/dialogs/mkdir.tsx:83 src/fileActions.jsx:109
+#: src/dialogs/mkdir.tsx:83 src/upload-button.tsx:85 src/fileActions.jsx:109
 #: src/fileActions.jsx:167 src/fileActions.jsx:288
 msgid "Cancel"
 msgstr ""
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/fileActions.jsx:455 src/fileActions.jsx:504
+#: src/menu.tsx:98 src/menu.tsx:147
 msgid "Copy"
 msgstr ""
 
@@ -105,11 +105,11 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:67 src/fileActions.jsx:441
+#: src/dialogs/mkdir.tsx:67 src/menu.tsx:84
 msgid "Create directory"
 msgstr ""
 
-#: src/fileActions.jsx:108 src/fileActions.jsx:479 src/fileActions.jsx:509
+#: src/menu.tsx:122 src/menu.tsx:152 src/fileActions.jsx:108
 msgid "Delete"
 msgstr ""
 
@@ -133,7 +133,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/header.tsx:100
+#: src/header.tsx:118
 msgid "Directories & files"
 msgstr ""
 
@@ -141,7 +141,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/files-card-body.jsx:352
+#: src/files-card-body.tsx:374
 msgid "Directory is empty"
 msgstr ""
 
@@ -165,19 +165,19 @@ msgstr ""
 msgid "Directory owner"
 msgstr ""
 
-#: src/header.tsx:156
+#: src/header.tsx:174
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:155
+#: src/header.tsx:173
 msgid "Display as a list"
 msgstr ""
 
-#: src/fileActions.jsx:496
+#: src/menu.tsx:139
 msgid "Download"
 msgstr ""
 
-#: src/fileActions.jsx:447 src/fileActions.jsx:461 src/sidebar.jsx:179
+#: src/menu.tsx:90 src/menu.tsx:104 src/sidebar.jsx:181
 msgid "Edit permissions"
 msgstr ""
 
@@ -197,11 +197,11 @@ msgstr ""
 msgid "Files"
 msgstr ""
 
-#: src/header.tsx:106
+#: src/header.tsx:124
 msgid "Filter directory"
 msgstr ""
 
-#: src/header.tsx:64
+#: src/header.tsx:82
 msgid "First modified"
 msgstr ""
 
@@ -225,7 +225,7 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/fileActions.jsx:317 src/sidebar.jsx:59
+#: src/fileActions.jsx:317 src/sidebar.jsx:60
 msgid "Group"
 msgstr ""
 
@@ -233,7 +233,7 @@ msgstr ""
 msgid "Group access"
 msgstr ""
 
-#: src/sidebar.jsx:78
+#: src/sidebar.jsx:79
 msgid "Group permissions"
 msgstr ""
 
@@ -241,19 +241,19 @@ msgstr ""
 msgid "Keep original"
 msgstr ""
 
-#: src/header.tsx:53
+#: src/header.tsx:71
 msgid "Largest size"
 msgstr ""
 
-#: src/header.tsx:68 src/sidebar.jsx:49
+#: src/header.tsx:86 src/sidebar.jsx:50
 msgid "Last modified"
 msgstr ""
 
-#: src/header.tsx:61 src/files-card-body.jsx:367
+#: src/files-card-body.tsx:389 src/header.tsx:79
 msgid "Modified"
 msgstr ""
 
-#: src/header.tsx:39 src/files-card-body.jsx:362
+#: src/files-card-body.tsx:384 src/header.tsx:57
 msgid "Name"
 msgstr ""
 
@@ -281,7 +281,7 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
-#: src/files-card-body.jsx:352
+#: src/files-card-body.tsx:374
 msgid "No matching results"
 msgstr ""
 
@@ -293,7 +293,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr ""
 
-#: src/sidebar.jsx:83
+#: src/sidebar.jsx:84
 msgid "Other permissions"
 msgstr ""
 
@@ -301,7 +301,7 @@ msgstr ""
 msgid "Others access"
 msgstr ""
 
-#: src/fileActions.jsx:302 src/sidebar.jsx:54
+#: src/fileActions.jsx:302 src/sidebar.jsx:55
 msgid "Owner"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgstr ""
 msgid "Owner access"
 msgstr ""
 
-#: src/sidebar.jsx:73
+#: src/sidebar.jsx:74
 msgid "Owner permissions"
 msgstr ""
 
@@ -317,11 +317,11 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/fileActions.jsx:434
+#: src/menu.tsx:63
 msgid "Paste"
 msgstr ""
 
-#: src/fileActions.jsx:417
+#: src/menu.tsx:68
 msgid "Pasting failed"
 msgstr ""
 
@@ -345,7 +345,7 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/fileActions.jsx:165 src/fileActions.jsx:466
+#: src/menu.tsx:109 src/fileActions.jsx:165
 msgid "Rename"
 msgstr ""
 
@@ -369,15 +369,15 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/settings-dropdown.jsx:43
+#: src/settings-dropdown.tsx:46
 msgid "Show hidden items"
 msgstr ""
 
-#: src/header.tsx:50 src/files-card-body.jsx:363 src/sidebar.jsx:66
+#: src/files-card-body.tsx:385 src/header.tsx:68 src/sidebar.jsx:67
 msgid "Size"
 msgstr ""
 
-#: src/header.tsx:57
+#: src/header.tsx:75
 msgid "Smallest size"
 msgstr ""
 
@@ -398,7 +398,6 @@ msgid "Upload"
 msgstr ""
 
 #: src/upload-button.tsx:319
-#, c-format
 msgid "Upload $0% completed"
 msgstr ""
 
@@ -422,7 +421,7 @@ msgstr ""
 msgid "Write-only"
 msgstr ""
 
-#: src/header.tsx:46
+#: src/header.tsx:64
 msgid "Z-A"
 msgstr ""
 

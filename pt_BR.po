@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-19 02:49+0000\n"
+"POT-Creation-Date: 2024-06-25 07:44+0000\n"
 "PO-Revision-Date: 2024-05-16 12:35+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -27,17 +27,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.5.5\n"
 
-#: src/fileActions.jsx:418
+#: src/menu.tsx:69
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
-#: src/sidebar.jsx:114
+#: src/sidebar.jsx:115
 msgid "$0 item"
 msgid_plural "$0 items"
 msgstr[0] "$0 item"
 msgstr[1] "$0 itens"
 
-#: src/sidebar.jsx:116
+#: src/sidebar.jsx:117
 msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
 msgstr[0] "($0 oculto)"
@@ -53,7 +53,7 @@ msgid ""
 "overwrite its content."
 msgstr ""
 
-#: src/header.tsx:42
+#: src/header.tsx:60
 msgid "A-Z"
 msgstr ""
 
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/upload-button.tsx:85 src/dialogs/mkdir.tsx:83 src/fileActions.jsx:109
+#: src/dialogs/mkdir.tsx:83 src/upload-button.tsx:85 src/fileActions.jsx:109
 #: src/fileActions.jsx:167 src/fileActions.jsx:288
 msgid "Cancel"
 msgstr "Cancelar"
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr "Cockpit Files"
 
-#: src/fileActions.jsx:455 src/fileActions.jsx:504
+#: src/menu.tsx:98 src/menu.tsx:147
 msgid "Copy"
 msgstr "Copiar"
 
@@ -108,11 +108,11 @@ msgstr "Copiar"
 msgid "Create"
 msgstr "Criar"
 
-#: src/dialogs/mkdir.tsx:67 src/fileActions.jsx:441
+#: src/dialogs/mkdir.tsx:67 src/menu.tsx:84
 msgid "Create directory"
 msgstr "Criar diretório"
 
-#: src/fileActions.jsx:108 src/fileActions.jsx:479 src/fileActions.jsx:509
+#: src/menu.tsx:122 src/menu.tsx:152 src/fileActions.jsx:108
 msgid "Delete"
 msgstr "Excluir"
 
@@ -136,7 +136,7 @@ msgstr "Excluir o arquivo $0?"
 msgid "Delete link $0?"
 msgstr "Excluir o link $0?"
 
-#: src/header.tsx:100
+#: src/header.tsx:118
 #, fuzzy
 #| msgid "Directory is empty"
 msgid "Directories & files"
@@ -148,7 +148,7 @@ msgstr "O diretório está vazio"
 msgid "Directory"
 msgstr "Nome do diretório"
 
-#: src/files-card-body.jsx:352
+#: src/files-card-body.tsx:374
 msgid "Directory is empty"
 msgstr "O diretório está vazio"
 
@@ -174,19 +174,19 @@ msgstr "Nome do diretório longo demais."
 msgid "Directory owner"
 msgstr "Nome do diretório"
 
-#: src/header.tsx:156
+#: src/header.tsx:174
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:155
+#: src/header.tsx:173
 msgid "Display as a list"
 msgstr ""
 
-#: src/fileActions.jsx:496
+#: src/menu.tsx:139
 msgid "Download"
 msgstr "Baixar"
 
-#: src/fileActions.jsx:447 src/fileActions.jsx:461 src/sidebar.jsx:179
+#: src/menu.tsx:90 src/menu.tsx:104 src/sidebar.jsx:181
 msgid "Edit permissions"
 msgstr "Editar permissões"
 
@@ -206,13 +206,13 @@ msgstr ""
 msgid "Files"
 msgstr "Arquivos"
 
-#: src/header.tsx:106
+#: src/header.tsx:124
 #, fuzzy
 #| msgid "Create directory"
 msgid "Filter directory"
 msgstr "Criar diretório"
 
-#: src/header.tsx:64
+#: src/header.tsx:82
 #, fuzzy
 #| msgid "Last modified"
 msgid "First modified"
@@ -238,7 +238,7 @@ msgstr "Forçar a exclusão do arquivo $0?"
 msgid "Force delete link $0?"
 msgstr "Forçar a exclusão do link de $0?"
 
-#: src/fileActions.jsx:317 src/sidebar.jsx:59
+#: src/fileActions.jsx:317 src/sidebar.jsx:60
 msgid "Group"
 msgstr "Grupo"
 
@@ -246,7 +246,7 @@ msgstr "Grupo"
 msgid "Group access"
 msgstr "Acesso do grupo"
 
-#: src/sidebar.jsx:78
+#: src/sidebar.jsx:79
 msgid "Group permissions"
 msgstr "Permissões do grupo"
 
@@ -254,21 +254,21 @@ msgstr "Permissões do grupo"
 msgid "Keep original"
 msgstr ""
 
-#: src/header.tsx:53
+#: src/header.tsx:71
 msgid "Largest size"
 msgstr ""
 
-#: src/header.tsx:68 src/sidebar.jsx:49
+#: src/header.tsx:86 src/sidebar.jsx:50
 msgid "Last modified"
 msgstr "Última modificação"
 
-#: src/header.tsx:61 src/files-card-body.jsx:367
+#: src/files-card-body.tsx:389 src/header.tsx:79
 #, fuzzy
 #| msgid "Last modified"
 msgid "Modified"
 msgstr "Última modificação"
 
-#: src/header.tsx:39 src/files-card-body.jsx:362
+#: src/files-card-body.tsx:384 src/header.tsx:57
 msgid "Name"
 msgstr "Nome"
 
@@ -304,7 +304,7 @@ msgstr "Novo nome"
 msgid "New name"
 msgstr "Novo nome"
 
-#: src/files-card-body.jsx:352
+#: src/files-card-body.tsx:374
 msgid "No matching results"
 msgstr ""
 
@@ -316,7 +316,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr ""
 
-#: src/sidebar.jsx:83
+#: src/sidebar.jsx:84
 msgid "Other permissions"
 msgstr "Outras permissões"
 
@@ -324,7 +324,7 @@ msgstr "Outras permissões"
 msgid "Others access"
 msgstr "Acesso de outros"
 
-#: src/fileActions.jsx:302 src/sidebar.jsx:54
+#: src/fileActions.jsx:302 src/sidebar.jsx:55
 msgid "Owner"
 msgstr "Proprietário"
 
@@ -332,7 +332,7 @@ msgstr "Proprietário"
 msgid "Owner access"
 msgstr "Acesso do proprietário"
 
-#: src/sidebar.jsx:73
+#: src/sidebar.jsx:74
 msgid "Owner permissions"
 msgstr "Permissões do proprietário"
 
@@ -340,11 +340,11 @@ msgstr "Permissões do proprietário"
 msgid "Ownership"
 msgstr "Propriedade"
 
-#: src/fileActions.jsx:434
+#: src/menu.tsx:63
 msgid "Paste"
 msgstr "Colar"
 
-#: src/fileActions.jsx:417
+#: src/menu.tsx:68
 msgid "Pasting failed"
 msgstr ""
 
@@ -370,7 +370,7 @@ msgstr ""
 msgid "Regular file"
 msgstr "Renomear o arquivo $0"
 
-#: src/fileActions.jsx:165 src/fileActions.jsx:466
+#: src/menu.tsx:109 src/fileActions.jsx:165
 msgid "Rename"
 msgstr "Renomear"
 
@@ -396,15 +396,15 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr "Renomear o arquivo $0"
 
-#: src/settings-dropdown.jsx:43
+#: src/settings-dropdown.tsx:46
 msgid "Show hidden items"
 msgstr "Mostrar itens ocultos"
 
-#: src/header.tsx:50 src/files-card-body.jsx:363 src/sidebar.jsx:66
+#: src/files-card-body.tsx:385 src/header.tsx:68 src/sidebar.jsx:67
 msgid "Size"
 msgstr "Tamanho"
 
-#: src/header.tsx:57
+#: src/header.tsx:75
 msgid "Smallest size"
 msgstr ""
 
@@ -425,7 +425,6 @@ msgid "Upload"
 msgstr ""
 
 #: src/upload-button.tsx:319
-#, c-format
 msgid "Upload $0% completed"
 msgstr ""
 
@@ -449,7 +448,7 @@ msgstr ""
 msgid "Write-only"
 msgstr ""
 
-#: src/header.tsx:46
+#: src/header.tsx:64
 msgid "Z-A"
 msgstr ""
 
