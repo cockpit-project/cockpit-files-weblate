@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-28 02:50+0000\n"
 "PO-Revision-Date: 2024-06-28 13:54+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -63,7 +62,7 @@ msgstr "접근"
 
 #: src/files-breadcrumbs.tsx:159
 msgid "Add bookmark"
-msgstr ""
+msgstr "즐겨찾기 추가"
 
 #: src/upload-button.tsx:121
 msgid "Apply this action to all conflicting files"
@@ -261,7 +260,7 @@ msgstr "마지막으로 수정됨"
 
 #: org.cockpit-project.files.metainfo.xml:6
 msgid "Manage your files"
-msgstr ""
+msgstr "자신의 파일을 관리합니다"
 
 #: src/files-card-body.tsx:383 src/header.tsx:79
 msgid "Modified"
@@ -360,10 +359,8 @@ msgid "Regular file"
 msgstr "일반 파일"
 
 #: src/files-breadcrumbs.tsx:157
-#, fuzzy
-#| msgid "Rename directory $0"
 msgid "Remove current directory"
-msgstr "디렉토리 $0 이름변경"
+msgstr "현재 디렉토리를 제거합니다"
 
 #: src/dialogs/rename.tsx:96 src/menu.tsx:108
 msgid "Rename"
@@ -415,11 +412,11 @@ msgstr "심볼릭 링크"
 
 #: src/files-breadcrumbs.tsx:118
 msgid "Unable to create bookmark directory"
-msgstr ""
+msgstr "즐겨찾기 디렉토리를 생성 할 수 없음"
 
 #: src/files-breadcrumbs.tsx:136
 msgid "Unable to save bookmark file"
-msgstr ""
+msgstr "즐겨찾기 파일을 저장 할 수 없음"
 
 #: src/upload-button.tsx:340
 msgid "Upload"
