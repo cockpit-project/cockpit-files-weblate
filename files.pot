@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-03 02:49+0000\n"
+"POT-Creation-Date: 2024-07-04 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-03 02:49+0000\n"
+"POT-Creation-Date: 2024-07-04 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:104 src/dialogs/rename.tsx:98
+#: src/dialogs/mkdir.tsx:104 src/dialogs/rename.tsx:116
 #: src/dialogs/delete.tsx:88 src/dialogs/permissions.jsx:133
 #: src/upload-button.tsx:92
 msgid "Cancel"
@@ -193,6 +193,10 @@ msgstr ""
 msgid "Directory owner"
 msgstr ""
 
+#: src/dialogs/rename.tsx:50
+msgid "Directory with the same name exists"
+msgstr ""
+
 #: src/header.tsx:174
 msgid "Display as a grid"
 msgstr ""
@@ -217,8 +221,12 @@ msgstr ""
 msgid "File browser"
 msgstr ""
 
-#: src/dialogs/rename.tsx:45
-msgid "File or directory already exists"
+#: src/dialogs/rename.tsx:52
+msgid "File exists"
+msgstr ""
+
+#: src/dialogs/rename.tsx:47
+msgid "Filename is the same as original name"
 msgstr ""
 
 #: org.cockpit-project.files.metainfo.xml:5
@@ -293,15 +301,15 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: src/dialogs/rename.tsx:39
+#: src/dialogs/rename.tsx:41
 msgid "Name cannot be empty."
 msgstr ""
 
-#: src/dialogs/rename.tsx:43
+#: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /."
 msgstr ""
 
-#: src/dialogs/rename.tsx:41
+#: src/dialogs/rename.tsx:43
 msgid "Name too long."
 msgstr ""
 
@@ -313,7 +321,11 @@ msgstr ""
 msgid "New file"
 msgstr ""
 
-#: src/dialogs/rename.tsx:110
+#: src/dialogs/rename.tsx:120
+msgid "New filename"
+msgstr ""
+
+#: src/dialogs/rename.tsx:120
 msgid "New name"
 msgstr ""
 
@@ -335,6 +347,10 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
+msgstr ""
+
+#: src/dialogs/rename.tsx:114
+msgid "Overwrite"
 msgstr ""
 
 #: src/dialogs/permissions.jsx:147 src/sidebar.tsx:55
@@ -385,20 +401,12 @@ msgstr ""
 msgid "Remove current directory"
 msgstr ""
 
-#: src/dialogs/rename.tsx:96 src/menu.tsx:108
+#: src/dialogs/rename.tsx:107 src/menu.tsx:108
 msgid "Rename"
 msgstr ""
 
-#: src/dialogs/rename.tsx:67
-msgid "Rename directory $0"
-msgstr ""
-
-#: src/dialogs/rename.tsx:63
-msgid "Rename file $0"
-msgstr ""
-
-#: src/dialogs/rename.tsx:65
-msgid "Rename link $0"
+#: src/dialogs/rename.tsx:126
+msgid "Rename $0?"
 msgstr ""
 
 #: src/upload-button.tsx:89
