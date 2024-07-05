@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-04 02:50+0000\n"
+"POT-Creation-Date: 2024-07-05 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-04 02:50+0000\n"
+"POT-Creation-Date: 2024-07-05 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:159
+#: src/files-breadcrumbs.tsx:160
 msgid "Add bookmark"
 msgstr ""
 
@@ -273,7 +273,7 @@ msgstr ""
 msgid "Group permissions"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:74
+#: src/files-breadcrumbs.tsx:75
 msgid "Home"
 msgstr ""
 
@@ -397,7 +397,7 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:157
+#: src/files-breadcrumbs.tsx:158
 msgid "Remove current directory"
 msgstr ""
 
@@ -417,7 +417,7 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/settings-dropdown.tsx:46
+#: src/files-breadcrumbs.tsx:317
 msgid "Show hidden items"
 msgstr ""
 
@@ -441,11 +441,11 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:118
+#: src/files-breadcrumbs.tsx:119
 msgid "Unable to create bookmark directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:136
+#: src/files-breadcrumbs.tsx:137
 msgid "Unable to save bookmark file"
 msgstr ""
 
