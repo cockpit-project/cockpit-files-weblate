@@ -15,17 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-28 02:50+0000\n"
-"PO-Revision-Date: 2024-06-19 15:36+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/sv/>\n"
+"PO-Revision-Date: 2024-07-11 10:15+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/menu.tsx:68
 msgid "\"$0\" exists, not overwriting with paste."
@@ -65,7 +64,7 @@ msgstr "Åtkomst"
 
 #: src/files-breadcrumbs.tsx:159
 msgid "Add bookmark"
-msgstr ""
+msgstr "Lägg till bokmärke"
 
 #: src/upload-button.tsx:121
 msgid "Apply this action to all conflicting files"
@@ -263,7 +262,7 @@ msgstr "Senast modifierad"
 
 #: org.cockpit-project.files.metainfo.xml:6
 msgid "Manage your files"
-msgstr ""
+msgstr "Hantera dina filer"
 
 #: src/files-card-body.tsx:383 src/header.tsx:79
 msgid "Modified"
@@ -362,10 +361,8 @@ msgid "Regular file"
 msgstr "Vanlig fil"
 
 #: src/files-breadcrumbs.tsx:157
-#, fuzzy
-#| msgid "Rename directory $0"
 msgid "Remove current directory"
-msgstr "Byt namn på katalog $0"
+msgstr "Ta bort aktuell katalog"
 
 #: src/dialogs/rename.tsx:96 src/menu.tsx:108
 msgid "Rename"
@@ -417,11 +414,11 @@ msgstr "Symbolisk länk"
 
 #: src/files-breadcrumbs.tsx:118
 msgid "Unable to create bookmark directory"
-msgstr ""
+msgstr "Kan inte skapa en bokmärkeskatalog"
 
 #: src/files-breadcrumbs.tsx:136
 msgid "Unable to save bookmark file"
-msgstr ""
+msgstr "Kan inte spara bokmärkesfilen"
 
 #: src/upload-button.tsx:340
 msgid "Upload"
