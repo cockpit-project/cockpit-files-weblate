@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-28 02:50+0000\n"
 "PO-Revision-Date: 2024-07-11 10:15+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
@@ -246,7 +247,7 @@ msgstr "Gruppbehörigheter"
 
 #: src/files-breadcrumbs.tsx:74
 msgid "Home"
-msgstr ""
+msgstr "Hem"
 
 #: src/upload-button.tsx:91
 msgid "Keep original"
