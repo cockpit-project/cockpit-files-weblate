@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 02:50+0000\n"
+"POT-Creation-Date: 2024-07-10 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 02:50+0000\n"
+"POT-Creation-Date: 2024-07-10 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,9 +95,8 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:104 src/dialogs/rename.tsx:116
-#: src/dialogs/delete.tsx:88 src/dialogs/permissions.jsx:133
-#: src/upload-button.tsx:92
+#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:104 src/dialogs/delete.tsx:88
+#: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
 msgstr ""
 
@@ -293,11 +292,11 @@ msgstr ""
 msgid "Manage your files"
 msgstr ""
 
-#: src/files-card-body.tsx:383 src/header.tsx:79
+#: src/header.tsx:79 src/files-card-body.tsx:383
 msgid "Modified"
 msgstr ""
 
-#: src/files-card-body.tsx:378 src/header.tsx:57
+#: src/header.tsx:57 src/files-card-body.tsx:378
 msgid "Name"
 msgstr ""
 
@@ -421,7 +420,7 @@ msgstr ""
 msgid "Show hidden items"
 msgstr ""
 
-#: src/files-card-body.tsx:379 src/header.tsx:68 src/sidebar.tsx:67
+#: src/header.tsx:68 src/files-card-body.tsx:379 src/sidebar.tsx:67
 msgid "Size"
 msgstr ""
 
