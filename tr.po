@@ -15,16 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 02:51+0000\n"
-"PO-Revision-Date: 2024-06-28 08:36+0000\n"
+"PO-Revision-Date: 2024-07-12 11:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/menu.tsx:68
 msgid "\"$0\" exists, not overwriting with paste."
@@ -173,7 +173,7 @@ msgstr "Dizin sahibi"
 
 #: src/dialogs/rename.tsx:50
 msgid "Directory with the same name exists"
-msgstr ""
+msgstr "Aynı ada sahip dizin var"
 
 #: src/header.tsx:174
 msgid "Display as a grid"
@@ -200,14 +200,12 @@ msgid "File browser"
 msgstr "Dosya gezgini"
 
 #: src/dialogs/rename.tsx:52
-#, fuzzy
-#| msgid "Files"
 msgid "File exists"
-msgstr "Dosyalar"
+msgstr "Dosya var"
 
 #: src/dialogs/rename.tsx:47
 msgid "Filename is the same as original name"
-msgstr ""
+msgstr "Dosya adı ilk adıyla aynı"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
@@ -302,10 +300,8 @@ msgid "New file"
 msgstr "Yeni dosya"
 
 #: src/dialogs/rename.tsx:120
-#, fuzzy
-#| msgid "New file"
 msgid "New filename"
-msgstr "Yeni dosya"
+msgstr "Yeni dosya adı"
 
 #: src/dialogs/rename.tsx:120
 msgid "New name"
@@ -333,7 +329,7 @@ msgstr "Diğerlerinin erişimi"
 
 #: src/dialogs/rename.tsx:114
 msgid "Overwrite"
-msgstr ""
+msgstr "Üzerine yaz"
 
 #: src/dialogs/permissions.jsx:147 src/sidebar.tsx:55
 msgid "Owner"
@@ -388,10 +384,8 @@ msgid "Rename"
 msgstr "Yeniden adlandır"
 
 #: src/dialogs/rename.tsx:126
-#, fuzzy
-#| msgid "Rename file $0"
 msgid "Rename $0?"
-msgstr "$0 dosyasını yeniden adlandır"
+msgstr "$0 yeniden adlandırılsın mı?"
 
 #: src/upload-button.tsx:89
 msgid "Replace"
