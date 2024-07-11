@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-28 02:50+0000\n"
+"POT-Creation-Date: 2024-07-11 02:51+0000\n"
 "PO-Revision-Date: 2024-06-28 08:36+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 msgid "Access"
 msgstr "Zugriff"
 
-#: src/files-breadcrumbs.tsx:159
+#: src/files-breadcrumbs.tsx:160
 msgid "Add bookmark"
 msgstr ""
 
@@ -62,9 +62,8 @@ msgstr ""
 msgid "Block device"
 msgstr "Blockorientiertes Gerät"
 
-#: src/dialogs/mkdir.tsx:104 src/dialogs/rename.tsx:98
-#: src/dialogs/delete.tsx:88 src/dialogs/permissions.jsx:133
-#: src/upload-button.tsx:92
+#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:104 src/dialogs/delete.tsx:88
+#: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -160,6 +159,10 @@ msgstr ""
 msgid "Directory owner"
 msgstr ""
 
+#: src/dialogs/rename.tsx:50
+msgid "Directory with the same name exists"
+msgstr ""
+
 #: src/header.tsx:174
 msgid "Display as a grid"
 msgstr ""
@@ -184,8 +187,12 @@ msgstr ""
 msgid "File browser"
 msgstr ""
 
-#: src/dialogs/rename.tsx:45
-msgid "File or directory already exists"
+#: src/dialogs/rename.tsx:52
+msgid "File exists"
+msgstr ""
+
+#: src/dialogs/rename.tsx:47
+msgid "Filename is the same as original name"
 msgstr ""
 
 #: org.cockpit-project.files.metainfo.xml:5
@@ -232,7 +239,7 @@ msgstr ""
 msgid "Group permissions"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:74
+#: src/files-breadcrumbs.tsx:75
 msgid "Home"
 msgstr ""
 
@@ -252,23 +259,23 @@ msgstr ""
 msgid "Manage your files"
 msgstr ""
 
-#: src/files-card-body.tsx:383 src/header.tsx:79
+#: src/header.tsx:79 src/files-card-body.tsx:383
 msgid "Modified"
 msgstr ""
 
-#: src/files-card-body.tsx:378 src/header.tsx:57
+#: src/header.tsx:57 src/files-card-body.tsx:378
 msgid "Name"
 msgstr ""
 
-#: src/dialogs/rename.tsx:39
+#: src/dialogs/rename.tsx:41
 msgid "Name cannot be empty."
 msgstr ""
 
-#: src/dialogs/rename.tsx:43
+#: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /."
 msgstr ""
 
-#: src/dialogs/rename.tsx:41
+#: src/dialogs/rename.tsx:43
 msgid "Name too long."
 msgstr ""
 
@@ -280,7 +287,11 @@ msgstr ""
 msgid "New file"
 msgstr ""
 
-#: src/dialogs/rename.tsx:110
+#: src/dialogs/rename.tsx:120
+msgid "New filename"
+msgstr ""
+
+#: src/dialogs/rename.tsx:120
 msgid "New name"
 msgstr ""
 
@@ -302,6 +313,10 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
+msgstr ""
+
+#: src/dialogs/rename.tsx:114
+msgid "Overwrite"
 msgstr ""
 
 #: src/dialogs/permissions.jsx:147 src/sidebar.tsx:55
@@ -348,24 +363,16 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:157
+#: src/files-breadcrumbs.tsx:158
 msgid "Remove current directory"
 msgstr ""
 
-#: src/dialogs/rename.tsx:96 src/menu.tsx:108
+#: src/dialogs/rename.tsx:107 src/menu.tsx:108
 msgid "Rename"
 msgstr ""
 
-#: src/dialogs/rename.tsx:67
-msgid "Rename directory $0"
-msgstr ""
-
-#: src/dialogs/rename.tsx:63
-msgid "Rename file $0"
-msgstr ""
-
-#: src/dialogs/rename.tsx:65
-msgid "Rename link $0"
+#: src/dialogs/rename.tsx:126
+msgid "Rename $0?"
 msgstr ""
 
 #: src/upload-button.tsx:89
@@ -376,11 +383,11 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/settings-dropdown.tsx:46
+#: src/files-breadcrumbs.tsx:317
 msgid "Show hidden items"
 msgstr ""
 
-#: src/files-card-body.tsx:379 src/header.tsx:68 src/sidebar.tsx:67
+#: src/header.tsx:68 src/files-card-body.tsx:379 src/sidebar.tsx:67
 msgid "Size"
 msgstr ""
 
@@ -400,11 +407,11 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:118
+#: src/files-breadcrumbs.tsx:119
 msgid "Unable to create bookmark directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:136
+#: src/files-breadcrumbs.tsx:137
 msgid "Unable to save bookmark file"
 msgstr ""
 

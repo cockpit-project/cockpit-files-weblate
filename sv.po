@@ -14,12 +14,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-28 02:50+0000\n"
+"POT-Creation-Date: 2024-07-11 02:51+0000\n"
 "PO-Revision-Date: 2024-07-11 10:15+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
-"cockpit-files/cockpit-files/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
+"files/cockpit-files/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,7 +63,7 @@ msgstr "A-Z"
 msgid "Access"
 msgstr "Åtkomst"
 
-#: src/files-breadcrumbs.tsx:159
+#: src/files-breadcrumbs.tsx:160
 msgid "Add bookmark"
 msgstr "Lägg till bokmärke"
 
@@ -75,9 +75,8 @@ msgstr "Tillämpa den här åtgärden på alla konfliktfiler"
 msgid "Block device"
 msgstr "Blockenhet"
 
-#: src/dialogs/mkdir.tsx:104 src/dialogs/rename.tsx:98
-#: src/dialogs/delete.tsx:88 src/dialogs/permissions.jsx:133
-#: src/upload-button.tsx:92
+#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:104 src/dialogs/delete.tsx:88
+#: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -173,6 +172,10 @@ msgstr "Katalognamn för långt."
 msgid "Directory owner"
 msgstr "Katalogägare"
 
+#: src/dialogs/rename.tsx:50
+msgid "Directory with the same name exists"
+msgstr ""
+
 #: src/header.tsx:174
 msgid "Display as a grid"
 msgstr "Visa som ett rutnät"
@@ -197,9 +200,15 @@ msgstr "Exekvering-endast"
 msgid "File browser"
 msgstr "Filbläddrare"
 
-#: src/dialogs/rename.tsx:45
-msgid "File or directory already exists"
-msgstr "Fil eller katalog finns redan"
+#: src/dialogs/rename.tsx:52
+#, fuzzy
+#| msgid "Files"
+msgid "File exists"
+msgstr "Filer"
+
+#: src/dialogs/rename.tsx:47
+msgid "Filename is the same as original name"
+msgstr ""
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
@@ -245,7 +254,7 @@ msgstr "Gruppåtkomst"
 msgid "Group permissions"
 msgstr "Gruppbehörigheter"
 
-#: src/files-breadcrumbs.tsx:74
+#: src/files-breadcrumbs.tsx:75
 msgid "Home"
 msgstr "Hem"
 
@@ -265,23 +274,23 @@ msgstr "Senast modifierad"
 msgid "Manage your files"
 msgstr "Hantera dina filer"
 
-#: src/files-card-body.tsx:383 src/header.tsx:79
+#: src/header.tsx:79 src/files-card-body.tsx:383
 msgid "Modified"
 msgstr "Modifierad"
 
-#: src/files-card-body.tsx:378 src/header.tsx:57
+#: src/header.tsx:57 src/files-card-body.tsx:378
 msgid "Name"
 msgstr "Namn"
 
-#: src/dialogs/rename.tsx:39
+#: src/dialogs/rename.tsx:41
 msgid "Name cannot be empty."
 msgstr "Namn kan inte vara tomt."
 
-#: src/dialogs/rename.tsx:43
+#: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /."
 msgstr "Namn kan inte inkludera ett /."
 
-#: src/dialogs/rename.tsx:41
+#: src/dialogs/rename.tsx:43
 msgid "Name too long."
 msgstr "Namn för långt."
 
@@ -293,7 +302,13 @@ msgstr "Namngivet rör"
 msgid "New file"
 msgstr "Ny fil"
 
-#: src/dialogs/rename.tsx:110
+#: src/dialogs/rename.tsx:120
+#, fuzzy
+#| msgid "New file"
+msgid "New filename"
+msgstr "Ny fil"
+
+#: src/dialogs/rename.tsx:120
 msgid "New name"
 msgstr "Nytt namn"
 
@@ -316,6 +331,10 @@ msgstr "Andra behörigheter"
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
 msgstr "Andra tillgång"
+
+#: src/dialogs/rename.tsx:114
+msgid "Overwrite"
+msgstr ""
 
 #: src/dialogs/permissions.jsx:147 src/sidebar.tsx:55
 msgid "Owner"
@@ -361,25 +380,19 @@ msgstr "Läs-endast"
 msgid "Regular file"
 msgstr "Vanlig fil"
 
-#: src/files-breadcrumbs.tsx:157
+#: src/files-breadcrumbs.tsx:158
 msgid "Remove current directory"
 msgstr "Ta bort aktuell katalog"
 
-#: src/dialogs/rename.tsx:96 src/menu.tsx:108
+#: src/dialogs/rename.tsx:107 src/menu.tsx:108
 msgid "Rename"
 msgstr "Byt namn"
 
-#: src/dialogs/rename.tsx:67
-msgid "Rename directory $0"
-msgstr "Byt namn på katalog $0"
-
-#: src/dialogs/rename.tsx:63
-msgid "Rename file $0"
+#: src/dialogs/rename.tsx:126
+#, fuzzy
+#| msgid "Rename file $0"
+msgid "Rename $0?"
 msgstr "Byt namn på fil $0"
-
-#: src/dialogs/rename.tsx:65
-msgid "Rename link $0"
-msgstr "Byt namn på länk $0"
 
 #: src/upload-button.tsx:89
 msgid "Replace"
@@ -389,11 +402,11 @@ msgstr "Ersätt"
 msgid "Replace file $0?"
 msgstr "Ersätt fil $0?"
 
-#: src/settings-dropdown.tsx:46
+#: src/files-breadcrumbs.tsx:317
 msgid "Show hidden items"
 msgstr "Visa dolda objekt"
 
-#: src/files-card-body.tsx:379 src/header.tsx:68 src/sidebar.tsx:67
+#: src/header.tsx:68 src/files-card-body.tsx:379 src/sidebar.tsx:67
 msgid "Size"
 msgstr "Storlek"
 
@@ -413,11 +426,11 @@ msgstr "Fil(er) som har laddats upp framgångsrikt"
 msgid "Symbolic link"
 msgstr "Symbolisk länk"
 
-#: src/files-breadcrumbs.tsx:118
+#: src/files-breadcrumbs.tsx:119
 msgid "Unable to create bookmark directory"
 msgstr "Kan inte skapa en bokmärkeskatalog"
 
-#: src/files-breadcrumbs.tsx:136
+#: src/files-breadcrumbs.tsx:137
 msgid "Unable to save bookmark file"
 msgstr "Kan inte spara bokmärkesfilen"
 
@@ -469,6 +482,15 @@ msgstr "filsystem"
 #: src/dialogs/permissions.jsx:121
 msgid "“$0” permissions"
 msgstr "“$0“ behörigheter"
+
+#~ msgid "File or directory already exists"
+#~ msgstr "Fil eller katalog finns redan"
+
+#~ msgid "Rename directory $0"
+#~ msgstr "Byt namn på katalog $0"
+
+#~ msgid "Rename link $0"
+#~ msgstr "Byt namn på länk $0"
 
 #~ msgid "Paste into directory"
 #~ msgstr "Klistra in i katalog"
