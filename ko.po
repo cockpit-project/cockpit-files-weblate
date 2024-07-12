@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 02:51+0000\n"
 "PO-Revision-Date: 2024-07-12 11:38+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -327,7 +328,7 @@ msgstr "기타 접근"
 
 #: src/dialogs/rename.tsx:114
 msgid "Overwrite"
-msgstr ""
+msgstr "덮어쓰기"
 
 #: src/dialogs/permissions.jsx:147 src/sidebar.tsx:55
 msgid "Owner"
