@@ -15,16 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 02:51+0000\n"
-"PO-Revision-Date: 2024-06-28 13:54+0000\n"
+"PO-Revision-Date: 2024-07-12 11:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/menu.tsx:68
 msgid "\"$0\" exists, not overwriting with paste."
@@ -171,7 +171,7 @@ msgstr "디렉토리 소유자"
 
 #: src/dialogs/rename.tsx:50
 msgid "Directory with the same name exists"
-msgstr ""
+msgstr "동일한 이름을 갖는 디렉토리가 존재합니다"
 
 #: src/header.tsx:174
 msgid "Display as a grid"
@@ -198,14 +198,12 @@ msgid "File browser"
 msgstr "파일 탐색기"
 
 #: src/dialogs/rename.tsx:52
-#, fuzzy
-#| msgid "Files"
 msgid "File exists"
-msgstr "파일"
+msgstr "파일이 존재합니다"
 
 #: src/dialogs/rename.tsx:47
 msgid "Filename is the same as original name"
-msgstr ""
+msgstr "파일이름이 원래의 이름과 동일합니다"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
@@ -300,10 +298,8 @@ msgid "New file"
 msgstr "신규 파일"
 
 #: src/dialogs/rename.tsx:120
-#, fuzzy
-#| msgid "New file"
 msgid "New filename"
-msgstr "신규 파일"
+msgstr "신규 파일이름"
 
 #: src/dialogs/rename.tsx:120
 msgid "New name"
@@ -386,10 +382,8 @@ msgid "Rename"
 msgstr "이름변경"
 
 #: src/dialogs/rename.tsx:126
-#, fuzzy
-#| msgid "Rename file $0"
 msgid "Rename $0?"
-msgstr "파일 $0 이름변경"
+msgstr "$0 이름변경?"
 
 #: src/upload-button.tsx:89
 msgid "Replace"
