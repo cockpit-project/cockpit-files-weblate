@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 02:51+0000\n"
+"POT-Creation-Date: 2024-07-12 02:50+0000\n"
 "PO-Revision-Date: 2024-06-28 08:36+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 msgid "Block device"
 msgstr "Blockorientiertes Gerät"
 
-#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:104 src/dialogs/delete.tsx:88
+#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
 #: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -95,11 +95,11 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:102
+#: src/dialogs/mkdir.tsx:106
 msgid "Create"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:88 src/menu.tsx:83
+#: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
 msgid "Create directory"
 msgstr ""
 
@@ -139,7 +139,7 @@ msgstr ""
 msgid "Directory is empty"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:122
+#: src/dialogs/mkdir.tsx:126
 msgid "Directory name"
 msgstr ""
 
@@ -155,7 +155,7 @@ msgstr ""
 msgid "Directory name too long."
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:136
+#: src/dialogs/mkdir.tsx:140
 msgid "Directory owner"
 msgstr ""
 

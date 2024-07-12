@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 02:51+0000\n"
+"POT-Creation-Date: 2024-07-12 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -72,7 +72,7 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:104 src/dialogs/delete.tsx:88
+#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
 #: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
 msgstr ""
@@ -105,11 +105,11 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:102
+#: src/dialogs/mkdir.tsx:106
 msgid "Create"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:88 src/menu.tsx:83
+#: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
 msgid "Create directory"
 msgstr ""
 
@@ -149,7 +149,7 @@ msgstr ""
 msgid "Directory is empty"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:122
+#: src/dialogs/mkdir.tsx:126
 msgid "Directory name"
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr ""
 msgid "Directory name too long."
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:136
+#: src/dialogs/mkdir.tsx:140
 msgid "Directory owner"
 msgstr ""
 

@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 02:51+0000\n"
+"POT-Creation-Date: 2024-07-12 02:50+0000\n"
 "PO-Revision-Date: 2024-07-12 11:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
-"cockpit-files/cockpit-files/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
+"files/cockpit-files/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +74,7 @@ msgstr "Bu eylemi çakışan tüm dosyalara uygula"
 msgid "Block device"
 msgstr "Blok aygıtı"
 
-#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:104 src/dialogs/delete.tsx:88
+#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
 #: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
 msgstr "İptal"
@@ -107,11 +107,11 @@ msgstr "Cockpit Dosyalar"
 msgid "Copy"
 msgstr "Kopyala"
 
-#: src/dialogs/mkdir.tsx:102
+#: src/dialogs/mkdir.tsx:106
 msgid "Create"
 msgstr "Oluştur"
 
-#: src/dialogs/mkdir.tsx:88 src/menu.tsx:83
+#: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
 msgid "Create directory"
 msgstr "Dizin oluştur"
 
@@ -151,7 +151,7 @@ msgstr "Dizin"
 msgid "Directory is empty"
 msgstr "Dizin boş"
 
-#: src/dialogs/mkdir.tsx:122
+#: src/dialogs/mkdir.tsx:126
 msgid "Directory name"
 msgstr "Dizin adı"
 
@@ -167,7 +167,7 @@ msgstr "Dizin adı / karakteri içeremez."
 msgid "Directory name too long."
 msgstr "Dizin adı çok uzun."
 
-#: src/dialogs/mkdir.tsx:136
+#: src/dialogs/mkdir.tsx:140
 msgid "Directory owner"
 msgstr "Dizin sahibi"
 
