@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-17 02:51+0000\n"
+"POT-Creation-Date: 2024-07-18 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-17 02:51+0000\n"
+"POT-Creation-Date: 2024-07-18 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:160
+#: src/files-breadcrumbs.tsx:161
 msgid "Add bookmark"
 msgstr ""
 
@@ -93,6 +93,10 @@ msgstr ""
 
 #: src/common.ts:36
 msgid "Block device"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:172
+msgid "Bookmarks"
 msgstr ""
 
 #: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
@@ -208,6 +212,10 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
+#: src/files-breadcrumbs.tsx:268
+msgid "Edit path"
+msgstr ""
+
 #: src/menu.tsx:89 src/menu.tsx:103 src/sidebar.tsx:183
 msgid "Edit permissions"
 msgstr ""
@@ -272,7 +280,7 @@ msgstr ""
 msgid "Group permissions"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:75
+#: src/files-breadcrumbs.tsx:76
 msgid "Home"
 msgstr ""
 
@@ -396,7 +404,7 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:158
+#: src/files-breadcrumbs.tsx:159
 msgid "Remove current directory"
 msgstr ""
 
@@ -416,7 +424,7 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:317
+#: src/files-breadcrumbs.tsx:326
 msgid "Show hidden items"
 msgstr ""
 
@@ -440,11 +448,11 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:119
+#: src/files-breadcrumbs.tsx:120
 msgid "Unable to create bookmark directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:137
+#: src/files-breadcrumbs.tsx:138
 msgid "Unable to save bookmark file"
 msgstr ""
 
