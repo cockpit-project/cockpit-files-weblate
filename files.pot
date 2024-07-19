@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:50+0000\n"
+"POT-Creation-Date: 2024-07-19 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:50+0000\n"
+"POT-Creation-Date: 2024-07-19 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,6 +56,12 @@ msgstr ""
 #: src/sidebar.tsx:117
 msgid "$0 item"
 msgid_plural "$0 items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/files-card-body.tsx:390
+msgid "$0 item is hidden"
+msgid_plural "$0 items are hidden"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -124,6 +130,10 @@ msgstr ""
 msgid "Character device"
 msgstr ""
 
+#: src/files-card-body.tsx:378
+msgid "Clear filter"
+msgstr ""
+
 #: src/index.html:20
 msgid "Cockpit Files"
 msgstr ""
@@ -172,7 +182,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/files-card-body.tsx:368
+#: src/files-card-body.tsx:385
 msgid "Directory is empty"
 msgstr ""
 
@@ -300,11 +310,11 @@ msgstr ""
 msgid "Manage your files"
 msgstr ""
 
-#: src/header.tsx:79 src/files-card-body.tsx:383
+#: src/header.tsx:79 src/files-card-body.tsx:410
 msgid "Modified"
 msgstr ""
 
-#: src/header.tsx:57 src/files-card-body.tsx:378
+#: src/header.tsx:57 src/files-card-body.tsx:405
 msgid "Name"
 msgstr ""
 
@@ -336,7 +346,7 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
-#: src/files-card-body.tsx:368
+#: src/files-card-body.tsx:377
 msgid "No matching results"
 msgstr ""
 
@@ -424,11 +434,11 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:326
+#: src/files-breadcrumbs.tsx:326 src/files-card-body.tsx:393
 msgid "Show hidden items"
 msgstr ""
 
-#: src/header.tsx:68 src/files-card-body.tsx:379 src/sidebar.tsx:67
+#: src/header.tsx:68 src/files-card-body.tsx:406 src/sidebar.tsx:67
 msgid "Size"
 msgstr ""
 
