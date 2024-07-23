@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-12 02:50+0000\n"
+"POT-Creation-Date: 2024-07-23 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -34,6 +34,11 @@ msgid "$0 item"
 msgid_plural "$0 items"
 msgstr[0] ""
 msgstr[1] ""
+
+#: src/files-card-body.tsx:390
+msgid "$0 item is hidden"
+msgid_plural "$0 items are hidden"
+msgstr[0] ""
 
 #: src/sidebar.tsx:119
 msgid "($0 hidden)"
@@ -59,7 +64,7 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:160
+#: src/files-breadcrumbs.tsx:161
 msgid "Add bookmark"
 msgstr ""
 
@@ -69,6 +74,10 @@ msgstr ""
 
 #: src/common.ts:36
 msgid "Block device"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:172
+msgid "Bookmarks"
 msgstr ""
 
 #: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
@@ -94,6 +103,10 @@ msgstr ""
 
 #: src/common.ts:37
 msgid "Character device"
+msgstr ""
+
+#: src/files-card-body.tsx:378
+msgid "Clear filter"
 msgstr ""
 
 #: src/index.html:20
@@ -144,7 +157,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/files-card-body.tsx:368
+#: src/files-card-body.tsx:385
 msgid "Directory is empty"
 msgstr ""
 
@@ -182,6 +195,10 @@ msgstr ""
 
 #: src/menu.tsx:124
 msgid "Download"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:268
+msgid "Edit path"
 msgstr ""
 
 #: src/menu.tsx:89 src/menu.tsx:103 src/sidebar.tsx:183
@@ -248,7 +265,7 @@ msgstr ""
 msgid "Group permissions"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:75
+#: src/files-breadcrumbs.tsx:76
 msgid "Home"
 msgstr ""
 
@@ -268,11 +285,11 @@ msgstr ""
 msgid "Manage your files"
 msgstr ""
 
-#: src/header.tsx:79 src/files-card-body.tsx:383
+#: src/header.tsx:79 src/files-card-body.tsx:410
 msgid "Modified"
 msgstr ""
 
-#: src/header.tsx:57 src/files-card-body.tsx:378
+#: src/header.tsx:57 src/files-card-body.tsx:405
 msgid "Name"
 msgstr ""
 
@@ -304,7 +321,7 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
-#: src/files-card-body.tsx:368
+#: src/files-card-body.tsx:377
 msgid "No matching results"
 msgstr ""
 
@@ -372,7 +389,7 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:158
+#: src/files-breadcrumbs.tsx:159
 msgid "Remove current directory"
 msgstr ""
 
@@ -392,11 +409,11 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:317
+#: src/files-breadcrumbs.tsx:326 src/files-card-body.tsx:393
 msgid "Show hidden items"
 msgstr ""
 
-#: src/header.tsx:68 src/files-card-body.tsx:379 src/sidebar.tsx:67
+#: src/header.tsx:68 src/files-card-body.tsx:406 src/sidebar.tsx:67
 msgid "Size"
 msgstr ""
 
@@ -416,11 +433,11 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:119
+#: src/files-breadcrumbs.tsx:120
 msgid "Unable to create bookmark directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:137
+#: src/files-breadcrumbs.tsx:138
 msgid "Unable to save bookmark file"
 msgstr ""
 
