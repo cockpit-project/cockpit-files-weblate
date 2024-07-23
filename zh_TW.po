@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-23 02:51+0000\n"
 "PO-Revision-Date: 2024-07-23 15:05+0000\n"
-"Last-Translator: JW Wang <v72807647@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -154,7 +155,7 @@ msgstr "目錄與檔案"
 
 #: src/common.ts:38
 msgid "Directory"
-msgstr ""
+msgstr "目錄"
 
 #: src/files-card-body.tsx:385
 msgid "Directory is empty"
@@ -194,7 +195,7 @@ msgstr "以清單顯示"
 
 #: src/menu.tsx:124
 msgid "Download"
-msgstr ""
+msgstr "下載"
 
 #: src/files-breadcrumbs.tsx:268
 msgid "Edit path"
@@ -222,7 +223,7 @@ msgstr "檔案名稱與原本相同"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
-msgstr ""
+msgstr "檔案"
 
 #: src/header.tsx:124
 msgid "Filter directory"
@@ -254,7 +255,7 @@ msgstr "強制刪除連結 $0 ？"
 
 #: src/dialogs/permissions.jsx:162 src/sidebar.tsx:60
 msgid "Group"
-msgstr ""
+msgstr "群組"
 
 #: src/dialogs/permissions.jsx:192
 msgid "Group access"
@@ -290,11 +291,11 @@ msgstr "被修改"
 
 #: src/header.tsx:57 src/files-card-body.tsx:405
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: src/dialogs/rename.tsx:41
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "名稱不能為空。"
 
 #: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /."
