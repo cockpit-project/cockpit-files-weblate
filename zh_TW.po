@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-23 02:51+0000\n"
-"PO-Revision-Date: 2024-07-23 15:05+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-07-23 15:07+0000\n"
+"Last-Translator: JW Wang <v72807647@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -295,15 +294,15 @@ msgstr "名稱"
 
 #: src/dialogs/rename.tsx:41
 msgid "Name cannot be empty."
-msgstr "名稱不能為空。"
+msgstr "名稱不能為空值。"
 
 #: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /."
-msgstr ""
+msgstr "名稱不能包含 / 。"
 
 #: src/dialogs/rename.tsx:43
 msgid "Name too long."
-msgstr ""
+msgstr "名稱太長。"
 
 #: src/common.ts:39
 msgid "Named pipe"
