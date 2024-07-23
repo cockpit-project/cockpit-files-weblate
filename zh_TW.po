@@ -15,62 +15,61 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-23 02:51+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-07-23 14:53+0000\n"
+"Last-Translator: JW Wang <v72807647@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/cockpit-files/cockpit-files/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/menu.tsx:68
 msgid "\"$0\" exists, not overwriting with paste."
-msgstr ""
+msgstr "\"$0\" 已存在，將不會貼上以免遭覆寫。"
 
 #: src/sidebar.tsx:117
 msgid "$0 item"
 msgid_plural "$0 items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 個項目"
 
 #: src/files-card-body.tsx:390
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
-msgstr[0] ""
+msgstr[0] "$0 個已隱藏的項目"
 
 #: src/sidebar.tsx:119
 msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(已隱藏 $0 個)"
 
 #: org.cockpit-project.files.metainfo.xml:8
 msgid "A file system browser for Cockpit."
-msgstr ""
+msgstr "一個適用於 Cockpit 的檔案系統瀏覽器。"
 
 #: src/upload-button.tsx:98
 msgid ""
 "A file with the same name already exists in \"$0\". Replacing it will "
 "overwrite its content."
-msgstr ""
+msgstr "一個相同名稱的檔案已於 \"$0\" 存在。 若將其取代將覆寫其內容。"
 
 #: src/header.tsx:60
 msgid "A-Z"
-msgstr ""
+msgstr "由 A 到 Z"
 
 #: src/dialogs/permissions.jsx:178
 msgid "Access"
-msgstr ""
+msgstr "存取權限"
 
 #: src/files-breadcrumbs.tsx:161
 msgid "Add bookmark"
-msgstr ""
+msgstr "新增書籤"
 
 #: src/upload-button.tsx:121
 msgid "Apply this action to all conflicting files"
-msgstr ""
+msgstr "套用此動作至所有發生衝突的檔案"
 
 #: src/common.ts:36
 msgid "Block device"
@@ -78,7 +77,7 @@ msgstr ""
 
 #: src/files-breadcrumbs.tsx:172
 msgid "Bookmarks"
-msgstr ""
+msgstr "書籤"
 
 #: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
 #: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
@@ -87,19 +86,19 @@ msgstr ""
 
 #: src/upload-button.tsx:304
 msgid "Cancel upload of $0"
-msgstr ""
+msgstr "取消上傳 $0"
 
 #: src/upload-button.tsx:242
 msgid "Cancelled"
-msgstr ""
+msgstr "已取消"
 
 #: src/upload-button.tsx:243
 msgid "Cancelled upload of $0"
-msgstr ""
+msgstr "已取消上傳 $0"
 
 #: src/dialogs/permissions.jsx:131
 msgid "Change"
-msgstr ""
+msgstr "變更"
 
 #: src/common.ts:37
 msgid "Character device"
@@ -111,7 +110,7 @@ msgstr ""
 
 #: src/index.html:20
 msgid "Cockpit Files"
-msgstr ""
+msgstr "Cockpit Files"
 
 #: src/menu.tsx:97 src/menu.tsx:132
 msgid "Copy"
@@ -123,7 +122,7 @@ msgstr ""
 
 #: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
 msgid "Create directory"
-msgstr ""
+msgstr "建立目錄"
 
 #: src/dialogs/delete.tsx:87 src/menu.tsx:114 src/menu.tsx:137
 msgid "Delete"
@@ -131,7 +130,7 @@ msgstr ""
 
 #: src/dialogs/delete.tsx:43
 msgid "Delete $0 items?"
-msgstr ""
+msgstr "刪除 $0 個項目？"
 
 #: src/dialogs/delete.tsx:59
 msgid "Delete $0?"
