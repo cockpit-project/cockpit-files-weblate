@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-23 02:51+0000\n"
 "PO-Revision-Date: 2024-07-23 14:53+0000\n"
-"Last-Translator: JW Wang <v72807647@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -73,7 +74,7 @@ msgstr "套用此動作至所有發生衝突的檔案"
 
 #: src/common.ts:36
 msgid "Block device"
-msgstr ""
+msgstr "區塊裝置"
 
 #: src/files-breadcrumbs.tsx:172
 msgid "Bookmarks"
@@ -82,7 +83,7 @@ msgstr "書籤"
 #: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
 #: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/upload-button.tsx:304
 msgid "Cancel upload of $0"
@@ -102,11 +103,11 @@ msgstr "變更"
 
 #: src/common.ts:37
 msgid "Character device"
-msgstr ""
+msgstr "字元裝置"
 
 #: src/files-card-body.tsx:378
 msgid "Clear filter"
-msgstr ""
+msgstr "清除篩選器"
 
 #: src/index.html:20
 msgid "Cockpit Files"
@@ -114,11 +115,11 @@ msgstr "Cockpit Files"
 
 #: src/menu.tsx:97 src/menu.tsx:132
 msgid "Copy"
-msgstr ""
+msgstr "複製"
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
-msgstr ""
+msgstr "建立"
 
 #: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
 msgid "Create directory"
@@ -126,7 +127,7 @@ msgstr "建立目錄"
 
 #: src/dialogs/delete.tsx:87 src/menu.tsx:114 src/menu.tsx:137
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: src/dialogs/delete.tsx:43
 msgid "Delete $0 items?"
@@ -134,7 +135,7 @@ msgstr "刪除 $0 個項目？"
 
 #: src/dialogs/delete.tsx:59
 msgid "Delete $0?"
-msgstr ""
+msgstr "刪除 $0"
 
 #: src/dialogs/delete.tsx:56
 msgid "Delete directory $0?"
