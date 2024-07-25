@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-24 02:51+0000\n"
 "PO-Revision-Date: 2024-07-25 00:25+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -107,10 +108,8 @@ msgid "Character device"
 msgstr "문자 장치"
 
 #: src/files-card-body.tsx:378
-#, fuzzy
-#| msgid "Regular file"
 msgid "Clear filter"
-msgstr "일반 파일"
+msgstr "필터 지우기"
 
 #: src/index.html:20
 msgid "Cockpit Files"
