@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-25 02:52+0000\n"
+"POT-Creation-Date: 2024-07-26 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-25 02:52+0000\n"
+"POT-Creation-Date: 2024-07-26 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:161
+#: src/files-breadcrumbs.tsx:159
 msgid "Add bookmark"
 msgstr ""
 
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:172
+#: src/files-breadcrumbs.tsx:170
 msgid "Bookmarks"
 msgstr ""
 
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/header.tsx:118
+#: src/header.tsx:121
 msgid "Directories & files"
 msgstr ""
 
@@ -210,11 +210,11 @@ msgstr ""
 msgid "Directory with the same name exists"
 msgstr ""
 
-#: src/header.tsx:174
+#: src/header.tsx:187
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:173
+#: src/header.tsx:186
 msgid "Display as a list"
 msgstr ""
 
@@ -222,7 +222,7 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:268
+#: src/files-breadcrumbs.tsx:259
 msgid "Edit path"
 msgstr ""
 
@@ -250,7 +250,7 @@ msgstr ""
 msgid "Files"
 msgstr ""
 
-#: src/header.tsx:124
+#: src/header.tsx:127
 msgid "Filter directory"
 msgstr ""
 
@@ -290,7 +290,11 @@ msgstr ""
 msgid "Group permissions"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:76
+#: src/header.tsx:218
+msgid "Hide hidden items"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:74
 msgid "Home"
 msgstr ""
 
@@ -414,7 +418,7 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:159
+#: src/files-breadcrumbs.tsx:157
 msgid "Remove current directory"
 msgstr ""
 
@@ -434,7 +438,7 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:326 src/files-card-body.tsx:393
+#: src/files-card-body.tsx:393 src/header.tsx:218
 msgid "Show hidden items"
 msgstr ""
 
@@ -450,6 +454,10 @@ msgstr ""
 msgid "Socket"
 msgstr ""
 
+#: src/header.tsx:205
+msgid "Sort"
+msgstr ""
+
 #: src/upload-button.tsx:262
 msgid "Successfully uploaded file(s)"
 msgstr ""
@@ -458,11 +466,11 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:120
+#: src/files-breadcrumbs.tsx:118
 msgid "Unable to create bookmark directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:138
+#: src/files-breadcrumbs.tsx:136
 msgid "Unable to save bookmark file"
 msgstr ""
 
