@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:51+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2024-07-26 00:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"cockpit-files/cockpit-files/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
+"files/cockpit-files/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,7 +81,7 @@ msgstr "블록 장치"
 msgid "Bookmarks"
 msgstr "즐겨찾기"
 
-#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
+#: src/upload-button.tsx:92 src/dialogs/delete.tsx:88 src/dialogs/mkdir.tsx:108
 #: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
 msgstr "취소"
@@ -122,11 +122,11 @@ msgstr "복사"
 msgid "Create"
 msgstr "생성"
 
-#: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
+#: src/menu.tsx:83 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
 msgstr "디렉토리 생성"
 
-#: src/dialogs/delete.tsx:87 src/menu.tsx:114 src/menu.tsx:137
+#: src/menu.tsx:114 src/menu.tsx:137 src/dialogs/delete.tsx:87
 msgid "Delete"
 msgstr "삭제"
 
@@ -286,11 +286,11 @@ msgstr "마지막으로 수정됨"
 msgid "Manage your files"
 msgstr "자신의 파일을 관리합니다"
 
-#: src/header.tsx:79 src/files-card-body.tsx:410
+#: src/files-card-body.tsx:410 src/header.tsx:79
 msgid "Modified"
 msgstr "수정됨"
 
-#: src/header.tsx:57 src/files-card-body.tsx:405
+#: src/files-card-body.tsx:405 src/header.tsx:57
 msgid "Name"
 msgstr "이름"
 
@@ -394,7 +394,7 @@ msgstr "일반 파일"
 msgid "Remove current directory"
 msgstr "현재 디렉토리를 제거합니다"
 
-#: src/dialogs/rename.tsx:107 src/menu.tsx:108
+#: src/menu.tsx:108 src/dialogs/rename.tsx:107
 msgid "Rename"
 msgstr "이름변경"
 
@@ -414,7 +414,7 @@ msgstr "파일 $0를 교체합니까?"
 msgid "Show hidden items"
 msgstr "숨겨진 항목 표시"
 
-#: src/header.tsx:68 src/files-card-body.tsx:406 src/sidebar.tsx:67
+#: src/files-card-body.tsx:406 src/header.tsx:68 src/sidebar.tsx:67
 msgid "Size"
 msgstr "크기"
 

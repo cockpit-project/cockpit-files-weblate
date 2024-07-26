@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:51+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
+#: src/upload-button.tsx:92 src/dialogs/delete.tsx:88 src/dialogs/mkdir.tsx:108
 #: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
 msgstr ""
@@ -124,11 +124,11 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
+#: src/menu.tsx:83 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
 msgstr ""
 
-#: src/dialogs/delete.tsx:87 src/menu.tsx:114 src/menu.tsx:137
+#: src/menu.tsx:114 src/menu.tsx:137 src/dialogs/delete.tsx:87
 msgid "Delete"
 msgstr ""
 
@@ -288,11 +288,11 @@ msgstr ""
 msgid "Manage your files"
 msgstr ""
 
-#: src/header.tsx:79 src/files-card-body.tsx:410
+#: src/files-card-body.tsx:410 src/header.tsx:79
 msgid "Modified"
 msgstr ""
 
-#: src/header.tsx:57 src/files-card-body.tsx:405
+#: src/files-card-body.tsx:405 src/header.tsx:57
 msgid "Name"
 msgstr ""
 
@@ -396,7 +396,7 @@ msgstr ""
 msgid "Remove current directory"
 msgstr ""
 
-#: src/dialogs/rename.tsx:107 src/menu.tsx:108
+#: src/menu.tsx:108 src/dialogs/rename.tsx:107
 msgid "Rename"
 msgstr ""
 
@@ -416,7 +416,7 @@ msgstr ""
 msgid "Show hidden items"
 msgstr ""
 
-#: src/header.tsx:68 src/files-card-body.tsx:406 src/sidebar.tsx:67
+#: src/files-card-body.tsx:406 src/header.tsx:68 src/sidebar.tsx:67
 msgid "Size"
 msgstr ""
 

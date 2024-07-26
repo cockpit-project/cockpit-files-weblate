@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:51+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2024-07-24 15:38+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -80,7 +80,7 @@ msgstr "區塊裝置"
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
+#: src/upload-button.tsx:92 src/dialogs/delete.tsx:88 src/dialogs/mkdir.tsx:108
 #: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
 msgid "Cancel"
 msgstr "取消"
@@ -121,11 +121,11 @@ msgstr "複製"
 msgid "Create"
 msgstr "建立"
 
-#: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
+#: src/menu.tsx:83 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
 msgstr "建立目錄"
 
-#: src/dialogs/delete.tsx:87 src/menu.tsx:114 src/menu.tsx:137
+#: src/menu.tsx:114 src/menu.tsx:137 src/dialogs/delete.tsx:87
 msgid "Delete"
 msgstr "刪除"
 
@@ -285,11 +285,11 @@ msgstr "最後修改於"
 msgid "Manage your files"
 msgstr "管理您的檔案"
 
-#: src/header.tsx:79 src/files-card-body.tsx:410
+#: src/files-card-body.tsx:410 src/header.tsx:79
 msgid "Modified"
 msgstr "被修改"
 
-#: src/header.tsx:57 src/files-card-body.tsx:405
+#: src/files-card-body.tsx:405 src/header.tsx:57
 msgid "Name"
 msgstr "名稱"
 
@@ -393,7 +393,7 @@ msgstr "一般檔案"
 msgid "Remove current directory"
 msgstr "移除目前的目錄"
 
-#: src/dialogs/rename.tsx:107 src/menu.tsx:108
+#: src/menu.tsx:108 src/dialogs/rename.tsx:107
 msgid "Rename"
 msgstr "重新命名"
 
@@ -413,7 +413,7 @@ msgstr "取代檔案 $0 ？"
 msgid "Show hidden items"
 msgstr "顯示隱藏的項目"
 
-#: src/header.tsx:68 src/files-card-body.tsx:406 src/sidebar.tsx:67
+#: src/files-card-body.tsx:406 src/header.tsx:68 src/sidebar.tsx:67
 msgid "Size"
 msgstr "大小"
 
