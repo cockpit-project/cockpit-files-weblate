@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-29 02:53+0000\n"
+"POT-Creation-Date: 2024-07-30 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-29 02:53+0000\n"
+"POT-Creation-Date: 2024-07-30 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid_plural "$0 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/files-card-body.tsx:390
+#: src/files-card-body.tsx:399
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
 msgstr[0] ""
@@ -81,7 +81,7 @@ msgid ""
 "overwrite its content."
 msgstr ""
 
-#: src/header.tsx:60
+#: src/header.tsx:62
 msgid "A-Z"
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 msgid "Character device"
 msgstr ""
 
-#: src/files-card-body.tsx:378
+#: src/files-card-body.tsx:387
 msgid "Clear filter"
 msgstr ""
 
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/header.tsx:121
+#: src/header.tsx:134
 msgid "Directories & files"
 msgstr ""
 
@@ -182,7 +182,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/files-card-body.tsx:385
+#: src/files-card-body.tsx:394
 msgid "Directory is empty"
 msgstr ""
 
@@ -210,11 +210,11 @@ msgstr ""
 msgid "Directory with the same name exists"
 msgstr ""
 
-#: src/header.tsx:187
+#: src/header.tsx:200
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:186
+#: src/header.tsx:199
 msgid "Display as a list"
 msgstr ""
 
@@ -250,11 +250,11 @@ msgstr ""
 msgid "Files"
 msgstr ""
 
-#: src/header.tsx:127
+#: src/header.tsx:140
 msgid "Filter directory"
 msgstr ""
 
-#: src/header.tsx:82
+#: src/header.tsx:84
 msgid "First modified"
 msgstr ""
 
@@ -278,7 +278,8 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:162 src/sidebar.tsx:60
+#: src/files-card-body.tsx:487 src/dialogs/permissions.jsx:162
+#: src/sidebar.tsx:60
 msgid "Group"
 msgstr ""
 
@@ -290,7 +291,7 @@ msgstr ""
 msgid "Group permissions"
 msgstr ""
 
-#: src/header.tsx:218
+#: src/header.tsx:231
 msgid "Hide hidden items"
 msgstr ""
 
@@ -302,23 +303,31 @@ msgstr ""
 msgid "Keep original"
 msgstr ""
 
-#: src/header.tsx:71
+#: src/header.tsx:73
 msgid "Largest size"
 msgstr ""
 
-#: src/header.tsx:86 src/sidebar.tsx:50
+#: src/header.tsx:88 src/sidebar.tsx:50
 msgid "Last modified"
+msgstr ""
+
+#: src/header.tsx:99
+msgid "Least permissive"
 msgstr ""
 
 #: org.cockpit-project.files.metainfo.xml:6
 msgid "Manage your files"
 msgstr ""
 
-#: src/files-card-body.tsx:410 src/header.tsx:79
+#: src/files-card-body.tsx:419 src/header.tsx:81
 msgid "Modified"
 msgstr ""
 
-#: src/files-card-body.tsx:405 src/header.tsx:57
+#: src/header.tsx:95
+msgid "Most permissive"
+msgstr ""
+
+#: src/files-card-body.tsx:414 src/header.tsx:59
 msgid "Name"
 msgstr ""
 
@@ -350,7 +359,7 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
-#: src/files-card-body.tsx:377
+#: src/files-card-body.tsx:386
 msgid "No matching results"
 msgstr ""
 
@@ -366,6 +375,10 @@ msgstr ""
 msgid "Other permissions"
 msgstr ""
 
+#: src/files-card-body.tsx:487
+msgid "Others"
+msgstr ""
+
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
 msgstr ""
@@ -374,7 +387,8 @@ msgstr ""
 msgid "Overwrite"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:147 src/sidebar.tsx:55
+#: src/files-card-body.tsx:487 src/dialogs/permissions.jsx:147
+#: src/sidebar.tsx:55
 msgid "Owner"
 msgstr ""
 
@@ -398,6 +412,10 @@ msgstr ""
 msgid "Pasting failed"
 msgstr ""
 
+#: src/files-card-body.tsx:424 src/header.tsx:92
+msgid "Permissions"
+msgstr ""
+
 #: src/common.ts:30
 msgid "Read and execute"
 msgstr ""
@@ -407,7 +425,7 @@ msgid "Read and write"
 msgstr ""
 
 #: src/common.ts:32
-msgid "Read, write and execute"
+msgid "Read, write, and execute"
 msgstr ""
 
 #: src/common.ts:29
@@ -438,15 +456,15 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/files-card-body.tsx:393 src/header.tsx:218
+#: src/files-card-body.tsx:402 src/header.tsx:231
 msgid "Show hidden items"
 msgstr ""
 
-#: src/files-card-body.tsx:406 src/header.tsx:68 src/sidebar.tsx:67
+#: src/files-card-body.tsx:415 src/header.tsx:70 src/sidebar.tsx:67
 msgid "Size"
 msgstr ""
 
-#: src/header.tsx:75
+#: src/header.tsx:77
 msgid "Smallest size"
 msgstr ""
 
@@ -454,7 +472,7 @@ msgstr ""
 msgid "Socket"
 msgstr ""
 
-#: src/header.tsx:205
+#: src/header.tsx:218
 msgid "Sort"
 msgstr ""
 
@@ -503,7 +521,7 @@ msgstr ""
 msgid "Write-only"
 msgstr ""
 
-#: src/header.tsx:64
+#: src/header.tsx:66
 msgid "Z-A"
 msgstr ""
 
