@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-30 02:51+0000\n"
+"POT-Creation-Date: 2024-07-31 02:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-30 02:51+0000\n"
+"POT-Creation-Date: 2024-07-31 02:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:159
+#: src/files-breadcrumbs.tsx:136
 msgid "Add bookmark"
 msgstr ""
 
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:170
+#: src/files-breadcrumbs.tsx:147
 msgid "Bookmarks"
 msgstr ""
 
@@ -222,7 +222,7 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:259
+#: src/files-breadcrumbs.tsx:293
 msgid "Edit path"
 msgstr ""
 
@@ -248,6 +248,10 @@ msgstr ""
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:233
+msgid "Filesystem"
 msgstr ""
 
 #: src/header.tsx:140
@@ -295,7 +299,7 @@ msgstr ""
 msgid "Hide hidden items"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:74
+#: src/files-breadcrumbs.tsx:51
 msgid "Home"
 msgstr ""
 
@@ -436,7 +440,7 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:157
+#: src/files-breadcrumbs.tsx:134
 msgid "Remove current directory"
 msgstr ""
 
@@ -484,11 +488,11 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:118
+#: src/files-breadcrumbs.tsx:95
 msgid "Unable to create bookmark directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:136
+#: src/files-breadcrumbs.tsx:113
 msgid "Unable to save bookmark file"
 msgstr ""
 
