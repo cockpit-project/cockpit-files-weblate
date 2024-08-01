@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-31 02:47+0000\n"
+"POT-Creation-Date: 2024-08-01 02:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-31 02:47+0000\n"
+"POT-Creation-Date: 2024-08-01 02:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/menu.tsx:68
+#: src/menu.tsx:67
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
@@ -89,7 +89,7 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:136
+#: src/files-breadcrumbs.tsx:145
 msgid "Add bookmark"
 msgstr ""
 
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:147
+#: src/files-breadcrumbs.tsx:156
 msgid "Bookmarks"
 msgstr ""
 
@@ -110,15 +110,15 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: src/upload-button.tsx:304
+#: src/upload-button.tsx:302
 msgid "Cancel upload of $0"
 msgstr ""
 
-#: src/upload-button.tsx:242
+#: src/upload-button.tsx:240
 msgid "Cancelled"
 msgstr ""
 
-#: src/upload-button.tsx:243
+#: src/upload-button.tsx:241
 msgid "Cancelled upload of $0"
 msgstr ""
 
@@ -138,7 +138,7 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/menu.tsx:97 src/menu.tsx:132
+#: src/menu.tsx:96 src/menu.tsx:131
 msgid "Copy"
 msgstr ""
 
@@ -146,11 +146,11 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/menu.tsx:83 src/dialogs/mkdir.tsx:92
+#: src/menu.tsx:82 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
 msgstr ""
 
-#: src/menu.tsx:114 src/menu.tsx:137 src/dialogs/delete.tsx:87
+#: src/menu.tsx:113 src/menu.tsx:136 src/dialogs/delete.tsx:87
 msgid "Delete"
 msgstr ""
 
@@ -218,15 +218,15 @@ msgstr ""
 msgid "Display as a list"
 msgstr ""
 
-#: src/menu.tsx:124
+#: src/menu.tsx:123
 msgid "Download"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:293
+#: src/files-breadcrumbs.tsx:297
 msgid "Edit path"
 msgstr ""
 
-#: src/menu.tsx:89 src/menu.tsx:103 src/sidebar.tsx:183
+#: src/menu.tsx:88 src/menu.tsx:102 src/sidebar.tsx:183
 msgid "Edit permissions"
 msgstr ""
 
@@ -250,7 +250,7 @@ msgstr ""
 msgid "Files"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:233
+#: src/files-breadcrumbs.tsx:237
 msgid "Filesystem"
 msgstr ""
 
@@ -299,7 +299,7 @@ msgstr ""
 msgid "Hide hidden items"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:51
+#: src/files-breadcrumbs.tsx:52
 msgid "Home"
 msgstr ""
 
@@ -408,11 +408,11 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/menu.tsx:62
+#: src/menu.tsx:61
 msgid "Paste"
 msgstr ""
 
-#: src/menu.tsx:67
+#: src/menu.tsx:66
 msgid "Pasting failed"
 msgstr ""
 
@@ -440,11 +440,11 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:134
+#: src/files-breadcrumbs.tsx:143
 msgid "Remove current directory"
 msgstr ""
 
-#: src/menu.tsx:108 src/dialogs/rename.tsx:107
+#: src/menu.tsx:107 src/dialogs/rename.tsx:107
 msgid "Rename"
 msgstr ""
 
@@ -480,7 +480,7 @@ msgstr ""
 msgid "Sort"
 msgstr ""
 
-#: src/upload-button.tsx:262
+#: src/upload-button.tsx:260
 msgid "Successfully uploaded file(s)"
 msgstr ""
 
@@ -488,32 +488,32 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:95
+#: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:113
+#: src/files-breadcrumbs.tsx:122
 msgid "Unable to save bookmark file"
 msgstr ""
 
-#: src/upload-button.tsx:340
+#: src/upload-button.tsx:338
 msgid "Upload"
 msgstr ""
 
 #
-#: src/upload-button.tsx:321
+#: src/upload-button.tsx:319
 msgid "Upload $0% completed"
 msgstr ""
 
-#: src/upload-button.tsx:262
+#: src/upload-button.tsx:260
 msgid "Upload complete"
 msgstr ""
 
-#: src/upload-button.tsx:245
+#: src/upload-button.tsx:243
 msgid "Upload error"
 msgstr ""
 
-#: src/upload-button.tsx:285
+#: src/upload-button.tsx:283
 msgid "Uploads"
 msgstr ""
 
