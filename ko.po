@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-07 02:52+0000\n"
-"PO-Revision-Date: 2024-07-26 00:38+0000\n"
+"PO-Revision-Date: 2024-08-07 06:21+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -228,8 +228,6 @@ msgid "Files"
 msgstr "파일"
 
 #: src/files-breadcrumbs.tsx:237
-#, fuzzy
-#| msgid "filesystem"
 msgid "Filesystem"
 msgstr "파일시스템"
 
@@ -275,10 +273,8 @@ msgid "Group permissions"
 msgstr "그룹 권한"
 
 #: src/header.tsx:231
-#, fuzzy
-#| msgid "Show hidden items"
 msgid "Hide hidden items"
-msgstr "숨겨진 항목 표시"
+msgstr "숨겨진 항목 감추기"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
@@ -297,10 +293,8 @@ msgid "Last modified"
 msgstr "마지막으로 수정됨"
 
 #: src/header.tsx:99
-#, fuzzy
-#| msgid "Edit permissions"
 msgid "Least permissive"
-msgstr "권한을 편집합니다"
+msgstr "최소 허용"
 
 #: org.cockpit-project.files.metainfo.xml:6
 msgid "Manage your files"
@@ -311,10 +305,8 @@ msgid "Modified"
 msgstr "수정됨"
 
 #: src/header.tsx:95
-#, fuzzy
-#| msgid "Edit permissions"
 msgid "Most permissive"
-msgstr "권한을 편집합니다"
+msgstr "관대한 허용"
 
 #: src/header.tsx:59 src/files-card-body.tsx:414
 msgid "Name"
@@ -365,10 +357,8 @@ msgid "Other permissions"
 msgstr "기타 권한"
 
 #: src/files-card-body.tsx:487
-#, fuzzy
-#| msgid "Others access"
 msgid "Others"
-msgstr "기타 접근"
+msgstr "기타"
 
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
