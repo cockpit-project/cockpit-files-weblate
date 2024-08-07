@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-25 02:52+0000\n"
+"POT-Creation-Date: 2024-08-07 02:52+0000\n"
 "PO-Revision-Date: 2024-05-16 12:35+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.5.5\n"
 
-#: src/menu.tsx:68
+#: src/menu.tsx:67
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
@@ -37,7 +37,7 @@ msgid_plural "$0 items"
 msgstr[0] "$0 item"
 msgstr[1] "$0 itens"
 
-#: src/files-card-body.tsx:390
+#: src/files-card-body.tsx:399
 #, fuzzy
 #| msgid "($0 hidden)"
 #| msgid_plural "($0 hidden)"
@@ -62,7 +62,7 @@ msgid ""
 "overwrite its content."
 msgstr ""
 
-#: src/header.tsx:60
+#: src/header.tsx:62
 msgid "A-Z"
 msgstr ""
 
@@ -70,7 +70,7 @@ msgstr ""
 msgid "Access"
 msgstr "Acesso"
 
-#: src/files-breadcrumbs.tsx:161
+#: src/files-breadcrumbs.tsx:145
 msgid "Add bookmark"
 msgstr ""
 
@@ -82,26 +82,27 @@ msgstr ""
 msgid "Block device"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:172
+#: src/files-breadcrumbs.tsx:156
 msgid "Bookmarks"
 msgstr ""
 
-#: src/upload-button.tsx:92 src/dialogs/delete.tsx:88 src/dialogs/mkdir.tsx:108
-#: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
+#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108
+#: src/dialogs/rename.tsx:116 src/dialogs/delete.tsx:88
+#: src/dialogs/permissions.jsx:133
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/upload-button.tsx:304
+#: src/upload-button.tsx:302
 msgid "Cancel upload of $0"
 msgstr ""
 
-#: src/upload-button.tsx:242
+#: src/upload-button.tsx:240
 #, fuzzy
 #| msgid "Cancel"
 msgid "Cancelled"
 msgstr "Cancelar"
 
-#: src/upload-button.tsx:243
+#: src/upload-button.tsx:241
 msgid "Cancelled upload of $0"
 msgstr ""
 
@@ -113,7 +114,7 @@ msgstr "Alterar"
 msgid "Character device"
 msgstr ""
 
-#: src/files-card-body.tsx:378
+#: src/files-card-body.tsx:387
 #, fuzzy
 #| msgid "Rename file $0"
 msgid "Clear filter"
@@ -123,7 +124,7 @@ msgstr "Renomear o arquivo $0"
 msgid "Cockpit Files"
 msgstr "Cockpit Files"
 
-#: src/menu.tsx:97 src/menu.tsx:132
+#: src/menu.tsx:96 src/menu.tsx:131
 msgid "Copy"
 msgstr "Copiar"
 
@@ -131,11 +132,11 @@ msgstr "Copiar"
 msgid "Create"
 msgstr "Criar"
 
-#: src/menu.tsx:83 src/dialogs/mkdir.tsx:92
+#: src/menu.tsx:82 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
 msgstr "Criar diretório"
 
-#: src/menu.tsx:114 src/menu.tsx:137 src/dialogs/delete.tsx:87
+#: src/menu.tsx:113 src/menu.tsx:136 src/dialogs/delete.tsx:87
 msgid "Delete"
 msgstr "Excluir"
 
@@ -159,7 +160,7 @@ msgstr "Excluir o arquivo $0?"
 msgid "Delete link $0?"
 msgstr "Excluir o link $0?"
 
-#: src/header.tsx:118
+#: src/header.tsx:134
 #, fuzzy
 #| msgid "Directory is empty"
 msgid "Directories & files"
@@ -171,7 +172,7 @@ msgstr "O diretório está vazio"
 msgid "Directory"
 msgstr "Nome do diretório"
 
-#: src/files-card-body.tsx:385
+#: src/files-card-body.tsx:394
 msgid "Directory is empty"
 msgstr "O diretório está vazio"
 
@@ -201,23 +202,23 @@ msgstr "Nome do diretório"
 msgid "Directory with the same name exists"
 msgstr ""
 
-#: src/header.tsx:174
+#: src/header.tsx:200
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:173
+#: src/header.tsx:199
 msgid "Display as a list"
 msgstr ""
 
-#: src/menu.tsx:124
+#: src/menu.tsx:123
 msgid "Download"
 msgstr "Baixar"
 
-#: src/files-breadcrumbs.tsx:268
+#: src/files-breadcrumbs.tsx:297
 msgid "Edit path"
 msgstr ""
 
-#: src/menu.tsx:89 src/menu.tsx:103 src/sidebar.tsx:183
+#: src/menu.tsx:88 src/menu.tsx:102 src/sidebar.tsx:183
 msgid "Edit permissions"
 msgstr "Editar permissões"
 
@@ -243,13 +244,19 @@ msgstr ""
 msgid "Files"
 msgstr "Arquivos"
 
-#: src/header.tsx:124
+#: src/files-breadcrumbs.tsx:237
+#, fuzzy
+#| msgid "filesystem"
+msgid "Filesystem"
+msgstr "sistema de arquivos"
+
+#: src/header.tsx:140
 #, fuzzy
 #| msgid "Create directory"
 msgid "Filter directory"
 msgstr "Criar diretório"
 
-#: src/header.tsx:82
+#: src/header.tsx:84
 #, fuzzy
 #| msgid "Last modified"
 msgid "First modified"
@@ -275,7 +282,8 @@ msgstr "Forçar a exclusão do arquivo $0?"
 msgid "Force delete link $0?"
 msgstr "Forçar a exclusão do link de $0?"
 
-#: src/dialogs/permissions.jsx:162 src/sidebar.tsx:60
+#: src/dialogs/permissions.jsx:162 src/files-card-body.tsx:487
+#: src/sidebar.tsx:60
 msgid "Group"
 msgstr "Grupo"
 
@@ -287,7 +295,13 @@ msgstr "Acesso do grupo"
 msgid "Group permissions"
 msgstr "Permissões do grupo"
 
-#: src/files-breadcrumbs.tsx:76
+#: src/header.tsx:231
+#, fuzzy
+#| msgid "Show hidden items"
+msgid "Hide hidden items"
+msgstr "Mostrar itens ocultos"
+
+#: src/files-breadcrumbs.tsx:52
 msgid "Home"
 msgstr ""
 
@@ -295,25 +309,37 @@ msgstr ""
 msgid "Keep original"
 msgstr ""
 
-#: src/header.tsx:71
+#: src/header.tsx:73
 msgid "Largest size"
 msgstr ""
 
-#: src/header.tsx:86 src/sidebar.tsx:50
+#: src/header.tsx:88 src/sidebar.tsx:50
 msgid "Last modified"
 msgstr "Última modificação"
+
+#: src/header.tsx:99
+#, fuzzy
+#| msgid "Edit permissions"
+msgid "Least permissive"
+msgstr "Editar permissões"
 
 #: org.cockpit-project.files.metainfo.xml:6
 msgid "Manage your files"
 msgstr ""
 
-#: src/files-card-body.tsx:410 src/header.tsx:79
+#: src/header.tsx:81 src/files-card-body.tsx:419
 #, fuzzy
 #| msgid "Last modified"
 msgid "Modified"
 msgstr "Última modificação"
 
-#: src/files-card-body.tsx:405 src/header.tsx:57
+#: src/header.tsx:95
+#, fuzzy
+#| msgid "Edit permissions"
+msgid "Most permissive"
+msgstr "Editar permissões"
+
+#: src/header.tsx:59 src/files-card-body.tsx:414
 msgid "Name"
 msgstr "Nome"
 
@@ -355,7 +381,7 @@ msgstr "Novo nome"
 msgid "New name"
 msgstr "Novo nome"
 
-#: src/files-card-body.tsx:377
+#: src/files-card-body.tsx:386
 msgid "No matching results"
 msgstr ""
 
@@ -371,6 +397,12 @@ msgstr ""
 msgid "Other permissions"
 msgstr "Outras permissões"
 
+#: src/files-card-body.tsx:487
+#, fuzzy
+#| msgid "Others access"
+msgid "Others"
+msgstr "Acesso de outros"
+
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
 msgstr "Acesso de outros"
@@ -379,7 +411,8 @@ msgstr "Acesso de outros"
 msgid "Overwrite"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:147 src/sidebar.tsx:55
+#: src/dialogs/permissions.jsx:147 src/files-card-body.tsx:487
+#: src/sidebar.tsx:55
 msgid "Owner"
 msgstr "Proprietário"
 
@@ -395,13 +428,19 @@ msgstr "Permissões do proprietário"
 msgid "Ownership"
 msgstr "Propriedade"
 
-#: src/menu.tsx:62
+#: src/menu.tsx:61
 msgid "Paste"
 msgstr "Colar"
 
-#: src/menu.tsx:67
+#: src/menu.tsx:66
 msgid "Pasting failed"
 msgstr ""
+
+#: src/header.tsx:92 src/files-card-body.tsx:424
+#, fuzzy
+#| msgid "Edit permissions"
+msgid "Permissions"
+msgstr "Editar permissões"
 
 #: src/common.ts:30
 msgid "Read and execute"
@@ -412,7 +451,7 @@ msgid "Read and write"
 msgstr ""
 
 #: src/common.ts:32
-msgid "Read, write and execute"
+msgid "Read, write, and execute"
 msgstr ""
 
 #: src/common.ts:29
@@ -425,13 +464,13 @@ msgstr ""
 msgid "Regular file"
 msgstr "Renomear o arquivo $0"
 
-#: src/files-breadcrumbs.tsx:159
+#: src/files-breadcrumbs.tsx:143
 #, fuzzy
 #| msgid "Rename directory $0"
 msgid "Remove current directory"
 msgstr "Renomear o diretório $0"
 
-#: src/menu.tsx:108 src/dialogs/rename.tsx:107
+#: src/menu.tsx:107 src/dialogs/rename.tsx:107
 msgid "Rename"
 msgstr "Renomear"
 
@@ -451,15 +490,15 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr "Renomear o arquivo $0"
 
-#: src/files-breadcrumbs.tsx:326 src/files-card-body.tsx:393
+#: src/header.tsx:231 src/files-card-body.tsx:402
 msgid "Show hidden items"
 msgstr "Mostrar itens ocultos"
 
-#: src/files-card-body.tsx:406 src/header.tsx:68 src/sidebar.tsx:67
+#: src/header.tsx:70 src/files-card-body.tsx:415 src/sidebar.tsx:67
 msgid "Size"
 msgstr "Tamanho"
 
-#: src/header.tsx:75
+#: src/header.tsx:77
 msgid "Smallest size"
 msgstr ""
 
@@ -467,7 +506,11 @@ msgstr ""
 msgid "Socket"
 msgstr ""
 
-#: src/upload-button.tsx:262
+#: src/header.tsx:218
+msgid "Sort"
+msgstr ""
+
+#: src/upload-button.tsx:260
 msgid "Successfully uploaded file(s)"
 msgstr ""
 
@@ -475,31 +518,31 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:120
+#: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:138
+#: src/files-breadcrumbs.tsx:122
 msgid "Unable to save bookmark file"
 msgstr ""
 
-#: src/upload-button.tsx:340
+#: src/upload-button.tsx:338
 msgid "Upload"
 msgstr ""
 
-#: src/upload-button.tsx:321
+#: src/upload-button.tsx:319
 msgid "Upload $0% completed"
 msgstr ""
 
-#: src/upload-button.tsx:262
+#: src/upload-button.tsx:260
 msgid "Upload complete"
 msgstr ""
 
-#: src/upload-button.tsx:245
+#: src/upload-button.tsx:243
 msgid "Upload error"
 msgstr ""
 
-#: src/upload-button.tsx:285
+#: src/upload-button.tsx:283
 msgid "Uploads"
 msgstr ""
 
@@ -511,7 +554,7 @@ msgstr ""
 msgid "Write-only"
 msgstr ""
 
-#: src/header.tsx:64
+#: src/header.tsx:66
 msgid "Z-A"
 msgstr ""
 

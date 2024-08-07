@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-25 02:52+0000\n"
+"POT-Creation-Date: 2024-08-07 02:52+0000\n"
 "PO-Revision-Date: 2024-06-28 08:36+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.5.5\n"
 
-#: src/menu.tsx:68
+#: src/menu.tsx:67
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
@@ -26,7 +26,7 @@ msgid_plural "$0 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/files-card-body.tsx:390
+#: src/files-card-body.tsx:399
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
 msgstr[0] ""
@@ -48,7 +48,7 @@ msgid ""
 "overwrite its content."
 msgstr ""
 
-#: src/header.tsx:60
+#: src/header.tsx:62
 msgid "A-Z"
 msgstr ""
 
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Access"
 msgstr "Zugriff"
 
-#: src/files-breadcrumbs.tsx:161
+#: src/files-breadcrumbs.tsx:145
 msgid "Add bookmark"
 msgstr ""
 
@@ -68,24 +68,25 @@ msgstr ""
 msgid "Block device"
 msgstr "Blockorientiertes Gerät"
 
-#: src/files-breadcrumbs.tsx:172
+#: src/files-breadcrumbs.tsx:156
 msgid "Bookmarks"
 msgstr ""
 
-#: src/upload-button.tsx:92 src/dialogs/delete.tsx:88 src/dialogs/mkdir.tsx:108
-#: src/dialogs/permissions.jsx:133 src/dialogs/rename.tsx:116
+#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108
+#: src/dialogs/rename.tsx:116 src/dialogs/delete.tsx:88
+#: src/dialogs/permissions.jsx:133
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: src/upload-button.tsx:304
+#: src/upload-button.tsx:302
 msgid "Cancel upload of $0"
 msgstr ""
 
-#: src/upload-button.tsx:242
+#: src/upload-button.tsx:240
 msgid "Cancelled"
 msgstr ""
 
-#: src/upload-button.tsx:243
+#: src/upload-button.tsx:241
 msgid "Cancelled upload of $0"
 msgstr ""
 
@@ -97,7 +98,7 @@ msgstr "Ändern"
 msgid "Character device"
 msgstr ""
 
-#: src/files-card-body.tsx:378
+#: src/files-card-body.tsx:387
 msgid "Clear filter"
 msgstr ""
 
@@ -105,7 +106,7 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/menu.tsx:97 src/menu.tsx:132
+#: src/menu.tsx:96 src/menu.tsx:131
 msgid "Copy"
 msgstr ""
 
@@ -113,11 +114,11 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/menu.tsx:83 src/dialogs/mkdir.tsx:92
+#: src/menu.tsx:82 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
 msgstr ""
 
-#: src/menu.tsx:114 src/menu.tsx:137 src/dialogs/delete.tsx:87
+#: src/menu.tsx:113 src/menu.tsx:136 src/dialogs/delete.tsx:87
 msgid "Delete"
 msgstr ""
 
@@ -141,7 +142,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/header.tsx:118
+#: src/header.tsx:134
 msgid "Directories & files"
 msgstr ""
 
@@ -149,7 +150,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/files-card-body.tsx:385
+#: src/files-card-body.tsx:394
 msgid "Directory is empty"
 msgstr ""
 
@@ -177,23 +178,23 @@ msgstr ""
 msgid "Directory with the same name exists"
 msgstr ""
 
-#: src/header.tsx:174
+#: src/header.tsx:200
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:173
+#: src/header.tsx:199
 msgid "Display as a list"
 msgstr ""
 
-#: src/menu.tsx:124
+#: src/menu.tsx:123
 msgid "Download"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:268
+#: src/files-breadcrumbs.tsx:297
 msgid "Edit path"
 msgstr ""
 
-#: src/menu.tsx:89 src/menu.tsx:103 src/sidebar.tsx:183
+#: src/menu.tsx:88 src/menu.tsx:102 src/sidebar.tsx:183
 msgid "Edit permissions"
 msgstr ""
 
@@ -217,11 +218,15 @@ msgstr ""
 msgid "Files"
 msgstr ""
 
-#: src/header.tsx:124
+#: src/files-breadcrumbs.tsx:237
+msgid "Filesystem"
+msgstr ""
+
+#: src/header.tsx:140
 msgid "Filter directory"
 msgstr ""
 
-#: src/header.tsx:82
+#: src/header.tsx:84
 msgid "First modified"
 msgstr ""
 
@@ -245,7 +250,8 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:162 src/sidebar.tsx:60
+#: src/dialogs/permissions.jsx:162 src/files-card-body.tsx:487
+#: src/sidebar.tsx:60
 msgid "Group"
 msgstr ""
 
@@ -257,7 +263,11 @@ msgstr ""
 msgid "Group permissions"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:76
+#: src/header.tsx:231
+msgid "Hide hidden items"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:52
 msgid "Home"
 msgstr ""
 
@@ -265,23 +275,31 @@ msgstr ""
 msgid "Keep original"
 msgstr ""
 
-#: src/header.tsx:71
+#: src/header.tsx:73
 msgid "Largest size"
 msgstr ""
 
-#: src/header.tsx:86 src/sidebar.tsx:50
+#: src/header.tsx:88 src/sidebar.tsx:50
 msgid "Last modified"
+msgstr ""
+
+#: src/header.tsx:99
+msgid "Least permissive"
 msgstr ""
 
 #: org.cockpit-project.files.metainfo.xml:6
 msgid "Manage your files"
 msgstr ""
 
-#: src/files-card-body.tsx:410 src/header.tsx:79
+#: src/header.tsx:81 src/files-card-body.tsx:419
 msgid "Modified"
 msgstr ""
 
-#: src/files-card-body.tsx:405 src/header.tsx:57
+#: src/header.tsx:95
+msgid "Most permissive"
+msgstr ""
+
+#: src/header.tsx:59 src/files-card-body.tsx:414
 msgid "Name"
 msgstr ""
 
@@ -313,7 +331,7 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
-#: src/files-card-body.tsx:377
+#: src/files-card-body.tsx:386
 msgid "No matching results"
 msgstr ""
 
@@ -329,6 +347,10 @@ msgstr ""
 msgid "Other permissions"
 msgstr ""
 
+#: src/files-card-body.tsx:487
+msgid "Others"
+msgstr ""
+
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
 msgstr ""
@@ -337,7 +359,8 @@ msgstr ""
 msgid "Overwrite"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:147 src/sidebar.tsx:55
+#: src/dialogs/permissions.jsx:147 src/files-card-body.tsx:487
+#: src/sidebar.tsx:55
 msgid "Owner"
 msgstr ""
 
@@ -353,12 +376,16 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/menu.tsx:62
+#: src/menu.tsx:61
 msgid "Paste"
 msgstr ""
 
-#: src/menu.tsx:67
+#: src/menu.tsx:66
 msgid "Pasting failed"
+msgstr ""
+
+#: src/header.tsx:92 src/files-card-body.tsx:424
+msgid "Permissions"
 msgstr ""
 
 #: src/common.ts:30
@@ -370,7 +397,7 @@ msgid "Read and write"
 msgstr ""
 
 #: src/common.ts:32
-msgid "Read, write and execute"
+msgid "Read, write, and execute"
 msgstr ""
 
 #: src/common.ts:29
@@ -381,11 +408,11 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:159
+#: src/files-breadcrumbs.tsx:143
 msgid "Remove current directory"
 msgstr ""
 
-#: src/menu.tsx:108 src/dialogs/rename.tsx:107
+#: src/menu.tsx:107 src/dialogs/rename.tsx:107
 msgid "Rename"
 msgstr ""
 
@@ -401,15 +428,15 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:326 src/files-card-body.tsx:393
+#: src/header.tsx:231 src/files-card-body.tsx:402
 msgid "Show hidden items"
 msgstr ""
 
-#: src/files-card-body.tsx:406 src/header.tsx:68 src/sidebar.tsx:67
+#: src/header.tsx:70 src/files-card-body.tsx:415 src/sidebar.tsx:67
 msgid "Size"
 msgstr ""
 
-#: src/header.tsx:75
+#: src/header.tsx:77
 msgid "Smallest size"
 msgstr ""
 
@@ -417,7 +444,11 @@ msgstr ""
 msgid "Socket"
 msgstr ""
 
-#: src/upload-button.tsx:262
+#: src/header.tsx:218
+msgid "Sort"
+msgstr ""
+
+#: src/upload-button.tsx:260
 msgid "Successfully uploaded file(s)"
 msgstr ""
 
@@ -425,31 +456,31 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:120
+#: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:138
+#: src/files-breadcrumbs.tsx:122
 msgid "Unable to save bookmark file"
 msgstr ""
 
-#: src/upload-button.tsx:340
+#: src/upload-button.tsx:338
 msgid "Upload"
 msgstr ""
 
-#: src/upload-button.tsx:321
+#: src/upload-button.tsx:319
 msgid "Upload $0% completed"
 msgstr ""
 
-#: src/upload-button.tsx:262
+#: src/upload-button.tsx:260
 msgid "Upload complete"
 msgstr ""
 
-#: src/upload-button.tsx:245
+#: src/upload-button.tsx:243
 msgid "Upload error"
 msgstr ""
 
-#: src/upload-button.tsx:285
+#: src/upload-button.tsx:283
 msgid "Uploads"
 msgstr ""
 
@@ -461,7 +492,7 @@ msgstr ""
 msgid "Write-only"
 msgstr ""
 
-#: src/header.tsx:64
+#: src/header.tsx:66
 msgid "Z-A"
 msgstr ""
 
