@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-07 02:52+0000\n"
-"PO-Revision-Date: 2024-07-24 15:38+0000\n"
+"PO-Revision-Date: 2024-08-07 06:21+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -231,10 +231,8 @@ msgid "Files"
 msgstr "Dosyalar"
 
 #: src/files-breadcrumbs.tsx:237
-#, fuzzy
-#| msgid "filesystem"
 msgid "Filesystem"
-msgstr "dosya sistemi"
+msgstr "Dosya sistemi"
 
 #: src/header.tsx:140
 msgid "Filter directory"
@@ -278,10 +276,8 @@ msgid "Group permissions"
 msgstr "Grup izinleri"
 
 #: src/header.tsx:231
-#, fuzzy
-#| msgid "Show hidden items"
 msgid "Hide hidden items"
-msgstr "Gizli ögeleri göster"
+msgstr "Gizli ögeleri gizle"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
@@ -300,10 +296,8 @@ msgid "Last modified"
 msgstr "Son değiştirilme"
 
 #: src/header.tsx:99
-#, fuzzy
-#| msgid "Edit permissions"
 msgid "Least permissive"
-msgstr "İzinleri düzenle"
+msgstr "En az izin veren"
 
 #: org.cockpit-project.files.metainfo.xml:6
 msgid "Manage your files"
@@ -314,10 +308,8 @@ msgid "Modified"
 msgstr "Değiştirilme"
 
 #: src/header.tsx:95
-#, fuzzy
-#| msgid "Edit permissions"
 msgid "Most permissive"
-msgstr "İzinleri düzenle"
+msgstr "En çok izin veren"
 
 #: src/header.tsx:59 src/files-card-body.tsx:414
 msgid "Name"
@@ -368,10 +360,8 @@ msgid "Other permissions"
 msgstr "Diğer izinler"
 
 #: src/files-card-body.tsx:487
-#, fuzzy
-#| msgid "Others access"
 msgid "Others"
-msgstr "Diğerlerinin erişimi"
+msgstr "Diğerleri"
 
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
@@ -407,10 +397,8 @@ msgid "Pasting failed"
 msgstr "Yapıştırma başarısız oldu"
 
 #: src/header.tsx:92 src/files-card-body.tsx:424
-#, fuzzy
-#| msgid "Edit permissions"
 msgid "Permissions"
-msgstr "İzinleri düzenle"
+msgstr "İzinler"
 
 #: src/common.ts:30
 msgid "Read and execute"
@@ -421,8 +409,6 @@ msgid "Read and write"
 msgstr "Oku ve yaz"
 
 #: src/common.ts:32
-#, fuzzy
-#| msgid "Read, write and execute"
 msgid "Read, write, and execute"
 msgstr "Oku, yaz ve çalıştır"
 
@@ -472,7 +458,7 @@ msgstr "Soket"
 
 #: src/header.tsx:218
 msgid "Sort"
-msgstr ""
+msgstr "Sırala"
 
 #: src/upload-button.tsx:260
 msgid "Successfully uploaded file(s)"
