@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 02:53+0000\n"
-"PO-Revision-Date: 2024-07-24 15:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-08-09 08:40+0000\n"
+"Last-Translator: JW Wang <v72807647@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -227,8 +226,6 @@ msgid "Files"
 msgstr "檔案"
 
 #: src/files-breadcrumbs.tsx:237
-#, fuzzy
-#| msgid "filesystem"
 msgid "Filesystem"
 msgstr "檔案系統"
 
@@ -274,10 +271,8 @@ msgid "Group permissions"
 msgstr "群組權限"
 
 #: src/header.tsx:231
-#, fuzzy
-#| msgid "Show hidden items"
 msgid "Hide hidden items"
-msgstr "顯示隱藏的項目"
+msgstr "不顯示隱藏的項目"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
@@ -296,10 +291,8 @@ msgid "Last modified"
 msgstr "最後修改於"
 
 #: src/header.tsx:99
-#, fuzzy
-#| msgid "Edit permissions"
 msgid "Least permissive"
-msgstr "編輯權限"
+msgstr "最不寬鬆的權限"
 
 #: org.cockpit-project.files.metainfo.xml:6
 msgid "Manage your files"
@@ -310,10 +303,8 @@ msgid "Modified"
 msgstr "被修改"
 
 #: src/header.tsx:95
-#, fuzzy
-#| msgid "Edit permissions"
 msgid "Most permissive"
-msgstr "編輯權限"
+msgstr "最寬鬆的權限"
 
 #: src/files-card-body.tsx:414 src/header.tsx:59
 msgid "Name"
@@ -364,10 +355,8 @@ msgid "Other permissions"
 msgstr "其他權限"
 
 #: src/files-card-body.tsx:487
-#, fuzzy
-#| msgid "Others access"
 msgid "Others"
-msgstr "其他人的存取權限"
+msgstr "其他人"
 
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
@@ -403,10 +392,8 @@ msgid "Pasting failed"
 msgstr "貼上失敗"
 
 #: src/files-card-body.tsx:424 src/header.tsx:92
-#, fuzzy
-#| msgid "Edit permissions"
 msgid "Permissions"
-msgstr "編輯權限"
+msgstr "權限"
 
 #: src/common.ts:30
 msgid "Read and execute"
@@ -417,8 +404,6 @@ msgid "Read and write"
 msgstr "讀取與寫入"
 
 #: src/common.ts:32
-#, fuzzy
-#| msgid "Read, write and execute"
 msgid "Read, write, and execute"
 msgstr "讀取、寫入與執行"
 
@@ -468,7 +453,7 @@ msgstr "Socket"
 
 #: src/header.tsx:218
 msgid "Sort"
-msgstr ""
+msgstr "排序"
 
 #: src/upload-button.tsx:260
 msgid "Successfully uploaded file(s)"
