@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 02:52+0000\n"
+"POT-Creation-Date: 2024-08-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 02:52+0000\n"
+"POT-Creation-Date: 2024-08-08 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,9 +105,9 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108
-#: src/dialogs/rename.tsx:116 src/dialogs/delete.tsx:88
-#: src/dialogs/permissions.jsx:133
+#: src/dialogs/permissions.jsx:133 src/dialogs/delete.tsx:88
+#: src/dialogs/rename.tsx:116 src/dialogs/mkdir.tsx:108
+#: src/upload-button.tsx:92
 msgid "Cancel"
 msgstr ""
 
@@ -283,7 +283,7 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:162 src/files-card-body.tsx:487
+#: src/files-card-body.tsx:487 src/dialogs/permissions.jsx:162
 #: src/sidebar.tsx:60
 msgid "Group"
 msgstr ""
@@ -324,7 +324,7 @@ msgstr ""
 msgid "Manage your files"
 msgstr ""
 
-#: src/header.tsx:81 src/files-card-body.tsx:419
+#: src/files-card-body.tsx:419 src/header.tsx:81
 msgid "Modified"
 msgstr ""
 
@@ -332,7 +332,7 @@ msgstr ""
 msgid "Most permissive"
 msgstr ""
 
-#: src/header.tsx:59 src/files-card-body.tsx:414
+#: src/files-card-body.tsx:414 src/header.tsx:59
 msgid "Name"
 msgstr ""
 
@@ -392,7 +392,7 @@ msgstr ""
 msgid "Overwrite"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:147 src/files-card-body.tsx:487
+#: src/files-card-body.tsx:487 src/dialogs/permissions.jsx:147
 #: src/sidebar.tsx:55
 msgid "Owner"
 msgstr ""
@@ -417,7 +417,7 @@ msgstr ""
 msgid "Pasting failed"
 msgstr ""
 
-#: src/header.tsx:92 src/files-card-body.tsx:424
+#: src/files-card-body.tsx:424 src/header.tsx:92
 msgid "Permissions"
 msgstr ""
 
@@ -461,11 +461,11 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/header.tsx:231 src/files-card-body.tsx:402
+#: src/files-card-body.tsx:402 src/header.tsx:231
 msgid "Show hidden items"
 msgstr ""
 
-#: src/header.tsx:70 src/files-card-body.tsx:415 src/sidebar.tsx:67
+#: src/files-card-body.tsx:415 src/header.tsx:70 src/sidebar.tsx:67
 msgid "Size"
 msgstr ""
 
