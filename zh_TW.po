@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 02:52+0000\n"
+"POT-Creation-Date: 2024-08-08 02:53+0000\n"
 "PO-Revision-Date: 2024-07-24 15:38+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -80,9 +80,9 @@ msgstr "區塊裝置"
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108
-#: src/dialogs/rename.tsx:116 src/dialogs/delete.tsx:88
-#: src/dialogs/permissions.jsx:133
+#: src/dialogs/permissions.jsx:133 src/dialogs/delete.tsx:88
+#: src/dialogs/rename.tsx:116 src/dialogs/mkdir.tsx:108
+#: src/upload-button.tsx:92
 msgid "Cancel"
 msgstr "取消"
 
@@ -260,7 +260,7 @@ msgstr "強制刪除檔案 $0 ？"
 msgid "Force delete link $0?"
 msgstr "強制刪除連結 $0 ？"
 
-#: src/dialogs/permissions.jsx:162 src/files-card-body.tsx:487
+#: src/files-card-body.tsx:487 src/dialogs/permissions.jsx:162
 #: src/sidebar.tsx:60
 msgid "Group"
 msgstr "群組"
@@ -305,7 +305,7 @@ msgstr "編輯權限"
 msgid "Manage your files"
 msgstr "管理您的檔案"
 
-#: src/header.tsx:81 src/files-card-body.tsx:419
+#: src/files-card-body.tsx:419 src/header.tsx:81
 msgid "Modified"
 msgstr "被修改"
 
@@ -315,7 +315,7 @@ msgstr "被修改"
 msgid "Most permissive"
 msgstr "編輯權限"
 
-#: src/header.tsx:59 src/files-card-body.tsx:414
+#: src/files-card-body.tsx:414 src/header.tsx:59
 msgid "Name"
 msgstr "名稱"
 
@@ -377,7 +377,7 @@ msgstr "其他人的存取權限"
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: src/dialogs/permissions.jsx:147 src/files-card-body.tsx:487
+#: src/files-card-body.tsx:487 src/dialogs/permissions.jsx:147
 #: src/sidebar.tsx:55
 msgid "Owner"
 msgstr "擁有者"
@@ -402,7 +402,7 @@ msgstr "貼上"
 msgid "Pasting failed"
 msgstr "貼上失敗"
 
-#: src/header.tsx:92 src/files-card-body.tsx:424
+#: src/files-card-body.tsx:424 src/header.tsx:92
 #, fuzzy
 #| msgid "Edit permissions"
 msgid "Permissions"
@@ -450,11 +450,11 @@ msgstr "取代"
 msgid "Replace file $0?"
 msgstr "取代檔案 $0 ？"
 
-#: src/header.tsx:231 src/files-card-body.tsx:402
+#: src/files-card-body.tsx:402 src/header.tsx:231
 msgid "Show hidden items"
 msgstr "顯示隱藏的項目"
 
-#: src/header.tsx:70 src/files-card-body.tsx:415 src/sidebar.tsx:67
+#: src/files-card-body.tsx:415 src/header.tsx:70 src/sidebar.tsx:67
 msgid "Size"
 msgstr "大小"
 

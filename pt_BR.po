@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 02:52+0000\n"
+"POT-Creation-Date: 2024-08-08 02:53+0000\n"
 "PO-Revision-Date: 2024-05-16 12:35+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -86,9 +86,9 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/upload-button.tsx:92 src/dialogs/mkdir.tsx:108
-#: src/dialogs/rename.tsx:116 src/dialogs/delete.tsx:88
-#: src/dialogs/permissions.jsx:133
+#: src/dialogs/permissions.jsx:133 src/dialogs/delete.tsx:88
+#: src/dialogs/rename.tsx:116 src/dialogs/mkdir.tsx:108
+#: src/upload-button.tsx:92
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -282,7 +282,7 @@ msgstr "Forçar a exclusão do arquivo $0?"
 msgid "Force delete link $0?"
 msgstr "Forçar a exclusão do link de $0?"
 
-#: src/dialogs/permissions.jsx:162 src/files-card-body.tsx:487
+#: src/files-card-body.tsx:487 src/dialogs/permissions.jsx:162
 #: src/sidebar.tsx:60
 msgid "Group"
 msgstr "Grupo"
@@ -327,7 +327,7 @@ msgstr "Editar permissões"
 msgid "Manage your files"
 msgstr ""
 
-#: src/header.tsx:81 src/files-card-body.tsx:419
+#: src/files-card-body.tsx:419 src/header.tsx:81
 #, fuzzy
 #| msgid "Last modified"
 msgid "Modified"
@@ -339,7 +339,7 @@ msgstr "Última modificação"
 msgid "Most permissive"
 msgstr "Editar permissões"
 
-#: src/header.tsx:59 src/files-card-body.tsx:414
+#: src/files-card-body.tsx:414 src/header.tsx:59
 msgid "Name"
 msgstr "Nome"
 
@@ -411,7 +411,7 @@ msgstr "Acesso de outros"
 msgid "Overwrite"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:147 src/files-card-body.tsx:487
+#: src/files-card-body.tsx:487 src/dialogs/permissions.jsx:147
 #: src/sidebar.tsx:55
 msgid "Owner"
 msgstr "Proprietário"
@@ -436,7 +436,7 @@ msgstr "Colar"
 msgid "Pasting failed"
 msgstr ""
 
-#: src/header.tsx:92 src/files-card-body.tsx:424
+#: src/files-card-body.tsx:424 src/header.tsx:92
 #, fuzzy
 #| msgid "Edit permissions"
 msgid "Permissions"
@@ -490,11 +490,11 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr "Renomear o arquivo $0"
 
-#: src/header.tsx:231 src/files-card-body.tsx:402
+#: src/files-card-body.tsx:402 src/header.tsx:231
 msgid "Show hidden items"
 msgstr "Mostrar itens ocultos"
 
-#: src/header.tsx:70 src/files-card-body.tsx:415 src/sidebar.tsx:67
+#: src/files-card-body.tsx:415 src/header.tsx:70 src/sidebar.tsx:67
 msgid "Size"
 msgstr "Tamanho"
 
