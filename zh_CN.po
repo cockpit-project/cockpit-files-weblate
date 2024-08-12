@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 02:54+0000\n"
-"PO-Revision-Date: 2024-08-12 07:55+0000\n"
+"PO-Revision-Date: 2024-08-13 05:18+0000\n"
 "Last-Translator: Watson Xu <xuhuashan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_CN/>\n"
@@ -235,7 +235,7 @@ msgstr "筛选目录"
 
 #: src/header.tsx:84
 msgid "First modified"
-msgstr "初次修改于"
+msgstr "初次修改时间"
 
 #: src/dialogs/delete.tsx:59
 msgid "Force delete $0"
@@ -272,7 +272,7 @@ msgstr "用户组权限"
 
 #: src/header.tsx:231
 msgid "Hide hidden items"
-msgstr "不显示已隐藏的项目"
+msgstr "不显示隐藏项目"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
@@ -288,7 +288,7 @@ msgstr "大小最大"
 
 #: src/header.tsx:88 src/sidebar.tsx:50
 msgid "Last modified"
-msgstr "最后修改于"
+msgstr "最后修改时间"
 
 #: src/header.tsx:99
 msgid "Least permissive"
@@ -300,7 +300,7 @@ msgstr "管理您的文件"
 
 #: src/files-card-body.tsx:419 src/header.tsx:81
 msgid "Modified"
-msgstr "被修改"
+msgstr "修改时间"
 
 #: src/header.tsx:95
 msgid "Most permissive"
@@ -437,7 +437,7 @@ msgstr "替换文件 $0 ？"
 
 #: src/files-card-body.tsx:402 src/header.tsx:231
 msgid "Show hidden items"
-msgstr "显示已隐藏的文件"
+msgstr "显示隐藏项目"
 
 #: src/files-card-body.tsx:415 src/header.tsx:70 src/sidebar.tsx:67
 msgid "Size"
