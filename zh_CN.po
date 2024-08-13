@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-13 02:53+0000\n"
-"PO-Revision-Date: 2024-08-13 05:18+0000\n"
+"PO-Revision-Date: 2024-08-13 09:50+0000\n"
 "Last-Translator: Watson Xu <xuhuashan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_CN/>\n"
@@ -284,7 +284,7 @@ msgstr "保留原本的"
 
 #: src/header.tsx:73
 msgid "Largest size"
-msgstr "大小最大"
+msgstr "尺寸最大"
 
 #: src/header.tsx:88 src/sidebar.tsx:50
 msgid "Last modified"
@@ -445,7 +445,7 @@ msgstr "尺寸"
 
 #: src/header.tsx:77
 msgid "Smallest size"
-msgstr "最小尺寸"
+msgstr "尺寸最小"
 
 #: src/common.ts:42
 msgid "Socket"
