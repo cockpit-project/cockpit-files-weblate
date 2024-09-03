@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 02:59+0000\n"
+"POT-Creation-Date: 2024-09-03 02:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-02 02:59+0000\n"
+"POT-Creation-Date: 2024-09-03 02:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,7 +75,7 @@ msgstr[1] ""
 msgid "A file system browser for Cockpit."
 msgstr ""
 
-#: src/upload-button.tsx:98
+#: src/upload-button.tsx:97
 msgid ""
 "A file with the same name already exists in \"$0\". Replacing it will "
 "overwrite its content."
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Add bookmark"
 msgstr ""
 
-#: src/upload-button.tsx:121
+#: src/upload-button.tsx:120
 msgid "Apply this action to all conflicting files"
 msgstr ""
 
@@ -107,19 +107,19 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:133 src/dialogs/delete.tsx:88
 #: src/dialogs/rename.tsx:116 src/dialogs/mkdir.tsx:108
-#: src/upload-button.tsx:92
+#: src/upload-button.tsx:91
 msgid "Cancel"
 msgstr ""
 
-#: src/upload-button.tsx:302
+#: src/upload-button.tsx:301
 msgid "Cancel upload of $0"
 msgstr ""
 
-#: src/upload-button.tsx:240
+#: src/upload-button.tsx:239
 msgid "Cancelled"
 msgstr ""
 
-#: src/upload-button.tsx:241
+#: src/upload-button.tsx:240
 msgid "Cancelled upload of $0"
 msgstr ""
 
@@ -304,7 +304,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: src/upload-button.tsx:91
+#: src/upload-button.tsx:90
 msgid "Keep original"
 msgstr ""
 
@@ -352,7 +352,7 @@ msgstr ""
 msgid "Named pipe"
 msgstr ""
 
-#: src/upload-button.tsx:107
+#: src/upload-button.tsx:106
 msgid "New file"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/upload-button.tsx:112
+#: src/upload-button.tsx:111
 msgid "Original file on server"
 msgstr ""
 
@@ -457,15 +457,15 @@ msgstr ""
 msgid "Rename"
 msgstr ""
 
-#: src/dialogs/rename.tsx:126
+#: src/dialogs/rename.tsx:125
 msgid "Rename $0?"
 msgstr ""
 
-#: src/upload-button.tsx:89
+#: src/upload-button.tsx:88
 msgid "Replace"
 msgstr ""
 
-#: src/upload-button.tsx:82
+#: src/upload-button.tsx:81
 msgid "Replace file $0?"
 msgstr ""
 
@@ -489,7 +489,7 @@ msgstr ""
 msgid "Sort"
 msgstr ""
 
-#: src/upload-button.tsx:260
+#: src/upload-button.tsx:259
 msgid "Successfully uploaded file(s)"
 msgstr ""
 
@@ -505,24 +505,24 @@ msgstr ""
 msgid "Unable to save bookmark file"
 msgstr ""
 
-#: src/upload-button.tsx:338
+#: src/upload-button.tsx:337
 msgid "Upload"
 msgstr ""
 
 #
-#: src/upload-button.tsx:319
+#: src/upload-button.tsx:318
 msgid "Upload $0% completed"
 msgstr ""
 
-#: src/upload-button.tsx:260
+#: src/upload-button.tsx:259
 msgid "Upload complete"
 msgstr ""
 
-#: src/upload-button.tsx:243
+#: src/upload-button.tsx:242
 msgid "Upload error"
 msgstr ""
 
-#: src/upload-button.tsx:283
+#: src/upload-button.tsx:282
 msgid "Uploads"
 msgstr ""
 
