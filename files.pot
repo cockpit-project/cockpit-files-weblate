@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-04 02:57+0000\n"
+"POT-Creation-Date: 2024-09-05 02:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-04 02:57+0000\n"
+"POT-Creation-Date: 2024-09-05 02:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/menu.tsx:67
+#: src/menu.tsx:68
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
@@ -105,9 +105,9 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:133 src/dialogs/delete.tsx:88
-#: src/dialogs/rename.tsx:116 src/dialogs/mkdir.tsx:108
-#: src/upload-button.tsx:91
+#: src/upload-button.tsx:91 src/dialogs/rename.tsx:116
+#: src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
+#: src/dialogs/permissions.jsx:133 src/dialogs/editor.tsx:210
 msgid "Cancel"
 msgstr ""
 
@@ -135,11 +135,15 @@ msgstr ""
 msgid "Clear filter"
 msgstr ""
 
+#: src/dialogs/editor.tsx:210
+msgid "Close"
+msgstr ""
+
 #: src/index.html:20
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/menu.tsx:96 src/menu.tsx:131
+#: src/menu.tsx:113 src/menu.tsx:148
 msgid "Copy"
 msgstr ""
 
@@ -147,11 +151,11 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/menu.tsx:82 src/dialogs/mkdir.tsx:92
+#: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
 msgid "Create directory"
 msgstr ""
 
-#: src/menu.tsx:113 src/menu.tsx:136 src/dialogs/delete.tsx:87
+#: src/dialogs/delete.tsx:87 src/menu.tsx:130 src/menu.tsx:153
 msgid "Delete"
 msgstr ""
 
@@ -219,7 +223,7 @@ msgstr ""
 msgid "Display as a list"
 msgstr ""
 
-#: src/menu.tsx:123
+#: src/menu.tsx:140
 msgid "Download"
 msgstr ""
 
@@ -227,8 +231,13 @@ msgstr ""
 msgid "Edit path"
 msgstr ""
 
-#: src/menu.tsx:88 src/menu.tsx:102 src/sidebar.tsx:183
+#: src/sidebar.tsx:183 src/menu.tsx:89 src/menu.tsx:119
 msgid "Edit permissions"
+msgstr ""
+
+#. Translators: This is the title of a modal dialog.  $0 represents a filename.
+#: src/dialogs/editor.tsx:168
+msgid "Edit “$0”"
 msgstr ""
 
 #: src/common.ts:26
@@ -283,8 +292,8 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/files-card-body.tsx:514 src/dialogs/permissions.jsx:162
-#: src/sidebar.tsx:60
+#: src/files-card-body.tsx:514 src/sidebar.tsx:60
+#: src/dialogs/permissions.jsx:162
 msgid "Group"
 msgstr ""
 
@@ -302,6 +311,10 @@ msgstr ""
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
+msgstr ""
+
+#: src/dialogs/editor.tsx:238
+msgid "Ignore"
 msgstr ""
 
 #: src/upload-button.tsx:90
@@ -372,6 +385,10 @@ msgstr ""
 msgid "None"
 msgstr ""
 
+#: src/menu.tsx:105
+msgid "Open text file"
+msgstr ""
+
 #: src/upload-button.tsx:111
 msgid "Original file on server"
 msgstr ""
@@ -388,12 +405,12 @@ msgstr ""
 msgid "Others access"
 msgstr ""
 
-#: src/dialogs/rename.tsx:114
+#: src/dialogs/rename.tsx:114 src/dialogs/editor.tsx:194
 msgid "Overwrite"
 msgstr ""
 
-#: src/files-card-body.tsx:446 src/files-card-body.tsx:514
-#: src/dialogs/permissions.jsx:147 src/header.tsx:94 src/sidebar.tsx:55
+#: src/files-card-body.tsx:446 src/files-card-body.tsx:514 src/header.tsx:94
+#: src/sidebar.tsx:55 src/dialogs/permissions.jsx:147
 msgid "Owner"
 msgstr ""
 
@@ -417,11 +434,11 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/menu.tsx:61
+#: src/menu.tsx:62
 msgid "Paste"
 msgstr ""
 
-#: src/menu.tsx:66
+#: src/menu.tsx:67
 msgid "Pasting failed"
 msgstr ""
 
@@ -441,7 +458,7 @@ msgstr ""
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/common.ts:29
+#: src/dialogs/editor.tsx:171 src/common.ts:29
 msgid "Read-only"
 msgstr ""
 
@@ -449,11 +466,15 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
+#: src/dialogs/editor.tsx:235
+msgid "Reload"
+msgstr ""
+
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove current directory"
 msgstr ""
 
-#: src/menu.tsx:107 src/dialogs/rename.tsx:107
+#: src/dialogs/rename.tsx:107 src/menu.tsx:124
 msgid "Rename"
 msgstr ""
 
@@ -467,6 +488,10 @@ msgstr ""
 
 #: src/upload-button.tsx:81
 msgid "Replace file $0?"
+msgstr ""
+
+#: src/dialogs/editor.tsx:207
+msgid "Save"
 msgstr ""
 
 #: src/files-card-body.tsx:424 src/header.tsx:244
@@ -497,6 +522,18 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
+#: src/dialogs/editor.tsx:57
+msgid "The existing file changed unexpectedly"
+msgstr ""
+
+#: src/dialogs/editor.tsx:55 src/dialogs/editor.tsx:229
+msgid "The file has been removed on disk"
+msgstr ""
+
+#: src/dialogs/editor.tsx:230
+msgid "The file has changed on disk"
+msgstr ""
+
 #: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
 msgstr ""
@@ -524,6 +561,10 @@ msgstr ""
 
 #: src/upload-button.tsx:282
 msgid "Uploads"
+msgstr ""
+
+#: src/dialogs/editor.tsx:168
+msgid "View “$0”"
 msgstr ""
 
 #: src/common.ts:28
