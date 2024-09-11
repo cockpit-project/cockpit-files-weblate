@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-11 02:58+0000\n"
 "PO-Revision-Date: 2024-09-11 19:15+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
@@ -218,7 +217,7 @@ msgstr "Redigera behörigheter"
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:168
 msgid "Edit “$0”"
-msgstr ""
+msgstr "Redigera ”$0”"
 
 #: src/common.ts:26
 msgid "Execute-only"
@@ -367,7 +366,7 @@ msgstr "Inga"
 
 #: src/menu.tsx:105
 msgid "Open text file"
-msgstr ""
+msgstr "Öppna en textfil"
 
 #: src/upload-button.tsx:111
 msgid "Original file on server"
@@ -399,16 +398,12 @@ msgid "Owner access"
 msgstr "Ägare tillgång"
 
 #: src/header.tsx:97
-#, fuzzy
-#| msgid "Owner access"
 msgid "Owner ascending"
-msgstr "Ägare tillgång"
+msgstr "Ägare ökande"
 
 #: src/header.tsx:101
-#, fuzzy
-#| msgid "Owner permissions"
 msgid "Owner descending"
-msgstr "Ägare behörigheter"
+msgstr "Ägare minskande"
 
 #: src/sidebar.tsx:76
 msgid "Owner permissions"
