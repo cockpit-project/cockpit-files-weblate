@@ -15,16 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-11 02:58+0000\n"
-"PO-Revision-Date: 2024-08-07 06:21+0000\n"
+"PO-Revision-Date: 2024-09-11 19:15+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/menu.tsx:68
 msgid "\"$0\" exists, not overwriting with paste."
@@ -116,7 +116,7 @@ msgstr "Filtreyi temizle"
 
 #: src/dialogs/editor.tsx:210
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 #: src/index.html:20
 msgid "Cockpit Files"
@@ -217,7 +217,7 @@ msgstr "İzinleri düzenle"
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:168
 msgid "Edit “$0”"
-msgstr ""
+msgstr "“$0” dosyasını düzenle"
 
 #: src/common.ts:26
 msgid "Execute-only"
@@ -294,7 +294,7 @@ msgstr "Ev dizini"
 
 #: src/dialogs/editor.tsx:238
 msgid "Ignore"
-msgstr ""
+msgstr "Yok say"
 
 #: src/upload-button.tsx:90
 msgid "Keep original"
@@ -366,7 +366,7 @@ msgstr "Yok"
 
 #: src/menu.tsx:105
 msgid "Open text file"
-msgstr ""
+msgstr "Metin dosyası aç"
 
 #: src/upload-button.tsx:111
 msgid "Original file on server"
@@ -398,16 +398,12 @@ msgid "Owner access"
 msgstr "Sahibinin erişimi"
 
 #: src/header.tsx:97
-#, fuzzy
-#| msgid "Owner access"
 msgid "Owner ascending"
-msgstr "Sahibinin erişimi"
+msgstr "Sahibine göre artan"
 
 #: src/header.tsx:101
-#, fuzzy
-#| msgid "Owner permissions"
 msgid "Owner descending"
-msgstr "Sahibinin izinleri"
+msgstr "Sahibine göre azalan"
 
 #: src/sidebar.tsx:76
 msgid "Owner permissions"
@@ -450,10 +446,8 @@ msgid "Regular file"
 msgstr "Normal dosya"
 
 #: src/dialogs/editor.tsx:235
-#, fuzzy
-#| msgid "Upload"
 msgid "Reload"
-msgstr "Karşıya yükle"
+msgstr "Yeniden yükle"
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove current directory"
@@ -477,7 +471,7 @@ msgstr "$0 dosyası değiştirilsin mi?"
 
 #: src/dialogs/editor.tsx:207
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #: src/files-card-body.tsx:424 src/header.tsx:244
 msgid "Show hidden items"
@@ -509,15 +503,15 @@ msgstr "Sembolik bağlantı"
 
 #: src/dialogs/editor.tsx:57
 msgid "The existing file changed unexpectedly"
-msgstr ""
+msgstr "Var olan dosya beklenmedik şekilde değişti"
 
 #: src/dialogs/editor.tsx:55 src/dialogs/editor.tsx:229
 msgid "The file has been removed on disk"
-msgstr ""
+msgstr "Dosya diskten kaldırıldı"
 
 #: src/dialogs/editor.tsx:230
 msgid "The file has changed on disk"
-msgstr ""
+msgstr "Dosya disk üzerinde değişti"
 
 #: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
@@ -549,7 +543,7 @@ msgstr "Yüklenenler"
 
 #: src/dialogs/editor.tsx:168
 msgid "View “$0”"
-msgstr ""
+msgstr "“$0” dosyasını görüntüle"
 
 #: src/common.ts:28
 msgid "Write and execute"
