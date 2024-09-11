@@ -15,16 +15,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-11 02:58+0000\n"
-"PO-Revision-Date: 2024-08-07 06:21+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/sv/>\n"
+"PO-Revision-Date: 2024-09-11 19:15+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/menu.tsx:68
 msgid "\"$0\" exists, not overwriting with paste."
@@ -116,7 +117,7 @@ msgstr "Rensa filter"
 
 #: src/dialogs/editor.tsx:210
 msgid "Close"
-msgstr ""
+msgstr "Stäng"
 
 #: src/index.html:20
 msgid "Cockpit Files"
@@ -294,7 +295,7 @@ msgstr "Hem"
 
 #: src/dialogs/editor.tsx:238
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorera"
 
 #: src/upload-button.tsx:90
 msgid "Keep original"
@@ -450,10 +451,8 @@ msgid "Regular file"
 msgstr "Vanlig fil"
 
 #: src/dialogs/editor.tsx:235
-#, fuzzy
-#| msgid "Upload"
 msgid "Reload"
-msgstr "Ladda upp"
+msgstr "Läs om"
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove current directory"
