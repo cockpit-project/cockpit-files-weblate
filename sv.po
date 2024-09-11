@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-11 02:58+0000\n"
 "PO-Revision-Date: 2024-09-12 19:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
@@ -448,7 +447,7 @@ msgstr "Vanlig fil"
 
 #: src/dialogs/editor.tsx:235
 msgid "Reload"
-msgstr "Läs om"
+msgstr "Ladda om"
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove current directory"
@@ -504,15 +503,15 @@ msgstr "Symbolisk länk"
 
 #: src/dialogs/editor.tsx:57
 msgid "The existing file changed unexpectedly"
-msgstr ""
+msgstr "Den befintliga filen ändrades oväntat"
 
 #: src/dialogs/editor.tsx:55 src/dialogs/editor.tsx:229
 msgid "The file has been removed on disk"
-msgstr ""
+msgstr "Filen har tagits bort på disken"
 
 #: src/dialogs/editor.tsx:230
 msgid "The file has changed on disk"
-msgstr ""
+msgstr "Filen har ändrats på disken"
 
 #: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
@@ -544,7 +543,7 @@ msgstr "Uppladdningar"
 
 #: src/dialogs/editor.tsx:168
 msgid "View “$0”"
-msgstr ""
+msgstr "Visa ”$0”"
 
 #: src/common.ts:28
 msgid "Write and execute"
