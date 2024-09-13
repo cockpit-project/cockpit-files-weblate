@@ -15,16 +15,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-12 02:58+0000\n"
-"PO-Revision-Date: 2024-08-08 06:40+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/ko/>\n"
+"PO-Revision-Date: 2024-09-13 03:12+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: src/menu.tsx:68
 msgid "\"$0\" exists, not overwriting with paste."
@@ -113,7 +114,7 @@ msgstr "필터 지우기"
 
 #: src/dialogs/editor.tsx:210
 msgid "Close"
-msgstr ""
+msgstr "종료"
 
 #: src/index.html:20
 msgid "Cockpit Files"
@@ -291,7 +292,7 @@ msgstr "홈"
 
 #: src/dialogs/editor.tsx:238
 msgid "Ignore"
-msgstr ""
+msgstr "무시"
 
 #: src/upload-button.tsx:90
 msgid "Keep original"
@@ -474,7 +475,7 @@ msgstr "파일 $0를 교체합니까?"
 
 #: src/dialogs/editor.tsx:207
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 #: src/files-card-body.tsx:424 src/header.tsx:244
 msgid "Show hidden items"
