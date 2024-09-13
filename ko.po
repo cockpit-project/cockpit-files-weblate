@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-12 02:58+0000\n"
 "PO-Revision-Date: 2024-09-13 03:12+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -215,7 +214,7 @@ msgstr "권한을 편집합니다"
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:168
 msgid "Edit “$0”"
-msgstr ""
+msgstr "“$0” 편집"
 
 #: src/common.ts:26
 msgid "Execute-only"
@@ -364,7 +363,7 @@ msgstr "없음"
 
 #: src/menu.tsx:105
 msgid "Open text file"
-msgstr ""
+msgstr "텍스트 파일 열기"
 
 #: src/upload-button.tsx:111
 msgid "Original file on server"
@@ -396,16 +395,12 @@ msgid "Owner access"
 msgstr "소유자 접근"
 
 #: src/header.tsx:97
-#, fuzzy
-#| msgid "Owner access"
 msgid "Owner ascending"
-msgstr "소유자 접근"
+msgstr "소유자 오름차순"
 
 #: src/header.tsx:101
-#, fuzzy
-#| msgid "Owner permissions"
 msgid "Owner descending"
-msgstr "소유자 권한"
+msgstr "소유자 내림차순"
 
 #: src/sidebar.tsx:76
 msgid "Owner permissions"
@@ -448,10 +443,8 @@ msgid "Regular file"
 msgstr "일반 파일"
 
 #: src/dialogs/editor.tsx:235
-#, fuzzy
-#| msgid "Upload"
 msgid "Reload"
-msgstr "올려주기"
+msgstr "재적재"
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove current directory"
@@ -507,15 +500,15 @@ msgstr "심볼릭 링크"
 
 #: src/dialogs/editor.tsx:57
 msgid "The existing file changed unexpectedly"
-msgstr ""
+msgstr "기존 파일이 예상치 못하게 변경되었습니다"
 
 #: src/dialogs/editor.tsx:55 src/dialogs/editor.tsx:229
 msgid "The file has been removed on disk"
-msgstr ""
+msgstr "파일이 디스크에서 제거되었습니다"
 
 #: src/dialogs/editor.tsx:230
 msgid "The file has changed on disk"
-msgstr ""
+msgstr "파일이 디스크에서 변경되었습니다"
 
 #: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
@@ -547,7 +540,7 @@ msgstr "올려주기"
 
 #: src/dialogs/editor.tsx:168
 msgid "View “$0”"
-msgstr ""
+msgstr "“$0” 보기"
 
 #: src/common.ts:28
 msgid "Write and execute"
