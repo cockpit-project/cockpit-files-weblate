@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-16 03:06+0000\n"
-"PO-Revision-Date: 2024-09-16 08:29+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-09-16 08:34+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fi/>\n"
 "Language: fi\n"
@@ -79,11 +78,11 @@ msgstr "Käytä tätä toimintoa kaikkiin ristiriitaisiin tiedostoihin"
 
 #: src/common.ts:36
 msgid "Block device"
-msgstr "lohkolaite"
+msgstr "Lohkolaite"
 
 #: src/files-breadcrumbs.tsx:158
 msgid "Bookmarks"
-msgstr ""
+msgstr "Kirjanmerkit"
 
 #: src/upload-button.tsx:91 src/dialogs/rename.tsx:116
 #: src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
@@ -93,7 +92,7 @@ msgstr ""
 
 #: src/upload-button.tsx:301
 msgid "Cancel upload of $0"
-msgstr ""
+msgstr "Peru $0:n uloslataus"
 
 #: src/upload-button.tsx:239
 msgid "Cancelled"
@@ -101,7 +100,7 @@ msgstr ""
 
 #: src/upload-button.tsx:240
 msgid "Cancelled upload of $0"
-msgstr ""
+msgstr "$0:n uloslataus peruttu"
 
 #: src/dialogs/permissions.jsx:131
 msgid "Change"
