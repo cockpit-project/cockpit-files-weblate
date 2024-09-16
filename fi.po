@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-16 03:06+0000\n"
 "PO-Revision-Date: 2024-09-17 08:38+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fi/>\n"
 "Language: fi\n"
@@ -116,7 +117,7 @@ msgstr "Tyhjennä suodatin"
 
 #: src/dialogs/editor.tsx:210
 msgid "Close"
-msgstr ""
+msgstr "Sulje"
 
 #: src/index.html:20
 msgid "Cockpit Files"
@@ -124,11 +125,11 @@ msgstr "Cockpit-tiedostot"
 
 #: src/menu.tsx:113 src/menu.tsx:148
 msgid "Copy"
-msgstr ""
+msgstr "Kopio"
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
-msgstr ""
+msgstr "Luo"
 
 #: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
 msgid "Create directory"
@@ -136,7 +137,7 @@ msgstr "Luo hakemisto"
 
 #: src/dialogs/delete.tsx:87 src/menu.tsx:130 src/menu.tsx:153
 msgid "Delete"
-msgstr ""
+msgstr "Poista"
 
 #: src/dialogs/delete.tsx:43
 msgid "Delete $0 items?"
@@ -164,7 +165,7 @@ msgstr "Hakemistot ja tiedostot"
 
 #: src/common.ts:38
 msgid "Directory"
-msgstr ""
+msgstr "Hakemisto"
 
 #: src/files-card-body.tsx:416
 msgid "Directory is empty"
@@ -204,7 +205,7 @@ msgstr "Näytä luettelona"
 
 #: src/menu.tsx:140
 msgid "Download"
-msgstr ""
+msgstr "Lataus"
 
 #: src/files-breadcrumbs.tsx:299
 msgid "Edit path"
@@ -237,11 +238,11 @@ msgstr "Tiedostonimi on sama kuin alkuperäinen nimi"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
-msgstr ""
+msgstr "Tiedostot"
 
 #: src/files-breadcrumbs.tsx:239
 msgid "Filesystem"
-msgstr ""
+msgstr "Tiedostojärjestelmä"
 
 #: src/header.tsx:153
 msgid "Filter directory"
@@ -274,7 +275,7 @@ msgstr "Pakottaako linkin $0 poisto?"
 #: src/files-card-body.tsx:514 src/sidebar.tsx:60
 #: src/dialogs/permissions.jsx:162
 msgid "Group"
-msgstr ""
+msgstr "Ryhmä"
 
 #: src/dialogs/permissions.jsx:192
 msgid "Group access"
@@ -294,7 +295,7 @@ msgstr "Koti"
 
 #: src/dialogs/editor.tsx:238
 msgid "Ignore"
-msgstr ""
+msgstr "Ohita"
 
 #: src/upload-button.tsx:90
 msgid "Keep original"
@@ -326,11 +327,11 @@ msgstr "Eniten salliva"
 
 #: src/files-card-body.tsx:436 src/header.tsx:61
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: src/dialogs/rename.tsx:41
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "Nimi ei voi olla tyhjä."
 
 #: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /."
@@ -354,15 +355,15 @@ msgstr "Uusi tiedostonimi"
 
 #: src/dialogs/rename.tsx:120
 msgid "New name"
-msgstr ""
+msgstr "Uusi nimi"
 
 #: src/files-card-body.tsx:408
 msgid "No matching results"
-msgstr ""
+msgstr "Ei vastaavia tuloksia"
 
 #: src/common.ts:25
 msgid "None"
-msgstr ""
+msgstr "Ei mitään"
 
 #: src/menu.tsx:105
 msgid "Open text file"
@@ -378,7 +379,7 @@ msgstr "Muut käyttöoikeudet"
 
 #: src/files-card-body.tsx:514
 msgid "Others"
-msgstr ""
+msgstr "Muut"
 
 #: src/dialogs/permissions.jsx:204
 msgid "Others access"
@@ -386,12 +387,12 @@ msgstr "Muiden pääsy"
 
 #: src/dialogs/rename.tsx:114 src/dialogs/editor.tsx:194
 msgid "Overwrite"
-msgstr ""
+msgstr "Korvaa"
 
 #: src/files-card-body.tsx:446 src/files-card-body.tsx:514 src/header.tsx:94
 #: src/sidebar.tsx:55 src/dialogs/permissions.jsx:147
 msgid "Owner"
-msgstr ""
+msgstr "Omistaja"
 
 #: src/dialogs/permissions.jsx:180
 msgid "Owner access"
@@ -423,7 +424,7 @@ msgstr "Liittäminen epäonnistui"
 
 #: src/files-card-body.tsx:451 src/header.tsx:105
 msgid "Permissions"
-msgstr ""
+msgstr "Käyttöoikeudet"
 
 #: src/common.ts:30
 msgid "Read and execute"
@@ -439,7 +440,7 @@ msgstr "Luku, kirjoitus ja suoritus"
 
 #: src/dialogs/editor.tsx:171 src/common.ts:29
 msgid "Read-only"
-msgstr ""
+msgstr "Vain luku"
 
 #: src/common.ts:41
 msgid "Regular file"
@@ -447,7 +448,7 @@ msgstr "Säännöllinen tiedosto"
 
 #: src/dialogs/editor.tsx:235
 msgid "Reload"
-msgstr ""
+msgstr "Lataa uudelleen"
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove current directory"
@@ -455,7 +456,7 @@ msgstr "Poista nykyinen hakemisto"
 
 #: src/dialogs/rename.tsx:107 src/menu.tsx:124
 msgid "Rename"
-msgstr ""
+msgstr "Nimeä uudelleen"
 
 #: src/dialogs/rename.tsx:125
 msgid "Rename $0?"
@@ -463,7 +464,7 @@ msgstr "Nimetäänkö $0 uudelleen?"
 
 #: src/upload-button.tsx:88
 msgid "Replace"
-msgstr ""
+msgstr "Vaihda"
 
 #: src/upload-button.tsx:81
 msgid "Replace file $0?"
@@ -471,7 +472,7 @@ msgstr "Vaihdetaanko tiedosto $0?"
 
 #: src/dialogs/editor.tsx:207
 msgid "Save"
-msgstr ""
+msgstr "Tallenna"
 
 #: src/files-card-body.tsx:424 src/header.tsx:244
 msgid "Show hidden items"
@@ -479,7 +480,7 @@ msgstr "Näytä piilotetut kohteet"
 
 #: src/files-card-body.tsx:437 src/header.tsx:72 src/sidebar.tsx:67
 msgid "Size"
-msgstr ""
+msgstr "Koko"
 
 #: src/header.tsx:79
 msgid "Smallest size"
@@ -568,7 +569,7 @@ msgstr "tiedostot"
 
 #: src/manifest.json:0
 msgid "filesystem"
-msgstr ""
+msgstr "tiedostojärjestelmä"
 
 #. Translators: $0 represents a filename
 #: src/dialogs/permissions.jsx:121
