@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 02:59+0000\n"
+"POT-Creation-Date: 2024-09-19 03:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 02:59+0000\n"
+"POT-Creation-Date: 2024-09-19 03:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
-#: src/sidebar.tsx:117
+#: src/sidebar.tsx:118
 msgid "$0 item"
 msgid_plural "$0 items"
 msgstr[0] ""
@@ -65,7 +65,7 @@ msgid_plural "$0 items are hidden"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/sidebar.tsx:119
+#: src/sidebar.tsx:120
 msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
 msgstr[0] ""
@@ -85,7 +85,7 @@ msgstr ""
 msgid "A-Z"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:178
+#: src/dialogs/permissions.jsx:179
 msgid "Access"
 msgstr ""
 
@@ -105,9 +105,9 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/upload-button.tsx:91 src/dialogs/rename.tsx:116
-#: src/dialogs/mkdir.tsx:108 src/dialogs/delete.tsx:88
-#: src/dialogs/permissions.jsx:133 src/dialogs/editor.tsx:210
+#: src/dialogs/mkdir.tsx:108 src/dialogs/editor.tsx:210
+#: src/dialogs/permissions.jsx:134 src/dialogs/rename.tsx:116
+#: src/dialogs/delete.tsx:88 src/upload-button.tsx:91
 msgid "Cancel"
 msgstr ""
 
@@ -123,7 +123,7 @@ msgstr ""
 msgid "Cancelled upload of $0"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:131
+#: src/dialogs/permissions.jsx:132
 msgid "Change"
 msgstr ""
 
@@ -151,11 +151,11 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
+#: src/menu.tsx:83 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
 msgstr ""
 
-#: src/dialogs/delete.tsx:87 src/menu.tsx:130 src/menu.tsx:153
+#: src/menu.tsx:130 src/menu.tsx:153 src/dialogs/delete.tsx:87
 msgid "Delete"
 msgstr ""
 
@@ -231,7 +231,7 @@ msgstr ""
 msgid "Edit path"
 msgstr ""
 
-#: src/sidebar.tsx:183 src/menu.tsx:89 src/menu.tsx:119
+#: src/menu.tsx:89 src/menu.tsx:119 src/sidebar.tsx:184
 msgid "Edit permissions"
 msgstr ""
 
@@ -292,16 +292,16 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/files-card-body.tsx:514 src/sidebar.tsx:60
-#: src/dialogs/permissions.jsx:162
+#: src/files-card-body.tsx:514 src/dialogs/permissions.jsx:163
+#: src/sidebar.tsx:61
 msgid "Group"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:192
+#: src/dialogs/permissions.jsx:193
 msgid "Group access"
 msgstr ""
 
-#: src/sidebar.tsx:81
+#: src/sidebar.tsx:82
 msgid "Group permissions"
 msgstr ""
 
@@ -325,7 +325,7 @@ msgstr ""
 msgid "Largest size"
 msgstr ""
 
-#: src/header.tsx:90 src/sidebar.tsx:50
+#: src/sidebar.tsx:51 src/header.tsx:90
 msgid "Last modified"
 msgstr ""
 
@@ -393,7 +393,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr ""
 
-#: src/sidebar.tsx:86
+#: src/sidebar.tsx:87
 msgid "Other permissions"
 msgstr ""
 
@@ -401,20 +401,20 @@ msgstr ""
 msgid "Others"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:204
+#: src/dialogs/permissions.jsx:205
 msgid "Others access"
 msgstr ""
 
-#: src/dialogs/rename.tsx:114 src/dialogs/editor.tsx:194
+#: src/dialogs/editor.tsx:194 src/dialogs/rename.tsx:114
 msgid "Overwrite"
 msgstr ""
 
-#: src/files-card-body.tsx:446 src/files-card-body.tsx:514 src/header.tsx:94
-#: src/sidebar.tsx:55 src/dialogs/permissions.jsx:147
+#: src/files-card-body.tsx:446 src/files-card-body.tsx:514
+#: src/dialogs/permissions.jsx:148 src/sidebar.tsx:56 src/header.tsx:94
 msgid "Owner"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:180
+#: src/dialogs/permissions.jsx:181
 msgid "Owner access"
 msgstr ""
 
@@ -426,11 +426,11 @@ msgstr ""
 msgid "Owner descending"
 msgstr ""
 
-#: src/sidebar.tsx:76
+#: src/sidebar.tsx:77
 msgid "Owner permissions"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:146
+#: src/dialogs/permissions.jsx:147
 msgid "Ownership"
 msgstr ""
 
@@ -474,7 +474,7 @@ msgstr ""
 msgid "Remove current directory"
 msgstr ""
 
-#: src/dialogs/rename.tsx:107 src/menu.tsx:124
+#: src/menu.tsx:124 src/dialogs/rename.tsx:107
 msgid "Rename"
 msgstr ""
 
@@ -498,7 +498,7 @@ msgstr ""
 msgid "Show hidden items"
 msgstr ""
 
-#: src/files-card-body.tsx:437 src/header.tsx:72 src/sidebar.tsx:67
+#: src/files-card-body.tsx:437 src/sidebar.tsx:68 src/header.tsx:72
 msgid "Size"
 msgstr ""
 
@@ -592,6 +592,6 @@ msgid "filesystem"
 msgstr ""
 
 #. Translators: $0 represents a filename
-#: src/dialogs/permissions.jsx:121
+#: src/dialogs/permissions.jsx:122
 msgid "“$0” permissions"
 msgstr ""
