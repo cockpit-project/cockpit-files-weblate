@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 03:03+0000\n"
+"POT-Creation-Date: 2024-09-25 03:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 03:03+0000\n"
+"POT-Creation-Date: 2024-09-25 03:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
-#: src/sidebar.tsx:118
+#: src/sidebar.tsx:112
 msgid "$0 item"
 msgid_plural "$0 items"
 msgstr[0] ""
@@ -65,7 +65,7 @@ msgid_plural "$0 items are hidden"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/sidebar.tsx:120
+#: src/sidebar.tsx:114
 msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
 msgstr[0] ""
@@ -81,7 +81,7 @@ msgid ""
 "overwrite its content."
 msgstr ""
 
-#: src/header.tsx:64
+#: src/header.tsx:68
 msgid "A-Z"
 msgstr ""
 
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/header.tsx:147
+#: src/header.tsx:177
 msgid "Directories & files"
 msgstr ""
 
@@ -215,11 +215,11 @@ msgstr ""
 msgid "Directory with the same name exists"
 msgstr ""
 
-#: src/header.tsx:213
+#: src/header.tsx:250
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:212
+#: src/header.tsx:249
 msgid "Display as a list"
 msgstr ""
 
@@ -231,7 +231,7 @@ msgstr ""
 msgid "Edit path"
 msgstr ""
 
-#: src/menu.tsx:89 src/menu.tsx:119 src/sidebar.tsx:184
+#: src/menu.tsx:89 src/menu.tsx:119 src/sidebar.tsx:157
 msgid "Edit permissions"
 msgstr ""
 
@@ -264,11 +264,11 @@ msgstr ""
 msgid "Filesystem"
 msgstr ""
 
-#: src/header.tsx:153
+#: src/header.tsx:184
 msgid "Filter directory"
 msgstr ""
 
-#: src/header.tsx:86
+#: src/header.tsx:90
 msgid "First modified"
 msgstr ""
 
@@ -293,7 +293,7 @@ msgid "Force delete link $0?"
 msgstr ""
 
 #: src/files-card-body.tsx:514 src/dialogs/permissions.jsx:163
-#: src/sidebar.tsx:61
+#: src/sidebar.tsx:57
 msgid "Group"
 msgstr ""
 
@@ -301,11 +301,11 @@ msgstr ""
 msgid "Group access"
 msgstr ""
 
-#: src/sidebar.tsx:82
+#: src/sidebar.tsx:78
 msgid "Group permissions"
 msgstr ""
 
-#: src/header.tsx:244
+#: src/header.tsx:281
 msgid "Hide hidden items"
 msgstr ""
 
@@ -321,15 +321,15 @@ msgstr ""
 msgid "Keep original"
 msgstr ""
 
-#: src/header.tsx:75
+#: src/header.tsx:79
 msgid "Largest size"
 msgstr ""
 
-#: src/sidebar.tsx:51 src/header.tsx:90
+#: src/sidebar.tsx:47 src/header.tsx:94
 msgid "Last modified"
 msgstr ""
 
-#: src/header.tsx:112
+#: src/header.tsx:116
 msgid "Least permissive"
 msgstr ""
 
@@ -337,15 +337,15 @@ msgstr ""
 msgid "Manage your files"
 msgstr ""
 
-#: src/files-card-body.tsx:441 src/header.tsx:83
+#: src/files-card-body.tsx:441 src/header.tsx:87
 msgid "Modified"
 msgstr ""
 
-#: src/header.tsx:108
+#: src/header.tsx:112
 msgid "Most permissive"
 msgstr ""
 
-#: src/files-card-body.tsx:436 src/header.tsx:61
+#: src/files-card-body.tsx:436 src/header.tsx:65
 msgid "Name"
 msgstr ""
 
@@ -393,7 +393,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr ""
 
-#: src/sidebar.tsx:87
+#: src/sidebar.tsx:83
 msgid "Other permissions"
 msgstr ""
 
@@ -410,7 +410,7 @@ msgid "Overwrite"
 msgstr ""
 
 #: src/files-card-body.tsx:446 src/files-card-body.tsx:514
-#: src/dialogs/permissions.jsx:148 src/sidebar.tsx:56 src/header.tsx:94
+#: src/dialogs/permissions.jsx:148 src/sidebar.tsx:52 src/header.tsx:98
 msgid "Owner"
 msgstr ""
 
@@ -418,15 +418,15 @@ msgstr ""
 msgid "Owner access"
 msgstr ""
 
-#: src/header.tsx:97
+#: src/header.tsx:101
 msgid "Owner ascending"
 msgstr ""
 
-#: src/header.tsx:101
+#: src/header.tsx:105
 msgid "Owner descending"
 msgstr ""
 
-#: src/sidebar.tsx:77
+#: src/sidebar.tsx:73
 msgid "Owner permissions"
 msgstr ""
 
@@ -442,7 +442,7 @@ msgstr ""
 msgid "Pasting failed"
 msgstr ""
 
-#: src/files-card-body.tsx:451 src/header.tsx:105
+#: src/files-card-body.tsx:451 src/header.tsx:109
 msgid "Permissions"
 msgstr ""
 
@@ -494,15 +494,15 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: src/files-card-body.tsx:424 src/header.tsx:244
+#: src/files-card-body.tsx:424 src/header.tsx:281
 msgid "Show hidden items"
 msgstr ""
 
-#: src/files-card-body.tsx:437 src/sidebar.tsx:68 src/header.tsx:72
+#: src/files-card-body.tsx:437 src/sidebar.tsx:64 src/header.tsx:76
 msgid "Size"
 msgstr ""
 
-#: src/header.tsx:79
+#: src/header.tsx:83
 msgid "Smallest size"
 msgstr ""
 
@@ -510,7 +510,7 @@ msgstr ""
 msgid "Socket"
 msgstr ""
 
-#: src/header.tsx:231
+#: src/header.tsx:268
 msgid "Sort"
 msgstr ""
 
@@ -575,7 +575,7 @@ msgstr ""
 msgid "Write-only"
 msgstr ""
 
-#: src/header.tsx:68
+#: src/header.tsx:72
 msgid "Z-A"
 msgstr ""
 
