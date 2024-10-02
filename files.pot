@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-01 03:19+0000\n"
+"POT-Creation-Date: 2024-10-02 03:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-01 03:19+0000\n"
+"POT-Creation-Date: 2024-10-02 03:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/menu.tsx:68
+#: src/menu.tsx:57
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
@@ -59,7 +59,7 @@ msgid_plural "$0 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/files-card-body.tsx:421
+#: src/files-card-body.tsx:508
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
 msgstr[0] ""
@@ -81,12 +81,17 @@ msgid ""
 "overwrite its content."
 msgstr ""
 
-#: src/header.tsx:68
+#: src/header.tsx:69
 msgid "A-Z"
 msgstr ""
 
 #: src/dialogs/permissions.jsx:179
 msgid "Access"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:57
+#: src/dialogs/keyboardShortcutsHelp.tsx:63
+msgid "Activate selected item, enter directory"
 msgstr ""
 
 #: src/files-breadcrumbs.tsx:147
@@ -131,11 +136,11 @@ msgstr ""
 msgid "Character device"
 msgstr ""
 
-#: src/files-card-body.tsx:409
+#: src/files-card-body.tsx:496
 msgid "Clear filter"
 msgstr ""
 
-#: src/dialogs/editor.tsx:210
+#: src/dialogs/editor.tsx:210 src/dialogs/keyboardShortcutsHelp.tsx:18
 msgid "Close"
 msgstr ""
 
@@ -143,19 +148,27 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/menu.tsx:113 src/menu.tsx:148
+#: src/menu.tsx:120 src/menu.tsx:155
 msgid "Copy"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:92
+msgid "Copy selected file or directory"
 msgstr ""
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
 msgstr ""
 
-#: src/menu.tsx:83 src/dialogs/mkdir.tsx:92
+#: src/menu.tsx:90 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
 msgstr ""
 
-#: src/menu.tsx:130 src/menu.tsx:153 src/dialogs/delete.tsx:87
+#: src/dialogs/keyboardShortcutsHelp.tsx:86
+msgid "Create new directory"
+msgstr ""
+
+#: src/menu.tsx:137 src/menu.tsx:160 src/dialogs/delete.tsx:87
 msgid "Delete"
 msgstr ""
 
@@ -179,7 +192,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/header.tsx:177
+#: src/header.tsx:190
 msgid "Directories & files"
 msgstr ""
 
@@ -187,7 +200,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/files-card-body.tsx:416
+#: src/files-card-body.tsx:503
 msgid "Directory is empty"
 msgstr ""
 
@@ -215,29 +228,33 @@ msgstr ""
 msgid "Directory with the same name exists"
 msgstr ""
 
-#: src/header.tsx:250
+#: src/header.tsx:263
 msgid "Display as a grid"
 msgstr ""
 
-#: src/header.tsx:249
+#: src/header.tsx:262
 msgid "Display as a list"
 msgstr ""
 
-#: src/menu.tsx:140
+#: src/menu.tsx:147
 msgid "Download"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:299
+#: src/files-breadcrumbs.tsx:307 src/dialogs/keyboardShortcutsHelp.tsx:71
 msgid "Edit path"
 msgstr ""
 
-#: src/menu.tsx:89 src/menu.tsx:119 src/sidebar.tsx:157
+#: src/menu.tsx:96 src/menu.tsx:126 src/sidebar.tsx:157
 msgid "Edit permissions"
 msgstr ""
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:168
 msgid "Edit “$0”"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:131
+msgid "Editing"
 msgstr ""
 
 #: src/common.ts:26
@@ -264,11 +281,11 @@ msgstr ""
 msgid "Filesystem"
 msgstr ""
 
-#: src/header.tsx:184
+#: src/header.tsx:197
 msgid "Filter directory"
 msgstr ""
 
-#: src/header.tsx:90
+#: src/header.tsx:91
 msgid "First modified"
 msgstr ""
 
@@ -292,7 +309,19 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/files-card-body.tsx:514 src/dialogs/permissions.jsx:163
+#: src/dialogs/keyboardShortcutsHelp.tsx:45
+msgid "Go back"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:51
+msgid "Go forward"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:39
+msgid "Go up a directory"
+msgstr ""
+
+#: src/files-card-body.tsx:601 src/dialogs/permissions.jsx:163
 #: src/sidebar.tsx:57
 msgid "Group"
 msgstr ""
@@ -305,7 +334,7 @@ msgstr ""
 msgid "Group permissions"
 msgstr ""
 
-#: src/header.tsx:281
+#: src/header.tsx:294
 msgid "Hide hidden items"
 msgstr ""
 
@@ -321,15 +350,19 @@ msgstr ""
 msgid "Keep original"
 msgstr ""
 
-#: src/header.tsx:79
+#: src/dialogs/keyboardShortcutsHelp.tsx:112
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: src/header.tsx:80
 msgid "Largest size"
 msgstr ""
 
-#: src/sidebar.tsx:47 src/header.tsx:94
+#: src/sidebar.tsx:47 src/header.tsx:95
 msgid "Last modified"
 msgstr ""
 
-#: src/header.tsx:116
+#: src/header.tsx:117
 msgid "Least permissive"
 msgstr ""
 
@@ -337,15 +370,15 @@ msgstr ""
 msgid "Manage your files"
 msgstr ""
 
-#: src/files-card-body.tsx:441 src/header.tsx:87
+#: src/files-card-body.tsx:528 src/header.tsx:88
 msgid "Modified"
 msgstr ""
 
-#: src/header.tsx:112
+#: src/header.tsx:113
 msgid "Most permissive"
 msgstr ""
 
-#: src/files-card-body.tsx:436 src/header.tsx:65
+#: src/files-card-body.tsx:523 src/header.tsx:66
 msgid "Name"
 msgstr ""
 
@@ -365,6 +398,10 @@ msgstr ""
 msgid "Named pipe"
 msgstr ""
 
+#: src/dialogs/keyboardShortcutsHelp.tsx:121
+msgid "Navigation"
+msgstr ""
+
 #: src/upload-button.tsx:106
 msgid "New file"
 msgstr ""
@@ -377,7 +414,7 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
-#: src/files-card-body.tsx:408
+#: src/files-card-body.tsx:495
 msgid "No matching results"
 msgstr ""
 
@@ -385,7 +422,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/menu.tsx:105
+#: src/menu.tsx:112
 msgid "Open text file"
 msgstr ""
 
@@ -397,7 +434,7 @@ msgstr ""
 msgid "Other permissions"
 msgstr ""
 
-#: src/files-card-body.tsx:514
+#: src/files-card-body.tsx:601
 msgid "Others"
 msgstr ""
 
@@ -409,8 +446,8 @@ msgstr ""
 msgid "Overwrite"
 msgstr ""
 
-#: src/files-card-body.tsx:446 src/files-card-body.tsx:514
-#: src/dialogs/permissions.jsx:148 src/sidebar.tsx:52 src/header.tsx:98
+#: src/files-card-body.tsx:533 src/files-card-body.tsx:601
+#: src/dialogs/permissions.jsx:148 src/sidebar.tsx:52 src/header.tsx:99
 msgid "Owner"
 msgstr ""
 
@@ -418,11 +455,11 @@ msgstr ""
 msgid "Owner access"
 msgstr ""
 
-#: src/header.tsx:101
+#: src/header.tsx:102
 msgid "Owner ascending"
 msgstr ""
 
-#: src/header.tsx:105
+#: src/header.tsx:106
 msgid "Owner descending"
 msgstr ""
 
@@ -434,15 +471,19 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/menu.tsx:62
+#: src/menu.tsx:83
 msgid "Paste"
 msgstr ""
 
-#: src/menu.tsx:67
+#: src/dialogs/keyboardShortcutsHelp.tsx:98
+msgid "Paste file or directory"
+msgstr ""
+
+#: src/menu.tsx:56
 msgid "Pasting failed"
 msgstr ""
 
-#: src/files-card-body.tsx:451 src/header.tsx:109
+#: src/files-card-body.tsx:538 src/header.tsx:110
 msgid "Permissions"
 msgstr ""
 
@@ -474,12 +515,16 @@ msgstr ""
 msgid "Remove current directory"
 msgstr ""
 
-#: src/menu.tsx:124 src/dialogs/rename.tsx:107
+#: src/menu.tsx:131 src/dialogs/rename.tsx:107
 msgid "Rename"
 msgstr ""
 
 #: src/dialogs/rename.tsx:125
 msgid "Rename $0?"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:79
+msgid "Rename selected file or directory"
 msgstr ""
 
 #: src/upload-button.tsx:88
@@ -494,15 +539,23 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: src/files-card-body.tsx:424 src/header.tsx:281
+#: src/dialogs/keyboardShortcutsHelp.tsx:104
+msgid "Select all"
+msgstr ""
+
+#: src/files-card-body.tsx:511 src/header.tsx:294
 msgid "Show hidden items"
 msgstr ""
 
-#: src/files-card-body.tsx:437 src/sidebar.tsx:64 src/header.tsx:76
+#: src/header.tsx:165
+msgid "Show keyboard shortcuts"
+msgstr ""
+
+#: src/files-card-body.tsx:524 src/sidebar.tsx:64 src/header.tsx:77
 msgid "Size"
 msgstr ""
 
-#: src/header.tsx:83
+#: src/header.tsx:84
 msgid "Smallest size"
 msgstr ""
 
@@ -510,7 +563,7 @@ msgstr ""
 msgid "Socket"
 msgstr ""
 
-#: src/header.tsx:268
+#: src/header.tsx:281
 msgid "Sort"
 msgstr ""
 
@@ -575,7 +628,7 @@ msgstr ""
 msgid "Write-only"
 msgstr ""
 
-#: src/header.tsx:72
+#: src/header.tsx:73
 msgid "Z-A"
 msgstr ""
 
