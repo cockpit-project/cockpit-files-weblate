@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
-"PO-Revision-Date: 2024-09-12 19:38+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/sv/>\n"
+"PO-Revision-Date: 2024-10-05 15:38+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,10 +70,8 @@ msgstr "Åtkomst"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:57
 #: src/dialogs/keyboardShortcutsHelp.tsx:63
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Activate selected item, enter directory"
-msgstr "Klistra in i katalog"
+msgstr "Aktivera valt objekt, gå in i katalog"
 
 #: src/files-breadcrumbs.tsx:147
 msgid "Add bookmark"
@@ -134,10 +132,8 @@ msgid "Copy"
 msgstr "Kopiera"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Copy selected file or directory"
-msgstr "Klistra in i katalog"
+msgstr "Kopiera vald fil eller katalog"
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
@@ -148,10 +144,8 @@ msgid "Create directory"
 msgstr "Skapa katalog"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
-#, fuzzy
-#| msgid "Create directory"
 msgid "Create new directory"
-msgstr "Skapa katalog"
+msgstr "Skapa ny katalog"
 
 #: src/menu.tsx:137 src/menu.tsx:160 src/dialogs/delete.tsx:87
 msgid "Delete"
@@ -240,7 +234,7 @@ msgstr "Redigera ”$0”"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
 msgid "Editing"
-msgstr ""
+msgstr "Redigerar"
 
 #: src/common.ts:26
 msgid "Execute-only"
@@ -296,17 +290,15 @@ msgstr "Tvinga radering av länk $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:45
 msgid "Go back"
-msgstr ""
+msgstr "Gå tillbaka"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:51
 msgid "Go forward"
-msgstr ""
+msgstr "Gå framåt"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:39
-#, fuzzy
-#| msgid "Create directory"
 msgid "Go up a directory"
-msgstr "Skapa katalog"
+msgstr "Gå upp en katalog"
 
 #: src/files-card-body.tsx:601 src/dialogs/permissions.jsx:163
 #: src/sidebar.tsx:57
@@ -339,7 +331,7 @@ msgstr "Behåll original"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:112
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Tangentbordsgenvägar"
 
 #: src/header.tsx:80
 msgid "Largest size"
@@ -463,10 +455,8 @@ msgid "Paste"
 msgstr "Klistra in"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:98
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Paste file or directory"
-msgstr "Klistra in i katalog"
+msgstr "Klistra in fil eller katalog"
 
 #: src/menu.tsx:56
 msgid "Pasting failed"
@@ -513,10 +503,8 @@ msgid "Rename $0?"
 msgstr "Byt namn på $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Rename selected file or directory"
-msgstr "Klistra in i katalog"
+msgstr "Byt namn på vald fil eller katalog"
 
 #: src/upload-button.tsx:88
 msgid "Replace"
@@ -540,7 +528,7 @@ msgstr "Visa dolda objekt"
 
 #: src/header.tsx:165
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "Visa tangentbordsgenvägar"
 
 #: src/files-card-body.tsx:524 src/sidebar.tsx:64 src/header.tsx:77
 msgid "Size"
