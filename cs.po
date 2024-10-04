@@ -15,8 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
-"PO-Revision-Date: 2024-10-04 14:50+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"PO-Revision-Date: 2024-10-05 15:38+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -131,7 +132,7 @@ msgstr "Cockpit Soubory"
 
 #: src/menu.tsx:120 src/menu.tsx:155
 msgid "Copy"
-msgstr "kopírovat"
+msgstr "Zkopírovat"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
 msgid "Copy selected file or directory"
@@ -139,7 +140,7 @@ msgstr "Zkopírovat označený soubor či složku"
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
-msgstr "vytvořit"
+msgstr "Vytvořit"
 
 #: src/menu.tsx:90 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
@@ -179,7 +180,7 @@ msgstr "Složky a soubory"
 
 #: src/common.ts:38
 msgid "Directory"
-msgstr "Adresář"
+msgstr "Složka"
 
 #: src/files-card-body.tsx:503
 msgid "Directory is empty"
@@ -256,7 +257,7 @@ msgstr "Tento název souboru je stejný jako ten předchozí"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
-msgstr "soubory"
+msgstr "Soubory"
 
 #: src/files-breadcrumbs.tsx:239
 msgid "Filesystem"
@@ -361,7 +362,7 @@ msgstr "Nepřístupnější"
 
 #: src/files-card-body.tsx:523 src/header.tsx:66
 msgid "Name"
-msgstr "jméno"
+msgstr "Název"
 
 #: src/dialogs/rename.tsx:41
 msgid "Name cannot be empty."
