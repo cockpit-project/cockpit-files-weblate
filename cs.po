@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
 "PO-Revision-Date: 2024-10-04 14:49+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -578,7 +579,7 @@ msgstr "Nepodařilo se uložit soubor se záložkami"
 
 #: src/upload-button.tsx:337
 msgid "Upload"
-msgstr ""
+msgstr "Nahrát"
 
 #: src/upload-button.tsx:318
 msgid "Upload $0% completed"
@@ -586,7 +587,7 @@ msgstr "Nahrávání z $0% dokončeno"
 
 #: src/upload-button.tsx:259
 msgid "Upload complete"
-msgstr ""
+msgstr "Nahrání dokončeno"
 
 #: src/upload-button.tsx:242
 msgid "Upload error"
@@ -618,7 +619,7 @@ msgstr "průzkumník"
 
 #: src/manifest.json:0
 msgid "files"
-msgstr ""
+msgstr "Soubory"
 
 #: src/manifest.json:0
 msgid "filesystem"
