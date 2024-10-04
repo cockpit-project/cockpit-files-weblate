@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
-"PO-Revision-Date: 2024-10-04 14:46+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-10-04 14:49+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -555,27 +554,27 @@ msgstr "Soubory úspěšně nahrány"
 
 #: src/common.ts:40
 msgid "Symbolic link"
-msgstr "symbolický link"
+msgstr "Symbolický odkaz"
 
 #: src/dialogs/editor.tsx:57
 msgid "The existing file changed unexpectedly"
-msgstr ""
+msgstr "Existující soubor byl mezitím neočekávaně změněn"
 
 #: src/dialogs/editor.tsx:55 src/dialogs/editor.tsx:229
 msgid "The file has been removed on disk"
-msgstr ""
+msgstr "Soubor byl odebrán z úložiště"
 
 #: src/dialogs/editor.tsx:230
 msgid "The file has changed on disk"
-msgstr ""
+msgstr "Soubor byl na úložišti změněn"
 
 #: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
-msgstr ""
+msgstr "Nepodařilo se vytvořit složku záložek"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
-msgstr ""
+msgstr "Nepodařilo se uložit soubor se záložkami"
 
 #: src/upload-button.tsx:337
 msgid "Upload"
@@ -583,7 +582,7 @@ msgstr ""
 
 #: src/upload-button.tsx:318
 msgid "Upload $0% completed"
-msgstr ""
+msgstr "Nahrávání z $0% dokončeno"
 
 #: src/upload-button.tsx:259
 msgid "Upload complete"
@@ -591,31 +590,31 @@ msgstr ""
 
 #: src/upload-button.tsx:242
 msgid "Upload error"
-msgstr ""
+msgstr "Chyba nahrávání"
 
 #: src/upload-button.tsx:282
 msgid "Uploads"
-msgstr ""
+msgstr "Nahrání"
 
 #: src/dialogs/editor.tsx:168
 msgid "View “$0”"
-msgstr ""
+msgstr "Zobrazit „$0“"
 
 #: src/common.ts:28
 msgid "Write and execute"
-msgstr ""
+msgstr "Zápis a spouštění"
 
 #: src/common.ts:27
 msgid "Write-only"
-msgstr ""
+msgstr "Pouze zápis"
 
 #: src/header.tsx:73
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: src/manifest.json:0
 msgid "explorer"
-msgstr ""
+msgstr "průzkumník"
 
 #: src/manifest.json:0
 msgid "files"
