@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 02:59+0000\n"
-"PO-Revision-Date: 2024-10-04 13:00+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-10-04 13:02+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -207,38 +206,36 @@ msgstr "Zobrazit jako seznam"
 
 #: src/menu.tsx:140
 msgid "Download"
-msgstr "Stažení"
+msgstr "Stáhnout"
 
 #: src/files-breadcrumbs.tsx:299
 msgid "Edit path"
-msgstr ""
+msgstr "Upravit popis umístění"
 
 #: src/sidebar.tsx:183 src/menu.tsx:89 src/menu.tsx:119
 msgid "Edit permissions"
-msgstr ""
+msgstr "Upravit oprávnění"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:168
 msgid "Edit “$0”"
-msgstr ""
+msgstr "Upravit „$0“"
 
 #: src/common.ts:26
 msgid "Execute-only"
-msgstr ""
+msgstr "Pouze spouštět"
 
 #: src/manifest.json:0
 msgid "File browser"
-msgstr ""
+msgstr "Procházení souborů"
 
 #: src/dialogs/rename.tsx:52
-#, fuzzy
-#| msgid "Files"
 msgid "File exists"
-msgstr "soubory"
+msgstr "Soubor existuje"
 
 #: src/dialogs/rename.tsx:47
 msgid "Filename is the same as original name"
-msgstr ""
+msgstr "Tento název souboru je stejný jako ten předchozí"
 
 #: org.cockpit-project.files.metainfo.xml:5
 msgid "Files"
@@ -252,7 +249,7 @@ msgstr "soubory"
 
 #: src/header.tsx:153
 msgid "Filter directory"
-msgstr ""
+msgstr "Filtrovat složku"
 
 #: src/header.tsx:86
 msgid "First modified"
