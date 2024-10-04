@@ -15,8 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
-"PO-Revision-Date: 2024-10-04 14:42+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"PO-Revision-Date: 2024-10-04 14:44+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -401,7 +402,7 @@ msgstr "Žádné shodující se výsledky"
 
 #: src/common.ts:25
 msgid "None"
-msgstr ""
+msgstr "Žádné"
 
 #: src/menu.tsx:112
 msgid "Open text file"
@@ -417,7 +418,7 @@ msgstr ""
 
 #: src/files-card-body.tsx:601
 msgid "Others"
-msgstr ""
+msgstr "Ostatní"
 
 #: src/dialogs/permissions.jsx:205
 msgid "Others access"
@@ -425,12 +426,12 @@ msgstr ""
 
 #: src/dialogs/editor.tsx:194 src/dialogs/rename.tsx:114
 msgid "Overwrite"
-msgstr ""
+msgstr "Přepsat"
 
 #: src/files-card-body.tsx:533 src/files-card-body.tsx:601
 #: src/dialogs/permissions.jsx:148 src/sidebar.tsx:52 src/header.tsx:99
 msgid "Owner"
-msgstr ""
+msgstr "Vlastník"
 
 #: src/dialogs/permissions.jsx:181
 msgid "Owner access"
@@ -454,7 +455,7 @@ msgstr ""
 
 #: src/menu.tsx:83
 msgid "Paste"
-msgstr ""
+msgstr "Vložit"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:98
 #, fuzzy
@@ -484,11 +485,11 @@ msgstr ""
 
 #: src/dialogs/editor.tsx:171 src/common.ts:29
 msgid "Read-only"
-msgstr ""
+msgstr "Pouze pro čtení"
 
 #: src/common.ts:41
 msgid "Regular file"
-msgstr ""
+msgstr "obyčejný soubor"
 
 #: src/dialogs/editor.tsx:235
 msgid "Reload"
