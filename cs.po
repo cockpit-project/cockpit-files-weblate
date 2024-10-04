@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
-"PO-Revision-Date: 2024-10-04 14:39+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-10-04 14:41+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -293,17 +292,15 @@ msgstr "Vynutit smazání odkazu $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:45
 msgid "Go back"
-msgstr "Jít zpět"
+msgstr "Přejít zpět"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:51
 msgid "Go forward"
-msgstr ""
+msgstr "Přejít vpřed"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:39
-#, fuzzy
-#| msgid "Create directory"
 msgid "Go up a directory"
-msgstr "Vytvořit složku"
+msgstr "Do nadřazené složky"
 
 #: src/files-card-body.tsx:601 src/dialogs/permissions.jsx:163
 #: src/sidebar.tsx:57
@@ -332,7 +329,7 @@ msgstr ""
 
 #: src/upload-button.tsx:90
 msgid "Keep original"
-msgstr ""
+msgstr "Ponechat původní"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:112
 msgid "Keyboard shortcuts"
@@ -340,27 +337,27 @@ msgstr ""
 
 #: src/header.tsx:80
 msgid "Largest size"
-msgstr ""
+msgstr "Největší velikost"
 
 #: src/sidebar.tsx:47 src/header.tsx:95
 msgid "Last modified"
-msgstr ""
+msgstr "Naposledy změněno"
 
 #: src/header.tsx:117
 msgid "Least permissive"
-msgstr ""
+msgstr "Nejméně přístupné"
 
 #: org.cockpit-project.files.metainfo.xml:6
 msgid "Manage your files"
-msgstr ""
+msgstr "Spravujte své soubory"
 
 #: src/files-card-body.tsx:528 src/header.tsx:88
 msgid "Modified"
-msgstr ""
+msgstr "Změněno"
 
 #: src/header.tsx:113
 msgid "Most permissive"
-msgstr ""
+msgstr "Nepřístupnější"
 
 #: src/files-card-body.tsx:523 src/header.tsx:66
 msgid "Name"
@@ -372,11 +369,11 @@ msgstr ""
 
 #: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /."
-msgstr ""
+msgstr "Název nemůže obsahovat /."
 
 #: src/dialogs/rename.tsx:43
 msgid "Name too long."
-msgstr ""
+msgstr "Název je příliš dlouhý."
 
 #: src/common.ts:39
 msgid "Named pipe"
