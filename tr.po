@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
-"PO-Revision-Date: 2024-09-11 19:15+0000\n"
+"PO-Revision-Date: 2024-10-05 15:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,10 +70,8 @@ msgstr "Erişim"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:57
 #: src/dialogs/keyboardShortcutsHelp.tsx:63
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Activate selected item, enter directory"
-msgstr "Dizinin içine yapıştır"
+msgstr "Seçili ögeyi etkinleştir, dizine gir"
 
 #: src/files-breadcrumbs.tsx:147
 msgid "Add bookmark"
@@ -134,10 +132,8 @@ msgid "Copy"
 msgstr "Kopyala"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Copy selected file or directory"
-msgstr "Dizinin içine yapıştır"
+msgstr "Seçili dosya veya dizini kopyala"
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
@@ -148,10 +144,8 @@ msgid "Create directory"
 msgstr "Dizin oluştur"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
-#, fuzzy
-#| msgid "Create directory"
 msgid "Create new directory"
-msgstr "Dizin oluştur"
+msgstr "Yeni dizin oluştur"
 
 #: src/menu.tsx:137 src/menu.tsx:160 src/dialogs/delete.tsx:87
 msgid "Delete"
@@ -240,7 +234,7 @@ msgstr "“$0” dosyasını düzenle"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
 msgid "Editing"
-msgstr ""
+msgstr "Düzenleme"
 
 #: src/common.ts:26
 msgid "Execute-only"
@@ -296,17 +290,15 @@ msgstr "$0 bağlantısı silmeye zorlansın mı?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:45
 msgid "Go back"
-msgstr ""
+msgstr "Geri git"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:51
 msgid "Go forward"
-msgstr ""
+msgstr "İleri git"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:39
-#, fuzzy
-#| msgid "Create directory"
 msgid "Go up a directory"
-msgstr "Dizin oluştur"
+msgstr "Bir dizin yukarı git"
 
 #: src/files-card-body.tsx:601 src/dialogs/permissions.jsx:163
 #: src/sidebar.tsx:57
@@ -339,7 +331,7 @@ msgstr "Orijinali sakla"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:112
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Klavye kısayolları"
 
 #: src/header.tsx:80
 msgid "Largest size"
@@ -387,7 +379,7 @@ msgstr "Adlı boru (pipe)"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:121
 msgid "Navigation"
-msgstr ""
+msgstr "Gezinme"
 
 #: src/upload-button.tsx:106
 msgid "New file"
@@ -463,10 +455,8 @@ msgid "Paste"
 msgstr "Yapıştır"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:98
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Paste file or directory"
-msgstr "Dizinin içine yapıştır"
+msgstr "Dosya veya dizini yapıştır"
 
 #: src/menu.tsx:56
 msgid "Pasting failed"
@@ -513,10 +503,8 @@ msgid "Rename $0?"
 msgstr "$0 yeniden adlandırılsın mı?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Rename selected file or directory"
-msgstr "Dizinin içine yapıştır"
+msgstr "Seçili dosya veya dizini yeniden adlandır"
 
 #: src/upload-button.tsx:88
 msgid "Replace"
@@ -532,7 +520,7 @@ msgstr "Kaydet"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Select all"
-msgstr ""
+msgstr "Tümünü seç"
 
 #: src/files-card-body.tsx:511 src/header.tsx:294
 msgid "Show hidden items"
@@ -540,7 +528,7 @@ msgstr "Gizli ögeleri göster"
 
 #: src/header.tsx:165
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "Klavye kısayollarını göster"
 
 #: src/files-card-body.tsx:524 src/sidebar.tsx:64 src/header.tsx:77
 msgid "Size"
