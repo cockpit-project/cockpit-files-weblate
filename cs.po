@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
-"PO-Revision-Date: 2024-10-04 14:49+0000\n"
+"PO-Revision-Date: 2024-10-04 14:50+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
@@ -96,7 +96,7 @@ msgstr "Záložka"
 #: src/dialogs/permissions.jsx:134 src/dialogs/rename.tsx:116
 #: src/dialogs/delete.tsx:88 src/upload-button.tsx:91
 msgid "Cancel"
-msgstr "Storno"
+msgstr "Zrušit"
 
 #: src/upload-button.tsx:301
 msgid "Cancel upload of $0"
@@ -623,7 +623,7 @@ msgstr "Soubory"
 
 #: src/manifest.json:0
 msgid "filesystem"
-msgstr ""
+msgstr "souborový systém"
 
 #. Translators: $0 represents a filename
 #: src/dialogs/permissions.jsx:122
