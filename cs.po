@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
 "PO-Revision-Date: 2024-10-04 14:46+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -554,7 +555,7 @@ msgstr "Soubory úspěšně nahrány"
 
 #: src/common.ts:40
 msgid "Symbolic link"
-msgstr ""
+msgstr "symbolický link"
 
 #: src/dialogs/editor.tsx:57
 msgid "The existing file changed unexpectedly"
