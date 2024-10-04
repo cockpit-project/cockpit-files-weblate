@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
 "PO-Revision-Date: 2024-10-04 14:50+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -619,7 +618,7 @@ msgstr "průzkumník"
 
 #: src/manifest.json:0
 msgid "files"
-msgstr "Soubory"
+msgstr "soubory"
 
 #: src/manifest.json:0
 msgid "filesystem"
@@ -628,4 +627,4 @@ msgstr "souborový systém"
 #. Translators: $0 represents a filename
 #: src/dialogs/permissions.jsx:122
 msgid "“$0” permissions"
-msgstr ""
+msgstr "oprávnění „$0“"
