@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
 "PO-Revision-Date: 2024-10-04 14:46+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -487,7 +486,7 @@ msgstr "Pouze pro čtení"
 
 #: src/common.ts:41
 msgid "Regular file"
-msgstr "obyčejný soubor"
+msgstr "Obyčejný soubor"
 
 #: src/dialogs/editor.tsx:235
 msgid "Reload"
@@ -495,7 +494,7 @@ msgstr "Načíst znovu"
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove current directory"
-msgstr ""
+msgstr "Odebrat stávající složku"
 
 #: src/menu.tsx:131 src/dialogs/rename.tsx:107
 msgid "Rename"
@@ -503,11 +502,11 @@ msgstr "Přejmenovat"
 
 #: src/dialogs/rename.tsx:125
 msgid "Rename $0?"
-msgstr ""
+msgstr "Přejmenovat $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
 msgid "Rename selected file or directory"
-msgstr ""
+msgstr "Přejmenovat označený soubor či složku"
 
 #: src/upload-button.tsx:88
 msgid "Replace"
@@ -515,7 +514,7 @@ msgstr "Nahradit"
 
 #: src/upload-button.tsx:81
 msgid "Replace file $0?"
-msgstr ""
+msgstr "Nahradit soubor $0?"
 
 #: src/dialogs/editor.tsx:207
 msgid "Save"
@@ -527,11 +526,11 @@ msgstr "Vybrat vše"
 
 #: src/files-card-body.tsx:511 src/header.tsx:294
 msgid "Show hidden items"
-msgstr ""
+msgstr "Zobrazit skryté položky"
 
 #: src/header.tsx:165
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "Zobrazit klávesové zkratky"
 
 #: src/files-card-body.tsx:524 src/sidebar.tsx:64 src/header.tsx:77
 msgid "Size"
@@ -539,7 +538,7 @@ msgstr "Velikost"
 
 #: src/header.tsx:84
 msgid "Smallest size"
-msgstr ""
+msgstr "Nejnižší velikost"
 
 #: src/common.ts:42
 msgid "Socket"
