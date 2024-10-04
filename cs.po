@@ -542,15 +542,15 @@ msgstr "Nejnižší velikost"
 
 #: src/common.ts:42
 msgid "Socket"
-msgstr "soket"
+msgstr "Soket"
 
 #: src/header.tsx:281
 msgid "Sort"
-msgstr ""
+msgstr "Seřadit"
 
 #: src/upload-button.tsx:259
 msgid "Successfully uploaded file(s)"
-msgstr ""
+msgstr "Soubory úspěšně nahrány"
 
 #: src/common.ts:40
 msgid "Symbolic link"
