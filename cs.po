@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 02:59+0000\n"
-"PO-Revision-Date: 2024-10-04 12:55+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-10-04 13:00+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -111,7 +110,7 @@ msgstr "Změna"
 
 #: src/common.ts:37
 msgid "Character device"
-msgstr "znakové zařízení"
+msgstr "Znakové zařízení"
 
 #: src/files-card-body.tsx:409
 msgid "Clear filter"
@@ -123,7 +122,7 @@ msgstr ""
 
 #: src/index.html:20
 msgid "Cockpit Files"
-msgstr ""
+msgstr "Cockpit Soubory"
 
 #: src/menu.tsx:113 src/menu.tsx:148
 msgid "Copy"
@@ -135,7 +134,7 @@ msgstr "vytvořit"
 
 #: src/dialogs/mkdir.tsx:92 src/menu.tsx:83
 msgid "Create directory"
-msgstr ""
+msgstr "Vytvořit složku"
 
 #: src/dialogs/delete.tsx:87 src/menu.tsx:130 src/menu.tsx:153
 msgid "Delete"
@@ -143,7 +142,7 @@ msgstr ""
 
 #: src/dialogs/delete.tsx:43
 msgid "Delete $0 items?"
-msgstr ""
+msgstr "Smazat $0 položek?"
 
 #: src/dialogs/delete.tsx:59
 msgid "Delete $0?"
@@ -151,19 +150,19 @@ msgstr ""
 
 #: src/dialogs/delete.tsx:56
 msgid "Delete directory $0?"
-msgstr ""
+msgstr "Smazat složku $0?"
 
 #: src/dialogs/delete.tsx:48
 msgid "Delete file $0?"
-msgstr ""
+msgstr "Smazat soubor $0?"
 
 #: src/dialogs/delete.tsx:52
 msgid "Delete link $0?"
-msgstr ""
+msgstr "Smazat odkaz $0?"
 
 #: src/header.tsx:147
 msgid "Directories & files"
-msgstr ""
+msgstr "Složky a soubory"
 
 #: src/common.ts:38
 msgid "Directory"
@@ -171,39 +170,39 @@ msgstr "Adresář"
 
 #: src/files-card-body.tsx:416
 msgid "Directory is empty"
-msgstr ""
+msgstr "Složka je prázdná"
 
 #: src/dialogs/mkdir.tsx:126
 msgid "Directory name"
-msgstr ""
+msgstr "Název složky"
 
 #: src/dialogs/mkdir.tsx:42
 msgid "Directory name cannot be empty."
-msgstr ""
+msgstr "Složku je třeba nějak nazvat."
 
 #: src/dialogs/mkdir.tsx:46
 msgid "Directory name cannot include a /."
-msgstr ""
+msgstr "Název složky nemůže obsahovat /."
 
 #: src/dialogs/mkdir.tsx:44
 msgid "Directory name too long."
-msgstr ""
+msgstr "Název složky je příliš dlouhý."
 
 #: src/dialogs/mkdir.tsx:140
 msgid "Directory owner"
-msgstr ""
+msgstr "Vlastník složky"
 
 #: src/dialogs/rename.tsx:50
 msgid "Directory with the same name exists"
-msgstr ""
+msgstr "Složka s tímto názvem zde už existuje"
 
 #: src/header.tsx:213
 msgid "Display as a grid"
-msgstr ""
+msgstr "Zobrazit jako mřížku"
 
 #: src/header.tsx:212
 msgid "Display as a list"
-msgstr ""
+msgstr "Zobrazit jako seznam"
 
 #: src/menu.tsx:140
 msgid "Download"
