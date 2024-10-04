@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
 "PO-Revision-Date: 2024-10-04 14:41+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -321,11 +322,11 @@ msgstr "Skrýt skryté položky"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
-msgstr ""
+msgstr "Domů"
 
 #: src/dialogs/editor.tsx:238
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorovat"
 
 #: src/upload-button.tsx:90
 msgid "Keep original"
@@ -333,7 +334,7 @@ msgstr "Ponechat původní"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:112
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Klávesové zkratky"
 
 #: src/header.tsx:80
 msgid "Largest size"
@@ -365,7 +366,7 @@ msgstr "jméno"
 
 #: src/dialogs/rename.tsx:41
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "Název je třeba vyplnit."
 
 #: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /."
@@ -377,7 +378,7 @@ msgstr "Název je příliš dlouhý."
 
 #: src/common.ts:39
 msgid "Named pipe"
-msgstr ""
+msgstr "pojmenovaná roura"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:121
 msgid "Navigation"
