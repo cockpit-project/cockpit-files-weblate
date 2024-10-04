@@ -236,7 +236,7 @@ msgstr "Upravit „$0“"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
 msgid "Editing"
-msgstr "Editace"
+msgstr "Upravování"
 
 #: src/common.ts:26
 msgid "Execute-only"
