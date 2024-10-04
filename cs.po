@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
 "PO-Revision-Date: 2024-10-04 14:39+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -74,7 +73,7 @@ msgstr "Přístup"
 #: src/dialogs/keyboardShortcutsHelp.tsx:57
 #: src/dialogs/keyboardShortcutsHelp.tsx:63
 msgid "Activate selected item, enter directory"
-msgstr ""
+msgstr "Aktivovat označenou položku, vstoupit do složky"
 
 #: src/files-breadcrumbs.tsx:147
 msgid "Add bookmark"
@@ -136,7 +135,7 @@ msgstr "kopírovat"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
 msgid "Copy selected file or directory"
-msgstr ""
+msgstr "Zkopírovat označený soubor či složku"
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
@@ -147,10 +146,8 @@ msgid "Create directory"
 msgstr "Vytvořit složku"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
-#, fuzzy
-#| msgid "Create directory"
 msgid "Create new directory"
-msgstr "Vytvořit složku"
+msgstr "Vytvořit novou složku"
 
 #: src/menu.tsx:137 src/menu.tsx:160 src/dialogs/delete.tsx:87
 msgid "Delete"
@@ -271,27 +268,27 @@ msgstr "Filtrovat složku"
 
 #: src/header.tsx:91
 msgid "First modified"
-msgstr ""
+msgstr "Poprvé upraveno"
 
 #: src/dialogs/delete.tsx:59
 msgid "Force delete $0"
-msgstr ""
+msgstr "Vynutit smazání $0"
 
 #: src/dialogs/delete.tsx:43
 msgid "Force delete $0 items"
-msgstr ""
+msgstr "Vynutit smazání $0 položek"
 
 #: src/dialogs/delete.tsx:56
 msgid "Force delete directory $0?"
-msgstr ""
+msgstr "Vynutit smazání složky $0?"
 
 #: src/dialogs/delete.tsx:48
 msgid "Force delete file $0?"
-msgstr ""
+msgstr "Vynutit smazání souboru $0?"
 
 #: src/dialogs/delete.tsx:52
 msgid "Force delete link $0?"
-msgstr ""
+msgstr "Vynutit smazání odkazu $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:45
 msgid "Go back"
@@ -314,15 +311,15 @@ msgstr "Skupina"
 
 #: src/dialogs/permissions.jsx:193
 msgid "Group access"
-msgstr ""
+msgstr "Přístup skupiny"
 
 #: src/sidebar.tsx:78
 msgid "Group permissions"
-msgstr ""
+msgstr "Oprávnění skupiny"
 
 #: src/header.tsx:294
 msgid "Hide hidden items"
-msgstr ""
+msgstr "Skrýt skryté položky"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
