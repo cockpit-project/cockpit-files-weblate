@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 03:04+0000\n"
-"PO-Revision-Date: 2024-09-13 03:12+0000\n"
+"PO-Revision-Date: 2024-10-05 15:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,10 +67,8 @@ msgstr "접근"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:57
 #: src/dialogs/keyboardShortcutsHelp.tsx:63
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Activate selected item, enter directory"
-msgstr "디렉토리에 붙여넣기"
+msgstr "선택된 항목을 활성화 하고, 디렉토리를 입력합니다"
 
 #: src/files-breadcrumbs.tsx:147
 msgid "Add bookmark"
@@ -131,10 +129,8 @@ msgid "Copy"
 msgstr "복사"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Copy selected file or directory"
-msgstr "디렉토리에 붙여넣기"
+msgstr "선택된 파일 또는 디렉토리를 복사"
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
@@ -145,10 +141,8 @@ msgid "Create directory"
 msgstr "디렉토리 생성"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
-#, fuzzy
-#| msgid "Create directory"
 msgid "Create new directory"
-msgstr "디렉토리 생성"
+msgstr "신규 디렉토리 생성"
 
 #: src/menu.tsx:137 src/menu.tsx:160 src/dialogs/delete.tsx:87
 msgid "Delete"
@@ -297,13 +291,11 @@ msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:51
 msgid "Go forward"
-msgstr ""
+msgstr "앞으로 가기"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:39
-#, fuzzy
-#| msgid "Create directory"
 msgid "Go up a directory"
-msgstr "디렉토리 생성"
+msgstr "상위 디렉토리로 이동"
 
 #: src/files-card-body.tsx:601 src/dialogs/permissions.jsx:163
 #: src/sidebar.tsx:57
@@ -384,7 +376,7 @@ msgstr "이름이 지정된 파이프"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:121
 msgid "Navigation"
-msgstr ""
+msgstr "탐색"
 
 #: src/upload-button.tsx:106
 msgid "New file"
@@ -460,10 +452,8 @@ msgid "Paste"
 msgstr "붙여넣기"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:98
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Paste file or directory"
-msgstr "디렉토리에 붙여넣기"
+msgstr "파일 또는 디렉토리 붙여넣기"
 
 #: src/menu.tsx:56
 msgid "Pasting failed"
@@ -510,10 +500,8 @@ msgid "Rename $0?"
 msgstr "$0 이름변경?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
-#, fuzzy
-#| msgid "Paste into directory"
 msgid "Rename selected file or directory"
-msgstr "디렉토리에 붙여넣기"
+msgstr "선택된 파일 또는 디렉토리 이름변경"
 
 #: src/upload-button.tsx:88
 msgid "Replace"
@@ -537,7 +525,7 @@ msgstr "숨겨진 항목 표시"
 
 #: src/header.tsx:165
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "키보드 단축키 표시"
 
 #: src/files-card-body.tsx:524 src/sidebar.tsx:64 src/header.tsx:77
 msgid "Size"
