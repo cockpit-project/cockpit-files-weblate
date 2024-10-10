@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-05 03:02+0000\n"
-"PO-Revision-Date: 2024-09-18 18:29+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-10-11 18:38+0000\n"
+"Last-Translator: JW Wang <v72807647@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -67,7 +66,7 @@ msgstr "存取權限"
 #: src/dialogs/keyboardShortcutsHelp.tsx:57
 #: src/dialogs/keyboardShortcutsHelp.tsx:63
 msgid "Activate selected item, enter directory"
-msgstr ""
+msgstr "觸發所選擇的項目，進入目錄"
 
 #: src/files-breadcrumbs.tsx:147
 msgid "Add bookmark"
@@ -129,7 +128,7 @@ msgstr "複製"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
 msgid "Copy selected file or directory"
-msgstr ""
+msgstr "複製已選擇的檔案或目錄"
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
@@ -140,10 +139,8 @@ msgid "Create directory"
 msgstr "建立目錄"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
-#, fuzzy
-#| msgid "Create directory"
 msgid "Create new directory"
-msgstr "建立目錄"
+msgstr "建立新目錄"
 
 #: src/menu.tsx:137 src/menu.tsx:160 src/dialogs/delete.tsx:87
 msgid "Delete"
@@ -232,7 +229,7 @@ msgstr "編輯 \"$0\""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
 msgid "Editing"
-msgstr ""
+msgstr "正在編輯"
 
 #: src/common.ts:26
 msgid "Execute-only"
@@ -292,13 +289,11 @@ msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:51
 msgid "Go forward"
-msgstr ""
+msgstr "前進"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:39
-#, fuzzy
-#| msgid "Create directory"
 msgid "Go up a directory"
-msgstr "建立目錄"
+msgstr "回上一層目錄"
 
 #: src/files-card-body.tsx:601 src/dialogs/permissions.jsx:163
 #: src/sidebar.tsx:57
@@ -331,7 +326,7 @@ msgstr "保留原本的"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:112
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "鍵盤快速鍵"
 
 #: src/header.tsx:80
 msgid "Largest size"
@@ -379,7 +374,7 @@ msgstr "Named pipe"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:121
 msgid "Navigation"
-msgstr ""
+msgstr "瀏覽"
 
 #: src/upload-button.tsx:106
 msgid "New file"
@@ -455,10 +450,8 @@ msgid "Paste"
 msgstr "貼上"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:98
-#, fuzzy
-#| msgid "Filter directory"
 msgid "Paste file or directory"
-msgstr "篩選目錄"
+msgstr "貼上檔案或目錄"
 
 #: src/menu.tsx:56
 msgid "Pasting failed"
@@ -506,7 +499,7 @@ msgstr "將 $0 重新命名？"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
 msgid "Rename selected file or directory"
-msgstr ""
+msgstr "重新命名已選擇的檔案或目錄"
 
 #: src/upload-button.tsx:88
 msgid "Replace"
@@ -530,7 +523,7 @@ msgstr "顯示隱藏的項目"
 
 #: src/header.tsx:165
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "顯示鍵盤快速鍵"
 
 #: src/files-card-body.tsx:524 src/sidebar.tsx:64 src/header.tsx:77
 msgid "Size"
