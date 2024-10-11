@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 03:03+0000\n"
-"PO-Revision-Date: 2024-10-05 15:38+0000\n"
+"PO-Revision-Date: 2024-10-12 06:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,10 +44,8 @@ msgstr[1] "$0 gizli öge"
 
 #. Translators: $0 represents a filename
 #: src/dialogs/permissions.jsx:123
-#, fuzzy
-#| msgid "“$0” permissions"
 msgid "$0 permissions"
-msgstr "“$0” izinleri"
+msgstr "$0 izinleri"
 
 #: src/sidebar.tsx:114
 msgid "($0 hidden)"
@@ -228,10 +226,8 @@ msgstr "İndir"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:169
-#, fuzzy
-#| msgid "Edit “$0”"
 msgid "Edit $0"
-msgstr "“$0” dosyasını düzenle"
+msgstr "$0 dosyasını düzenle"
 
 #: src/files-breadcrumbs.tsx:307 src/dialogs/keyboardShortcutsHelp.tsx:71
 msgid "Edit path"
@@ -604,10 +600,8 @@ msgid "Uploads"
 msgstr "Yüklenenler"
 
 #: src/dialogs/editor.tsx:169
-#, fuzzy
-#| msgid "View “$0”"
 msgid "View $0"
-msgstr "“$0” dosyasını görüntüle"
+msgstr "$0 dosyasını görüntüle"
 
 #: src/common.ts:28
 msgid "Write and execute"
