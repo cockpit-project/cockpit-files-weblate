@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 03:02+0000\n"
+"POT-Creation-Date: 2024-10-11 03:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -43,6 +43,11 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
+#. Translators: $0 represents a filename
+#: src/dialogs/permissions.jsx:123
+msgid "$0 permissions"
+msgstr ""
+
 #: src/sidebar.tsx:114
 msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
@@ -63,7 +68,7 @@ msgstr ""
 msgid "A-Z"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:179
+#: src/dialogs/permissions.jsx:180
 msgid "Access"
 msgstr ""
 
@@ -88,9 +93,9 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:108 src/dialogs/editor.tsx:210
-#: src/dialogs/permissions.jsx:134 src/dialogs/rename.tsx:116
-#: src/dialogs/delete.tsx:88 src/upload-button.tsx:91
+#: src/dialogs/editor.tsx:211 src/dialogs/delete.tsx:91
+#: src/dialogs/permissions.jsx:135 src/dialogs/rename.tsx:116
+#: src/dialogs/mkdir.tsx:108 src/upload-button.tsx:91
 msgid "Cancel"
 msgstr ""
 
@@ -106,7 +111,7 @@ msgstr ""
 msgid "Cancelled upload of $0"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:132
+#: src/dialogs/permissions.jsx:133
 msgid "Change"
 msgstr ""
 
@@ -118,7 +123,7 @@ msgstr ""
 msgid "Clear filter"
 msgstr ""
 
-#: src/dialogs/editor.tsx:210 src/dialogs/keyboardShortcutsHelp.tsx:18
+#: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:211
 msgid "Close"
 msgstr ""
 
@@ -146,27 +151,27 @@ msgstr ""
 msgid "Create new directory"
 msgstr ""
 
-#: src/menu.tsx:137 src/menu.tsx:160 src/dialogs/delete.tsx:87
+#: src/menu.tsx:137 src/menu.tsx:160 src/dialogs/delete.tsx:90
 msgid "Delete"
 msgstr ""
 
-#: src/dialogs/delete.tsx:43
+#: src/dialogs/delete.tsx:45
 msgid "Delete $0 items?"
 msgstr ""
 
-#: src/dialogs/delete.tsx:59
+#: src/dialogs/delete.tsx:62
 msgid "Delete $0?"
 msgstr ""
 
-#: src/dialogs/delete.tsx:56
+#: src/dialogs/delete.tsx:59
 msgid "Delete directory $0?"
 msgstr ""
 
-#: src/dialogs/delete.tsx:48
+#: src/dialogs/delete.tsx:51
 msgid "Delete file $0?"
 msgstr ""
 
-#: src/dialogs/delete.tsx:52
+#: src/dialogs/delete.tsx:55
 msgid "Delete link $0?"
 msgstr ""
 
@@ -218,17 +223,17 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
+#. Translators: This is the title of a modal dialog.  $0 represents a filename.
+#: src/dialogs/editor.tsx:169
+msgid "Edit $0"
+msgstr ""
+
 #: src/files-breadcrumbs.tsx:307 src/dialogs/keyboardShortcutsHelp.tsx:71
 msgid "Edit path"
 msgstr ""
 
 #: src/menu.tsx:96 src/menu.tsx:126 src/sidebar.tsx:157
 msgid "Edit permissions"
-msgstr ""
-
-#. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:168
-msgid "Edit “$0”"
 msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
@@ -267,23 +272,23 @@ msgstr ""
 msgid "First modified"
 msgstr ""
 
-#: src/dialogs/delete.tsx:59
+#: src/dialogs/delete.tsx:62
 msgid "Force delete $0"
 msgstr ""
 
-#: src/dialogs/delete.tsx:43
+#: src/dialogs/delete.tsx:45
 msgid "Force delete $0 items"
 msgstr ""
 
-#: src/dialogs/delete.tsx:56
+#: src/dialogs/delete.tsx:59
 msgid "Force delete directory $0?"
 msgstr ""
 
-#: src/dialogs/delete.tsx:48
+#: src/dialogs/delete.tsx:51
 msgid "Force delete file $0?"
 msgstr ""
 
-#: src/dialogs/delete.tsx:52
+#: src/dialogs/delete.tsx:55
 msgid "Force delete link $0?"
 msgstr ""
 
@@ -299,12 +304,12 @@ msgstr ""
 msgid "Go up a directory"
 msgstr ""
 
-#: src/files-card-body.tsx:601 src/dialogs/permissions.jsx:163
+#: src/files-card-body.tsx:601 src/dialogs/permissions.jsx:164
 #: src/sidebar.tsx:57
 msgid "Group"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:193
+#: src/dialogs/permissions.jsx:194
 msgid "Group access"
 msgstr ""
 
@@ -320,7 +325,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: src/dialogs/editor.tsx:238
+#: src/dialogs/editor.tsx:239
 msgid "Ignore"
 msgstr ""
 
@@ -416,20 +421,20 @@ msgstr ""
 msgid "Others"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:205
+#: src/dialogs/permissions.jsx:206
 msgid "Others access"
 msgstr ""
 
-#: src/dialogs/editor.tsx:194 src/dialogs/rename.tsx:114
+#: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:114
 msgid "Overwrite"
 msgstr ""
 
 #: src/files-card-body.tsx:533 src/files-card-body.tsx:601
-#: src/dialogs/permissions.jsx:148 src/sidebar.tsx:52 src/header.tsx:99
+#: src/dialogs/permissions.jsx:149 src/sidebar.tsx:52 src/header.tsx:99
 msgid "Owner"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:181
+#: src/dialogs/permissions.jsx:182
 msgid "Owner access"
 msgstr ""
 
@@ -445,7 +450,7 @@ msgstr ""
 msgid "Owner permissions"
 msgstr ""
 
-#: src/dialogs/permissions.jsx:147
+#: src/dialogs/permissions.jsx:148
 msgid "Ownership"
 msgstr ""
 
@@ -477,7 +482,7 @@ msgstr ""
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/dialogs/editor.tsx:171 src/common.ts:29
+#: src/common.ts:29 src/dialogs/editor.tsx:172
 msgid "Read-only"
 msgstr ""
 
@@ -485,7 +490,7 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/dialogs/editor.tsx:235
+#: src/dialogs/editor.tsx:236
 msgid "Reload"
 msgstr ""
 
@@ -513,7 +518,7 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/dialogs/editor.tsx:207
+#: src/dialogs/editor.tsx:208
 msgid "Save"
 msgstr ""
 
@@ -553,15 +558,15 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/dialogs/editor.tsx:57
+#: src/dialogs/editor.tsx:58
 msgid "The existing file changed unexpectedly"
 msgstr ""
 
-#: src/dialogs/editor.tsx:55 src/dialogs/editor.tsx:229
+#: src/dialogs/editor.tsx:56 src/dialogs/editor.tsx:230
 msgid "The file has been removed on disk"
 msgstr ""
 
-#: src/dialogs/editor.tsx:230
+#: src/dialogs/editor.tsx:231
 msgid "The file has changed on disk"
 msgstr ""
 
@@ -593,8 +598,8 @@ msgstr ""
 msgid "Uploads"
 msgstr ""
 
-#: src/dialogs/editor.tsx:168
-msgid "View “$0”"
+#: src/dialogs/editor.tsx:169
+msgid "View $0"
 msgstr ""
 
 #: src/common.ts:28
@@ -619,9 +624,4 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "filesystem"
-msgstr ""
-
-#. Translators: $0 represents a filename
-#: src/dialogs/permissions.jsx:122
-msgid "“$0” permissions"
 msgstr ""
