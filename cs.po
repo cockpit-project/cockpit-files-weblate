@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-12 03:01+0000\n"
-"PO-Revision-Date: 2024-10-12 06:35+0000\n"
+"PO-Revision-Date: 2024-10-12 08:25+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,6 +62,9 @@ msgid ""
 "download files, and change their properties. It also includes a simple file "
 "editor."
 msgstr ""
+"Uživatelské rozhraní pro souborový systém pro Cockpit. Je možné procházet "
+"složky, nahrávat a stahovat si soubory a měnit jejich vlastnosti. Také "
+"obsahuje jednoduchý textový editor."
 
 #: src/upload-button.tsx:97
 msgid ""
@@ -231,10 +234,8 @@ msgstr "Stáhnout"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:169
-#, fuzzy
-#| msgid "Edit “$0”"
 msgid "Edit $0"
-msgstr "Upravit „$0“"
+msgstr "Upravit $0"
 
 #: src/files-breadcrumbs.tsx:307 src/dialogs/keyboardShortcutsHelp.tsx:71
 msgid "Edit path"
@@ -607,10 +608,8 @@ msgid "Uploads"
 msgstr "Nahrání"
 
 #: src/dialogs/editor.tsx:169
-#, fuzzy
-#| msgid "View “$0”"
 msgid "View $0"
-msgstr "Zobrazit „$0“"
+msgstr "Zobrazit $0"
 
 #: src/common.ts:28
 msgid "Write and execute"
