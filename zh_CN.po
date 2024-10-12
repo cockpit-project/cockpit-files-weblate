@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-11 03:03+0000\n"
+"POT-Creation-Date: 2024-10-12 03:01+0000\n"
 "PO-Revision-Date: 2024-08-15 13:14+0000\n"
 "Last-Translator: Watson Xu <xuhuashan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -52,9 +52,12 @@ msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
 msgstr[0] "已隐藏 $0 个"
 
-#: org.cockpit-project.files.metainfo.xml:8
-msgid "A file system browser for Cockpit."
-msgstr "一个适用于 Cockpit 的文件系统浏览器。"
+#: org.cockpit_project.files.metainfo.xml:8
+msgid ""
+"A file system UI for Cockpit. You can browse directories, upload and "
+"download files, and change their properties. It also includes a simple file "
+"editor."
+msgstr ""
 
 #: src/upload-button.tsx:97
 msgid ""
@@ -258,7 +261,7 @@ msgstr "文件已存在"
 msgid "Filename is the same as original name"
 msgstr "文件名与原文件名同名"
 
-#: org.cockpit-project.files.metainfo.xml:5
+#: org.cockpit_project.files.metainfo.xml:5
 msgid "Files"
 msgstr "文件"
 
@@ -353,7 +356,7 @@ msgstr "最后修改"
 msgid "Least permissive"
 msgstr "最小权限"
 
-#: org.cockpit-project.files.metainfo.xml:6
+#: org.cockpit_project.files.metainfo.xml:6
 msgid "Manage your files"
 msgstr "管理您的文件"
 
@@ -637,3 +640,6 @@ msgstr "文件"
 #: src/manifest.json:0
 msgid "filesystem"
 msgstr "文件系统"
+
+#~ msgid "A file system browser for Cockpit."
+#~ msgstr "一个适用于 Cockpit 的文件系统浏览器。"

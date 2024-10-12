@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-11 03:03+0000\n"
+"POT-Creation-Date: 2024-10-12 03:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -54,8 +54,11 @@ msgid_plural "($0 hidden)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: org.cockpit-project.files.metainfo.xml:8
-msgid "A file system browser for Cockpit."
+#: org.cockpit_project.files.metainfo.xml:8
+msgid ""
+"A file system UI for Cockpit. You can browse directories, upload and "
+"download files, and change their properties. It also includes a simple file "
+"editor."
 msgstr ""
 
 #: src/upload-button.tsx:97
@@ -256,7 +259,7 @@ msgstr ""
 msgid "Filename is the same as original name"
 msgstr ""
 
-#: org.cockpit-project.files.metainfo.xml:5
+#: org.cockpit_project.files.metainfo.xml:5
 msgid "Files"
 msgstr ""
 
@@ -349,7 +352,7 @@ msgstr ""
 msgid "Least permissive"
 msgstr ""
 
-#: org.cockpit-project.files.metainfo.xml:6
+#: org.cockpit_project.files.metainfo.xml:6
 msgid "Manage your files"
 msgstr ""
 
