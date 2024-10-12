@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 03:03+0000\n"
 "PO-Revision-Date: 2024-10-12 06:35+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -48,7 +47,7 @@ msgstr[2] "$0 položek je skryto"
 #. Translators: $0 represents a filename
 #: src/dialogs/permissions.jsx:123
 msgid "$0 permissions"
-msgstr "oprávnění „$0“"
+msgstr "oprávnění $0"
 
 #: src/sidebar.tsx:114
 msgid "($0 hidden)"
