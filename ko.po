@@ -15,11 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-12 03:01+0000\n"
-"PO-Revision-Date: 2024-10-05 15:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/ko/>\n"
+"PO-Revision-Date: 2024-10-13 09:38+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,10 +42,8 @@ msgstr[0] "$0 항목이 숨겨졌습니다"
 
 #. Translators: $0 represents a filename
 #: src/dialogs/permissions.jsx:123
-#, fuzzy
-#| msgid "“$0” permissions"
 msgid "$0 permissions"
-msgstr "“$0” 권한"
+msgstr "$0 권한"
 
 #: src/sidebar.tsx:114
 msgid "($0 hidden)"
@@ -59,6 +56,9 @@ msgid ""
 "download files, and change their properties. It also includes a simple file "
 "editor."
 msgstr ""
+"Cockpit을 위한 파일 시스템 UI. 당신은 디렉토리를 검색하고, 파일을 올리고 "
+"내려받을 수 있으며, 이들 특성을 변경 할 수 있습니다. 이는 단순 파일 편집기도 "
+"포함합니다."
 
 #: src/upload-button.tsx:97
 msgid ""
@@ -229,10 +229,8 @@ msgstr "내려받기"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:169
-#, fuzzy
-#| msgid "Edit “$0”"
 msgid "Edit $0"
-msgstr "“$0” 편집"
+msgstr "$0 편집"
 
 #: src/files-breadcrumbs.tsx:307 src/dialogs/keyboardShortcutsHelp.tsx:71
 msgid "Edit path"
@@ -605,10 +603,8 @@ msgid "Uploads"
 msgstr "올려주기"
 
 #: src/dialogs/editor.tsx:169
-#, fuzzy
-#| msgid "View “$0”"
 msgid "View $0"
-msgstr "“$0” 보기"
+msgstr "$0 보기"
 
 #: src/common.ts:28
 msgid "Write and execute"
