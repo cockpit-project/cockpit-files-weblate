@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 03:16+0000\n"
-"PO-Revision-Date: 2024-10-28 05:38+0000\n"
+"PO-Revision-Date: 2024-10-28 06:13+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -407,10 +407,8 @@ msgid "New name"
 msgstr "Nový název"
 
 #: src/dialogs/permissions.jsx:153
-#, fuzzy
-#| msgid "Group access"
 msgid "No access"
-msgstr "Přístup skupiny"
+msgstr "Žádný přístup"
 
 #: src/files-card-body.tsx:495
 msgid "No matching results"
@@ -539,7 +537,7 @@ msgstr "Uložit"
 
 #: src/dialogs/permissions.jsx:296
 msgid "Security context"
-msgstr ""
+msgstr "Kontext zabezpečení"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Select all"
@@ -547,7 +545,7 @@ msgstr "Vybrat vše"
 
 #: src/dialogs/permissions.jsx:308
 msgid "Set executable as program"
-msgstr ""
+msgstr "Nastavit spustitelné jako program"
 
 #: src/files-card-body.tsx:511 src/header.tsx:294
 msgid "Show hidden items"
