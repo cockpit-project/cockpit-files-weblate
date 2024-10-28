@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 03:16+0000\n"
-"PO-Revision-Date: 2024-10-28 05:43+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-10-28 06:13+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ka/>\n"
 "Language: ka\n"
@@ -34,14 +33,14 @@ msgstr ""
 #: src/sidebar.tsx:112
 msgid "$0 item"
 msgid_plural "$0 items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 ელემენტი"
+msgstr[1] "$0 ელემენტი"
 
 #: src/files-card-body.tsx:508
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 ელემენტი დამალულია"
+msgstr[1] "$0 ელემენტი დამალულია"
 
 #. Translators: $0 represents a filename
 #: src/dialogs/permissions.jsx:200
@@ -51,8 +50,8 @@ msgstr ""
 #: src/sidebar.tsx:114
 msgid "($0 hidden)"
 msgid_plural "($0 hidden)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "($0 დამალული)"
+msgstr[1] "($0 დამალული)"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -128,11 +127,11 @@ msgstr "ფილტრის გასუფთავება"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:211
 msgid "Close"
-msgstr "დაკეტვა"
+msgstr "დახურვა"
 
 #: src/index.html:20
 msgid "Cockpit Files"
-msgstr ""
+msgstr "Cockpit Files"
 
 #: src/menu.tsx:120 src/menu.tsx:155
 msgid "Copy"
@@ -140,7 +139,7 @@ msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
 msgid "Copy selected file or directory"
-msgstr ""
+msgstr "მონიშნული ფაილის ან საქაღალდის კოპირება"
 
 #: src/dialogs/mkdir.tsx:106
 msgid "Create"
@@ -148,11 +147,11 @@ msgstr ""
 
 #: src/menu.tsx:90 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
-msgstr ""
+msgstr "საქაღალდის შექმნა"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
 msgid "Create new directory"
-msgstr ""
+msgstr "ახალი საქაღალდის შექმნა"
 
 #: src/menu.tsx:137 src/menu.tsx:160 src/dialogs/delete.tsx:90
 msgid "Delete"
@@ -160,7 +159,7 @@ msgstr ""
 
 #: src/dialogs/delete.tsx:45
 msgid "Delete $0 items?"
-msgstr ""
+msgstr "წავშალო $0 ელემენტი?"
 
 #: src/dialogs/delete.tsx:62
 msgid "Delete $0?"
@@ -168,19 +167,19 @@ msgstr ""
 
 #: src/dialogs/delete.tsx:59
 msgid "Delete directory $0?"
-msgstr ""
+msgstr "წავშალო საქაღალდე $0?"
 
 #: src/dialogs/delete.tsx:51
 msgid "Delete file $0?"
-msgstr ""
+msgstr "წავშალო ფაილი $0?"
 
 #: src/dialogs/delete.tsx:55
 msgid "Delete link $0?"
-msgstr ""
+msgstr "წავშალო ბმული $0?"
 
 #: src/header.tsx:190
 msgid "Directories & files"
-msgstr ""
+msgstr "საქაღალდეები და ფაილები"
 
 #: src/common.ts:38
 msgid "Directory"
@@ -188,39 +187,39 @@ msgstr ""
 
 #: src/files-card-body.tsx:503
 msgid "Directory is empty"
-msgstr ""
+msgstr "საქაღალდე ცარიელია"
 
 #: src/dialogs/mkdir.tsx:126
 msgid "Directory name"
-msgstr ""
+msgstr "საქაღალდის სახელი"
 
 #: src/dialogs/mkdir.tsx:42
 msgid "Directory name cannot be empty."
-msgstr ""
+msgstr "საქაღალდის სახელი ცარიელი ვერ იქნება."
 
 #: src/dialogs/mkdir.tsx:46
 msgid "Directory name cannot include a /."
-msgstr ""
+msgstr "საქაღალდის სახელი, არ შეიძლება, სიმბოლოს '/' შეიცავდეს."
 
 #: src/dialogs/mkdir.tsx:44
 msgid "Directory name too long."
-msgstr ""
+msgstr "საქაღალდის სახელი ძალიან გრძელია."
 
 #: src/dialogs/mkdir.tsx:140
 msgid "Directory owner"
-msgstr ""
+msgstr "საქაღალდის მფლობელი"
 
 #: src/dialogs/rename.tsx:50
 msgid "Directory with the same name exists"
-msgstr ""
+msgstr "საქაღალდე იგივე სახელით უკვე არსებობს"
 
 #: src/header.tsx:263
 msgid "Display as a grid"
-msgstr ""
+msgstr "ბადის სახით ჩვენება"
 
 #: src/header.tsx:262
 msgid "Display as a list"
-msgstr ""
+msgstr "სიის სახით ჩვენება"
 
 #: src/menu.tsx:147
 msgid "Download"
@@ -229,35 +228,35 @@ msgstr ""
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:169
 msgid "Edit $0"
-msgstr ""
+msgstr "$0-ის ჩასწორება"
 
 #: src/files-breadcrumbs.tsx:307 src/dialogs/keyboardShortcutsHelp.tsx:71
 msgid "Edit path"
-msgstr ""
+msgstr "ბილიკის ჩასწორება"
 
 #: src/menu.tsx:96 src/menu.tsx:126 src/sidebar.tsx:157
 msgid "Edit permissions"
-msgstr ""
+msgstr "წვდომების ჩასწორება"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
 msgid "Editing"
-msgstr ""
+msgstr "ჩასწორება"
 
 #: src/common.ts:26
 msgid "Execute-only"
-msgstr ""
+msgstr "მხოლოდ-გამშვები"
 
 #: src/manifest.json:0
 msgid "File browser"
-msgstr ""
+msgstr "ფაილების ბრაუზერი"
 
 #: src/dialogs/rename.tsx:52
 msgid "File exists"
-msgstr ""
+msgstr "ფაილი არსებობს"
 
 #: src/dialogs/rename.tsx:47
 msgid "Filename is the same as original name"
-msgstr ""
+msgstr "ფაილის სახელი იგივეა, რაც საწყისი სახელი"
 
 #: org.cockpit_project.files.metainfo.xml:5
 msgid "Files"
@@ -269,31 +268,31 @@ msgstr ""
 
 #: src/header.tsx:197
 msgid "Filter directory"
-msgstr ""
+msgstr "საქაღალდის ფილტრი"
 
 #: src/header.tsx:91
 msgid "First modified"
-msgstr ""
+msgstr "პირველი ცვლილება"
 
 #: src/dialogs/delete.tsx:62
 msgid "Force delete $0"
-msgstr ""
+msgstr "$0-ის ნაძალადევი წაშლა"
 
 #: src/dialogs/delete.tsx:45
 msgid "Force delete $0 items"
-msgstr ""
+msgstr "$0 ელემენტის ნაძალადევი წაშლა"
 
 #: src/dialogs/delete.tsx:59
 msgid "Force delete directory $0?"
-msgstr ""
+msgstr "წავშალო ძალით საქაღალდე $0?"
 
 #: src/dialogs/delete.tsx:51
 msgid "Force delete file $0?"
-msgstr ""
+msgstr "წავშალო ძალით ფაილი $0?"
 
 #: src/dialogs/delete.tsx:55
 msgid "Force delete link $0?"
-msgstr ""
+msgstr "წავშალო ძალით ბმული $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:45
 msgid "Go back"
@@ -301,11 +300,11 @@ msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:51
 msgid "Go forward"
-msgstr ""
+msgstr "წინ გადასვლა"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:39
 msgid "Go up a directory"
-msgstr ""
+msgstr "ზემო საქაღალდეზე გადასვლა"
 
 #: src/files-card-body.tsx:601 src/dialogs/permissions.jsx:241
 #: src/sidebar.tsx:57
@@ -314,27 +313,27 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:271
 msgid "Group access"
-msgstr ""
+msgstr "ჯგუფის წვდომა"
 
 #: src/sidebar.tsx:78
 msgid "Group permissions"
-msgstr ""
+msgstr "ჯგუფის წვდომები"
 
 #: src/header.tsx:294
 msgid "Hide hidden items"
-msgstr ""
+msgstr "დამალული ელემენტების დამალვა"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
-msgstr ""
+msgstr "საწყისი"
 
 #: src/dialogs/editor.tsx:239
 msgid "Ignore"
-msgstr ""
+msgstr "დაიგნორება"
 
 #: src/upload-button.tsx:90
 msgid "Keep original"
-msgstr ""
+msgstr "ორიგინალის შენარჩუნება"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:112
 msgid "Keyboard shortcuts"
@@ -342,19 +341,19 @@ msgstr ""
 
 #: src/header.tsx:80
 msgid "Largest size"
-msgstr ""
+msgstr "უდიდესი ზომა"
 
 #: src/sidebar.tsx:47 src/header.tsx:95
 msgid "Last modified"
-msgstr ""
+msgstr "ბოლო ცვლილება"
 
 #: src/header.tsx:117
 msgid "Least permissive"
-msgstr ""
+msgstr "ყველაზე ნაკლები დაშვებით"
 
 #: org.cockpit_project.files.metainfo.xml:6
 msgid "Manage your files"
-msgstr ""
+msgstr "მართეთ თქვენი ფაილები"
 
 #: src/files-card-body.tsx:528 src/header.tsx:88
 msgid "Modified"
@@ -362,7 +361,7 @@ msgstr ""
 
 #: src/header.tsx:113
 msgid "Most permissive"
-msgstr ""
+msgstr "ყველაზე მეტი დაშვებით"
 
 #: src/files-card-body.tsx:523 src/header.tsx:66
 msgid "Name"
@@ -374,11 +373,11 @@ msgstr ""
 
 #: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /."
-msgstr ""
+msgstr "სახელი, არ შეიძლება, სიმბოლოს '/' შეიცავდეს."
 
 #: src/dialogs/rename.tsx:43
 msgid "Name too long."
-msgstr ""
+msgstr "სახელი ძალიან გრძელია."
 
 #: src/common.ts:39
 msgid "Named pipe"
@@ -390,11 +389,11 @@ msgstr ""
 
 #: src/upload-button.tsx:106
 msgid "New file"
-msgstr ""
+msgstr "ახალი ფაილი"
 
 #: src/dialogs/rename.tsx:120
 msgid "New filename"
-msgstr ""
+msgstr "ახალი ფაილის სახელი"
 
 #: src/dialogs/rename.tsx:120
 msgid "New name"
@@ -402,7 +401,7 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:153
 msgid "No access"
-msgstr ""
+msgstr "წვდომის გარეშე"
 
 #: src/files-card-body.tsx:495
 msgid "No matching results"
@@ -414,15 +413,15 @@ msgstr ""
 
 #: src/menu.tsx:112
 msgid "Open text file"
-msgstr ""
+msgstr "ტექსტური ფაილის გახსნა"
 
 #: src/upload-button.tsx:111
 msgid "Original file on server"
-msgstr ""
+msgstr "ორიგინალი ფაილი სერვერზე"
 
 #: src/sidebar.tsx:83
 msgid "Other permissions"
-msgstr ""
+msgstr "სხვა წვდომები"
 
 #: src/files-card-body.tsx:601
 msgid "Others"
@@ -430,7 +429,7 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:283
 msgid "Others access"
-msgstr ""
+msgstr "სხვების წვდომა"
 
 #: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:114
 msgid "Overwrite"
@@ -443,23 +442,23 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:259
 msgid "Owner access"
-msgstr ""
+msgstr "მფლობელის წვდომა"
 
 #: src/header.tsx:102
 msgid "Owner ascending"
-msgstr ""
+msgstr "მფლობელი აღმავალი"
 
 #: src/header.tsx:106
 msgid "Owner descending"
-msgstr ""
+msgstr "მფლობელი დაღმავალი"
 
 #: src/sidebar.tsx:73
 msgid "Owner permissions"
-msgstr ""
+msgstr "მფლობელის წვდომები"
 
 #: src/dialogs/permissions.jsx:225
 msgid "Ownership"
-msgstr ""
+msgstr "მფლობელობა"
 
 #: src/menu.tsx:83
 msgid "Paste"
@@ -467,11 +466,11 @@ msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:98
 msgid "Paste file or directory"
-msgstr ""
+msgstr "ფაილის ან საქაღალდის ჩასმა"
 
 #: src/menu.tsx:56
 msgid "Pasting failed"
-msgstr ""
+msgstr "ჩასმა ჩავარდა"
 
 #: src/files-card-body.tsx:538 src/header.tsx:110
 msgid "Permissions"
@@ -479,15 +478,15 @@ msgstr ""
 
 #: src/common.ts:30
 msgid "Read and execute"
-msgstr ""
+msgstr "წაკითხვა და გაშვება"
 
 #: src/common.ts:31 src/dialogs/permissions.jsx:143
 msgid "Read and write"
-msgstr ""
+msgstr "წაკითხვა და ჩაწერა"
 
 #: src/common.ts:32
 msgid "Read, write, and execute"
-msgstr ""
+msgstr "წაკითხვა, ჩაწერა და გაშვება"
 
 #: src/common.ts:29 src/dialogs/editor.tsx:172 src/dialogs/permissions.jsx:148
 msgid "Read-only"
@@ -503,7 +502,7 @@ msgstr ""
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove current directory"
-msgstr ""
+msgstr "მიმდინარე საქაღალდის წაშლა"
 
 #: src/menu.tsx:131 src/dialogs/rename.tsx:107
 msgid "Rename"
@@ -511,11 +510,11 @@ msgstr ""
 
 #: src/dialogs/rename.tsx:125
 msgid "Rename $0?"
-msgstr ""
+msgstr "გადავარქვა სახელი ფაილს $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
 msgid "Rename selected file or directory"
-msgstr ""
+msgstr "მონიშნული ფაილის ან საქაღალდის სახელის გადარქმევა"
 
 #: src/upload-button.tsx:88
 msgid "Replace"
@@ -523,7 +522,7 @@ msgstr ""
 
 #: src/upload-button.tsx:81
 msgid "Replace file $0?"
-msgstr ""
+msgstr "ჩავანაცვლო ფაილი $0?"
 
 #: src/dialogs/editor.tsx:208
 msgid "Save"
@@ -531,7 +530,7 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:296
 msgid "Security context"
-msgstr ""
+msgstr "უსაფრთხოების კონტექსტი"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Select all"
@@ -539,15 +538,15 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:308
 msgid "Set executable as program"
-msgstr ""
+msgstr "პროგრამის გაშვებადად დაყენება"
 
 #: src/files-card-body.tsx:511 src/header.tsx:294
 msgid "Show hidden items"
-msgstr ""
+msgstr "დამალული ელემენტების ჩვენება"
 
 #: src/header.tsx:165
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "კლავიატურის მალსახმობების ჩვენება"
 
 #: src/files-card-body.tsx:524 src/sidebar.tsx:64 src/header.tsx:77
 msgid "Size"
@@ -555,7 +554,7 @@ msgstr ""
 
 #: src/header.tsx:84
 msgid "Smallest size"
-msgstr ""
+msgstr "უმცირესი ზომა"
 
 #: src/common.ts:42
 msgid "Socket"
@@ -563,11 +562,11 @@ msgstr ""
 
 #: src/header.tsx:281
 msgid "Sort"
-msgstr ""
+msgstr "დალაგება"
 
 #: src/upload-button.tsx:259
 msgid "Successfully uploaded file(s)"
-msgstr ""
+msgstr "ფაილები წარმატებით აიტვირთა"
 
 #: src/common.ts:40
 msgid "Symbolic link"
@@ -575,23 +574,23 @@ msgstr ""
 
 #: src/dialogs/editor.tsx:58
 msgid "The existing file changed unexpectedly"
-msgstr ""
+msgstr "არსებული ფაილი წარმატებით შეიცვალა"
 
 #: src/dialogs/editor.tsx:56 src/dialogs/editor.tsx:230
 msgid "The file has been removed on disk"
-msgstr ""
+msgstr "ფაილი წაიშალა დისკიდან"
 
 #: src/dialogs/editor.tsx:231
 msgid "The file has changed on disk"
-msgstr ""
+msgstr "ფაილი შეიცვალა დისკზე"
 
 #: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
-msgstr ""
+msgstr "სანიშნეების საქაღალდის შექმნა შეუძლებელია"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
-msgstr ""
+msgstr "სანიშნეს ფაილის შენახვა შეუძლებელია"
 
 #: src/upload-button.tsx:337
 msgid "Upload"
@@ -600,7 +599,7 @@ msgstr ""
 #
 #: src/upload-button.tsx:318
 msgid "Upload $0% completed"
-msgstr ""
+msgstr "ატვირთვის $0% დასრულდა"
 
 #: src/upload-button.tsx:259
 msgid "Upload complete"
@@ -608,31 +607,31 @@ msgstr ""
 
 #: src/upload-button.tsx:242
 msgid "Upload error"
-msgstr ""
+msgstr "ატვირთვის შეცდომა"
 
 #: src/upload-button.tsx:282
 msgid "Uploads"
-msgstr ""
+msgstr "ატვირთვები"
 
 #: src/dialogs/editor.tsx:169
 msgid "View $0"
-msgstr ""
+msgstr "$0-ის ნახვა"
 
 #: src/common.ts:28
 msgid "Write and execute"
-msgstr ""
+msgstr "ჩაწერა და შესრულება"
 
 #: src/common.ts:27 src/dialogs/permissions.jsx:163
 msgid "Write-only"
-msgstr ""
+msgstr "მხოლოდ-ჩაწერადი"
 
 #: src/header.tsx:73
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: src/manifest.json:0
 msgid "explorer"
-msgstr ""
+msgstr "დამთვალიერებელი"
 
 #: src/manifest.json:0
 msgid "files"
