@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-28 03:16+0000\n"
-"PO-Revision-Date: 2024-10-28 06:13+0000\n"
+"PO-Revision-Date: 2024-10-29 07:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/sv/>\n"
@@ -543,7 +543,7 @@ msgstr "Välj alla"
 
 #: src/dialogs/permissions.jsx:308
 msgid "Set executable as program"
-msgstr ""
+msgstr "Ställ in körbar fil som program"
 
 #: src/files-card-body.tsx:511 src/header.tsx:294
 msgid "Show hidden items"
