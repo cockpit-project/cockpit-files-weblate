@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 03:16+0000\n"
+"POT-Creation-Date: 2024-10-29 03:06+0000\n"
 "PO-Revision-Date: 2024-10-28 06:13+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
-"cockpit-files/cockpit-files/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
+"files/cockpit-files/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -102,7 +102,7 @@ msgstr "Blokové zařízení"
 msgid "Bookmarks"
 msgstr "Záložky"
 
-#: src/dialogs/editor.tsx:211 src/dialogs/delete.tsx:91
+#: src/dialogs/editor.tsx:212 src/dialogs/delete.tsx:91
 #: src/dialogs/permissions.jsx:212 src/dialogs/rename.tsx:116
 #: src/dialogs/mkdir.tsx:108 src/upload-button.tsx:91
 msgid "Cancel"
@@ -132,7 +132,7 @@ msgstr "Znakové zařízení"
 msgid "Clear filter"
 msgstr "Vyčistit filtr"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:211
+#: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:212
 msgid "Close"
 msgstr "Zavřít"
 
@@ -233,7 +233,7 @@ msgid "Download"
 msgstr "Stáhnout"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:169
+#: src/dialogs/editor.tsx:170
 msgid "Edit $0"
 msgstr "Upravit $0"
 
@@ -334,7 +334,7 @@ msgstr "Skrýt skryté položky"
 msgid "Home"
 msgstr "Domů"
 
-#: src/dialogs/editor.tsx:239
+#: src/dialogs/editor.tsx:240
 msgid "Ignore"
 msgstr "Ignorovat"
 
@@ -438,7 +438,7 @@ msgstr "Ostatní"
 msgid "Others access"
 msgstr "Přístup ostatních"
 
-#: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:114
+#: src/dialogs/editor.tsx:196 src/dialogs/rename.tsx:114
 msgid "Overwrite"
 msgstr "Přepsat"
 
@@ -495,7 +495,7 @@ msgstr "Číst a zapisovat"
 msgid "Read, write, and execute"
 msgstr "Číst, zapisovat a spouštět"
 
-#: src/common.ts:29 src/dialogs/editor.tsx:172 src/dialogs/permissions.jsx:148
+#: src/common.ts:29 src/dialogs/editor.tsx:173 src/dialogs/permissions.jsx:148
 msgid "Read-only"
 msgstr "Pouze pro čtení"
 
@@ -503,7 +503,7 @@ msgstr "Pouze pro čtení"
 msgid "Regular file"
 msgstr "Obyčejný soubor"
 
-#: src/dialogs/editor.tsx:236
+#: src/dialogs/editor.tsx:237
 msgid "Reload"
 msgstr "Načíst znovu"
 
@@ -531,7 +531,7 @@ msgstr "Nahradit"
 msgid "Replace file $0?"
 msgstr "Nahradit soubor $0?"
 
-#: src/dialogs/editor.tsx:208
+#: src/dialogs/editor.tsx:209
 msgid "Save"
 msgstr "Uložit"
 
@@ -579,15 +579,15 @@ msgstr "Soubory úspěšně nahrány"
 msgid "Symbolic link"
 msgstr "Symbolický odkaz"
 
-#: src/dialogs/editor.tsx:58
+#: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
 msgstr "Existující soubor byl mezitím neočekávaně změněn"
 
-#: src/dialogs/editor.tsx:56 src/dialogs/editor.tsx:230
+#: src/dialogs/editor.tsx:57 src/dialogs/editor.tsx:231
 msgid "The file has been removed on disk"
 msgstr "Soubor byl odebrán z úložiště"
 
-#: src/dialogs/editor.tsx:231
+#: src/dialogs/editor.tsx:232
 msgid "The file has changed on disk"
 msgstr "Soubor byl na úložišti změněn"
 
@@ -619,7 +619,7 @@ msgstr "Chyba nahrávání"
 msgid "Uploads"
 msgstr "Nahrání"
 
-#: src/dialogs/editor.tsx:169
+#: src/dialogs/editor.tsx:170
 msgid "View $0"
 msgstr "Zobrazit $0"
 

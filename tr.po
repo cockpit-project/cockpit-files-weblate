@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 03:16+0000\n"
+"POT-Creation-Date: 2024-10-29 03:06+0000\n"
 "PO-Revision-Date: 2024-10-12 08:25+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -100,7 +100,7 @@ msgstr "Blok aygıtı"
 msgid "Bookmarks"
 msgstr "Yer imleri"
 
-#: src/dialogs/editor.tsx:211 src/dialogs/delete.tsx:91
+#: src/dialogs/editor.tsx:212 src/dialogs/delete.tsx:91
 #: src/dialogs/permissions.jsx:212 src/dialogs/rename.tsx:116
 #: src/dialogs/mkdir.tsx:108 src/upload-button.tsx:91
 msgid "Cancel"
@@ -130,7 +130,7 @@ msgstr "Karakter aygıtı"
 msgid "Clear filter"
 msgstr "Filtreyi temizle"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:211
+#: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:212
 msgid "Close"
 msgstr "Kapat"
 
@@ -231,7 +231,7 @@ msgid "Download"
 msgstr "İndir"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:169
+#: src/dialogs/editor.tsx:170
 msgid "Edit $0"
 msgstr "$0 dosyasını düzenle"
 
@@ -332,7 +332,7 @@ msgstr "Gizli ögeleri gizle"
 msgid "Home"
 msgstr "Ev dizini"
 
-#: src/dialogs/editor.tsx:239
+#: src/dialogs/editor.tsx:240
 msgid "Ignore"
 msgstr "Yok say"
 
@@ -438,7 +438,7 @@ msgstr "Diğerleri"
 msgid "Others access"
 msgstr "Diğerlerinin erişimi"
 
-#: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:114
+#: src/dialogs/editor.tsx:196 src/dialogs/rename.tsx:114
 msgid "Overwrite"
 msgstr "Üzerine yaz"
 
@@ -495,7 +495,7 @@ msgstr "Oku ve yaz"
 msgid "Read, write, and execute"
 msgstr "Oku, yaz ve çalıştır"
 
-#: src/common.ts:29 src/dialogs/editor.tsx:172 src/dialogs/permissions.jsx:148
+#: src/common.ts:29 src/dialogs/editor.tsx:173 src/dialogs/permissions.jsx:148
 msgid "Read-only"
 msgstr "Yalnızca oku"
 
@@ -503,7 +503,7 @@ msgstr "Yalnızca oku"
 msgid "Regular file"
 msgstr "Normal dosya"
 
-#: src/dialogs/editor.tsx:236
+#: src/dialogs/editor.tsx:237
 msgid "Reload"
 msgstr "Yeniden yükle"
 
@@ -531,7 +531,7 @@ msgstr "Değiştir"
 msgid "Replace file $0?"
 msgstr "$0 dosyası değiştirilsin mi?"
 
-#: src/dialogs/editor.tsx:208
+#: src/dialogs/editor.tsx:209
 msgid "Save"
 msgstr "Kaydet"
 
@@ -579,15 +579,15 @@ msgstr "Dosya(lar) başarıyla karşıya yüklendi"
 msgid "Symbolic link"
 msgstr "Sembolik bağlantı"
 
-#: src/dialogs/editor.tsx:58
+#: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
 msgstr "Var olan dosya beklenmedik şekilde değişti"
 
-#: src/dialogs/editor.tsx:56 src/dialogs/editor.tsx:230
+#: src/dialogs/editor.tsx:57 src/dialogs/editor.tsx:231
 msgid "The file has been removed on disk"
 msgstr "Dosya diskten kaldırıldı"
 
-#: src/dialogs/editor.tsx:231
+#: src/dialogs/editor.tsx:232
 msgid "The file has changed on disk"
 msgstr "Dosya disk üzerinde değişti"
 
@@ -619,7 +619,7 @@ msgstr "Karşıya yükleme hatası"
 msgid "Uploads"
 msgstr "Yüklenenler"
 
-#: src/dialogs/editor.tsx:169
+#: src/dialogs/editor.tsx:170
 msgid "View $0"
 msgstr "$0 dosyasını görüntüle"
 

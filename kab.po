@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 03:16+0000\n"
+"POT-Creation-Date: 2024-10-29 03:06+0000\n"
 "PO-Revision-Date: 2024-10-13 09:38+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -96,7 +96,7 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/dialogs/editor.tsx:211 src/dialogs/delete.tsx:91
+#: src/dialogs/editor.tsx:212 src/dialogs/delete.tsx:91
 #: src/dialogs/permissions.jsx:212 src/dialogs/rename.tsx:116
 #: src/dialogs/mkdir.tsx:108 src/upload-button.tsx:91
 msgid "Cancel"
@@ -126,7 +126,7 @@ msgstr ""
 msgid "Clear filter"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:211
+#: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:212
 msgid "Close"
 msgstr "Mdel"
 
@@ -227,7 +227,7 @@ msgid "Download"
 msgstr "Sider"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:169
+#: src/dialogs/editor.tsx:170
 msgid "Edit $0"
 msgstr ""
 
@@ -328,7 +328,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: src/dialogs/editor.tsx:239
+#: src/dialogs/editor.tsx:240
 msgid "Ignore"
 msgstr ""
 
@@ -432,7 +432,7 @@ msgstr "Wiyyaḍ"
 msgid "Others access"
 msgstr ""
 
-#: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:114
+#: src/dialogs/editor.tsx:196 src/dialogs/rename.tsx:114
 msgid "Overwrite"
 msgstr ""
 
@@ -489,7 +489,7 @@ msgstr ""
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/common.ts:29 src/dialogs/editor.tsx:172 src/dialogs/permissions.jsx:148
+#: src/common.ts:29 src/dialogs/editor.tsx:173 src/dialogs/permissions.jsx:148
 msgid "Read-only"
 msgstr ""
 
@@ -497,7 +497,7 @@ msgstr ""
 msgid "Regular file"
 msgstr ""
 
-#: src/dialogs/editor.tsx:236
+#: src/dialogs/editor.tsx:237
 msgid "Reload"
 msgstr ""
 
@@ -525,7 +525,7 @@ msgstr "Semselsi"
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/dialogs/editor.tsx:208
+#: src/dialogs/editor.tsx:209
 msgid "Save"
 msgstr "Sekles"
 
@@ -573,15 +573,15 @@ msgstr ""
 msgid "Symbolic link"
 msgstr ""
 
-#: src/dialogs/editor.tsx:58
+#: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
 msgstr ""
 
-#: src/dialogs/editor.tsx:56 src/dialogs/editor.tsx:230
+#: src/dialogs/editor.tsx:57 src/dialogs/editor.tsx:231
 msgid "The file has been removed on disk"
 msgstr ""
 
-#: src/dialogs/editor.tsx:231
+#: src/dialogs/editor.tsx:232
 msgid "The file has changed on disk"
 msgstr ""
 
@@ -614,7 +614,7 @@ msgstr ""
 msgid "Uploads"
 msgstr ""
 
-#: src/dialogs/editor.tsx:169
+#: src/dialogs/editor.tsx:170
 msgid "View $0"
 msgstr ""
 
