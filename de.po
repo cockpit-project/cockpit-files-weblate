@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-05 03:01+0000\n"
-"PO-Revision-Date: 2024-11-05 14:36+0000\n"
+"PO-Revision-Date: 2024-11-05 14:39+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/de/>\n"
@@ -489,11 +489,11 @@ msgstr "Reguläre Datei"
 
 #: src/dialogs/editor.tsx:237
 msgid "Reload"
-msgstr "Neu Laden"
+msgstr "Neu laden"
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove current directory"
-msgstr ""
+msgstr "Aktuelles Verzeichnis entfernen"
 
 #: src/menu.tsx:131 src/dialogs/rename.tsx:107
 msgid "Rename"
@@ -501,19 +501,19 @@ msgstr ""
 
 #: src/dialogs/rename.tsx:125
 msgid "Rename $0?"
-msgstr ""
+msgstr "$0 umbenennen?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
 msgid "Rename selected file or directory"
-msgstr ""
+msgstr "Ausgewählte Datei oder ausgewähltes Verzeichnis umbenennen"
 
 #: src/upload-button.tsx:88
 msgid "Replace"
-msgstr ""
+msgstr "Ersetzen"
 
 #: src/upload-button.tsx:81
 msgid "Replace file $0?"
-msgstr ""
+msgstr "Datei $0 ersetzen?"
 
 #: src/dialogs/editor.tsx:209
 msgid "Save"
@@ -521,7 +521,7 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:296
 msgid "Security context"
-msgstr ""
+msgstr "Sicherheitskontext"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Select all"
@@ -529,15 +529,15 @@ msgstr ""
 
 #: src/dialogs/permissions.jsx:308
 msgid "Set executable as program"
-msgstr ""
+msgstr "Ausführbare Datei als Programm festlegen"
 
 #: src/files-card-body.tsx:511 src/header.tsx:294
 msgid "Show hidden items"
-msgstr ""
+msgstr "Versteckte Elemente anzeigen"
 
 #: src/header.tsx:165
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "Tastenkombinationen anzeigen"
 
 #: src/files-card-body.tsx:524 src/sidebar.tsx:64 src/header.tsx:77
 msgid "Size"
@@ -545,7 +545,7 @@ msgstr ""
 
 #: src/header.tsx:84
 msgid "Smallest size"
-msgstr ""
+msgstr "Kleinste Größe"
 
 #: src/common.ts:42
 msgid "Socket"
@@ -553,11 +553,11 @@ msgstr ""
 
 #: src/header.tsx:281
 msgid "Sort"
-msgstr ""
+msgstr "Sortieren"
 
 #: src/upload-button.tsx:259
 msgid "Successfully uploaded file(s)"
-msgstr ""
+msgstr "Erfolgreich hochgeladene Datei(en)"
 
 #: src/common.ts:40
 msgid "Symbolic link"
