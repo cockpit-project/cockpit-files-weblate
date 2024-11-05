@@ -400,7 +400,7 @@ msgstr "Keine passenden Ergebnisse"
 
 #: src/common.ts:25
 msgid "None"
-msgstr "Kein"
+msgstr "Keine"
 
 #: src/menu.tsx:112
 msgid "Open text file"
