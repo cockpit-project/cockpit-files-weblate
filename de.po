@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-05 03:01+0000\n"
 "PO-Revision-Date: 2024-11-05 14:39+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/de/>\n"
 "Language: de\n"
@@ -497,7 +498,7 @@ msgstr "Aktuelles Verzeichnis entfernen"
 
 #: src/menu.tsx:131 src/dialogs/rename.tsx:107
 msgid "Rename"
-msgstr ""
+msgstr "Umbenennen"
 
 #: src/dialogs/rename.tsx:125
 msgid "Rename $0?"
@@ -517,7 +518,7 @@ msgstr "Datei $0 ersetzen?"
 
 #: src/dialogs/editor.tsx:209
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 #: src/dialogs/permissions.jsx:296
 msgid "Security context"
@@ -525,7 +526,7 @@ msgstr "Sicherheitskontext"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Select all"
-msgstr ""
+msgstr "Alles auswählen"
 
 #: src/dialogs/permissions.jsx:308
 msgid "Set executable as program"
@@ -541,7 +542,7 @@ msgstr "Tastenkombinationen anzeigen"
 
 #: src/files-card-body.tsx:524 src/sidebar.tsx:64 src/header.tsx:77
 msgid "Size"
-msgstr ""
+msgstr "Größe"
 
 #: src/header.tsx:84
 msgid "Smallest size"
@@ -561,7 +562,7 @@ msgstr "Erfolgreich hochgeladene Datei(en)"
 
 #: src/common.ts:40
 msgid "Symbolic link"
-msgstr ""
+msgstr "Symbolischer Link"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
