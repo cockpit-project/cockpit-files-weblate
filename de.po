@@ -4,9 +4,8 @@ msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-05 03:01+0000\n"
-"PO-Revision-Date: 2024-11-05 14:39+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-05 19:06+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/de/>\n"
 "Language: de\n"
@@ -562,27 +561,27 @@ msgstr "Erfolgreich hochgeladene Datei(en)"
 
 #: src/common.ts:40
 msgid "Symbolic link"
-msgstr "Symbolischer Link"
+msgstr "Symbolische Verknüpfung"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
-msgstr ""
+msgstr "Die existierende Datei wurde unerwartet geändert"
 
 #: src/dialogs/editor.tsx:57 src/dialogs/editor.tsx:231
 msgid "The file has been removed on disk"
-msgstr ""
+msgstr "Die Datei wurde von der Festplatte entfernt"
 
 #: src/dialogs/editor.tsx:232
 msgid "The file has changed on disk"
-msgstr ""
+msgstr "Die Datei hat sich auf der Festplatte geändert"
 
 #: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
-msgstr ""
+msgstr "Lesezeichenverzeichnis kann nicht erstellt werden"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
-msgstr ""
+msgstr "Lesezeichendatei kann nicht gespeichert werden"
 
 #: src/upload-button.tsx:337
 msgid "Upload"
@@ -590,7 +589,7 @@ msgstr ""
 
 #: src/upload-button.tsx:318
 msgid "Upload $0% completed"
-msgstr ""
+msgstr "Hochladen $0% abgeschlossen"
 
 #: src/upload-button.tsx:259
 msgid "Upload complete"
@@ -598,7 +597,7 @@ msgstr ""
 
 #: src/upload-button.tsx:242
 msgid "Upload error"
-msgstr ""
+msgstr "Hochladefehler"
 
 #: src/upload-button.tsx:282
 msgid "Uploads"
@@ -606,19 +605,19 @@ msgstr ""
 
 #: src/dialogs/editor.tsx:170
 msgid "View $0"
-msgstr ""
+msgstr "$0 ansehen"
 
 #: src/common.ts:28
 msgid "Write and execute"
-msgstr ""
+msgstr "Schreiben und ausführen"
 
 #: src/common.ts:27 src/dialogs/permissions.jsx:163
 msgid "Write-only"
-msgstr ""
+msgstr "Nur schreiben"
 
 #: src/header.tsx:73
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: src/manifest.json:0
 msgid "explorer"
