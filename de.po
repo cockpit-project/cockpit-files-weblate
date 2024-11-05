@@ -5,8 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-05 03:01+0000\n"
 "PO-Revision-Date: 2024-11-05 14:36+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/de/>\n"
 "Language: de\n"
@@ -405,15 +404,15 @@ msgstr "Keine"
 
 #: src/menu.tsx:112
 msgid "Open text file"
-msgstr ""
+msgstr "Textdatei öffnen"
 
 #: src/upload-button.tsx:111
 msgid "Original file on server"
-msgstr ""
+msgstr "Originaldatei auf dem Server"
 
 #: src/sidebar.tsx:83
 msgid "Other permissions"
-msgstr ""
+msgstr "Andere Berechtigungen"
 
 #: src/files-card-body.tsx:601
 msgid "Others"
@@ -434,37 +433,35 @@ msgstr "Eigentümer"
 
 #: src/dialogs/permissions.jsx:259
 msgid "Owner access"
-msgstr ""
+msgstr "Eigentümerzugriff"
 
 #: src/header.tsx:102
 msgid "Owner ascending"
-msgstr ""
+msgstr "Eigentümer aufsteigend"
 
 #: src/header.tsx:106
 msgid "Owner descending"
-msgstr ""
+msgstr "Eigentümer absteigend"
 
 #: src/sidebar.tsx:73
 msgid "Owner permissions"
-msgstr ""
+msgstr "Eigentümerberechtigungen"
 
 #: src/dialogs/permissions.jsx:225
 msgid "Ownership"
-msgstr ""
+msgstr "Eigentümerschaft"
 
 #: src/menu.tsx:83
 msgid "Paste"
 msgstr "Einfügen"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:98
-#, fuzzy
-#| msgid "Create directory"
 msgid "Paste file or directory"
-msgstr "Verzeichnis erstellen"
+msgstr "Datei oder Verzeichnis einfügen"
 
 #: src/menu.tsx:56
 msgid "Pasting failed"
-msgstr ""
+msgstr "Einfügen fehlgeschlagen"
 
 #: src/files-card-body.tsx:538 src/header.tsx:110
 msgid "Permissions"
@@ -472,23 +469,23 @@ msgstr "Berechtigungen"
 
 #: src/common.ts:30
 msgid "Read and execute"
-msgstr ""
+msgstr "Lesen und ausführen"
 
 #: src/common.ts:31 src/dialogs/permissions.jsx:143
 msgid "Read and write"
-msgstr ""
+msgstr "Lesen und schreiben"
 
 #: src/common.ts:32
 msgid "Read, write, and execute"
-msgstr ""
+msgstr "Lesen, schreiben und ausführen"
 
 #: src/common.ts:29 src/dialogs/editor.tsx:173 src/dialogs/permissions.jsx:148
 msgid "Read-only"
-msgstr ""
+msgstr "Nur lesen"
 
 #: src/common.ts:41
 msgid "Regular file"
-msgstr ""
+msgstr "Reguläre Datei"
 
 #: src/dialogs/editor.tsx:237
 msgid "Reload"
