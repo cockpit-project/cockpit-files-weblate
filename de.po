@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-05 03:01+0000\n"
 "PO-Revision-Date: 2024-11-05 19:06+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/de/>\n"
 "Language: de\n"
@@ -585,7 +586,7 @@ msgstr "Lesezeichendatei kann nicht gespeichert werden"
 
 #: src/upload-button.tsx:337
 msgid "Upload"
-msgstr ""
+msgstr "Hochladen"
 
 #: src/upload-button.tsx:318
 msgid "Upload $0% completed"
@@ -593,7 +594,7 @@ msgstr "Hochladen $0% abgeschlossen"
 
 #: src/upload-button.tsx:259
 msgid "Upload complete"
-msgstr ""
+msgstr "Hochladen abgeschlossen"
 
 #: src/upload-button.tsx:242
 msgid "Upload error"
@@ -625,11 +626,11 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "files"
-msgstr ""
+msgstr "Dateien"
 
 #: src/manifest.json:0
 msgid "filesystem"
-msgstr ""
+msgstr "Dateisystem"
 
 #~ msgid "A file system browser for Cockpit."
 #~ msgstr "Ein Dateisystembrowser für Cockpit."
