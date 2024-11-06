@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:01+0000\n"
-"PO-Revision-Date: 2024-10-28 06:13+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-07 11:38+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ka/>\n"
 "Language: ka\n"
@@ -25,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: src/menu.tsx:57
 msgid "\"$0\" exists, not overwriting with paste."
@@ -33,7 +32,7 @@ msgstr "\"$0\" არსებობს. ჩასმით მას თავ�
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
-msgstr ""
+msgstr "მონიშნულია $0 ფაილი"
 
 #: src/files-card-body.tsx:508
 msgid "$0 item is hidden"
@@ -117,7 +116,7 @@ msgstr "შეცვლა"
 
 #: src/dialogs/permissions.jsx:277
 msgid "Change permissions for enclosed files"
-msgstr ""
+msgstr "ჩასმული ფაილების წვდომების შეცვლა"
 
 #: src/common.ts:37
 msgid "Character device"
@@ -185,11 +184,11 @@ msgstr "საქაღალდე"
 
 #: src/files-footer-detail.tsx:63
 msgid "Directory contains $0 directories, $1 files"
-msgstr ""
+msgstr "საქაღალდე შეიცავს $0 საქაღალდეს და $1 ფაილს"
 
 #: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
-msgstr ""
+msgstr "საქაღალდე შეიცავს $0 საქაღალდეს, $1 ფაილს და $2 დამალულ ფაილს"
 
 #: src/files-card-body.tsx:503
 msgid "Directory is empty"
@@ -370,22 +369,16 @@ msgid "Name"
 msgstr "სახელი"
 
 #: src/dialogs/rename.tsx:41
-#, fuzzy
-#| msgid "Name cannot be empty."
 msgid "Name cannot be empty"
-msgstr "სახელი არ შეიძლება იყოს ცარიელი."
+msgstr "სახელი არ შეიძლება იყოს ცარიელი"
 
 #: src/dialogs/rename.tsx:45
-#, fuzzy
-#| msgid "Name cannot include a /."
 msgid "Name cannot include a /"
-msgstr "სახელი, არ შეიძლება, სიმბოლოს '/' შეიცავდეს."
+msgstr "სახელი, არ შეიძლება, სიმბოლოს '/' შეიცავდეს"
 
 #: src/dialogs/rename.tsx:43
-#, fuzzy
-#| msgid "Name too long."
 msgid "Name too long"
-msgstr "სახელი ძალიან გრძელია."
+msgstr "სახელი ძალიან გრძელია"
 
 #: src/common.ts:39
 msgid "Named pipe"
