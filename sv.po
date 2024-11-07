@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:01+0000\n"
+"POT-Creation-Date: 2024-11-07 03:03+0000\n"
 "PO-Revision-Date: 2024-11-07 11:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
-"cockpit-files/cockpit-files/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
+"files/cockpit-files/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -199,15 +199,21 @@ msgid "Directory name"
 msgstr "Katalognamn"
 
 #: src/dialogs/mkdir.tsx:42
-msgid "Directory name cannot be empty."
+#, fuzzy
+#| msgid "Directory name cannot be empty."
+msgid "Directory name cannot be empty"
 msgstr "Katalognamn kan inte vara tomt."
 
 #: src/dialogs/mkdir.tsx:46
-msgid "Directory name cannot include a /."
+#, fuzzy
+#| msgid "Directory name cannot include a /."
+msgid "Directory name cannot include a /"
 msgstr "Katalognamn kan inte inkludera ett /."
 
 #: src/dialogs/mkdir.tsx:44
-msgid "Directory name too long."
+#, fuzzy
+#| msgid "Directory name too long."
+msgid "Directory name too long"
 msgstr "Katalognamn för långt."
 
 #: src/dialogs/mkdir.tsx:140

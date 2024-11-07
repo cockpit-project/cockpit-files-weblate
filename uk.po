@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:01+0000\n"
+"POT-Creation-Date: 2024-11-07 03:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -195,15 +195,15 @@ msgid "Directory name"
 msgstr ""
 
 #: src/dialogs/mkdir.tsx:42
-msgid "Directory name cannot be empty."
+msgid "Directory name cannot be empty"
 msgstr ""
 
 #: src/dialogs/mkdir.tsx:46
-msgid "Directory name cannot include a /."
+msgid "Directory name cannot include a /"
 msgstr ""
 
 #: src/dialogs/mkdir.tsx:44
-msgid "Directory name too long."
+msgid "Directory name too long"
 msgstr ""
 
 #: src/dialogs/mkdir.tsx:140

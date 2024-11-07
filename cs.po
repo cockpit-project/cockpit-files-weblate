@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:01+0000\n"
+"POT-Creation-Date: 2024-11-07 03:03+0000\n"
 "PO-Revision-Date: 2024-10-30 11:38+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
@@ -199,15 +199,21 @@ msgid "Directory name"
 msgstr "Název složky"
 
 #: src/dialogs/mkdir.tsx:42
-msgid "Directory name cannot be empty."
+#, fuzzy
+#| msgid "Directory name cannot be empty."
+msgid "Directory name cannot be empty"
 msgstr "Složku je třeba nějak nazvat."
 
 #: src/dialogs/mkdir.tsx:46
-msgid "Directory name cannot include a /."
+#, fuzzy
+#| msgid "Directory name cannot include a /."
+msgid "Directory name cannot include a /"
 msgstr "Název složky nemůže obsahovat /."
 
 #: src/dialogs/mkdir.tsx:44
-msgid "Directory name too long."
+#, fuzzy
+#| msgid "Directory name too long."
+msgid "Directory name too long"
 msgstr "Název složky je příliš dlouhý."
 
 #: src/dialogs/mkdir.tsx:140
