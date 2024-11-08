@@ -5,8 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-08 03:02+0000\n"
 "PO-Revision-Date: 2024-11-08 20:53+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/de/>\n"
 "Language: de\n"
@@ -361,7 +360,7 @@ msgstr "Name darf nicht leer sein"
 
 #: src/dialogs/rename.tsx:45
 msgid "Name cannot include a /"
-msgstr "Name darf kein / enthalten."
+msgstr "Name darf kein / enthalten"
 
 #: src/dialogs/rename.tsx:43
 #, fuzzy
