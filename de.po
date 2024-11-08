@@ -4,9 +4,8 @@ msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-08 03:02+0000\n"
-"PO-Revision-Date: 2024-11-08 20:53+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-09 20:08+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/de/>\n"
 "Language: de\n"
@@ -365,7 +364,7 @@ msgstr "Name darf kein / enthalten"
 
 #: src/dialogs/rename.tsx:43
 msgid "Name too long"
-msgstr "Name zu lang."
+msgstr "Name zu lang"
 
 #: src/common.ts:39
 msgid "Named pipe"
@@ -413,7 +412,7 @@ msgstr "Andere"
 
 #: src/dialogs/permissions.jsx:350
 msgid "Others access"
-msgstr ""
+msgstr "Anderer Zugriff"
 
 #: src/dialogs/editor.tsx:196 src/dialogs/rename.tsx:114
 msgid "Overwrite"
