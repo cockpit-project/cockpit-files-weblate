@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 03:00+0000\n"
 "PO-Revision-Date: 2024-11-09 20:09+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -377,8 +378,6 @@ msgid "Name cannot include a /"
 msgstr "Název nemůže obsahovat /"
 
 #: src/dialogs/rename.tsx:43
-#, fuzzy
-#| msgid "Name too long."
 msgid "Name too long"
 msgstr "Název je příliš dlouhý."
 
