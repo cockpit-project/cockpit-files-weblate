@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-08 03:02+0000\n"
 "PO-Revision-Date: 2024-11-09 20:08+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -201,7 +200,7 @@ msgstr "Název složky"
 
 #: src/dialogs/mkdir.tsx:42
 msgid "Directory name cannot be empty"
-msgstr "Složku je třeba nějak nazvat."
+msgstr "Složku je třeba nějak nazvat"
 
 #: src/dialogs/mkdir.tsx:46
 #, fuzzy
