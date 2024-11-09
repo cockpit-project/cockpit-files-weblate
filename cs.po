@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 03:00+0000\n"
 "PO-Revision-Date: 2024-11-09 20:09+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -209,7 +208,7 @@ msgstr "Název složky nemůže obsahovat /"
 
 #: src/dialogs/mkdir.tsx:44
 msgid "Directory name too long"
-msgstr "Název složky je příliš dlouhý."
+msgstr "Název složky je příliš dlouhý"
 
 #: src/dialogs/mkdir.tsx:140
 msgid "Directory owner"
