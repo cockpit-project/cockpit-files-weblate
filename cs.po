@@ -370,7 +370,7 @@ msgstr "Název"
 
 #: src/dialogs/rename.tsx:41
 msgid "Name cannot be empty"
-msgstr "Název je třeba vyplnit."
+msgstr "Název je třeba vyplnit"
 
 #: src/dialogs/rename.tsx:45
 #, fuzzy
