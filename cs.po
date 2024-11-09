@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 03:00+0000\n"
-"PO-Revision-Date: 2024-11-09 20:08+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-09 20:09+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -205,7 +204,7 @@ msgstr "Složku je třeba nějak nazvat"
 
 #: src/dialogs/mkdir.tsx:46
 msgid "Directory name cannot include a /"
-msgstr "Název složky nemůže obsahovat /."
+msgstr "Název složky nemůže obsahovat /"
 
 #: src/dialogs/mkdir.tsx:44
 #, fuzzy
