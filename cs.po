@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 03:00+0000\n"
-"PO-Revision-Date: 2024-11-09 20:09+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-10 20:38+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -319,7 +318,7 @@ msgstr "Skupina"
 
 #: src/dialogs/permissions.jsx:338
 msgid "Group access"
-msgstr "Přístup skupiny"
+msgstr "Přístup pro skupinu"
 
 #: src/header.tsx:286
 msgid "Hide hidden items"
@@ -379,7 +378,7 @@ msgstr "Název nemůže obsahovat /"
 
 #: src/dialogs/rename.tsx:43
 msgid "Name too long"
-msgstr "Název je příliš dlouhý."
+msgstr "Název je příliš dlouhý"
 
 #: src/common.ts:39
 msgid "Named pipe"
@@ -427,7 +426,7 @@ msgstr "Ostatní"
 
 #: src/dialogs/permissions.jsx:350
 msgid "Others access"
-msgstr "Přístup ostatních"
+msgstr "Přístup pro ostatní"
 
 #: src/dialogs/editor.tsx:196 src/dialogs/rename.tsx:114
 msgid "Overwrite"
@@ -441,7 +440,7 @@ msgstr "Vlastník"
 
 #: src/dialogs/permissions.jsx:326
 msgid "Owner access"
-msgstr "Přístup vlastníka"
+msgstr "Přístup pro vlastníka"
 
 #: src/header.tsx:101
 msgid "Owner ascending"
