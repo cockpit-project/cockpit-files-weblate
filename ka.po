@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-09 03:00+0000\n"
-"PO-Revision-Date: 2024-11-07 11:38+0000\n"
+"PO-Revision-Date: 2024-11-10 20:38+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ka/>\n"
@@ -199,22 +199,16 @@ msgid "Directory name"
 msgstr "საქაღალდის სახელი"
 
 #: src/dialogs/mkdir.tsx:42
-#, fuzzy
-#| msgid "Directory name cannot be empty."
 msgid "Directory name cannot be empty"
-msgstr "საქაღალდის სახელი ცარიელი ვერ იქნება."
+msgstr "საქაღალდის სახელი ცარიელი ვერ იქნება"
 
 #: src/dialogs/mkdir.tsx:46
-#, fuzzy
-#| msgid "Directory name cannot include a /."
 msgid "Directory name cannot include a /"
-msgstr "საქაღალდის სახელი, არ შეიძლება, სიმბოლოს '/' შეიცავდეს."
+msgstr "საქაღალდის სახელი, არ შეიძლება, სიმბოლოს '/' შეიცავდეს"
 
 #: src/dialogs/mkdir.tsx:44
-#, fuzzy
-#| msgid "Directory name too long."
 msgid "Directory name too long"
-msgstr "საქაღალდის სახელი ძალიან გრძელია."
+msgstr "საქაღალდის სახელი ძალიან გრძელია"
 
 #: src/dialogs/mkdir.tsx:140
 msgid "Directory owner"
