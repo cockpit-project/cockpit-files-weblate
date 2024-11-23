@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-22 03:18+0000\n"
+"POT-Creation-Date: 2024-11-23 03:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-22 03:18+0000\n"
+"POT-Creation-Date: 2024-11-23 03:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,7 +156,7 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/menu.tsx:126 src/menu.tsx:161
+#: src/menu.tsx:138 src/menu.tsx:183
 msgid "Copy"
 msgstr ""
 
@@ -168,11 +168,11 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/menu.tsx:91 src/dialogs/mkdir.tsx:92
+#: src/menu.tsx:93 src/dialogs/mkdir.tsx:92
 msgid "Create directory"
 msgstr ""
 
-#: src/menu.tsx:96 src/dialogs/create-file.tsx:146
+#: src/menu.tsx:98 src/dialogs/create-file.tsx:146
 msgid "Create file"
 msgstr ""
 
@@ -180,7 +180,7 @@ msgstr ""
 msgid "Create new directory"
 msgstr ""
 
-#: src/menu.tsx:143 src/menu.tsx:166 src/dialogs/delete.tsx:90
+#: src/menu.tsx:155 src/menu.tsx:188 src/dialogs/delete.tsx:90
 msgid "Delete"
 msgstr ""
 
@@ -252,7 +252,7 @@ msgstr ""
 msgid "Display as a list"
 msgstr ""
 
-#: src/menu.tsx:153
+#: src/menu.tsx:165
 msgid "Download"
 msgstr ""
 
@@ -265,7 +265,7 @@ msgstr ""
 msgid "Edit path"
 msgstr ""
 
-#: src/menu.tsx:102 src/menu.tsx:132
+#: src/menu.tsx:104 src/menu.tsx:144
 msgid "Edit permissions"
 msgstr ""
 
@@ -446,7 +446,11 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/menu.tsx:118
+#: src/menu.tsx:113 src/menu.tsx:174
+msgid "Open in terminal"
+msgstr ""
+
+#: src/menu.tsx:130
 msgid "Open text file"
 msgstr ""
 
@@ -488,7 +492,7 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/menu.tsx:84
+#: src/menu.tsx:86
 msgid "Paste"
 msgstr ""
 
@@ -536,7 +540,7 @@ msgstr ""
 msgid "Remove current directory"
 msgstr ""
 
-#: src/menu.tsx:137 src/dialogs/rename.tsx:89
+#: src/menu.tsx:149 src/dialogs/rename.tsx:89
 msgid "Rename"
 msgstr ""
 
