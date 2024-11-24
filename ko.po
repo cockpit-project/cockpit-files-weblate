@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-24 03:22+0000\n"
 "PO-Revision-Date: 2024-11-24 16:39+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -486,10 +487,8 @@ msgid "Pasting failed"
 msgstr "붙여넣기 실패함"
 
 #: src/dialogs/create-file.tsx:229
-#, fuzzy
-#| msgid "Permissions"
 msgid "Permission denied"
-msgstr "권한"
+msgstr "권한이 거부되었습니다"
 
 #: src/files-card-body.tsx:538 src/header.tsx:109
 msgid "Permissions"
