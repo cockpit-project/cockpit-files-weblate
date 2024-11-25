@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-24 03:22+0000\n"
-"PO-Revision-Date: 2024-11-11 23:20+0000\n"
+"PO-Revision-Date: 2024-11-26 04:38+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,10 +111,8 @@ msgid "Cancelled upload of $0"
 msgstr "Zrušeno nahrávání $0"
 
 #: src/dialogs/create-file.tsx:228
-#, fuzzy
-#| msgid "Copy selected file or directory"
 msgid "Cannot create file in current directory"
-msgstr "Zkopírovat označený soubor či složku"
+msgstr "Ve stávající složce není možné soubor vytvořit"
 
 #: src/dialogs/permissions.tsx:287
 msgid "Change"
@@ -157,10 +155,8 @@ msgid "Create directory"
 msgstr "Vytvořit složku"
 
 #: src/menu.tsx:98 src/dialogs/create-file.tsx:146
-#, fuzzy
-#| msgid "Create"
 msgid "Create file"
-msgstr "Vytvořit"
+msgstr "Vytvořit soubor"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
 msgid "Create new directory"
@@ -272,10 +268,8 @@ msgid "File exists"
 msgstr "Soubor existuje"
 
 #: src/dialogs/create-file.tsx:177
-#, fuzzy
-#| msgid "New name"
 msgid "File name"
-msgstr "Nový název"
+msgstr "Název souboru"
 
 #: src/common.ts:89
 msgid "Filename is the same as original name"
@@ -376,7 +370,7 @@ msgstr "Spravujte své soubory"
 
 #: src/dialogs/permissions.tsx:278
 msgid "Missing type"
-msgstr ""
+msgstr "Chybí typ"
 
 #: src/files-card-body.tsx:528 src/header.tsx:87
 msgid "Modified"
@@ -435,10 +429,8 @@ msgid "None"
 msgstr "Žádné"
 
 #: src/menu.tsx:113 src/menu.tsx:174
-#, fuzzy
-#| msgid "Open text file"
 msgid "Open in terminal"
-msgstr "Otevřít textový soubor"
+msgstr "Otevřít v terminálu"
 
 #: src/menu.tsx:130
 msgid "Open text file"
