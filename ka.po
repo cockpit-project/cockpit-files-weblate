@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-24 03:22+0000\n"
-"PO-Revision-Date: 2024-11-10 20:38+0000\n"
+"PO-Revision-Date: 2024-11-26 04:38+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ka/>\n"
@@ -111,10 +111,8 @@ msgid "Cancelled upload of $0"
 msgstr "$0-ის ატვირთვა შეწყდა"
 
 #: src/dialogs/create-file.tsx:228
-#, fuzzy
-#| msgid "Copy selected file or directory"
 msgid "Cannot create file in current directory"
-msgstr "მონიშნული ფაილის ან საქაღალდის კოპირება"
+msgstr "მიმდინარე საქაღალდეში ფაილის შექმნა შეუძლებელია"
 
 #: src/dialogs/permissions.tsx:287
 msgid "Change"
@@ -157,10 +155,8 @@ msgid "Create directory"
 msgstr "საქაღალდის შექმნა"
 
 #: src/menu.tsx:98 src/dialogs/create-file.tsx:146
-#, fuzzy
-#| msgid "Create"
 msgid "Create file"
-msgstr "შექმნა"
+msgstr "ფაილის შექმნა"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
 msgid "Create new directory"
@@ -376,7 +372,7 @@ msgstr "მართეთ თქვენი ფაილები"
 
 #: src/dialogs/permissions.tsx:278
 msgid "Missing type"
-msgstr ""
+msgstr "ნაკლული ტიპი"
 
 #: src/files-card-body.tsx:528 src/header.tsx:87
 msgid "Modified"
@@ -435,10 +431,8 @@ msgid "None"
 msgstr "არაფერი"
 
 #: src/menu.tsx:113 src/menu.tsx:174
-#, fuzzy
-#| msgid "Open text file"
 msgid "Open in terminal"
-msgstr "ტექსტური ფაილის გახსნა"
+msgstr "ტერმინალში გახსნა"
 
 #: src/menu.tsx:130
 msgid "Open text file"
