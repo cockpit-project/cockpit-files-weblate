@@ -15,17 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-04 03:23+0000\n"
-"PO-Revision-Date: 2024-09-17 08:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/fi/>\n"
+"PO-Revision-Date: 2024-12-15 17:38+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: src/menu.tsx:58
 msgid "\"$0\" exists, not overwriting with paste."
@@ -33,7 +32,7 @@ msgstr "\"$0\" on olemassa, eikä sitä korvata liittämällä."
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
-msgstr ""
+msgstr "$0 tiedostoa valittu"
 
 #: src/files-card-body.tsx:508
 msgid "$0 item is hidden"
@@ -111,10 +110,8 @@ msgid "Cancelled upload of $0"
 msgstr "$0:n uloslataus peruttu"
 
 #: src/dialogs/create-file.tsx:228
-#, fuzzy
-#| msgid "Filter directory"
 msgid "Cannot create file in current directory"
-msgstr "Suodata hakemisto"
+msgstr "Nykyiseen hakemistoon ei voi luoda tiedostoa"
 
 #: src/dialogs/permissions.tsx:287
 msgid "Change"
@@ -146,7 +143,7 @@ msgstr "Kopio"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
 msgid "Copy selected file or directory"
-msgstr ""
+msgstr "Kopioi valittu tiedosto tai kansio"
 
 #: src/dialogs/create-file.tsx:159 src/dialogs/mkdir.tsx:106
 msgid "Create"
@@ -157,16 +154,12 @@ msgid "Create directory"
 msgstr "Luo hakemisto"
 
 #: src/menu.tsx:98 src/dialogs/create-file.tsx:146
-#, fuzzy
-#| msgid "Create"
 msgid "Create file"
-msgstr "Luo"
+msgstr "Luo tiedosto"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
-#, fuzzy
-#| msgid "Create directory"
 msgid "Create new directory"
-msgstr "Luo hakemisto"
+msgstr "Luo uusi hakemisto"
 
 #: src/menu.tsx:155 src/menu.tsx:188 src/dialogs/delete.tsx:90
 msgid "Delete"
@@ -198,11 +191,11 @@ msgstr "Hakemisto"
 
 #: src/files-footer-detail.tsx:63
 msgid "Directory contains $0 directories, $1 files"
-msgstr ""
+msgstr "Hakemisto sisältää $0 hakemistoa, $1 tiedostoa"
 
 #: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
-msgstr ""
+msgstr "Hakemisto sisältää $0 hakemistoa, $1 tiedostoa, $2 piilotettua"
 
 #: src/files-card-body.tsx:503
 msgid "Directory is empty"
@@ -213,22 +206,16 @@ msgid "Directory name"
 msgstr "Hakemiston nimi"
 
 #: src/dialogs/mkdir.tsx:42
-#, fuzzy
-#| msgid "Directory name cannot be empty."
 msgid "Directory name cannot be empty"
-msgstr "Hakemiston nimi ei voi olla tyhjä."
+msgstr "Hakemiston nimi ei voi olla tyhjä"
 
 #: src/dialogs/mkdir.tsx:46
-#, fuzzy
-#| msgid "Directory name cannot include a /."
 msgid "Directory name cannot include a /"
-msgstr "Hakemiston nimessä ei voi olla \"/\"."
+msgstr "Hakemiston nimessä ei voi olla \"/\""
 
 #: src/dialogs/mkdir.tsx:44
-#, fuzzy
-#| msgid "Directory name too long."
 msgid "Directory name too long"
-msgstr "Hakemiston nimi liian pitkä."
+msgstr "Hakemiston nimi liian pitkä"
 
 #: src/dialogs/mkdir.tsx:140
 msgid "Directory owner"
@@ -252,10 +239,8 @@ msgstr "Lataus"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:170
-#, fuzzy
-#| msgid "Edit “$0”"
 msgid "Edit $0"
-msgstr "Muokkaa \"$0\":ta"
+msgstr "Muokkaa $0"
 
 #: src/files-breadcrumbs.tsx:307 src/dialogs/keyboardShortcutsHelp.tsx:71
 msgid "Edit path"
@@ -267,7 +252,7 @@ msgstr "Muokkaa käyttöoikeuksia"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
 msgid "Editing"
-msgstr ""
+msgstr "Muokataan"
 
 #: src/common.ts:29
 msgid "Execute-only"
@@ -282,10 +267,8 @@ msgid "File exists"
 msgstr "Tiedosto on olemassa"
 
 #: src/dialogs/create-file.tsx:177
-#, fuzzy
-#| msgid "New name"
 msgid "File name"
-msgstr "Uusi nimi"
+msgstr "Tiedostonimi"
 
 #: src/common.ts:89
 msgid "Filename is the same as original name"
@@ -329,17 +312,15 @@ msgstr "Pakottaako linkin $0 poisto?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:45
 msgid "Go back"
-msgstr ""
+msgstr "Siirry taaksepäin"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:51
 msgid "Go forward"
-msgstr ""
+msgstr "Siirry eteenpäin"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:39
-#, fuzzy
-#| msgid "Create directory"
 msgid "Go up a directory"
-msgstr "Luo hakemisto"
+msgstr "Siirry yksi hakemisto ylös"
 
 #: src/files-card-body.tsx:572 src/dialogs/permissions.tsx:325
 #: src/files-footer-detail.tsx:75
@@ -368,7 +349,7 @@ msgstr "Säilytä alkuperäinen"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:112
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Pikanäppäimet"
 
 #: src/header.tsx:79
 msgid "Largest size"
@@ -403,22 +384,16 @@ msgid "Name"
 msgstr "Nimi"
 
 #: src/common.ts:83
-#, fuzzy
-#| msgid "Name cannot be empty."
 msgid "Name cannot be empty"
-msgstr "Nimi ei voi olla tyhjä."
+msgstr "Nimi ei voi olla tyhjä"
 
 #: src/common.ts:87
-#, fuzzy
-#| msgid "Name cannot include a /."
 msgid "Name cannot include a /"
-msgstr "Nimessä ei saa olla \"/\"."
+msgstr "Nimessä ei saa olla \"/\""
 
 #: src/common.ts:85
-#, fuzzy
-#| msgid "Name too long."
 msgid "Name too long"
-msgstr "Nimi liian pitkä."
+msgstr "Nimi liian pitkä"
 
 #: src/common.ts:42
 msgid "Named pipe"
@@ -426,7 +401,7 @@ msgstr "Nimetty putki"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:121
 msgid "Navigation"
-msgstr ""
+msgstr "Liikkuminen"
 
 #: src/upload-button.tsx:106
 msgid "New file"
@@ -441,10 +416,8 @@ msgid "New name"
 msgstr "Uusi nimi"
 
 #: src/dialogs/permissions.tsx:230
-#, fuzzy
-#| msgid "Group access"
 msgid "No access"
-msgstr "Ryhmään pääsy"
+msgstr "Ei pääsyä"
 
 #: src/files-card-body.tsx:495
 msgid "No matching results"
@@ -455,10 +428,8 @@ msgid "None"
 msgstr "Ei mitään"
 
 #: src/menu.tsx:113 src/menu.tsx:174
-#, fuzzy
-#| msgid "Open text file"
 msgid "Open in terminal"
-msgstr "Avaa tekstitiedosto"
+msgstr "Avaa päätteessä"
 
 #: src/menu.tsx:130
 msgid "Open text file"
@@ -507,20 +478,16 @@ msgid "Paste"
 msgstr "Liitä"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:98
-#, fuzzy
-#| msgid "Filter directory"
 msgid "Paste file or directory"
-msgstr "Suodata hakemisto"
+msgstr "Liitä tiedosto tai hakemisto"
 
 #: src/menu.tsx:57
 msgid "Pasting failed"
 msgstr "Liittäminen epäonnistui"
 
 #: src/dialogs/create-file.tsx:229
-#, fuzzy
-#| msgid "Permissions"
 msgid "Permission denied"
-msgstr "Käyttöoikeudet"
+msgstr "Käyttö estetty"
 
 #: src/files-card-body.tsx:538 src/header.tsx:109
 msgid "Permissions"
@@ -564,7 +531,7 @@ msgstr "Nimetäänkö $0 uudelleen?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
 msgid "Rename selected file or directory"
-msgstr ""
+msgstr "Nimeä valittu tiedosto tai hakemisto uudelleen"
 
 #: src/upload-button.tsx:88
 msgid "Replace"
@@ -580,11 +547,11 @@ msgstr "Tallenna"
 
 #: src/dialogs/permissions.tsx:380
 msgid "Security context"
-msgstr ""
+msgstr "Turvakonteksti"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Select all"
-msgstr ""
+msgstr "Valitse kaikki"
 
 #: src/dialogs/permissions.tsx:392
 msgid "Set executable as program"
@@ -596,7 +563,7 @@ msgstr "Näytä piilotetut kohteet"
 
 #: src/header.tsx:164
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "Näytä pikanäppäimet"
 
 #: src/files-card-body.tsx:524 src/header.tsx:76
 msgid "Size"
@@ -664,10 +631,8 @@ msgid "Uploads"
 msgstr "Uloslataukset"
 
 #: src/dialogs/editor.tsx:170
-#, fuzzy
-#| msgid "View “$0”"
 msgid "View $0"
-msgstr "Näytä \"$0\""
+msgstr "Näytä $0"
 
 #: src/common.ts:31
 msgid "Write and execute"
