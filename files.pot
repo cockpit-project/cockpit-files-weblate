@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 03:25+0000\n"
+"POT-Creation-Date: 2024-12-14 03:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 03:25+0000\n"
+"POT-Creation-Date: 2024-12-14 03:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,10 @@ msgstr ""
 
 #: src/menu.tsx:58
 msgid "\"$0\" exists, not overwriting with paste."
+msgstr ""
+
+#: src/upload-button.tsx:66
+msgid "$0 files"
 msgstr ""
 
 #: src/files-footer-detail.tsx:35
@@ -74,7 +78,7 @@ msgid ""
 "editor."
 msgstr ""
 
-#: src/upload-button.tsx:97
+#: src/upload-button.tsx:121
 msgid ""
 "A file with the same name already exists in \"$0\". Replacing it will "
 "overwrite its content."
@@ -97,7 +101,7 @@ msgstr ""
 msgid "Add bookmark"
 msgstr ""
 
-#: src/upload-button.tsx:120
+#: src/upload-button.tsx:144
 msgid "Apply this action to all conflicting files"
 msgstr ""
 
@@ -111,19 +115,20 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:315 src/dialogs/create-file.tsx:162
 #: src/dialogs/editor.tsx:211 src/dialogs/delete.tsx:91
-#: src/dialogs/rename.tsx:98 src/dialogs/mkdir.tsx:108 src/upload-button.tsx:91
+#: src/dialogs/rename.tsx:98 src/dialogs/mkdir.tsx:108
+#: src/upload-button.tsx:115
 msgid "Cancel"
 msgstr ""
 
-#: src/upload-button.tsx:301
+#: src/upload-button.tsx:439
 msgid "Cancel upload of $0"
 msgstr ""
 
-#: src/upload-button.tsx:239
+#: src/upload-button.tsx:341
 msgid "Cancelled"
 msgstr ""
 
-#: src/upload-button.tsx:240
+#: src/upload-button.tsx:342
 msgid "Cancelled upload of $0"
 msgstr ""
 
@@ -133,6 +138,10 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:306
 msgid "Change"
+msgstr ""
+
+#: src/upload-button.tsx:392
+msgid "Change permissions"
 msgstr ""
 
 #: src/dialogs/permissions.tsx:313
@@ -280,6 +289,10 @@ msgstr ""
 msgid "Execute-only"
 msgstr ""
 
+#: src/upload-button.tsx:280
+msgid "Failed"
+msgstr ""
+
 #: src/manifest.json:0
 msgid "File browser"
 msgstr ""
@@ -292,12 +305,20 @@ msgstr ""
 msgid "File name"
 msgstr ""
 
+#: src/upload-button.tsx:361
+msgid "File uploaded"
+msgstr ""
+
 #: src/common.ts:89
 msgid "Filename is the same as original name"
 msgstr ""
 
 #: org.cockpit_project.files.metainfo.xml:5
 msgid "Files"
+msgstr ""
+
+#: src/upload-button.tsx:361
+msgid "Files uploaded"
 msgstr ""
 
 #: src/files-breadcrumbs.tsx:239
@@ -365,7 +386,7 @@ msgstr ""
 msgid "Ignore"
 msgstr ""
 
-#: src/upload-button.tsx:90
+#: src/upload-button.tsx:114
 msgid "Keep original"
 msgstr ""
 
@@ -425,7 +446,7 @@ msgstr ""
 msgid "Navigation"
 msgstr ""
 
-#: src/upload-button.tsx:106
+#: src/upload-button.tsx:130
 msgid "New file"
 msgstr ""
 
@@ -457,7 +478,7 @@ msgstr ""
 msgid "Open text file"
 msgstr ""
 
-#: src/upload-button.tsx:111
+#: src/upload-button.tsx:135
 msgid "Original file on server"
 msgstr ""
 
@@ -559,11 +580,11 @@ msgstr ""
 msgid "Rename selected file or directory"
 msgstr ""
 
-#: src/upload-button.tsx:88
+#: src/upload-button.tsx:112
 msgid "Replace"
 msgstr ""
 
-#: src/upload-button.tsx:81
+#: src/upload-button.tsx:105
 msgid "Replace file $0?"
 msgstr ""
 
@@ -611,10 +632,6 @@ msgstr ""
 msgid "Sort"
 msgstr ""
 
-#: src/upload-button.tsx:259
-msgid "Successfully uploaded file(s)"
-msgstr ""
-
 #: src/common.ts:43
 msgid "Symbolic link"
 msgstr ""
@@ -635,28 +652,32 @@ msgstr ""
 msgid "Unable to create bookmark directory"
 msgstr ""
 
+#: src/upload-button.tsx:321
+msgid "Unable to move uploaded file to final destination"
+msgstr ""
+
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
 msgstr ""
 
-#: src/upload-button.tsx:337
+#: src/upload-button.tsx:475
 msgid "Upload"
 msgstr ""
 
 #
-#: src/upload-button.tsx:318
+#: src/upload-button.tsx:456
 msgid "Upload $0% completed"
 msgstr ""
 
-#: src/upload-button.tsx:259
-msgid "Upload complete"
-msgstr ""
-
-#: src/upload-button.tsx:242
+#: src/upload-button.tsx:320 src/upload-button.tsx:344
 msgid "Upload error"
 msgstr ""
 
-#: src/upload-button.tsx:282
+#: src/upload-button.tsx:70
+msgid "Uploaded as $0, $1"
+msgstr ""
+
+#: src/upload-button.tsx:420
 msgid "Uploads"
 msgstr ""
 
