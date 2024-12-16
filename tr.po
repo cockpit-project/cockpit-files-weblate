@@ -15,26 +15,24 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-15 03:27+0000\n"
-"PO-Revision-Date: 2024-11-24 16:39+0000\n"
+"PO-Revision-Date: 2024-12-17 03:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: src/menu.tsx:58
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr "\"$0\" var, yapıştırma ile üzerine yazılmıyor."
 
 #: src/upload-button.tsx:66
-#, fuzzy
-#| msgid "files"
 msgid "$0 files"
-msgstr "dosyalar"
+msgstr "$0 dosya"
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
@@ -125,10 +123,8 @@ msgid "Change"
 msgstr "Değiştir"
 
 #: src/upload-button.tsx:392
-#, fuzzy
-#| msgid "Other permissions"
 msgid "Change permissions"
-msgstr "Diğer izinler"
+msgstr "İzinleri değiştir"
 
 #: src/dialogs/permissions.tsx:313
 msgid "Change permissions for enclosed files"
@@ -152,7 +148,7 @@ msgstr "Cockpit Dosyalar"
 
 #: src/dialogs/permissions.tsx:280
 msgid "Collapse"
-msgstr ""
+msgstr "Daralt"
 
 #: src/menu.tsx:140 src/menu.tsx:185
 msgid "Copy"
@@ -277,7 +273,7 @@ msgstr "Yalnızca çalıştır"
 
 #: src/upload-button.tsx:280
 msgid "Failed"
-msgstr ""
+msgstr "Başarısız oldu"
 
 #: src/manifest.json:0
 msgid "File browser"
@@ -292,10 +288,8 @@ msgid "File name"
 msgstr "Dosya adı"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "File name"
 msgid "File uploaded"
-msgstr "Dosya adı"
+msgstr "Dosya karşıya yüklendi"
 
 #: src/common.ts:89
 msgid "Filename is the same as original name"
@@ -306,10 +300,8 @@ msgid "Files"
 msgstr "Dosyalar"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "File name"
 msgid "Files uploaded"
-msgstr "Dosya adı"
+msgstr "Dosyalar karşıya yüklendi"
 
 #: src/files-breadcrumbs.tsx:239
 msgid "Filesystem"
@@ -527,10 +519,8 @@ msgid "Permissions"
 msgstr "İzinler"
 
 #: src/dialogs/permissions.tsx:296
-#, fuzzy
-#| msgid "Change permissions for enclosed files"
 msgid "Permissions for $0 files"
-msgstr "İçerilen dosyalar için izinleri değiştir"
+msgstr "$0 dosya için izinler"
 
 #: src/common.ts:33
 msgid "Read and execute"
@@ -598,7 +588,7 @@ msgstr "Çalıştırılabilir program olarak ayarla"
 
 #: src/dialogs/permissions.tsx:281
 msgid "Show all files"
-msgstr ""
+msgstr "Tüm dosyaları göster"
 
 #: src/files-card-body.tsx:511 src/header.tsx:286
 msgid "Show hidden items"
@@ -646,7 +636,7 @@ msgstr "Yer imi dizini oluşturulamıyor"
 
 #: src/upload-button.tsx:321
 msgid "Unable to move uploaded file to final destination"
-msgstr ""
+msgstr "Karşıya yüklenen dosya son hedefe taşınamıyor"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
@@ -666,7 +656,7 @@ msgstr "Karşıya yükleme hatası"
 
 #: src/upload-button.tsx:70
 msgid "Uploaded as $0, $1"
-msgstr ""
+msgstr "$0, $1 olarak karşıya yüklendi"
 
 #: src/upload-button.tsx:420
 msgid "Uploads"
