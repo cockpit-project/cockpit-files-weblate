@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-15 03:27+0000\n"
-"PO-Revision-Date: 2024-11-26 04:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-12-17 03:38+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ka/>\n"
 "Language: ka\n"
@@ -25,17 +24,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: src/menu.tsx:58
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr "\"$0\" არსებობს. ჩასმით მას თავზე არ გადაეწერება."
 
 #: src/upload-button.tsx:66
-#, fuzzy
-#| msgid "files"
 msgid "$0 files"
-msgstr "ფაილი"
+msgstr "$0 ფაილი"
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
@@ -126,10 +123,8 @@ msgid "Change"
 msgstr "შეცვლა"
 
 #: src/upload-button.tsx:392
-#, fuzzy
-#| msgid "Other permissions"
 msgid "Change permissions"
-msgstr "სხვა წვდომები"
+msgstr "წვდომების შეცვლა"
 
 #: src/dialogs/permissions.tsx:313
 msgid "Change permissions for enclosed files"
@@ -153,7 +148,7 @@ msgstr "Cockpit Files"
 
 #: src/dialogs/permissions.tsx:280
 msgid "Collapse"
-msgstr ""
+msgstr "ჩამოშლა"
 
 #: src/menu.tsx:140 src/menu.tsx:185
 msgid "Copy"
@@ -293,10 +288,8 @@ msgid "File name"
 msgstr "ფაილის სახელი"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "File name"
 msgid "File uploaded"
-msgstr "ფაილის სახელი"
+msgstr "ფაილი ატვირთულია"
 
 #: src/common.ts:89
 msgid "Filename is the same as original name"
@@ -307,10 +300,8 @@ msgid "Files"
 msgstr "ფაილები"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "File name"
 msgid "Files uploaded"
-msgstr "ფაილის სახელი"
+msgstr "ფაილები ატვირთულია"
 
 #: src/files-breadcrumbs.tsx:239
 msgid "Filesystem"
@@ -528,10 +519,8 @@ msgid "Permissions"
 msgstr "წვდომები"
 
 #: src/dialogs/permissions.tsx:296
-#, fuzzy
-#| msgid "Change permissions for enclosed files"
 msgid "Permissions for $0 files"
-msgstr "ჩასმული ფაილების წვდომების შეცვლა"
+msgstr "წვდომები $0 ფაილისთვის"
 
 #: src/common.ts:33
 msgid "Read and execute"
@@ -599,7 +588,7 @@ msgstr "პროგრამის გაშვებადად დაყე�
 
 #: src/dialogs/permissions.tsx:281
 msgid "Show all files"
-msgstr ""
+msgstr "ყველა ფაილის ჩვენება"
 
 #: src/files-card-body.tsx:511 src/header.tsx:286
 msgid "Show hidden items"
@@ -647,7 +636,7 @@ msgstr "სანიშნეების საქაღალდის შე�
 
 #: src/upload-button.tsx:321
 msgid "Unable to move uploaded file to final destination"
-msgstr ""
+msgstr "ატვირთული ფაილების საბოლოო სამიზნეზე გადატანა შეუძლებელია"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
@@ -668,7 +657,7 @@ msgstr "ატვირთვის შეცდომა"
 
 #: src/upload-button.tsx:70
 msgid "Uploaded as $0, $1"
-msgstr ""
+msgstr "ატვირთულია, როგორც $0.$1"
 
 #: src/upload-button.tsx:420
 msgid "Uploads"
