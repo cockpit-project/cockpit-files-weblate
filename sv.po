@@ -15,27 +15,24 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-15 03:27+0000\n"
-"PO-Revision-Date: 2024-11-26 04:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/sv/>\n"
+"PO-Revision-Date: 2024-12-17 03:38+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: src/menu.tsx:58
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr "\"$0\" existerar, skriver inte över med klistra in."
 
 #: src/upload-button.tsx:66
-#, fuzzy
-#| msgid "files"
 msgid "$0 files"
-msgstr "filer"
+msgstr "$0 filer"
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
@@ -126,10 +123,8 @@ msgid "Change"
 msgstr "Ändra"
 
 #: src/upload-button.tsx:392
-#, fuzzy
-#| msgid "Other permissions"
 msgid "Change permissions"
-msgstr "Andra behörigheter"
+msgstr "Ändra behörigheter"
 
 #: src/dialogs/permissions.tsx:313
 msgid "Change permissions for enclosed files"
@@ -153,7 +148,7 @@ msgstr "Cockpit filer"
 
 #: src/dialogs/permissions.tsx:280
 msgid "Collapse"
-msgstr ""
+msgstr "Fäll ihop"
 
 #: src/menu.tsx:140 src/menu.tsx:185
 msgid "Copy"
@@ -293,10 +288,8 @@ msgid "File name"
 msgstr "Filnamn"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "File name"
 msgid "File uploaded"
-msgstr "Filnamn"
+msgstr "Fil uppladdad"
 
 #: src/common.ts:89
 msgid "Filename is the same as original name"
@@ -307,10 +300,8 @@ msgid "Files"
 msgstr "Filer"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "File name"
 msgid "Files uploaded"
-msgstr "Filnamn"
+msgstr "Filer uppladdade"
 
 #: src/files-breadcrumbs.tsx:239
 msgid "Filesystem"
@@ -528,10 +519,8 @@ msgid "Permissions"
 msgstr "Behörigheter"
 
 #: src/dialogs/permissions.tsx:296
-#, fuzzy
-#| msgid "Change permissions for enclosed files"
 msgid "Permissions for $0 files"
-msgstr "Ändra behörigheter för bifogade filer"
+msgstr "Behörigheter för $0 filer"
 
 #: src/common.ts:33
 msgid "Read and execute"
@@ -599,7 +588,7 @@ msgstr "Ställ in körbar fil som program"
 
 #: src/dialogs/permissions.tsx:281
 msgid "Show all files"
-msgstr ""
+msgstr "Visa alla filer"
 
 #: src/files-card-body.tsx:511 src/header.tsx:286
 msgid "Show hidden items"
@@ -647,7 +636,7 @@ msgstr "Kan inte skapa en bokmärkeskatalog"
 
 #: src/upload-button.tsx:321
 msgid "Unable to move uploaded file to final destination"
-msgstr ""
+msgstr "Det gick inte att flytta uppladdad fil till slutdestinationen"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
@@ -667,7 +656,7 @@ msgstr "Uppladdningsfel"
 
 #: src/upload-button.tsx:70
 msgid "Uploaded as $0, $1"
-msgstr ""
+msgstr "Uppladdad som $0,$1"
 
 #: src/upload-button.tsx:420
 msgid "Uploads"
