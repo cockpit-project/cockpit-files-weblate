@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 03:22+0000\n"
 "PO-Revision-Date: 2024-12-18 10:38+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/cs/>\n"
 "Language: cs\n"
@@ -273,7 +274,7 @@ msgstr "Pouze spouštět"
 
 #: src/upload-button.tsx:280
 msgid "Failed"
-msgstr ""
+msgstr "Nezdařilo se"
 
 #: src/manifest.json:0
 msgid "File browser"
