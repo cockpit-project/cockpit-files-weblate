@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-19 03:17+0000\n"
-"PO-Revision-Date: 2024-12-19 06:52+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-12-20 07:38+0000\n"
+"Last-Translator: Ricardo Gonzalez <rickygzz@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -40,19 +39,14 @@ msgid "$0 files selected"
 msgstr "$0 arquivos selecionados"
 
 #: src/files-card-body.tsx:508
-#, fuzzy
-#| msgid "($0 hidden)"
-#| msgid_plural "($0 hidden)"
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
-msgstr[0] "($0 oculto)"
-msgstr[1] "($0 ocultos)"
+msgstr[0] "$0 item está oculto"
+msgstr[1] "$0 itens estão ocultos"
 
 #: src/dialogs/permissions.tsx:299
-#, fuzzy
-#| msgid "“$0” permissions"
 msgid "$0 permissions"
-msgstr "Permissões de “$0”"
+msgstr "Permissões de $0"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -630,7 +624,7 @@ msgstr "Ordenar"
 
 #: src/common.ts:43
 msgid "Symbolic link"
-msgstr "link simbólico"
+msgstr "Link simbólico"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
@@ -638,59 +632,59 @@ msgstr "O arquivo existente mudou inesperadamente"
 
 #: src/dialogs/editor.tsx:57 src/dialogs/editor.tsx:230
 msgid "The file has been removed on disk"
-msgstr ""
+msgstr "O arquivo foi removido do disco"
 
 #: src/dialogs/editor.tsx:231
 msgid "The file has changed on disk"
-msgstr ""
+msgstr "O arquivo foi alterado no disco"
 
 #: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
-msgstr ""
+msgstr "Não é possível criar o diretório de marcadores"
 
 #: src/upload-button.tsx:321
 msgid "Unable to move uploaded file to final destination"
-msgstr ""
+msgstr "Não é possível mover o arquivo enviado para o destino final"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
-msgstr ""
+msgstr "Não é possível salvar o arquivo de marcadores"
 
 #: src/upload-button.tsx:494
 msgid "Upload"
-msgstr ""
+msgstr "Enviar"
 
 #: src/upload-button.tsx:475
 msgid "Upload $0% completed"
-msgstr ""
+msgstr "Upload $0% concluído"
 
 #: src/upload-button.tsx:320 src/upload-button.tsx:344
 msgid "Upload error"
-msgstr ""
+msgstr "Erro de upload"
 
 #: src/upload-button.tsx:71
 msgid "Uploaded as $0, $1"
-msgstr ""
+msgstr "Enviado como $0, $1"
 
 #: src/upload-button.tsx:439
 msgid "Uploads"
-msgstr ""
+msgstr "Transferências"
 
 #: src/dialogs/editor.tsx:170
 msgid "View $0"
-msgstr ""
+msgstr "Visualizar $0"
 
 #: src/common.ts:31
 msgid "Write and execute"
-msgstr ""
+msgstr "Escrever e executar"
 
 #: src/common.ts:30 src/dialogs/permissions.tsx:244
 msgid "Write-only"
-msgstr ""
+msgstr "Somente escrever"
 
 #: src/header.tsx:72
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: src/manifest.json:0
 msgid "explorer"
