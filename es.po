@@ -1,0 +1,686 @@
+# #-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-18 03:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Cockpit manifest2po\n"
+
+#: src/menu.tsx:58
+msgid "\"$0\" exists, not overwriting with paste."
+msgstr ""
+
+#: src/upload-button.tsx:66
+msgid "$0 files"
+msgstr ""
+
+#: src/files-footer-detail.tsx:35
+msgid "$0 files selected"
+msgstr ""
+
+#: src/files-card-body.tsx:508
+msgid "$0 item is hidden"
+msgid_plural "$0 items are hidden"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/dialogs/permissions.tsx:295
+msgid "$0 permissions"
+msgstr ""
+
+#: org.cockpit_project.files.metainfo.xml:8
+msgid ""
+"A file system UI for Cockpit. You can browse directories, upload and "
+"download files, and change their properties. It also includes a simple file "
+"editor."
+msgstr ""
+
+#: src/upload-button.tsx:121
+msgid ""
+"A file with the same name already exists in \"$0\". Replacing it will "
+"overwrite its content."
+msgstr ""
+
+#: src/header.tsx:68
+msgid "A-Z"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:360
+msgid "Access"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:57
+#: src/dialogs/keyboardShortcutsHelp.tsx:63
+msgid "Activate selected item, enter directory"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:147
+msgid "Add bookmark"
+msgstr ""
+
+#: src/upload-button.tsx:144
+msgid "Apply this action to all conflicting files"
+msgstr ""
+
+#: src/common.ts:39
+msgid "Block device"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:158
+msgid "Bookmarks"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:315 src/dialogs/create-file.tsx:162
+#: src/dialogs/editor.tsx:211 src/dialogs/delete.tsx:91
+#: src/dialogs/rename.tsx:98 src/dialogs/mkdir.tsx:108
+#: src/upload-button.tsx:115
+msgid "Cancel"
+msgstr ""
+
+#: src/upload-button.tsx:439
+msgid "Cancel upload of $0"
+msgstr ""
+
+#: src/upload-button.tsx:341
+msgid "Cancelled"
+msgstr ""
+
+#: src/upload-button.tsx:342
+msgid "Cancelled upload of $0"
+msgstr ""
+
+#: src/dialogs/create-file.tsx:228
+msgid "Cannot create file in current directory"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:306
+msgid "Change"
+msgstr ""
+
+#: src/upload-button.tsx:392
+msgid "Change permissions"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:313
+msgid "Change permissions for enclosed files"
+msgstr ""
+
+#: src/common.ts:40
+msgid "Character device"
+msgstr ""
+
+#: src/files-card-body.tsx:496
+msgid "Clear filter"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:211
+msgid "Close"
+msgstr ""
+
+#: src/index.html:20
+msgid "Cockpit Files"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:280
+msgid "Collapse"
+msgstr ""
+
+#: src/menu.tsx:140 src/menu.tsx:185
+msgid "Copy"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:92
+msgid "Copy selected file or directory"
+msgstr ""
+
+#: src/dialogs/create-file.tsx:159 src/dialogs/mkdir.tsx:106
+msgid "Create"
+msgstr ""
+
+#: src/menu.tsx:95 src/dialogs/mkdir.tsx:92
+msgid "Create directory"
+msgstr ""
+
+#: src/menu.tsx:100 src/dialogs/create-file.tsx:146
+msgid "Create file"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:86
+msgid "Create new directory"
+msgstr ""
+
+#: src/menu.tsx:157 src/menu.tsx:190 src/dialogs/delete.tsx:90
+msgid "Delete"
+msgstr ""
+
+#: src/dialogs/delete.tsx:45
+msgid "Delete $0 items?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:62
+msgid "Delete $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:59
+msgid "Delete directory $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:51
+msgid "Delete file $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:55
+msgid "Delete link $0?"
+msgstr ""
+
+#: src/common.ts:41
+msgid "Directory"
+msgstr ""
+
+#: src/files-footer-detail.tsx:63
+msgid "Directory contains $0 directories, $1 files"
+msgstr ""
+
+#: src/files-footer-detail.tsx:64
+msgid "Directory contains $0 directories, $1 files, $2 hidden"
+msgstr ""
+
+#: src/files-card-body.tsx:503
+msgid "Directory is empty"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:126
+msgid "Directory name"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:42
+msgid "Directory name cannot be empty"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:46
+msgid "Directory name cannot include a /"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:44
+msgid "Directory name too long"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:140
+msgid "Directory owner"
+msgstr ""
+
+#: src/common.ts:92
+msgid "Directory with the same name exists"
+msgstr ""
+
+#: src/header.tsx:255
+msgid "Display as a grid"
+msgstr ""
+
+#: src/header.tsx:254
+msgid "Display as a list"
+msgstr ""
+
+#: src/menu.tsx:167
+msgid "Download"
+msgstr ""
+
+#. Translators: This is the title of a modal dialog.  $0 represents a filename.
+#: src/dialogs/editor.tsx:170
+msgid "Edit $0"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:307 src/dialogs/keyboardShortcutsHelp.tsx:71
+msgid "Edit path"
+msgstr ""
+
+#: src/menu.tsx:106 src/menu.tsx:146 src/menu.tsx:204
+msgid "Edit permissions"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:131
+msgid "Editing"
+msgstr ""
+
+#: src/common.ts:29
+msgid "Execute-only"
+msgstr ""
+
+#: src/upload-button.tsx:280
+msgid "Failed"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "File browser"
+msgstr ""
+
+#: src/common.ts:94
+msgid "File exists"
+msgstr ""
+
+#: src/dialogs/create-file.tsx:177
+msgid "File name"
+msgstr ""
+
+#: src/upload-button.tsx:361
+msgid "File uploaded"
+msgstr ""
+
+#: src/common.ts:89
+msgid "Filename is the same as original name"
+msgstr ""
+
+#: org.cockpit_project.files.metainfo.xml:5
+msgid "Files"
+msgstr ""
+
+#: src/upload-button.tsx:361
+msgid "Files uploaded"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:239
+msgid "Filesystem"
+msgstr ""
+
+#: src/header.tsx:189
+msgid "Filter directory"
+msgstr ""
+
+#: src/header.tsx:90
+msgid "First modified"
+msgstr ""
+
+#: src/dialogs/delete.tsx:62
+msgid "Force delete $0"
+msgstr ""
+
+#: src/dialogs/delete.tsx:45
+msgid "Force delete $0 items"
+msgstr ""
+
+#: src/dialogs/delete.tsx:59
+msgid "Force delete directory $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:51
+msgid "Force delete file $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:55
+msgid "Force delete link $0?"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:45
+msgid "Go back"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:51
+msgid "Go forward"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:39
+msgid "Go up a directory"
+msgstr ""
+
+#: src/files-card-body.tsx:572 src/dialogs/permissions.tsx:344
+#: src/files-footer-detail.tsx:75
+msgid "Group"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:374
+msgid "Group access"
+msgstr ""
+
+#: src/header.tsx:286
+msgid "Hide hidden items"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:52
+msgid "Home"
+msgstr ""
+
+#: src/dialogs/editor.tsx:239
+msgid "Ignore"
+msgstr ""
+
+#: src/upload-button.tsx:114
+msgid "Keep original"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:112
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: src/header.tsx:79
+msgid "Largest size"
+msgstr ""
+
+#: src/header.tsx:94
+msgid "Last modified"
+msgstr ""
+
+#: src/header.tsx:116
+msgid "Least permissive"
+msgstr ""
+
+#: org.cockpit_project.files.metainfo.xml:6
+msgid "Manage your files"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:274
+msgid "Missing type"
+msgstr ""
+
+#: src/files-card-body.tsx:528 src/header.tsx:87
+msgid "Modified"
+msgstr ""
+
+#: src/header.tsx:112
+msgid "Most permissive"
+msgstr ""
+
+#: src/files-card-body.tsx:523 src/header.tsx:65
+msgid "Name"
+msgstr ""
+
+#: src/common.ts:83
+msgid "Name cannot be empty"
+msgstr ""
+
+#: src/common.ts:87
+msgid "Name cannot include a /"
+msgstr ""
+
+#: src/common.ts:85
+msgid "Name too long"
+msgstr ""
+
+#: src/common.ts:42
+msgid "Named pipe"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:121
+msgid "Navigation"
+msgstr ""
+
+#: src/upload-button.tsx:130
+msgid "New file"
+msgstr ""
+
+#: src/dialogs/rename.tsx:102
+msgid "New filename"
+msgstr ""
+
+#: src/dialogs/rename.tsx:102
+msgid "New name"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:230
+msgid "No access"
+msgstr ""
+
+#: src/files-card-body.tsx:495
+msgid "No matching results"
+msgstr ""
+
+#: src/common.ts:28
+msgid "None"
+msgstr ""
+
+#: src/menu.tsx:115 src/menu.tsx:176
+msgid "Open in terminal"
+msgstr ""
+
+#: src/menu.tsx:132
+msgid "Open text file"
+msgstr ""
+
+#: src/upload-button.tsx:135
+msgid "Original file on server"
+msgstr ""
+
+#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:75
+msgid "Others"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:386
+msgid "Others access"
+msgstr ""
+
+#: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:96
+msgid "Overwrite"
+msgstr ""
+
+#: src/files-card-body.tsx:533 src/files-card-body.tsx:572
+#: src/dialogs/permissions.tsx:329 src/dialogs/create-file.tsx:199
+#: src/header.tsx:98 src/files-footer-detail.tsx:75
+msgid "Owner"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:362
+msgid "Owner access"
+msgstr ""
+
+#: src/header.tsx:101
+msgid "Owner ascending"
+msgstr ""
+
+#: src/header.tsx:105
+msgid "Owner descending"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:328
+msgid "Ownership"
+msgstr ""
+
+#: src/menu.tsx:88
+msgid "Paste"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:98
+msgid "Paste file or directory"
+msgstr ""
+
+#: src/menu.tsx:57
+msgid "Pasting failed"
+msgstr ""
+
+#: src/dialogs/create-file.tsx:229
+msgid "Permission denied"
+msgstr ""
+
+#: src/files-card-body.tsx:538 src/header.tsx:109
+msgid "Permissions"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:296
+msgid "Permissions for $0 files"
+msgstr ""
+
+#: src/common.ts:33
+msgid "Read and execute"
+msgstr ""
+
+#: src/common.ts:34 src/dialogs/permissions.tsx:220
+msgid "Read and write"
+msgstr ""
+
+#: src/common.ts:35
+msgid "Read, write, and execute"
+msgstr ""
+
+#: src/common.ts:32 src/dialogs/permissions.tsx:225 src/dialogs/editor.tsx:172
+msgid "Read-only"
+msgstr ""
+
+#: src/common.ts:44
+msgid "Regular file"
+msgstr ""
+
+#: src/dialogs/editor.tsx:236
+msgid "Reload"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:145
+msgid "Remove current directory"
+msgstr ""
+
+#: src/menu.tsx:151 src/dialogs/rename.tsx:89
+msgid "Rename"
+msgstr ""
+
+#: src/dialogs/rename.tsx:107
+msgid "Rename $0?"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:79
+msgid "Rename selected file or directory"
+msgstr ""
+
+#: src/upload-button.tsx:112
+msgid "Replace"
+msgstr ""
+
+#: src/upload-button.tsx:105
+msgid "Replace file $0?"
+msgstr ""
+
+#: src/dialogs/editor.tsx:208
+msgid "Save"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:399
+msgid "Security context"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:104
+msgid "Select all"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:411
+msgid "Set executable as program"
+msgstr ""
+
+#: src/dialogs/permissions.tsx:281
+msgid "Show all files"
+msgstr ""
+
+#: src/files-card-body.tsx:511 src/header.tsx:286
+msgid "Show hidden items"
+msgstr ""
+
+#: src/header.tsx:164
+msgid "Show keyboard shortcuts"
+msgstr ""
+
+#: src/files-card-body.tsx:524 src/header.tsx:76
+msgid "Size"
+msgstr ""
+
+#: src/header.tsx:83
+msgid "Smallest size"
+msgstr ""
+
+#: src/common.ts:45
+msgid "Socket"
+msgstr ""
+
+#: src/header.tsx:273
+msgid "Sort"
+msgstr ""
+
+#: src/common.ts:43
+msgid "Symbolic link"
+msgstr ""
+
+#: src/dialogs/editor.tsx:59
+msgid "The existing file changed unexpectedly"
+msgstr ""
+
+#: src/dialogs/editor.tsx:57 src/dialogs/editor.tsx:230
+msgid "The file has been removed on disk"
+msgstr ""
+
+#: src/dialogs/editor.tsx:231
+msgid "The file has changed on disk"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:104
+msgid "Unable to create bookmark directory"
+msgstr ""
+
+#: src/upload-button.tsx:321
+msgid "Unable to move uploaded file to final destination"
+msgstr ""
+
+#: src/files-breadcrumbs.tsx:124
+msgid "Unable to save bookmark file"
+msgstr ""
+
+#: src/upload-button.tsx:475
+msgid "Upload"
+msgstr ""
+
+#
+#: src/upload-button.tsx:456
+msgid "Upload $0% completed"
+msgstr ""
+
+#: src/upload-button.tsx:320 src/upload-button.tsx:344
+msgid "Upload error"
+msgstr ""
+
+#: src/upload-button.tsx:70
+msgid "Uploaded as $0, $1"
+msgstr ""
+
+#: src/upload-button.tsx:420
+msgid "Uploads"
+msgstr ""
+
+#: src/dialogs/editor.tsx:170
+msgid "View $0"
+msgstr ""
+
+#: src/common.ts:31
+msgid "Write and execute"
+msgstr ""
+
+#: src/common.ts:30 src/dialogs/permissions.tsx:240
+msgid "Write-only"
+msgstr ""
+
+#: src/header.tsx:72
+msgid "Z-A"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "explorer"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "files"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "filesystem"
+msgstr ""
