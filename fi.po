@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-19 03:17+0000\n"
 "PO-Revision-Date: 2024-12-20 07:38+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fi/>\n"
 "Language: fi\n"
@@ -281,7 +282,7 @@ msgstr "Vain suoritettavaksi"
 
 #: src/upload-button.tsx:280
 msgid "Failed"
-msgstr ""
+msgstr "Epäonnistui"
 
 #: src/manifest.json:0
 msgid "File browser"
