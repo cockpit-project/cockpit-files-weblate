@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-19 03:17+0000\n"
-"PO-Revision-Date: 2024-12-19 06:18+0000\n"
+"PO-Revision-Date: 2024-12-19 06:52+0000\n"
 "Last-Translator: Ricardo Gonzalez <rickygzz@hotmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/es/>\n"
@@ -120,7 +120,7 @@ msgstr "No se puede crear el archivo en el directorio actual"
 
 #: src/files-folder-view.tsx:165
 msgid "Cannot drop files, another upload is already in progress"
-msgstr ""
+msgstr "No se pueden soltar archivos, ya hay una carga en progreso"
 
 #: src/dialogs/permissions.tsx:310
 msgid "Change"
@@ -256,7 +256,7 @@ msgstr "Descargar"
 
 #: src/files-folder-view.tsx:157
 msgid "Drop files to upload"
-msgstr ""
+msgstr "Suelta archivos para subir"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:170
@@ -560,15 +560,15 @@ msgstr "Remover directorio actual"
 
 #: src/menu.tsx:151 src/dialogs/rename.tsx:89
 msgid "Rename"
-msgstr "Cambiar el nombre de"
+msgstr "Renombrar"
 
 #: src/dialogs/rename.tsx:107
 msgid "Rename $0?"
-msgstr ""
+msgstr "¿Renombrar $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
 msgid "Rename selected file or directory"
-msgstr ""
+msgstr "Renombrar archivo o directorio seleccionado"
 
 #: src/upload-button.tsx:113
 msgid "Replace"
@@ -576,7 +576,7 @@ msgstr ""
 
 #: src/upload-button.tsx:106
 msgid "Replace file $0?"
-msgstr ""
+msgstr "¿Reemplazar archivo $0?"
 
 #: src/dialogs/editor.tsx:208
 msgid "Save"
@@ -584,7 +584,7 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:403
 msgid "Security context"
-msgstr ""
+msgstr "Contexto de seguridad"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Select all"
@@ -592,19 +592,19 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:415
 msgid "Set executable as program"
-msgstr ""
+msgstr "Establecer como programa ejecutable"
 
 #: src/dialogs/permissions.tsx:285
 msgid "Show all files"
-msgstr ""
+msgstr "Mostrar todos los archivos"
 
 #: src/files-card-body.tsx:511 src/header.tsx:286
 msgid "Show hidden items"
-msgstr ""
+msgstr "Mostrar elementos ocultos"
 
 #: src/header.tsx:164
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "Mostrar atajos de teclado"
 
 #: src/files-card-body.tsx:524 src/header.tsx:76
 msgid "Size"
@@ -612,84 +612,84 @@ msgstr ""
 
 #: src/header.tsx:83
 msgid "Smallest size"
-msgstr ""
+msgstr "Tamaño más pequeño"
 
 #: src/common.ts:45
 msgid "Socket"
-msgstr ""
+msgstr "Socket"
 
 #: src/header.tsx:273
 msgid "Sort"
-msgstr ""
+msgstr "Ordenar"
 
 #: src/common.ts:43
 msgid "Symbolic link"
-msgstr ""
+msgstr "Enlace simbólico"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
-msgstr ""
+msgstr "El archivo existente cambió de manera inesperada"
 
 #: src/dialogs/editor.tsx:57 src/dialogs/editor.tsx:230
 msgid "The file has been removed on disk"
-msgstr ""
+msgstr "El archivo ha sido eliminado del disco"
 
 #: src/dialogs/editor.tsx:231
 msgid "The file has changed on disk"
-msgstr ""
+msgstr "El archivo ha cambiado en el disco"
 
 #: src/files-breadcrumbs.tsx:104
 msgid "Unable to create bookmark directory"
-msgstr ""
+msgstr "No es posible crear el marcador de directorio"
 
 #: src/upload-button.tsx:321
 msgid "Unable to move uploaded file to final destination"
-msgstr ""
+msgstr "No se puede mover el archivo subido a su destino final"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
-msgstr ""
+msgstr "No es posible guardar el archivo de marcador"
 
 #: src/upload-button.tsx:494
 msgid "Upload"
-msgstr ""
+msgstr "Subir"
 
 #
 #: src/upload-button.tsx:475
 msgid "Upload $0% completed"
-msgstr ""
+msgstr "Carga del $0% completado"
 
 #: src/upload-button.tsx:320 src/upload-button.tsx:344
 msgid "Upload error"
-msgstr ""
+msgstr "Error de subida"
 
 #: src/upload-button.tsx:71
 msgid "Uploaded as $0, $1"
-msgstr ""
+msgstr "Subido como $0, $1"
 
 #: src/upload-button.tsx:439
 msgid "Uploads"
-msgstr ""
+msgstr "Subidas"
 
 #: src/dialogs/editor.tsx:170
 msgid "View $0"
-msgstr ""
+msgstr "Ver $0"
 
 #: src/common.ts:31
 msgid "Write and execute"
-msgstr ""
+msgstr "Escritura y ejecución"
 
 #: src/common.ts:30 src/dialogs/permissions.tsx:244
 msgid "Write-only"
-msgstr ""
+msgstr "Solo escritura"
 
 #: src/header.tsx:72
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: src/manifest.json:0
 msgid "explorer"
-msgstr ""
+msgstr "explorador"
 
 #: src/manifest.json:0
 msgid "files"
