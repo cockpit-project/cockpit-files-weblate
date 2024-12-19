@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-19 03:17+0000\n"
 "PO-Revision-Date: 2024-12-19 06:52+0000\n"
-"Last-Translator: Ricardo Gonzalez <rickygzz@hotmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -94,7 +95,7 @@ msgstr "Aplicar esta ação a todos os arquivos em conflito"
 
 #: src/common.ts:39
 msgid "Block device"
-msgstr ""
+msgstr "dispositivo de bloco"
 
 #: src/files-breadcrumbs.tsx:158
 msgid "Bookmarks"
@@ -149,7 +150,7 @@ msgstr "Limpar filtro"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:18 src/dialogs/editor.tsx:211
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: src/index.html:20
 msgid "Cockpit Files"
@@ -232,8 +233,6 @@ msgid "Directory name cannot be empty"
 msgstr "O nome do diretório não pode estar vazio"
 
 #: src/dialogs/mkdir.tsx:46
-#, fuzzy
-#| msgid "Directory name cannot include a /."
 msgid "Directory name cannot include a /"
 msgstr "O nome do diretório não pode incluir uma /."
 
@@ -280,7 +279,7 @@ msgstr "Editar permissões"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
 msgid "Editing"
-msgstr ""
+msgstr "Editando"
 
 #: src/common.ts:29
 msgid "Execute-only"
@@ -288,7 +287,7 @@ msgstr "Executar somente"
 
 #: src/upload-button.tsx:280
 msgid "Failed"
-msgstr ""
+msgstr "Falhou"
 
 #: src/manifest.json:0
 msgid "File browser"
@@ -352,7 +351,7 @@ msgstr "Forçar a exclusão do link de $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:45
 msgid "Go back"
-msgstr ""
+msgstr "Retornar"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:51
 msgid "Go forward"
@@ -377,11 +376,11 @@ msgstr "Ocultar itens ocultos"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
-msgstr ""
+msgstr "Início"
 
 #: src/dialogs/editor.tsx:239
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorar"
 
 #: src/upload-button.tsx:115
 msgid "Keep original"
@@ -389,7 +388,7 @@ msgstr "Manter original"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:112
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Atalhos do teclado"
 
 #: src/header.tsx:79
 msgid "Largest size"
@@ -437,11 +436,11 @@ msgstr "Nome muito longo"
 
 #: src/common.ts:42
 msgid "Named pipe"
-msgstr ""
+msgstr "pipe nomeado"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:121
 msgid "Navigation"
-msgstr ""
+msgstr "Navegação"
 
 #: src/upload-button.tsx:131
 msgid "New file"
@@ -551,7 +550,7 @@ msgstr "Ler, escrever e executar"
 
 #: src/common.ts:32 src/dialogs/permissions.tsx:229 src/dialogs/editor.tsx:172
 msgid "Read-only"
-msgstr ""
+msgstr "Somente leitura"
 
 #: src/common.ts:44
 msgid "Regular file"
@@ -587,7 +586,7 @@ msgstr "Substituir arquivo $0?"
 
 #: src/dialogs/editor.tsx:208
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #: src/dialogs/permissions.tsx:403
 msgid "Security context"
@@ -595,7 +594,7 @@ msgstr "Contexto de segurança"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Select all"
-msgstr ""
+msgstr "Selecionar todos"
 
 #: src/dialogs/permissions.tsx:415
 msgid "Set executable as program"
@@ -623,7 +622,7 @@ msgstr "Menor tamanho"
 
 #: src/common.ts:45
 msgid "Socket"
-msgstr ""
+msgstr "socket"
 
 #: src/header.tsx:273
 msgid "Sort"
@@ -631,7 +630,7 @@ msgstr "Ordenar"
 
 #: src/common.ts:43
 msgid "Symbolic link"
-msgstr ""
+msgstr "link simbólico"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
