@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-19 03:17+0000\n"
 "PO-Revision-Date: 2024-12-19 06:52+0000\n"
-"Last-Translator: Ricardo Gonzalez <rickygzz@hotmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/es/>\n"
 "Language: es\n"
@@ -28,15 +29,15 @@ msgstr ""
 
 #: src/menu.tsx:58
 msgid "\"$0\" exists, not overwriting with paste."
-msgstr ""
+msgstr "\"$0\" existe, no se permite pegar para sobreescribirlo."
 
 #: src/upload-button.tsx:67
 msgid "$0 files"
-msgstr ""
+msgstr "$0 archivos"
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
-msgstr ""
+msgstr "$0 archivos seleccionados"
 
 #: src/files-card-body.tsx:508
 msgid "$0 item is hidden"
@@ -572,7 +573,7 @@ msgstr "Renombrar archivo o directorio seleccionado"
 
 #: src/upload-button.tsx:113
 msgid "Replace"
-msgstr ""
+msgstr "Reemplazar"
 
 #: src/upload-button.tsx:106
 msgid "Replace file $0?"
@@ -580,7 +581,7 @@ msgstr "¿Reemplazar archivo $0?"
 
 #: src/dialogs/editor.tsx:208
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 #: src/dialogs/permissions.tsx:403
 msgid "Security context"
@@ -588,7 +589,7 @@ msgstr "Contexto de seguridad"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Select all"
-msgstr ""
+msgstr "Seleccionar todo"
 
 #: src/dialogs/permissions.tsx:415
 msgid "Set executable as program"
@@ -608,7 +609,7 @@ msgstr "Mostrar atajos de teclado"
 
 #: src/files-card-body.tsx:524 src/header.tsx:76
 msgid "Size"
-msgstr ""
+msgstr "Tamaño"
 
 #: src/header.tsx:83
 msgid "Smallest size"
@@ -693,8 +694,8 @@ msgstr "explorador"
 
 #: src/manifest.json:0
 msgid "files"
-msgstr ""
+msgstr "archivos"
 
 #: src/manifest.json:0
 msgid "filesystem"
-msgstr ""
+msgstr "sistema de archivos"
