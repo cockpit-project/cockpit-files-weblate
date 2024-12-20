@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-19 03:17+0000\n"
-"PO-Revision-Date: 2024-12-17 03:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-12-20 07:38+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ka/>\n"
 "Language: ka\n"
@@ -25,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: src/menu.tsx:58
 msgid "\"$0\" exists, not overwriting with paste."
@@ -121,7 +120,7 @@ msgstr "მიმდინარე საქაღალდეში ფაი�
 
 #: src/files-folder-view.tsx:165
 msgid "Cannot drop files, another upload is already in progress"
-msgstr ""
+msgstr "ფაილებს ვერ დაყრით, რადგან ფაილების ატვირთვა უკვე მიმდინარეობს"
 
 #: src/dialogs/permissions.tsx:310
 msgid "Change"
@@ -256,10 +255,8 @@ msgid "Download"
 msgstr "გადმოწერა"
 
 #: src/files-folder-view.tsx:157
-#, fuzzy
-#| msgid "Files uploaded"
 msgid "Drop files to upload"
-msgstr "ფაილები ატვირთულია"
+msgstr "ასატვირთად დაყარეთ ფაილები"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:170
