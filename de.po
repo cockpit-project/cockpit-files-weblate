@@ -4,9 +4,8 @@ msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-29 03:15+0000\n"
-"PO-Revision-Date: 2024-12-29 22:40+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-12-30 06:32+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/de/>\n"
 "Language: de\n"
@@ -419,6 +418,7 @@ msgid "Name too long"
 msgstr "Name zu lang"
 
 #: src/common.ts:42
+#, fuzzy
 msgid "Named pipe"
 msgstr "Benannte Weiterleitung"
 
@@ -451,10 +451,8 @@ msgid "None"
 msgstr "Keine"
 
 #: src/menu.tsx:115 src/menu.tsx:176
-#, fuzzy
-#| msgid "Open text file"
 msgid "Open in terminal"
-msgstr "Textdatei öffnen"
+msgstr "Im Terminal öffnen"
 
 #: src/menu.tsx:132
 msgid "Open text file"
@@ -511,20 +509,16 @@ msgid "Pasting failed"
 msgstr "Einfügen fehlgeschlagen"
 
 #: src/dialogs/create-file.tsx:229
-#, fuzzy
-#| msgid "Permissions"
 msgid "Permission denied"
-msgstr "Berechtigungen"
+msgstr "Berechtigung verweigert"
 
 #: src/files-card-body.tsx:538 src/header.tsx:109
 msgid "Permissions"
 msgstr "Berechtigungen"
 
 #: src/dialogs/permissions.tsx:300
-#, fuzzy
-#| msgid "Change permissions for enclosed files"
 msgid "Permissions for $0 files"
-msgstr "Berechtigungen für enthaltene Dateien ändern"
+msgstr "Berechtigungen für $0 Dateien"
 
 #: src/common.ts:33
 msgid "Read and execute"
@@ -592,7 +586,7 @@ msgstr "Ausführbare Datei als Programm festlegen"
 
 #: src/dialogs/permissions.tsx:285
 msgid "Show all files"
-msgstr ""
+msgstr "Alle Dateien anzeigen"
 
 #: src/files-card-body.tsx:511 src/header.tsx:286
 msgid "Show hidden items"
@@ -640,7 +634,7 @@ msgstr "Lesezeichenverzeichnis kann nicht erstellt werden"
 
 #: src/upload-button.tsx:321
 msgid "Unable to move uploaded file to final destination"
-msgstr ""
+msgstr "Hochgeladene Datei kann nicht zum endgültigen Zielort verschoben werden"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
@@ -660,7 +654,7 @@ msgstr "Hochladefehler"
 
 #: src/upload-button.tsx:71
 msgid "Uploaded as $0, $1"
-msgstr ""
+msgstr "Als $0, $1 hochgeladen"
 
 #: src/upload-button.tsx:439
 msgid "Uploads"
