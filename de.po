@@ -4,10 +4,10 @@ msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-29 03:15+0000\n"
-"PO-Revision-Date: 2024-12-29 22:38+0000\n"
+"PO-Revision-Date: 2024-12-29 22:40+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/de/>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,10 +116,8 @@ msgid "Change"
 msgstr "Ändern"
 
 #: src/upload-button.tsx:392
-#, fuzzy
-#| msgid "Other permissions"
 msgid "Change permissions"
-msgstr "Andere Berechtigungen"
+msgstr "Berechtigungen ändern"
 
 #: src/dialogs/permissions.tsx:317
 msgid "Change permissions for enclosed files"
@@ -143,7 +141,7 @@ msgstr "Cockpit-Dateien"
 
 #: src/dialogs/permissions.tsx:284
 msgid "Collapse"
-msgstr ""
+msgstr "Einklappen"
 
 #: src/menu.tsx:140 src/menu.tsx:185
 msgid "Copy"
@@ -162,10 +160,8 @@ msgid "Create directory"
 msgstr "Verzeichnis erstellen"
 
 #: src/menu.tsx:100 src/dialogs/create-file.tsx:146
-#, fuzzy
-#| msgid "Create"
 msgid "Create file"
-msgstr "Erstellen"
+msgstr "Datei erstellen"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
 msgid "Create new directory"
@@ -229,11 +225,11 @@ msgstr "Verzeichnisname zu lang"
 
 #: src/dialogs/mkdir.tsx:140
 msgid "Directory owner"
-msgstr "Verzeichnisbesitzer"
+msgstr "Verzeichniseigentümer"
 
 #: src/common.ts:92
 msgid "Directory with the same name exists"
-msgstr "Verzeichnisbesitzer mit gleichem Namen existiert bereits"
+msgstr "Verzeichniseigentümer mit gleichem Namen existiert bereits"
 
 #: src/header.tsx:255
 msgid "Display as a grid"
@@ -248,10 +244,8 @@ msgid "Download"
 msgstr "Herunterladen"
 
 #: src/files-folder-view.tsx:157
-#, fuzzy
-#| msgid "New name"
 msgid "Drop files to upload"
-msgstr "Neuer Name"
+msgstr "Dateien zum Hochladen ablegen"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:170
@@ -293,10 +287,8 @@ msgid "File name"
 msgstr "Neuer Name"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "New name"
 msgid "File uploaded"
-msgstr "Neuer Name"
+msgstr "Datei hochgeladen"
 
 #: src/common.ts:89
 msgid "Filename is the same as original name"
@@ -307,10 +299,8 @@ msgid "Files"
 msgstr "Dateien"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "New name"
 msgid "Files uploaded"
-msgstr "Neuer Name"
+msgstr "Dateien hochgeladen"
 
 #: src/files-breadcrumbs.tsx:239
 msgid "Filesystem"
@@ -403,7 +393,7 @@ msgstr "Verwalten Sie Ihre Dateien"
 
 #: src/dialogs/permissions.tsx:278
 msgid "Missing type"
-msgstr ""
+msgstr "Fehlender Typ"
 
 #: src/files-card-body.tsx:528 src/header.tsx:87
 msgid "Modified"
