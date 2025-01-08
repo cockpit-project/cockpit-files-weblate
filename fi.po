@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-30 03:05+0000\n"
 "PO-Revision-Date: 2025-01-09 06:42+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fi/>\n"
 "Language: fi\n"
@@ -47,7 +46,7 @@ msgstr[1] "$0 kohdetta on piilotettu"
 
 #: src/dialogs/permissions.tsx:299
 msgid "$0 permissions"
-msgstr "$0 käyttöoikeutta"
+msgstr "$0 käyttöoikeudet"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
