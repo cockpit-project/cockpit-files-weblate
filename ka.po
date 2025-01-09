@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-09 03:28+0000\n"
-"PO-Revision-Date: 2024-12-20 07:38+0000\n"
+"PO-Revision-Date: 2025-01-10 08:38+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ka/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: src/menu.tsx:58
 msgid "\"$0\" exists, not overwriting with paste."
@@ -151,10 +151,8 @@ msgid "Cockpit Files"
 msgstr "Cockpit Files"
 
 #: org.cockpit_project.files.metainfo.xml:21
-#, fuzzy
-#| msgid "Cockpit Files"
 msgid "Cockpit Project"
-msgstr "Cockpit Files"
+msgstr "პროექტი Cockpit"
 
 #: src/dialogs/permissions.tsx:284
 msgid "Collapse"
