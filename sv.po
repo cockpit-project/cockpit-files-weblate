@@ -15,10 +15,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-09 03:28+0000\n"
-"PO-Revision-Date: 2024-12-26 11:38+0000\n"
+"PO-Revision-Date: 2025-01-10 08:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,10 +151,8 @@ msgid "Cockpit Files"
 msgstr "Cockpit filer"
 
 #: org.cockpit_project.files.metainfo.xml:21
-#, fuzzy
-#| msgid "Cockpit Files"
 msgid "Cockpit Project"
-msgstr "Cockpit filer"
+msgstr "Cockpitprojektet"
 
 #: src/dialogs/permissions.tsx:284
 msgid "Collapse"
