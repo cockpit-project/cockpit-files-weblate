@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10 03:07+0000\n"
+"POT-Creation-Date: 2025-01-12 03:18+0000\n"
 "PO-Revision-Date: 2025-01-10 08:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -34,7 +34,7 @@ msgstr "\"$0\" existerar, skriver inte över med klistra in."
 msgid "$0 files"
 msgstr "$0 filer"
 
-#: src/files-footer-detail.tsx:35
+#: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
 msgstr "$0 filer valda"
 
@@ -210,11 +210,11 @@ msgstr "Radera länk $0?"
 msgid "Directory"
 msgstr "Katalog"
 
-#: src/files-footer-detail.tsx:63
+#: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files"
 msgstr "Katalog innehåller $0 kataloger, $1 filer"
 
-#: src/files-footer-detail.tsx:64
+#: src/files-footer-detail.tsx:65
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
 msgstr "Katalog innehåller $0 kataloger, $1 filer, $2 dolda"
 
@@ -359,8 +359,8 @@ msgstr "Gå framåt"
 msgid "Go up a directory"
 msgstr "Gå upp en katalog"
 
-#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:75
-#: src/dialogs/permissions.tsx:348
+#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:80
+#: src/files-footer-detail.tsx:152 src/dialogs/permissions.tsx:348
 msgid "Group"
 msgstr "Grupp"
 
@@ -476,7 +476,7 @@ msgstr "Öppna en textfil"
 msgid "Original file on server"
 msgstr "Original fil på server"
 
-#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:75
+#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:80
 msgid "Others"
 msgstr "Andra"
 
@@ -489,7 +489,7 @@ msgid "Overwrite"
 msgstr "Skriv över"
 
 #: src/files-card-body.tsx:533 src/files-card-body.tsx:572
-#: src/files-footer-detail.tsx:75 src/dialogs/create-file.tsx:199
+#: src/files-footer-detail.tsx:80 src/dialogs/create-file.tsx:199
 #: src/dialogs/permissions.tsx:333 src/header.tsx:98
 msgid "Owner"
 msgstr "Ägare"
@@ -673,6 +673,10 @@ msgstr "Uppladdad som $0,$1"
 #: src/upload-button.tsx:439
 msgid "Uploads"
 msgstr "Uppladdningar"
+
+#: src/files-footer-detail.tsx:144
+msgid "User"
+msgstr ""
 
 #: src/dialogs/editor.tsx:170
 msgid "View $0"

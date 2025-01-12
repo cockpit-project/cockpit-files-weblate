@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10 03:07+0000\n"
+"POT-Creation-Date: 2025-01-12 03:18+0000\n"
 "PO-Revision-Date: 2025-01-10 08:38+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -34,7 +34,7 @@ msgstr "\"$0\" არსებობს. ჩასმით მას თავ�
 msgid "$0 files"
 msgstr "$0 ფაილი"
 
-#: src/files-footer-detail.tsx:35
+#: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
 msgstr "მონიშნულია $0 ფაილი"
 
@@ -210,11 +210,11 @@ msgstr "წავშალო ბმული $0?"
 msgid "Directory"
 msgstr "საქაღალდე"
 
-#: src/files-footer-detail.tsx:63
+#: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files"
 msgstr "საქაღალდე შეიცავს $0 საქაღალდეს და $1 ფაილს"
 
-#: src/files-footer-detail.tsx:64
+#: src/files-footer-detail.tsx:65
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
 msgstr "საქაღალდე შეიცავს $0 საქაღალდეს, $1 ფაილს და $2 დამალულ ფაილს"
 
@@ -359,8 +359,8 @@ msgstr "წინ გადასვლა"
 msgid "Go up a directory"
 msgstr "ზემო საქაღალდეზე გადასვლა"
 
-#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:75
-#: src/dialogs/permissions.tsx:348
+#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:80
+#: src/files-footer-detail.tsx:152 src/dialogs/permissions.tsx:348
 msgid "Group"
 msgstr "ჯგუფი"
 
@@ -476,7 +476,7 @@ msgstr "ტექსტური ფაილის გახსნა"
 msgid "Original file on server"
 msgstr "ორიგინალი ფაილი სერვერზე"
 
-#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:75
+#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:80
 msgid "Others"
 msgstr "სხვები"
 
@@ -489,7 +489,7 @@ msgid "Overwrite"
 msgstr "გადაწერა"
 
 #: src/files-card-body.tsx:533 src/files-card-body.tsx:572
-#: src/files-footer-detail.tsx:75 src/dialogs/create-file.tsx:199
+#: src/files-footer-detail.tsx:80 src/dialogs/create-file.tsx:199
 #: src/dialogs/permissions.tsx:333 src/header.tsx:98
 msgid "Owner"
 msgstr "მფლობელი"
@@ -674,6 +674,10 @@ msgstr "ატვირთულია, როგორც $0.$1"
 #: src/upload-button.tsx:439
 msgid "Uploads"
 msgstr "ატვირთვები"
+
+#: src/files-footer-detail.tsx:144
+msgid "User"
+msgstr ""
 
 #: src/dialogs/editor.tsx:170
 msgid "View $0"

@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10 03:07+0000\n"
+"POT-Creation-Date: 2025-01-12 03:18+0000\n"
 "PO-Revision-Date: 2025-01-12 13:38+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
-"cockpit-files/cockpit-files/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
+"files/cockpit-files/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr "„$0“ existuje – vložením nebude přepsáno."
 msgid "$0 files"
 msgstr "$0 souborů"
 
-#: src/files-footer-detail.tsx:35
+#: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
 msgstr "$0 souborů vybráno"
 
@@ -211,11 +211,11 @@ msgstr "Smazat odkaz $0?"
 msgid "Directory"
 msgstr "Složka"
 
-#: src/files-footer-detail.tsx:63
+#: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files"
 msgstr "Složka obsahuje $0 podsložek, $1 souborů"
 
-#: src/files-footer-detail.tsx:64
+#: src/files-footer-detail.tsx:65
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
 msgstr "Složka obsahuje $0 podsložek, $1 souborů, $2 skrytých"
 
@@ -360,8 +360,8 @@ msgstr "Přejít vpřed"
 msgid "Go up a directory"
 msgstr "Do nadřazené složky"
 
-#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:75
-#: src/dialogs/permissions.tsx:348
+#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:80
+#: src/files-footer-detail.tsx:152 src/dialogs/permissions.tsx:348
 msgid "Group"
 msgstr "Skupina"
 
@@ -477,7 +477,7 @@ msgstr "Otevřít textový soubor"
 msgid "Original file on server"
 msgstr "Původní soubor na serveru"
 
-#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:75
+#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:80
 msgid "Others"
 msgstr "Ostatní"
 
@@ -490,7 +490,7 @@ msgid "Overwrite"
 msgstr "Přepsat"
 
 #: src/files-card-body.tsx:533 src/files-card-body.tsx:572
-#: src/files-footer-detail.tsx:75 src/dialogs/create-file.tsx:199
+#: src/files-footer-detail.tsx:80 src/dialogs/create-file.tsx:199
 #: src/dialogs/permissions.tsx:333 src/header.tsx:98
 msgid "Owner"
 msgstr "Vlastník"
@@ -674,6 +674,10 @@ msgstr "Nahráno jako $0,$1"
 #: src/upload-button.tsx:439
 msgid "Uploads"
 msgstr "Nahrání"
+
+#: src/files-footer-detail.tsx:144
+msgid "User"
+msgstr ""
 
 #: src/dialogs/editor.tsx:170
 msgid "View $0"
