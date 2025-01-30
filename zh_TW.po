@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-28 02:59+0000\n"
-"PO-Revision-Date: 2024-12-01 15:38+0000\n"
+"PO-Revision-Date: 2025-01-31 14:23+0000\n"
 "Last-Translator: JW Wang <v72807647@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_TW/>\n"
@@ -24,17 +24,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: src/menu.tsx:58
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr "\"$0\" 已存在，將不會貼上以免遭覆寫。"
 
 #: src/upload-button.tsx:67
-#, fuzzy
-#| msgid "files"
 msgid "$0 files"
-msgstr "檔案"
+msgstr "$0 個檔案"
 
 #: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
@@ -118,17 +116,15 @@ msgstr "無法在目前的目錄建立檔案"
 
 #: src/files-folder-view.tsx:165
 msgid "Cannot drop files, another upload is already in progress"
-msgstr ""
+msgstr "正在處理其他上傳作業，無法拖曳檔案至此"
 
 #: src/dialogs/permissions.tsx:310
 msgid "Change"
 msgstr "變更"
 
 #: src/upload-button.tsx:392
-#, fuzzy
-#| msgid "Other permissions"
 msgid "Change permissions"
-msgstr "其他權限"
+msgstr "變更權限"
 
 #: src/dialogs/permissions.tsx:317
 msgid "Change permissions for enclosed files"
@@ -151,14 +147,12 @@ msgid "Cockpit Files"
 msgstr "Cockpit Files"
 
 #: org.cockpit_project.files.metainfo.xml:21
-#, fuzzy
-#| msgid "Cockpit Files"
 msgid "Cockpit Project"
-msgstr "Cockpit Files"
+msgstr "Cockpit 專案"
 
 #: src/dialogs/permissions.tsx:284
 msgid "Collapse"
-msgstr ""
+msgstr "收折"
 
 #: src/menu.tsx:140 src/menu.tsx:185
 msgid "Copy"
@@ -261,10 +255,8 @@ msgid "Download"
 msgstr "下載"
 
 #: src/files-folder-view.tsx:157
-#, fuzzy
-#| msgid "File name"
 msgid "Drop files to upload"
-msgstr "檔案名稱"
+msgstr "拖曳檔案以上傳"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:170
@@ -289,7 +281,7 @@ msgstr "只能執行"
 
 #: src/upload-button.tsx:280
 msgid "Failed"
-msgstr ""
+msgstr "失敗"
 
 #: src/manifest.json:0
 msgid "File browser"
@@ -304,10 +296,8 @@ msgid "File name"
 msgstr "檔案名稱"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "File name"
 msgid "File uploaded"
-msgstr "檔案名稱"
+msgstr "檔案已上傳"
 
 #: src/common.ts:89
 msgid "Filename is the same as original name"
@@ -318,10 +308,8 @@ msgid "Files"
 msgstr "檔案"
 
 #: src/upload-button.tsx:361
-#, fuzzy
-#| msgid "File name"
 msgid "Files uploaded"
-msgstr "檔案名稱"
+msgstr "多個檔案已上傳"
 
 #: src/files-breadcrumbs.tsx:239
 msgid "Filesystem"
@@ -539,10 +527,8 @@ msgid "Permissions"
 msgstr "權限"
 
 #: src/dialogs/permissions.tsx:300
-#, fuzzy
-#| msgid "Change permissions for enclosed files"
 msgid "Permissions for $0 files"
-msgstr "變更其中檔案的權限"
+msgstr "變更 $0 個檔案的權限"
 
 #: src/common.ts:33
 msgid "Read and execute"
@@ -610,7 +596,7 @@ msgstr "設定為可執行的程式"
 
 #: src/dialogs/permissions.tsx:285
 msgid "Show all files"
-msgstr ""
+msgstr "顯示所有檔案"
 
 #: src/header.tsx:286 src/files-card-body.tsx:511
 msgid "Show hidden items"
@@ -658,7 +644,7 @@ msgstr "無法建立書籤的存放目錄"
 
 #: src/upload-button.tsx:321
 msgid "Unable to move uploaded file to final destination"
-msgstr ""
+msgstr "無法將上傳的檔案移動至目的地"
 
 #: src/files-breadcrumbs.tsx:124
 msgid "Unable to save bookmark file"
@@ -679,7 +665,7 @@ msgstr "上傳失敗"
 
 #: src/upload-button.tsx:71
 msgid "Uploaded as $0, $1"
-msgstr ""
+msgstr "以 $0 、 $1 上傳"
 
 #: src/upload-button.tsx:439
 msgid "Uploads"
@@ -687,7 +673,7 @@ msgstr "上傳項目"
 
 #: src/files-footer-detail.tsx:144
 msgid "User"
-msgstr ""
+msgstr "使用者"
 
 #: src/dialogs/editor.tsx:170
 msgid "View $0"
