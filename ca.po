@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-04 03:00+0000\n"
+"POT-Creation-Date: 2025-02-09 03:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -74,7 +74,7 @@ msgid "Activate selected item, enter directory"
 msgstr ""
 
 #: src/files-breadcrumbs.tsx:147
-msgid "Add bookmark"
+msgid "Add to bookmarks"
 msgstr ""
 
 #: src/upload-button.tsx:145
@@ -553,7 +553,7 @@ msgid "Reload"
 msgstr ""
 
 #: src/files-breadcrumbs.tsx:145
-msgid "Remove current directory"
+msgid "Remove from bookmarks"
 msgstr ""
 
 #: src/dialogs/rename.tsx:89 src/menu.tsx:151

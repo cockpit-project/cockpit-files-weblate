@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-04 03:00+0000\n"
+"POT-Creation-Date: 2025-02-09 03:04+0000\n"
 "PO-Revision-Date: 2024-08-15 13:14+0000\n"
 "Last-Translator: Watson Xu <xuhuashan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -78,7 +78,9 @@ msgid "Activate selected item, enter directory"
 msgstr ""
 
 #: src/files-breadcrumbs.tsx:147
-msgid "Add bookmark"
+#, fuzzy
+#| msgid "Add bookmark"
+msgid "Add to bookmarks"
 msgstr "添加书签"
 
 #: src/upload-button.tsx:145
@@ -605,8 +607,8 @@ msgid "Reload"
 msgstr "上传"
 
 #: src/files-breadcrumbs.tsx:145
-msgid "Remove current directory"
-msgstr "删除当前目录"
+msgid "Remove from bookmarks"
+msgstr ""
 
 #: src/dialogs/rename.tsx:89 src/menu.tsx:151
 msgid "Rename"
@@ -751,6 +753,9 @@ msgstr "文件"
 #: src/manifest.json:0
 msgid "filesystem"
 msgstr "文件系统"
+
+#~ msgid "Remove current directory"
+#~ msgstr "删除当前目录"
 
 #~ msgid "Successfully uploaded file(s)"
 #~ msgstr "已成功上传文件"

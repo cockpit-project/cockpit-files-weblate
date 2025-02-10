@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-04 03:00+0000\n"
+"POT-Creation-Date: 2025-02-09 03:04+0000\n"
 "PO-Revision-Date: 2025-01-09 06:42+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -80,7 +80,9 @@ msgid "Activate selected item, enter directory"
 msgstr "Aktivoi valittu kohde, siirry hakemistoon"
 
 #: src/files-breadcrumbs.tsx:147
-msgid "Add bookmark"
+#, fuzzy
+#| msgid "Add bookmark"
+msgid "Add to bookmarks"
 msgstr "Lisää kirjanmerkki"
 
 #: src/upload-button.tsx:145
@@ -561,8 +563,8 @@ msgid "Reload"
 msgstr "Lataa uudelleen"
 
 #: src/files-breadcrumbs.tsx:145
-msgid "Remove current directory"
-msgstr "Poista nykyinen hakemisto"
+msgid "Remove from bookmarks"
+msgstr ""
 
 #: src/dialogs/rename.tsx:89 src/menu.tsx:151
 msgid "Rename"
@@ -708,6 +710,9 @@ msgstr "tiedostot"
 #: src/manifest.json:0
 msgid "filesystem"
 msgstr "tiedostojärjestelmä"
+
+#~ msgid "Remove current directory"
+#~ msgstr "Poista nykyinen hakemisto"
 
 #~ msgid "Successfully uploaded file(s)"
 #~ msgstr "Tiedosto(t) ulosladattu onnistuneesti"

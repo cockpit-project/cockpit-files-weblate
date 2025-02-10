@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-04 03:00+0000\n"
+"POT-Creation-Date: 2025-02-09 03:04+0000\n"
 "PO-Revision-Date: 2025-02-04 07:14+0000\n"
 "Last-Translator: N M <nm@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -80,7 +80,9 @@ msgid "Activate selected item, enter directory"
 msgstr "Activa el elemento seleccionado, entrar al directorio"
 
 #: src/files-breadcrumbs.tsx:147
-msgid "Add bookmark"
+#, fuzzy
+#| msgid "Add bookmark"
+msgid "Add to bookmarks"
 msgstr "Agregar marcador"
 
 #: src/upload-button.tsx:145
@@ -559,8 +561,8 @@ msgid "Reload"
 msgstr "Recargar"
 
 #: src/files-breadcrumbs.tsx:145
-msgid "Remove current directory"
-msgstr "Remover directorio actual"
+msgid "Remove from bookmarks"
+msgstr ""
 
 #: src/dialogs/rename.tsx:89 src/menu.tsx:151
 msgid "Rename"
@@ -706,3 +708,6 @@ msgstr "archivos"
 #: src/manifest.json:0
 msgid "filesystem"
 msgstr "sistema de archivos"
+
+#~ msgid "Remove current directory"
+#~ msgstr "Remover directorio actual"
