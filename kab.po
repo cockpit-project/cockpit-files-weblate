@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-09 03:04+0000\n"
+"POT-Creation-Date: 2025-02-11 03:02+0000\n"
 "PO-Revision-Date: 2024-12-18 10:38+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.9.1\n"
 
-#: src/menu.tsx:58
+#: src/menu.tsx:63
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr ""
 
@@ -39,7 +39,7 @@ msgstr "$0 n ifuyla"
 msgid "$0 files selected"
 msgstr ""
 
-#: src/files-card-body.tsx:508
+#: src/files-card-body.tsx:509
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
 msgstr[0] ""
@@ -47,6 +47,10 @@ msgstr[1] ""
 
 #: src/dialogs/permissions.tsx:299
 msgid "$0 permissions"
+msgstr ""
+
+#: src/dialogs/copyPasteOwnership.tsx:118
+msgid "(original owner)"
 msgstr ""
 
 #: org.cockpit_project.files.metainfo.xml:8
@@ -85,7 +89,7 @@ msgstr "Rnu ticreḍt"
 msgid "Apply this action to all conflicting files"
 msgstr ""
 
-#: src/common.ts:82
+#: src/common.ts:86
 msgid "Block device"
 msgstr ""
 
@@ -95,8 +99,8 @@ msgstr ""
 
 #: src/dialogs/rename.tsx:98 src/dialogs/mkdir.tsx:108
 #: src/dialogs/create-file.tsx:161 src/dialogs/permissions.tsx:319
-#: src/dialogs/editor.tsx:211 src/dialogs/delete.tsx:91
-#: src/upload-button.tsx:116
+#: src/dialogs/copyPasteOwnership.tsx:180 src/dialogs/editor.tsx:211
+#: src/dialogs/delete.tsx:91 src/upload-button.tsx:116
 msgid "Cancel"
 msgstr ""
 
@@ -134,11 +138,11 @@ msgstr "Tisirag"
 msgid "Change permissions for enclosed files"
 msgstr ""
 
-#: src/common.ts:83
+#: src/common.ts:87
 msgid "Character device"
 msgstr ""
 
-#: src/files-card-body.tsx:496
+#: src/files-card-body.tsx:497
 msgid "Clear filter"
 msgstr ""
 
@@ -158,7 +162,7 @@ msgstr ""
 msgid "Collapse"
 msgstr ""
 
-#: src/menu.tsx:140 src/menu.tsx:185
+#: src/menu.tsx:157 src/menu.tsx:202
 msgid "Copy"
 msgstr "Nɣel"
 
@@ -170,11 +174,11 @@ msgstr ""
 msgid "Create"
 msgstr "Snulfu-d"
 
-#: src/dialogs/mkdir.tsx:92 src/menu.tsx:95
+#: src/dialogs/mkdir.tsx:92 src/menu.tsx:112
 msgid "Create directory"
 msgstr ""
 
-#: src/dialogs/create-file.tsx:145 src/menu.tsx:100
+#: src/dialogs/create-file.tsx:145 src/menu.tsx:117
 #, fuzzy
 #| msgid "Create"
 msgid "Create file"
@@ -184,7 +188,7 @@ msgstr "Snulfu-d"
 msgid "Create new directory"
 msgstr ""
 
-#: src/dialogs/delete.tsx:90 src/menu.tsx:157 src/menu.tsx:190
+#: src/dialogs/delete.tsx:90 src/menu.tsx:174 src/menu.tsx:207
 msgid "Delete"
 msgstr "Kkes"
 
@@ -208,7 +212,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/common.ts:84
+#: src/common.ts:88
 msgid "Directory"
 msgstr "Akaram"
 
@@ -220,7 +224,7 @@ msgstr ""
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
 msgstr ""
 
-#: src/files-card-body.tsx:503
+#: src/files-card-body.tsx:504
 msgid "Directory is empty"
 msgstr ""
 
@@ -244,7 +248,7 @@ msgstr ""
 msgid "Directory owner"
 msgstr ""
 
-#: src/common.ts:135
+#: src/common.ts:139
 msgid "Directory with the same name exists"
 msgstr ""
 
@@ -256,7 +260,7 @@ msgstr ""
 msgid "Display as a list"
 msgstr ""
 
-#: src/menu.tsx:167
+#: src/menu.tsx:184
 msgid "Download"
 msgstr "Sider"
 
@@ -275,7 +279,7 @@ msgstr ""
 msgid "Edit path"
 msgstr ""
 
-#: src/menu.tsx:106 src/menu.tsx:146 src/menu.tsx:204
+#: src/menu.tsx:123 src/menu.tsx:163 src/menu.tsx:221
 msgid "Edit permissions"
 msgstr ""
 
@@ -283,7 +287,7 @@ msgstr ""
 msgid "Editing"
 msgstr "Asiẓreg"
 
-#: src/common.ts:72
+#: src/common.ts:76
 msgid "Execute-only"
 msgstr ""
 
@@ -295,7 +299,7 @@ msgstr ""
 msgid "File browser"
 msgstr ""
 
-#: src/common.ts:137
+#: src/common.ts:141
 msgid "File exists"
 msgstr ""
 
@@ -311,13 +315,19 @@ msgstr "Snifel isem"
 msgid "File uploaded"
 msgstr "Snifel isem"
 
-#: src/common.ts:132
+#: src/common.ts:136
 msgid "Filename is the same as original name"
 msgstr ""
 
 #: org.cockpit_project.files.metainfo.xml:5
 msgid "Files"
 msgstr "Ifuyla"
+
+#: src/dialogs/copyPasteOwnership.tsx:197
+msgid ""
+"Files being pasted have a different owner. By default, ownership will be "
+"changed to match the destination directory."
+msgstr ""
 
 #: src/upload-button.tsx:361
 #, fuzzy
@@ -369,7 +379,7 @@ msgstr ""
 msgid "Go up a directory"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:348 src/files-card-body.tsx:572
+#: src/dialogs/permissions.tsx:348 src/files-card-body.tsx:573
 #: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
 msgid "Group"
 msgstr "Agraw"
@@ -418,7 +428,7 @@ msgstr ""
 msgid "Missing type"
 msgstr ""
 
-#: src/header.tsx:88 src/files-card-body.tsx:528
+#: src/header.tsx:88 src/files-card-body.tsx:529
 msgid "Modified"
 msgstr ""
 
@@ -426,23 +436,23 @@ msgstr ""
 msgid "Most permissive"
 msgstr ""
 
-#: src/header.tsx:66 src/files-card-body.tsx:523
+#: src/header.tsx:66 src/files-card-body.tsx:524
 msgid "Name"
 msgstr "Isem"
 
-#: src/common.ts:126
+#: src/common.ts:130
 msgid "Name cannot be empty"
 msgstr ""
 
-#: src/common.ts:130
+#: src/common.ts:134
 msgid "Name cannot include a /"
 msgstr ""
 
-#: src/common.ts:128
+#: src/common.ts:132
 msgid "Name too long"
 msgstr ""
 
-#: src/common.ts:85
+#: src/common.ts:89
 msgid "Named pipe"
 msgstr ""
 
@@ -462,23 +472,27 @@ msgstr ""
 msgid "New name"
 msgstr ""
 
+#: src/dialogs/copyPasteOwnership.tsx:200
+msgid "New owner"
+msgstr ""
+
 #: src/dialogs/permissions.tsx:234
 msgid "No access"
 msgstr ""
 
-#: src/files-card-body.tsx:495
+#: src/files-card-body.tsx:496
 msgid "No matching results"
 msgstr ""
 
-#: src/common.ts:71
+#: src/common.ts:75
 msgid "None"
 msgstr ""
 
-#: src/menu.tsx:115 src/menu.tsx:176
+#: src/menu.tsx:132 src/menu.tsx:193
 msgid "Open in terminal"
 msgstr ""
 
-#: src/menu.tsx:132
+#: src/menu.tsx:149
 msgid "Open text file"
 msgstr ""
 
@@ -486,7 +500,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr ""
 
-#: src/files-card-body.tsx:572 src/files-footer-detail.tsx:79
+#: src/files-card-body.tsx:573 src/files-footer-detail.tsx:79
 msgid "Others"
 msgstr "Wiyyaḍ"
 
@@ -499,7 +513,7 @@ msgid "Overwrite"
 msgstr ""
 
 #: src/dialogs/create-file.tsx:198 src/dialogs/permissions.tsx:333
-#: src/header.tsx:99 src/files-card-body.tsx:533 src/files-card-body.tsx:572
+#: src/header.tsx:99 src/files-card-body.tsx:534 src/files-card-body.tsx:573
 #: src/files-footer-detail.tsx:79
 msgid "Owner"
 msgstr "Bab-is"
@@ -520,15 +534,19 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/menu.tsx:88
+#: src/dialogs/copyPasteOwnership.tsx:178 src/menu.tsx:105
 msgid "Paste"
+msgstr ""
+
+#: src/dialogs/copyPasteOwnership.tsx:188
+msgid "Paste as owner"
 msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:117
 msgid "Paste file or directory"
 msgstr ""
 
-#: src/menu.tsx:57
+#: src/dialogs/copyPasteOwnership.tsx:65 src/menu.tsx:62
 msgid "Pasting failed"
 msgstr ""
 
@@ -538,7 +556,7 @@ msgstr ""
 msgid "Permission denied"
 msgstr "Tisirag"
 
-#: src/header.tsx:110 src/files-card-body.tsx:538
+#: src/header.tsx:110 src/files-card-body.tsx:539
 msgid "Permissions"
 msgstr "Tisirag"
 
@@ -546,23 +564,23 @@ msgstr "Tisirag"
 msgid "Permissions for $0 files"
 msgstr "Tisirag i $0 n yifuyla"
 
-#: src/common.ts:76
+#: src/common.ts:80
 msgid "Read and execute"
 msgstr ""
 
-#: src/common.ts:77 src/dialogs/permissions.tsx:224
+#: src/common.ts:81 src/dialogs/permissions.tsx:224
 msgid "Read and write"
 msgstr ""
 
-#: src/common.ts:78
+#: src/common.ts:82
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/common.ts:75 src/dialogs/permissions.tsx:229 src/dialogs/editor.tsx:172
+#: src/common.ts:79 src/dialogs/permissions.tsx:229 src/dialogs/editor.tsx:172
 msgid "Read-only"
 msgstr ""
 
-#: src/common.ts:87
+#: src/common.ts:91
 msgid "Regular file"
 msgstr ""
 
@@ -574,7 +592,7 @@ msgstr ""
 msgid "Remove from bookmarks"
 msgstr ""
 
-#: src/dialogs/rename.tsx:89 src/menu.tsx:151
+#: src/dialogs/rename.tsx:89 src/menu.tsx:168
 msgid "Rename"
 msgstr "Snifel isem"
 
@@ -614,7 +632,7 @@ msgstr ""
 msgid "Show all files"
 msgstr ""
 
-#: src/header.tsx:287 src/files-card-body.tsx:511
+#: src/header.tsx:287 src/files-card-body.tsx:512
 msgid "Show hidden items"
 msgstr ""
 
@@ -622,7 +640,7 @@ msgstr ""
 msgid "Show keyboard shortcuts"
 msgstr ""
 
-#: src/header.tsx:77 src/files-card-body.tsx:524
+#: src/header.tsx:77 src/files-card-body.tsx:525
 msgid "Size"
 msgstr "Teɣzi"
 
@@ -630,7 +648,7 @@ msgstr "Teɣzi"
 msgid "Smallest size"
 msgstr ""
 
-#: src/common.ts:88
+#: src/common.ts:92
 msgid "Socket"
 msgstr ""
 
@@ -638,7 +656,7 @@ msgstr ""
 msgid "Sort"
 msgstr ""
 
-#: src/common.ts:86
+#: src/common.ts:90
 msgid "Symbolic link"
 msgstr ""
 
@@ -695,11 +713,11 @@ msgstr ""
 msgid "View $0"
 msgstr ""
 
-#: src/common.ts:74
+#: src/common.ts:78
 msgid "Write and execute"
 msgstr ""
 
-#: src/common.ts:73 src/dialogs/permissions.tsx:244
+#: src/common.ts:77 src/dialogs/permissions.tsx:244
 msgid "Write-only"
 msgstr ""
 
@@ -718,3 +736,7 @@ msgstr "ifuyla"
 #: src/manifest.json:0
 msgid "filesystem"
 msgstr "anagraw n yifuyla"
+
+#: src/dialogs/copyPasteOwnership.tsx:127
+msgid "keep original owners"
+msgstr ""
