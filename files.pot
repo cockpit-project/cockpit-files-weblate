@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 03:02+0000\n"
+"POT-Creation-Date: 2025-02-15 03:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 03:02+0000\n"
+"POT-Creation-Date: 2025-02-15 03:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,7 +67,7 @@ msgid_plural "$0 items are hidden"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/dialogs/permissions.tsx:299
+#: src/dialogs/permissions.tsx:300
 msgid "$0 permissions"
 msgstr ""
 
@@ -92,7 +92,7 @@ msgstr ""
 msgid "A-Z"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:364
+#: src/dialogs/permissions.tsx:366
 msgid "Access"
 msgstr ""
 
@@ -118,7 +118,7 @@ msgid "Bookmarks"
 msgstr ""
 
 #: src/upload-button.tsx:116 src/dialogs/mkdir.tsx:108
-#: src/dialogs/permissions.tsx:319 src/dialogs/copyPasteOwnership.tsx:180
+#: src/dialogs/permissions.tsx:320 src/dialogs/copyPasteOwnership.tsx:180
 #: src/dialogs/create-file.tsx:161 src/dialogs/rename.tsx:98
 #: src/dialogs/delete.tsx:91 src/dialogs/editor.tsx:211
 msgid "Cancel"
@@ -140,11 +140,11 @@ msgstr ""
 msgid "Cannot create file in current directory"
 msgstr ""
 
-#: src/files-folder-view.tsx:165
+#: src/files-folder-view.tsx:177
 msgid "Cannot drop files, another upload is already in progress"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:310
+#: src/dialogs/permissions.tsx:311
 msgid "Change"
 msgstr ""
 
@@ -152,7 +152,7 @@ msgstr ""
 msgid "Change permissions"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:317
+#: src/dialogs/permissions.tsx:318
 msgid "Change permissions for enclosed files"
 msgstr ""
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "Cockpit Project"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:284
+#: src/dialogs/permissions.tsx:285
 msgid "Collapse"
 msgstr ""
 
@@ -280,7 +280,7 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: src/files-folder-view.tsx:157
+#: src/files-folder-view.tsx:169
 msgid "Drop files to upload"
 msgstr ""
 
@@ -388,11 +388,11 @@ msgid "Go up a directory"
 msgstr ""
 
 #: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
-#: src/files-card-body.tsx:573 src/dialogs/permissions.tsx:348
+#: src/files-card-body.tsx:573 src/dialogs/permissions.tsx:349
 msgid "Group"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:378
+#: src/dialogs/permissions.tsx:380
 msgid "Group access"
 msgstr ""
 
@@ -432,7 +432,7 @@ msgstr ""
 msgid "Manage your files"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:278
+#: src/dialogs/permissions.tsx:279
 msgid "Missing type"
 msgstr ""
 
@@ -484,7 +484,7 @@ msgstr ""
 msgid "New owner"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:234
+#: src/dialogs/permissions.tsx:235
 msgid "No access"
 msgstr ""
 
@@ -512,7 +512,7 @@ msgstr ""
 msgid "Others"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:390
+#: src/dialogs/permissions.tsx:392
 msgid "Others access"
 msgstr ""
 
@@ -521,12 +521,12 @@ msgid "Overwrite"
 msgstr ""
 
 #: src/header.tsx:99 src/files-footer-detail.tsx:79 src/files-card-body.tsx:534
-#: src/files-card-body.tsx:573 src/dialogs/permissions.tsx:333
+#: src/files-card-body.tsx:573 src/dialogs/permissions.tsx:334
 #: src/dialogs/create-file.tsx:198
 msgid "Owner"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:366
+#: src/dialogs/permissions.tsx:368
 msgid "Owner access"
 msgstr ""
 
@@ -538,7 +538,7 @@ msgstr ""
 msgid "Owner descending"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:332
+#: src/dialogs/permissions.tsx:333
 msgid "Ownership"
 msgstr ""
 
@@ -566,7 +566,7 @@ msgstr ""
 msgid "Permissions"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:300
+#: src/dialogs/permissions.tsx:301
 msgid "Permissions for $0 files"
 msgstr ""
 
@@ -574,7 +574,7 @@ msgstr ""
 msgid "Read and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:224 src/common.ts:81
+#: src/dialogs/permissions.tsx:225 src/common.ts:81
 msgid "Read and write"
 msgstr ""
 
@@ -582,7 +582,7 @@ msgstr ""
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:229 src/dialogs/editor.tsx:172 src/common.ts:79
+#: src/dialogs/permissions.tsx:230 src/dialogs/editor.tsx:172 src/common.ts:79
 msgid "Read-only"
 msgstr ""
 
@@ -622,7 +622,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:403
+#: src/dialogs/permissions.tsx:405
 msgid "Security context"
 msgstr ""
 
@@ -630,11 +630,11 @@ msgstr ""
 msgid "Select all"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:415
+#: src/dialogs/permissions.tsx:417
 msgid "Set executable as program"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:285
+#: src/dialogs/permissions.tsx:286
 msgid "Show all files"
 msgstr ""
 
@@ -723,7 +723,7 @@ msgstr ""
 msgid "Write and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:244 src/common.ts:77
+#: src/dialogs/permissions.tsx:245 src/common.ts:77
 msgid "Write-only"
 msgstr ""
 
