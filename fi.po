@@ -15,16 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 03:04+0000\n"
-"PO-Revision-Date: 2025-01-09 06:42+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/fi/>\n"
+"PO-Revision-Date: 2025-02-22 19:22+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10\n"
 
 #: src/menu.tsx:63
 msgid "\"$0\" exists, not overwriting with paste."
@@ -49,10 +49,8 @@ msgid "$0 permissions"
 msgstr "$0 käyttöoikeudet"
 
 #: src/dialogs/copyPasteOwnership.tsx:118
-#, fuzzy
-#| msgid "Original file on server"
 msgid "(original owner)"
-msgstr "Alkuperäinen tiedosto palvelimella"
+msgstr "(alkuperäinen omistaja)"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -86,10 +84,8 @@ msgid "Activate selected item, enter directory"
 msgstr "Aktivoi valittu kohde, siirry hakemistoon"
 
 #: src/files-breadcrumbs.tsx:147
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Add to bookmarks"
-msgstr "Lisää kirjanmerkki"
+msgstr "Lisää kirjanmerkkeihin"
 
 #: src/upload-button.tsx:145
 msgid "Apply this action to all conflicting files"
@@ -159,10 +155,8 @@ msgid "Cockpit Files"
 msgstr "Cockpit-tiedostot"
 
 #: org.cockpit_project.files.metainfo.xml:21
-#, fuzzy
-#| msgid "Cockpit Files"
 msgid "Cockpit Project"
-msgstr "Cockpit-tiedostot"
+msgstr "Cockpit-projekti"
 
 #: src/dialogs/permissions.tsx:285
 msgid "Collapse"
@@ -469,10 +463,8 @@ msgid "New name"
 msgstr "Uusi nimi"
 
 #: src/dialogs/copyPasteOwnership.tsx:200
-#, fuzzy
-#| msgid "New name"
 msgid "New owner"
-msgstr "Uusi nimi"
+msgstr "Uusi omistaja"
 
 #: src/dialogs/permissions.tsx:235
 msgid "No access"
@@ -586,7 +578,7 @@ msgstr "Lataa uudelleen"
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove from bookmarks"
-msgstr ""
+msgstr "Poista kirjanmerkeistä"
 
 #: src/menu.tsx:168 src/dialogs/rename.tsx:89
 msgid "Rename"
@@ -703,7 +695,7 @@ msgstr "Uloslataukset"
 
 #: src/files-footer-detail.tsx:143
 msgid "User"
-msgstr ""
+msgstr "Käyttäjä"
 
 #: src/dialogs/editor.tsx:170
 msgid "View $0"
@@ -734,10 +726,8 @@ msgid "filesystem"
 msgstr "tiedostojärjestelmä"
 
 #: src/dialogs/copyPasteOwnership.tsx:127
-#, fuzzy
-#| msgid "Keep original"
 msgid "keep original owners"
-msgstr "Säilytä alkuperäinen"
+msgstr "säilytä alkuperäiset omistajat"
 
 #~ msgid "Remove current directory"
 #~ msgstr "Poista nykyinen hakemisto"
