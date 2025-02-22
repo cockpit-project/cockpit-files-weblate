@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 03:04+0000\n"
+"POT-Creation-Date: 2025-02-22 03:01+0000\n"
 "PO-Revision-Date: 2024-08-15 13:14+0000\n"
 "Last-Translator: Watson Xu <xuhuashan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -51,7 +51,7 @@ msgstr[0] "$0 个隐藏项目"
 msgid "$0 permissions"
 msgstr "“$0” 的权限"
 
-#: src/dialogs/copyPasteOwnership.tsx:118
+#: src/dialogs/copyPasteOwnership.tsx:117
 #, fuzzy
 #| msgid "Original file on server"
 msgid "(original owner)"
@@ -102,7 +102,7 @@ msgid "Bookmarks"
 msgstr "书签"
 
 #: src/upload-button.tsx:116 src/dialogs/mkdir.tsx:108
-#: src/dialogs/permissions.tsx:320 src/dialogs/copyPasteOwnership.tsx:180
+#: src/dialogs/permissions.tsx:320 src/dialogs/copyPasteOwnership.tsx:179
 #: src/dialogs/create-file.tsx:161 src/dialogs/rename.tsx:98
 #: src/dialogs/delete.tsx:98 src/dialogs/editor.tsx:211
 msgid "Cancel"
@@ -341,7 +341,7 @@ msgstr "文件名与原文件名同名"
 msgid "Files"
 msgstr "文件"
 
-#: src/dialogs/copyPasteOwnership.tsx:197
+#: src/dialogs/copyPasteOwnership.tsx:196
 msgid ""
 "Files being pasted have a different owner. By default, ownership will be "
 "changed to match the destination directory."
@@ -498,7 +498,7 @@ msgstr "新文件名"
 msgid "New name"
 msgstr "新名称"
 
-#: src/dialogs/copyPasteOwnership.tsx:200
+#: src/dialogs/copyPasteOwnership.tsx:199
 #, fuzzy
 #| msgid "New name"
 msgid "New owner"
@@ -568,11 +568,11 @@ msgstr "所有者权限"
 msgid "Ownership"
 msgstr "所有权"
 
-#: src/menu.tsx:105 src/dialogs/copyPasteOwnership.tsx:178
+#: src/menu.tsx:105 src/dialogs/copyPasteOwnership.tsx:177
 msgid "Paste"
 msgstr "粘贴"
 
-#: src/dialogs/copyPasteOwnership.tsx:188
+#: src/dialogs/copyPasteOwnership.tsx:187
 msgid "Paste as owner"
 msgstr ""
 
@@ -582,7 +582,7 @@ msgstr ""
 msgid "Paste file or directory"
 msgstr "筛选目录"
 
-#: src/menu.tsx:62 src/dialogs/copyPasteOwnership.tsx:65
+#: src/menu.tsx:62 src/dialogs/copyPasteOwnership.tsx:64
 msgid "Pasting failed"
 msgstr "粘贴失败"
 
@@ -776,7 +776,7 @@ msgstr "文件"
 msgid "filesystem"
 msgstr "文件系统"
 
-#: src/dialogs/copyPasteOwnership.tsx:127
+#: src/dialogs/copyPasteOwnership.tsx:126
 #, fuzzy
 #| msgid "Keep original"
 msgid "keep original owners"

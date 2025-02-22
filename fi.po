@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 03:04+0000\n"
+"POT-Creation-Date: 2025-02-22 03:01+0000\n"
 "PO-Revision-Date: 2025-02-22 19:22+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
-"cockpit-files/cockpit-files/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
+"files/cockpit-files/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +48,7 @@ msgstr[1] "$0 kohdetta on piilotettu"
 msgid "$0 permissions"
 msgstr "$0 käyttöoikeudet"
 
-#: src/dialogs/copyPasteOwnership.tsx:118
+#: src/dialogs/copyPasteOwnership.tsx:117
 msgid "(original owner)"
 msgstr "(alkuperäinen omistaja)"
 
@@ -100,7 +100,7 @@ msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
 #: src/upload-button.tsx:116 src/dialogs/mkdir.tsx:108
-#: src/dialogs/permissions.tsx:320 src/dialogs/copyPasteOwnership.tsx:180
+#: src/dialogs/permissions.tsx:320 src/dialogs/copyPasteOwnership.tsx:179
 #: src/dialogs/create-file.tsx:161 src/dialogs/rename.tsx:98
 #: src/dialogs/delete.tsx:98 src/dialogs/editor.tsx:211
 msgid "Cancel"
@@ -315,7 +315,7 @@ msgstr "Tiedostonimi on sama kuin alkuperäinen nimi"
 msgid "Files"
 msgstr "Tiedostot"
 
-#: src/dialogs/copyPasteOwnership.tsx:197
+#: src/dialogs/copyPasteOwnership.tsx:196
 msgid ""
 "Files being pasted have a different owner. By default, ownership will be "
 "changed to match the destination directory."
@@ -462,7 +462,7 @@ msgstr "Uusi tiedostonimi"
 msgid "New name"
 msgstr "Uusi nimi"
 
-#: src/dialogs/copyPasteOwnership.tsx:200
+#: src/dialogs/copyPasteOwnership.tsx:199
 msgid "New owner"
 msgstr "Uusi omistaja"
 
@@ -524,11 +524,11 @@ msgstr "Omistaja laskeva"
 msgid "Ownership"
 msgstr "Omistajuus"
 
-#: src/menu.tsx:105 src/dialogs/copyPasteOwnership.tsx:178
+#: src/menu.tsx:105 src/dialogs/copyPasteOwnership.tsx:177
 msgid "Paste"
 msgstr "Liitä"
 
-#: src/dialogs/copyPasteOwnership.tsx:188
+#: src/dialogs/copyPasteOwnership.tsx:187
 msgid "Paste as owner"
 msgstr ""
 
@@ -536,7 +536,7 @@ msgstr ""
 msgid "Paste file or directory"
 msgstr "Liitä tiedosto tai hakemisto"
 
-#: src/menu.tsx:62 src/dialogs/copyPasteOwnership.tsx:65
+#: src/menu.tsx:62 src/dialogs/copyPasteOwnership.tsx:64
 msgid "Pasting failed"
 msgstr "Liittäminen epäonnistui"
 
@@ -725,7 +725,7 @@ msgstr "tiedostot"
 msgid "filesystem"
 msgstr "tiedostojärjestelmä"
 
-#: src/dialogs/copyPasteOwnership.tsx:127
+#: src/dialogs/copyPasteOwnership.tsx:126
 msgid "keep original owners"
 msgstr "säilytä alkuperäiset omistajat"
 
