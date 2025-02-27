@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-26 03:07+0000\n"
+"POT-Creation-Date: 2025-02-27 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-26 03:07+0000\n"
+"POT-Creation-Date: 2025-02-27 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,10 +117,10 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/upload-button.tsx:116 src/dialogs/mkdir.tsx:108
-#: src/dialogs/permissions.tsx:320 src/dialogs/copyPasteOwnership.tsx:179
-#: src/dialogs/create-file.tsx:161 src/dialogs/rename.tsx:98
-#: src/dialogs/delete.tsx:98 src/dialogs/editor.tsx:211
+#: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
+#: src/dialogs/mkdir.tsx:108 src/dialogs/permissions.tsx:320
+#: src/dialogs/create-file.tsx:161 src/dialogs/delete.tsx:98
+#: src/dialogs/rename.tsx:98 src/dialogs/copyPasteOwnership.tsx:179
 msgid "Cancel"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Clear filter"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:43 src/dialogs/editor.tsx:211
+#: src/dialogs/editor.tsx:211 src/dialogs/keyboardShortcutsHelp.tsx:43
 msgid "Close"
 msgstr ""
 
@@ -387,8 +387,8 @@ msgstr ""
 msgid "Go up a directory"
 msgstr ""
 
-#: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
 #: src/files-card-body.tsx:596 src/dialogs/permissions.tsx:349
+#: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
 msgid "Group"
 msgstr ""
 
@@ -436,7 +436,7 @@ msgstr ""
 msgid "Missing type"
 msgstr ""
 
-#: src/header.tsx:88 src/files-card-body.tsx:552
+#: src/files-card-body.tsx:552 src/header.tsx:88
 msgid "Modified"
 msgstr ""
 
@@ -444,7 +444,7 @@ msgstr ""
 msgid "Most permissive"
 msgstr ""
 
-#: src/header.tsx:66 src/files-card-body.tsx:547
+#: src/files-card-body.tsx:547 src/header.tsx:66
 msgid "Name"
 msgstr ""
 
@@ -508,7 +508,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr ""
 
-#: src/files-footer-detail.tsx:79 src/files-card-body.tsx:596
+#: src/files-card-body.tsx:596 src/files-footer-detail.tsx:79
 msgid "Others"
 msgstr ""
 
@@ -516,13 +516,13 @@ msgstr ""
 msgid "Others access"
 msgstr ""
 
-#: src/dialogs/rename.tsx:96 src/dialogs/editor.tsx:195
+#: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:96
 msgid "Overwrite"
 msgstr ""
 
-#: src/header.tsx:99 src/files-footer-detail.tsx:79 src/files-card-body.tsx:557
-#: src/files-card-body.tsx:596 src/dialogs/permissions.tsx:334
-#: src/dialogs/create-file.tsx:198
+#: src/files-card-body.tsx:557 src/files-card-body.tsx:596
+#: src/dialogs/permissions.tsx:334 src/dialogs/create-file.tsx:198
+#: src/files-footer-detail.tsx:79 src/header.tsx:99
 msgid "Owner"
 msgstr ""
 
@@ -562,7 +562,7 @@ msgstr ""
 msgid "Permission denied"
 msgstr ""
 
-#: src/header.tsx:110 src/files-card-body.tsx:562
+#: src/files-card-body.tsx:562 src/header.tsx:110
 msgid "Permissions"
 msgstr ""
 
@@ -582,7 +582,7 @@ msgstr ""
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:230 src/dialogs/editor.tsx:172 src/common.ts:79
+#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:79
 msgid "Read-only"
 msgstr ""
 
@@ -638,7 +638,7 @@ msgstr ""
 msgid "Show all files"
 msgstr ""
 
-#: src/header.tsx:287 src/files-card-body.tsx:535
+#: src/files-card-body.tsx:535 src/header.tsx:287
 msgid "Show hidden items"
 msgstr ""
 
@@ -646,7 +646,7 @@ msgstr ""
 msgid "Show keyboard shortcuts"
 msgstr ""
 
-#: src/header.tsx:77 src/files-card-body.tsx:548
+#: src/files-card-body.tsx:548 src/header.tsx:77
 msgid "Size"
 msgstr ""
 
