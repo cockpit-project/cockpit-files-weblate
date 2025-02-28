@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-22 03:01+0000\n"
+"POT-Creation-Date: 2025-02-28 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -38,7 +38,7 @@ msgstr ""
 msgid "$0 files selected"
 msgstr ""
 
-#: src/files-card-body.tsx:509
+#: src/files-card-body.tsx:532
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
 msgstr[0] ""
@@ -74,8 +74,8 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:76
 #: src/dialogs/keyboardShortcutsHelp.tsx:82
+#: src/dialogs/keyboardShortcutsHelp.tsx:88
 msgid "Activate selected item, enter directory"
 msgstr ""
 
@@ -95,10 +95,10 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/upload-button.tsx:116 src/dialogs/mkdir.tsx:108
-#: src/dialogs/permissions.tsx:320 src/dialogs/copyPasteOwnership.tsx:179
-#: src/dialogs/create-file.tsx:161 src/dialogs/rename.tsx:98
-#: src/dialogs/delete.tsx:98 src/dialogs/editor.tsx:211
+#: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
+#: src/dialogs/mkdir.tsx:108 src/dialogs/permissions.tsx:320
+#: src/dialogs/create-file.tsx:161 src/dialogs/delete.tsx:98
+#: src/dialogs/rename.tsx:98 src/dialogs/copyPasteOwnership.tsx:179
 msgid "Cancel"
 msgstr ""
 
@@ -138,11 +138,11 @@ msgstr ""
 msgid "Character device"
 msgstr ""
 
-#: src/files-card-body.tsx:497
+#: src/files-card-body.tsx:520
 msgid "Clear filter"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:37 src/dialogs/editor.tsx:211
+#: src/dialogs/editor.tsx:211 src/dialogs/keyboardShortcutsHelp.tsx:43
 msgid "Close"
 msgstr ""
 
@@ -162,7 +162,7 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:111
+#: src/dialogs/keyboardShortcutsHelp.tsx:117
 msgid "Copy selected file or directory"
 msgstr ""
 
@@ -178,7 +178,7 @@ msgstr ""
 msgid "Create file"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:105
+#: src/dialogs/keyboardShortcutsHelp.tsx:111
 msgid "Create new directory"
 msgstr ""
 
@@ -218,7 +218,7 @@ msgstr ""
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
 msgstr ""
 
-#: src/files-card-body.tsx:504
+#: src/files-card-body.tsx:527
 msgid "Directory is empty"
 msgstr ""
 
@@ -267,7 +267,7 @@ msgstr ""
 msgid "Edit $0"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:90 src/files-breadcrumbs.tsx:306
+#: src/dialogs/keyboardShortcutsHelp.tsx:96 src/files-breadcrumbs.tsx:306
 msgid "Edit path"
 msgstr ""
 
@@ -275,7 +275,7 @@ msgstr ""
 msgid "Edit permissions"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:150
+#: src/dialogs/keyboardShortcutsHelp.tsx:156
 msgid "Editing"
 msgstr ""
 
@@ -353,20 +353,20 @@ msgstr ""
 msgid "Force delete link $0?"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:64
+#: src/dialogs/keyboardShortcutsHelp.tsx:70
 msgid "Go back"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:70
+#: src/dialogs/keyboardShortcutsHelp.tsx:76
 msgid "Go forward"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:58
+#: src/dialogs/keyboardShortcutsHelp.tsx:64
 msgid "Go up a directory"
 msgstr ""
 
+#: src/files-card-body.tsx:596 src/dialogs/permissions.tsx:349
 #: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
-#: src/files-card-body.tsx:573 src/dialogs/permissions.tsx:349
 msgid "Group"
 msgstr ""
 
@@ -390,7 +390,7 @@ msgstr ""
 msgid "Keep original"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:131
+#: src/dialogs/keyboardShortcutsHelp.tsx:137
 msgid "Keyboard shortcuts"
 msgstr ""
 
@@ -414,7 +414,7 @@ msgstr ""
 msgid "Missing type"
 msgstr ""
 
-#: src/header.tsx:88 src/files-card-body.tsx:529
+#: src/files-card-body.tsx:552 src/header.tsx:88
 msgid "Modified"
 msgstr ""
 
@@ -422,7 +422,7 @@ msgstr ""
 msgid "Most permissive"
 msgstr ""
 
-#: src/header.tsx:66 src/files-card-body.tsx:524
+#: src/files-card-body.tsx:547 src/header.tsx:66
 msgid "Name"
 msgstr ""
 
@@ -442,7 +442,7 @@ msgstr ""
 msgid "Named pipe"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:140
+#: src/dialogs/keyboardShortcutsHelp.tsx:146
 msgid "Navigation"
 msgstr ""
 
@@ -466,7 +466,7 @@ msgstr ""
 msgid "No access"
 msgstr ""
 
-#: src/files-card-body.tsx:496
+#: src/files-card-body.tsx:519
 msgid "No matching results"
 msgstr ""
 
@@ -486,7 +486,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr ""
 
-#: src/files-footer-detail.tsx:79 src/files-card-body.tsx:573
+#: src/files-card-body.tsx:596 src/files-footer-detail.tsx:79
 msgid "Others"
 msgstr ""
 
@@ -494,13 +494,13 @@ msgstr ""
 msgid "Others access"
 msgstr ""
 
-#: src/dialogs/rename.tsx:96 src/dialogs/editor.tsx:195
+#: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:96
 msgid "Overwrite"
 msgstr ""
 
-#: src/header.tsx:99 src/files-footer-detail.tsx:79 src/files-card-body.tsx:534
-#: src/files-card-body.tsx:573 src/dialogs/permissions.tsx:334
-#: src/dialogs/create-file.tsx:198
+#: src/files-card-body.tsx:557 src/files-card-body.tsx:596
+#: src/dialogs/permissions.tsx:334 src/dialogs/create-file.tsx:198
+#: src/files-footer-detail.tsx:79 src/header.tsx:99
 msgid "Owner"
 msgstr ""
 
@@ -528,7 +528,7 @@ msgstr ""
 msgid "Paste as owner"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:117
+#: src/dialogs/keyboardShortcutsHelp.tsx:123
 msgid "Paste file or directory"
 msgstr ""
 
@@ -540,7 +540,7 @@ msgstr ""
 msgid "Permission denied"
 msgstr ""
 
-#: src/header.tsx:110 src/files-card-body.tsx:539
+#: src/files-card-body.tsx:562 src/header.tsx:110
 msgid "Permissions"
 msgstr ""
 
@@ -560,7 +560,7 @@ msgstr ""
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:230 src/dialogs/editor.tsx:172 src/common.ts:79
+#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:79
 msgid "Read-only"
 msgstr ""
 
@@ -584,7 +584,7 @@ msgstr ""
 msgid "Rename $0?"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:98
+#: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Rename selected file or directory"
 msgstr ""
 
@@ -604,7 +604,7 @@ msgstr ""
 msgid "Security context"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:123
+#: src/dialogs/keyboardShortcutsHelp.tsx:129
 msgid "Select all"
 msgstr ""
 
@@ -616,7 +616,7 @@ msgstr ""
 msgid "Show all files"
 msgstr ""
 
-#: src/header.tsx:287 src/files-card-body.tsx:512
+#: src/files-card-body.tsx:535 src/header.tsx:287
 msgid "Show hidden items"
 msgstr ""
 
@@ -624,7 +624,7 @@ msgstr ""
 msgid "Show keyboard shortcuts"
 msgstr ""
 
-#: src/header.tsx:77 src/files-card-body.tsx:525
+#: src/files-card-body.tsx:548 src/header.tsx:77
 msgid "Size"
 msgstr ""
 

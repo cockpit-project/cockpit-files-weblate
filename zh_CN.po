@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-22 03:01+0000\n"
+"POT-Creation-Date: 2025-02-28 03:07+0000\n"
 "PO-Revision-Date: 2024-08-15 13:14+0000\n"
 "Last-Translator: Watson Xu <xuhuashan@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -40,7 +40,7 @@ msgstr "文件"
 msgid "$0 files selected"
 msgstr ""
 
-#: src/files-card-body.tsx:509
+#: src/files-card-body.tsx:532
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
 msgstr[0] "$0 个隐藏项目"
@@ -78,8 +78,8 @@ msgstr "由 A 到 Z"
 msgid "Access"
 msgstr "访问权限"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:76
 #: src/dialogs/keyboardShortcutsHelp.tsx:82
+#: src/dialogs/keyboardShortcutsHelp.tsx:88
 msgid "Activate selected item, enter directory"
 msgstr ""
 
@@ -101,10 +101,10 @@ msgstr "块设备"
 msgid "Bookmarks"
 msgstr "书签"
 
-#: src/upload-button.tsx:116 src/dialogs/mkdir.tsx:108
-#: src/dialogs/permissions.tsx:320 src/dialogs/copyPasteOwnership.tsx:179
-#: src/dialogs/create-file.tsx:161 src/dialogs/rename.tsx:98
-#: src/dialogs/delete.tsx:98 src/dialogs/editor.tsx:211
+#: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
+#: src/dialogs/mkdir.tsx:108 src/dialogs/permissions.tsx:320
+#: src/dialogs/create-file.tsx:161 src/dialogs/delete.tsx:98
+#: src/dialogs/rename.tsx:98 src/dialogs/copyPasteOwnership.tsx:179
 msgid "Cancel"
 msgstr "取消"
 
@@ -148,11 +148,11 @@ msgstr ""
 msgid "Character device"
 msgstr "字符设备"
 
-#: src/files-card-body.tsx:497
+#: src/files-card-body.tsx:520
 msgid "Clear filter"
 msgstr "清除筛选器"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:37 src/dialogs/editor.tsx:211
+#: src/dialogs/editor.tsx:211 src/dialogs/keyboardShortcutsHelp.tsx:43
 msgid "Close"
 msgstr ""
 
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Copy"
 msgstr "复制"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:111
+#: src/dialogs/keyboardShortcutsHelp.tsx:117
 msgid "Copy selected file or directory"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgstr "创建目录"
 msgid "Create file"
 msgstr "创建"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:105
+#: src/dialogs/keyboardShortcutsHelp.tsx:111
 #, fuzzy
 #| msgid "Create directory"
 msgid "Create new directory"
@@ -234,7 +234,7 @@ msgstr ""
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
 msgstr ""
 
-#: src/files-card-body.tsx:504
+#: src/files-card-body.tsx:527
 msgid "Directory is empty"
 msgstr "目录为空"
 
@@ -293,7 +293,7 @@ msgstr "新名称"
 msgid "Edit $0"
 msgstr "编辑路径"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:90 src/files-breadcrumbs.tsx:306
+#: src/dialogs/keyboardShortcutsHelp.tsx:96 src/files-breadcrumbs.tsx:306
 msgid "Edit path"
 msgstr "编辑路径"
 
@@ -301,7 +301,7 @@ msgstr "编辑路径"
 msgid "Edit permissions"
 msgstr "编辑权限"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:150
+#: src/dialogs/keyboardShortcutsHelp.tsx:156
 msgid "Editing"
 msgstr ""
 
@@ -385,22 +385,22 @@ msgstr "强制删除文件 $0 ？"
 msgid "Force delete link $0?"
 msgstr "强制删除链接 $0 ?"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:64
+#: src/dialogs/keyboardShortcutsHelp.tsx:70
 msgid "Go back"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:70
+#: src/dialogs/keyboardShortcutsHelp.tsx:76
 msgid "Go forward"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:58
+#: src/dialogs/keyboardShortcutsHelp.tsx:64
 #, fuzzy
 #| msgid "Create directory"
 msgid "Go up a directory"
 msgstr "创建目录"
 
+#: src/files-card-body.tsx:596 src/dialogs/permissions.tsx:349
 #: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
-#: src/files-card-body.tsx:573 src/dialogs/permissions.tsx:349
 msgid "Group"
 msgstr "用户组"
 
@@ -424,7 +424,7 @@ msgstr ""
 msgid "Keep original"
 msgstr "保留原本的"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:131
+#: src/dialogs/keyboardShortcutsHelp.tsx:137
 msgid "Keyboard shortcuts"
 msgstr ""
 
@@ -448,7 +448,7 @@ msgstr "管理您的文件"
 msgid "Missing type"
 msgstr ""
 
-#: src/header.tsx:88 src/files-card-body.tsx:529
+#: src/files-card-body.tsx:552 src/header.tsx:88
 msgid "Modified"
 msgstr "修改时间"
 
@@ -456,7 +456,7 @@ msgstr "修改时间"
 msgid "Most permissive"
 msgstr "最大权限"
 
-#: src/header.tsx:66 src/files-card-body.tsx:524
+#: src/files-card-body.tsx:547 src/header.tsx:66
 msgid "Name"
 msgstr "名称"
 
@@ -482,7 +482,7 @@ msgstr "名称太长。"
 msgid "Named pipe"
 msgstr "命名管道"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:140
+#: src/dialogs/keyboardShortcutsHelp.tsx:146
 msgid "Navigation"
 msgstr ""
 
@@ -510,7 +510,7 @@ msgstr "新名称"
 msgid "No access"
 msgstr "用户组访问权限"
 
-#: src/files-card-body.tsx:496
+#: src/files-card-body.tsx:519
 msgid "No matching results"
 msgstr "没有匹配的结果"
 
@@ -530,7 +530,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr "服务器上原有的文件"
 
-#: src/files-footer-detail.tsx:79 src/files-card-body.tsx:573
+#: src/files-card-body.tsx:596 src/files-footer-detail.tsx:79
 msgid "Others"
 msgstr "其它"
 
@@ -538,13 +538,13 @@ msgstr "其它"
 msgid "Others access"
 msgstr "其它人访问权限"
 
-#: src/dialogs/rename.tsx:96 src/dialogs/editor.tsx:195
+#: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:96
 msgid "Overwrite"
 msgstr "覆盖"
 
-#: src/header.tsx:99 src/files-footer-detail.tsx:79 src/files-card-body.tsx:534
-#: src/files-card-body.tsx:573 src/dialogs/permissions.tsx:334
-#: src/dialogs/create-file.tsx:198
+#: src/files-card-body.tsx:557 src/files-card-body.tsx:596
+#: src/dialogs/permissions.tsx:334 src/dialogs/create-file.tsx:198
+#: src/files-footer-detail.tsx:79 src/header.tsx:99
 msgid "Owner"
 msgstr "所有者"
 
@@ -576,7 +576,7 @@ msgstr "粘贴"
 msgid "Paste as owner"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:117
+#: src/dialogs/keyboardShortcutsHelp.tsx:123
 #, fuzzy
 #| msgid "Filter directory"
 msgid "Paste file or directory"
@@ -592,7 +592,7 @@ msgstr "粘贴失败"
 msgid "Permission denied"
 msgstr "权限"
 
-#: src/header.tsx:110 src/files-card-body.tsx:539
+#: src/files-card-body.tsx:562 src/header.tsx:110
 msgid "Permissions"
 msgstr "权限"
 
@@ -614,7 +614,7 @@ msgstr "读取与写入"
 msgid "Read, write, and execute"
 msgstr "读取，写入与执行"
 
-#: src/dialogs/permissions.tsx:230 src/dialogs/editor.tsx:172 src/common.ts:79
+#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:79
 msgid "Read-only"
 msgstr "只能读取"
 
@@ -640,7 +640,7 @@ msgstr "重新命名"
 msgid "Rename $0?"
 msgstr "将 $0 重新命名？"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:98
+#: src/dialogs/keyboardShortcutsHelp.tsx:104
 msgid "Rename selected file or directory"
 msgstr ""
 
@@ -660,7 +660,7 @@ msgstr ""
 msgid "Security context"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:123
+#: src/dialogs/keyboardShortcutsHelp.tsx:129
 msgid "Select all"
 msgstr ""
 
@@ -672,7 +672,7 @@ msgstr ""
 msgid "Show all files"
 msgstr ""
 
-#: src/header.tsx:287 src/files-card-body.tsx:512
+#: src/files-card-body.tsx:535 src/header.tsx:287
 msgid "Show hidden items"
 msgstr "显示隐藏项目"
 
@@ -680,7 +680,7 @@ msgstr "显示隐藏项目"
 msgid "Show keyboard shortcuts"
 msgstr ""
 
-#: src/header.tsx:77 src/files-card-body.tsx:525
+#: src/files-card-body.tsx:548 src/header.tsx:77
 msgid "Size"
 msgstr "尺寸"
 
