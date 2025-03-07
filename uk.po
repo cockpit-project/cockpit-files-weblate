@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-28 03:07+0000\n"
+"POT-Creation-Date: 2025-03-07 03:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Apply this action to all conflicting files"
 msgstr ""
 
-#: src/common.ts:86
+#: src/common.ts:66
 msgid "Block device"
 msgstr ""
 
@@ -134,7 +134,7 @@ msgstr ""
 msgid "Change permissions for enclosed files"
 msgstr ""
 
-#: src/common.ts:87
+#: src/common.ts:67
 msgid "Character device"
 msgstr ""
 
@@ -206,7 +206,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/common.ts:88
+#: src/common.ts:68
 msgid "Directory"
 msgstr ""
 
@@ -242,7 +242,7 @@ msgstr ""
 msgid "Directory owner"
 msgstr ""
 
-#: src/common.ts:139
+#: src/common.ts:119
 msgid "Directory with the same name exists"
 msgstr ""
 
@@ -279,7 +279,7 @@ msgstr ""
 msgid "Editing"
 msgstr ""
 
-#: src/common.ts:76
+#: src/common.ts:56
 msgid "Execute-only"
 msgstr ""
 
@@ -291,7 +291,7 @@ msgstr ""
 msgid "File browser"
 msgstr ""
 
-#: src/common.ts:141
+#: src/common.ts:121
 msgid "File exists"
 msgstr ""
 
@@ -303,7 +303,7 @@ msgstr ""
 msgid "File uploaded"
 msgstr ""
 
-#: src/common.ts:136
+#: src/common.ts:116
 msgid "Filename is the same as original name"
 msgstr ""
 
@@ -426,19 +426,19 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: src/common.ts:130
+#: src/common.ts:110
 msgid "Name cannot be empty"
 msgstr ""
 
-#: src/common.ts:134
+#: src/common.ts:114
 msgid "Name cannot include a /"
 msgstr ""
 
-#: src/common.ts:132
+#: src/common.ts:112
 msgid "Name too long"
 msgstr ""
 
-#: src/common.ts:89
+#: src/common.ts:69
 msgid "Named pipe"
 msgstr ""
 
@@ -470,7 +470,7 @@ msgstr ""
 msgid "No matching results"
 msgstr ""
 
-#: src/common.ts:75
+#: src/common.ts:55
 msgid "None"
 msgstr ""
 
@@ -548,23 +548,23 @@ msgstr ""
 msgid "Permissions for $0 files"
 msgstr ""
 
-#: src/common.ts:80
+#: src/common.ts:60
 msgid "Read and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:225 src/common.ts:81
+#: src/dialogs/permissions.tsx:225 src/common.ts:61
 msgid "Read and write"
 msgstr ""
 
-#: src/common.ts:82
+#: src/common.ts:62
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:79
+#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:59
 msgid "Read-only"
 msgstr ""
 
-#: src/common.ts:91
+#: src/common.ts:71
 msgid "Regular file"
 msgstr ""
 
@@ -632,7 +632,7 @@ msgstr ""
 msgid "Smallest size"
 msgstr ""
 
-#: src/common.ts:92
+#: src/common.ts:72
 msgid "Socket"
 msgstr ""
 
@@ -640,7 +640,7 @@ msgstr ""
 msgid "Sort"
 msgstr ""
 
-#: src/common.ts:90
+#: src/common.ts:70
 msgid "Symbolic link"
 msgstr ""
 
@@ -696,11 +696,11 @@ msgstr ""
 msgid "View $0"
 msgstr ""
 
-#: src/common.ts:78
+#: src/common.ts:58
 msgid "Write and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:245 src/common.ts:77
+#: src/dialogs/permissions.tsx:245 src/common.ts:57
 msgid "Write-only"
 msgstr ""
 
