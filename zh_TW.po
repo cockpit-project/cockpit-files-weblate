@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-07 03:16+0000\n"
-"PO-Revision-Date: 2025-01-31 14:23+0000\n"
+"PO-Revision-Date: 2025-03-14 15:38+0000\n"
 "Last-Translator: JW Wang <v72807647@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_TW/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10.3\n"
 
 #: src/menu.tsx:63
 msgid "\"$0\" exists, not overwriting with paste."
@@ -48,10 +48,8 @@ msgid "$0 permissions"
 msgstr "$0 的權限"
 
 #: src/dialogs/copyPasteOwnership.tsx:117
-#, fuzzy
-#| msgid "Original file on server"
 msgid "(original owner)"
-msgstr "伺服器上原有的檔案"
+msgstr "（原始擁有者）"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -82,10 +80,8 @@ msgid "Activate selected item, enter directory"
 msgstr "觸發所選擇的項目，進入目錄"
 
 #: src/files-breadcrumbs.tsx:147
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Add to bookmarks"
-msgstr "新增書籤"
+msgstr "新增至書籤"
 
 #: src/upload-button.tsx:145
 msgid "Apply this action to all conflicting files"
@@ -319,7 +315,8 @@ msgstr "檔案"
 msgid ""
 "Files being pasted have a different owner. By default, ownership will be "
 "changed to match the destination directory."
-msgstr ""
+msgstr "正要貼上的檔案有不同的擁有者。在預設的情況，擁有權將被變更為與目的地目錄相符"
+"。"
 
 #: src/upload-button.tsx:361
 msgid "Files uploaded"
@@ -463,10 +460,8 @@ msgid "New name"
 msgstr "新名稱"
 
 #: src/dialogs/copyPasteOwnership.tsx:199
-#, fuzzy
-#| msgid "New name"
 msgid "New owner"
-msgstr "新名稱"
+msgstr "新擁有者"
 
 #: src/dialogs/permissions.tsx:235
 msgid "No access"
@@ -532,7 +527,7 @@ msgstr "貼上"
 
 #: src/dialogs/copyPasteOwnership.tsx:187
 msgid "Paste as owner"
-msgstr ""
+msgstr "作為擁有者貼上"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:123
 msgid "Paste file or directory"
@@ -580,7 +575,7 @@ msgstr "重新載入"
 
 #: src/files-breadcrumbs.tsx:145
 msgid "Remove from bookmarks"
-msgstr ""
+msgstr "從書籤移除"
 
 #: src/menu.tsx:168 src/dialogs/rename.tsx:89
 msgid "Rename"
@@ -728,10 +723,8 @@ msgid "filesystem"
 msgstr "檔案系統"
 
 #: src/dialogs/copyPasteOwnership.tsx:126
-#, fuzzy
-#| msgid "Keep original"
 msgid "keep original owners"
-msgstr "保留原本的"
+msgstr "保留原始擁有者"
 
 #~ msgid "Remove current directory"
 #~ msgstr "移除目前的目錄"
