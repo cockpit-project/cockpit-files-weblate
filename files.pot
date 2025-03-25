@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-24 03:24+0000\n"
+"POT-Creation-Date: 2025-03-25 03:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-24 03:24+0000\n"
+"POT-Creation-Date: 2025-03-25 03:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Activate selected item, enter directory"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:144
+#: src/files-breadcrumbs.tsx:139
 msgid "Add to bookmarks"
 msgstr ""
 
@@ -109,22 +109,22 @@ msgstr ""
 msgid "Apply this action to all conflicting files"
 msgstr ""
 
-#: src/common.ts:68
+#: src/common.ts:66
 msgid "Block device"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:155
+#: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
 msgstr ""
 
 #: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
-#: src/dialogs/mkdir.tsx:103 src/dialogs/permissions.tsx:320
-#: src/dialogs/create-file.tsx:160 src/dialogs/delete.tsx:98
+#: src/dialogs/mkdir.tsx:102 src/dialogs/permissions.tsx:320
+#: src/dialogs/create-file.tsx:159 src/dialogs/delete.tsx:98
 #: src/dialogs/rename.tsx:98 src/dialogs/copyPasteOwnership.tsx:178
 msgid "Cancel"
 msgstr ""
 
-#: src/upload-button.tsx:458
+#: src/upload-button.tsx:457
 msgid "Cancel upload of $0"
 msgstr ""
 
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Cancelled upload of $0"
 msgstr ""
 
-#: src/dialogs/create-file.tsx:226
+#: src/dialogs/create-file.tsx:225
 msgid "Cannot create file in current directory"
 msgstr ""
 
@@ -156,7 +156,7 @@ msgstr ""
 msgid "Change permissions for enclosed files"
 msgstr ""
 
-#: src/common.ts:69
+#: src/common.ts:67
 msgid "Character device"
 msgstr ""
 
@@ -188,7 +188,7 @@ msgstr ""
 msgid "Copy selected file or directory"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:101 src/dialogs/create-file.tsx:157
+#: src/dialogs/mkdir.tsx:100 src/dialogs/create-file.tsx:156
 msgid "Create"
 msgstr ""
 
@@ -196,7 +196,7 @@ msgstr ""
 msgid "Create directory"
 msgstr ""
 
-#: src/menu.tsx:117 src/dialogs/create-file.tsx:144
+#: src/menu.tsx:117 src/dialogs/create-file.tsx:143
 msgid "Create file"
 msgstr ""
 
@@ -228,7 +228,7 @@ msgstr ""
 msgid "Delete link $0?"
 msgstr ""
 
-#: src/common.ts:70
+#: src/common.ts:68
 msgid "Directory"
 msgstr ""
 
@@ -244,7 +244,7 @@ msgstr ""
 msgid "Directory is empty"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:121
+#: src/dialogs/mkdir.tsx:120
 msgid "Directory name"
 msgstr ""
 
@@ -260,11 +260,11 @@ msgstr ""
 msgid "Directory name too long"
 msgstr ""
 
-#: src/dialogs/mkdir.tsx:135
+#: src/dialogs/mkdir.tsx:134
 msgid "Directory owner"
 msgstr ""
 
-#: src/common.ts:121
+#: src/common.ts:119
 msgid "Directory with the same name exists"
 msgstr ""
 
@@ -289,7 +289,7 @@ msgstr ""
 msgid "Edit $0"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:96 src/files-breadcrumbs.tsx:303
+#: src/dialogs/keyboardShortcutsHelp.tsx:96 src/files-breadcrumbs.tsx:298
 msgid "Edit path"
 msgstr ""
 
@@ -301,7 +301,7 @@ msgstr ""
 msgid "Editing"
 msgstr ""
 
-#: src/common.ts:58
+#: src/common.ts:56
 msgid "Execute-only"
 msgstr ""
 
@@ -313,11 +313,11 @@ msgstr ""
 msgid "File browser"
 msgstr ""
 
-#: src/common.ts:123
+#: src/common.ts:121
 msgid "File exists"
 msgstr ""
 
-#: src/dialogs/create-file.tsx:175
+#: src/dialogs/create-file.tsx:174
 msgid "File name"
 msgstr ""
 
@@ -325,7 +325,7 @@ msgstr ""
 msgid "File uploaded"
 msgstr ""
 
-#: src/common.ts:118
+#: src/common.ts:116
 msgid "Filename is the same as original name"
 msgstr ""
 
@@ -343,7 +343,7 @@ msgstr ""
 msgid "Files uploaded"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:236
+#: src/files-breadcrumbs.tsx:231
 msgid "Filesystem"
 msgstr ""
 
@@ -400,7 +400,7 @@ msgstr ""
 msgid "Hide hidden items"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:51
+#: src/files-breadcrumbs.tsx:52
 msgid "Home"
 msgstr ""
 
@@ -448,19 +448,19 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: src/common.ts:112
+#: src/common.ts:110
 msgid "Name cannot be empty"
 msgstr ""
 
-#: src/common.ts:116
+#: src/common.ts:114
 msgid "Name cannot include a /"
 msgstr ""
 
-#: src/common.ts:114
+#: src/common.ts:112
 msgid "Name too long"
 msgstr ""
 
-#: src/common.ts:71
+#: src/common.ts:69
 msgid "Named pipe"
 msgstr ""
 
@@ -492,7 +492,7 @@ msgstr ""
 msgid "No matching results"
 msgstr ""
 
-#: src/common.ts:57
+#: src/common.ts:55
 msgid "None"
 msgstr ""
 
@@ -521,7 +521,7 @@ msgid "Overwrite"
 msgstr ""
 
 #: src/files-card-body.tsx:557 src/files-card-body.tsx:596
-#: src/dialogs/permissions.tsx:334 src/dialogs/create-file.tsx:197
+#: src/dialogs/permissions.tsx:334 src/dialogs/create-file.tsx:196
 #: src/files-footer-detail.tsx:79 src/header.tsx:99
 msgid "Owner"
 msgstr ""
@@ -558,7 +558,7 @@ msgstr ""
 msgid "Pasting failed"
 msgstr ""
 
-#: src/dialogs/create-file.tsx:227
+#: src/dialogs/create-file.tsx:226
 msgid "Permission denied"
 msgstr ""
 
@@ -570,23 +570,23 @@ msgstr ""
 msgid "Permissions for $0 files"
 msgstr ""
 
-#: src/common.ts:62
+#: src/common.ts:60
 msgid "Read and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:225 src/common.ts:63
+#: src/dialogs/permissions.tsx:225 src/common.ts:61
 msgid "Read and write"
 msgstr ""
 
-#: src/common.ts:64
+#: src/common.ts:62
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:61
+#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:59
 msgid "Read-only"
 msgstr ""
 
-#: src/common.ts:73
+#: src/common.ts:71
 msgid "Regular file"
 msgstr ""
 
@@ -594,7 +594,7 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:142
+#: src/files-breadcrumbs.tsx:137
 msgid "Remove from bookmarks"
 msgstr ""
 
@@ -654,7 +654,7 @@ msgstr ""
 msgid "Smallest size"
 msgstr ""
 
-#: src/common.ts:74
+#: src/common.ts:72
 msgid "Socket"
 msgstr ""
 
@@ -662,7 +662,7 @@ msgstr ""
 msgid "Sort"
 msgstr ""
 
-#: src/common.ts:72
+#: src/common.ts:70
 msgid "Symbolic link"
 msgstr ""
 
@@ -678,7 +678,7 @@ msgstr ""
 msgid "The file has changed on disk"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:101
+#: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
 msgstr ""
 
@@ -686,16 +686,16 @@ msgstr ""
 msgid "Unable to move uploaded file to final destination"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:121
+#: src/files-breadcrumbs.tsx:119
 msgid "Unable to save bookmark file"
 msgstr ""
 
-#: src/upload-button.tsx:494
+#: src/upload-button.tsx:493
 msgid "Upload"
 msgstr ""
 
 #
-#: src/upload-button.tsx:475
+#: src/upload-button.tsx:474
 msgid "Upload $0% completed"
 msgstr ""
 
@@ -707,7 +707,7 @@ msgstr ""
 msgid "Uploaded as $0, $1"
 msgstr ""
 
-#: src/upload-button.tsx:439
+#: src/upload-button.tsx:438
 msgid "Uploads"
 msgstr ""
 
@@ -719,11 +719,11 @@ msgstr ""
 msgid "View $0"
 msgstr ""
 
-#: src/common.ts:60
+#: src/common.ts:58
 msgid "Write and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:245 src/common.ts:59
+#: src/dialogs/permissions.tsx:245 src/common.ts:57
 msgid "Write-only"
 msgstr ""
 
