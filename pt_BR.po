@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-21 03:19+0000\n"
 "PO-Revision-Date: 2025-03-28 02:53+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -50,10 +49,8 @@ msgid "$0 permissions"
 msgstr "Permissões de $0"
 
 #: src/dialogs/copyPasteOwnership.tsx:117
-#, fuzzy
-#| msgid "Original file on server"
 msgid "(original owner)"
-msgstr "Arquivo original no servidor"
+msgstr "(proprietário original)"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -87,10 +84,8 @@ msgid "Activate selected item, enter directory"
 msgstr "Ativar item selecionado, entrar no diretório"
 
 #: src/files-breadcrumbs.tsx:144
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Add to bookmarks"
-msgstr "Adicionar marcador"
+msgstr "Adicionar aos marcadores"
 
 #: src/upload-button.tsx:145
 msgid "Apply this action to all conflicting files"
@@ -160,10 +155,8 @@ msgid "Cockpit Files"
 msgstr "Cockpit Files"
 
 #: org.cockpit_project.files.metainfo.xml:21
-#, fuzzy
-#| msgid "Cockpit Files"
 msgid "Cockpit Project"
-msgstr "Cockpit Files"
+msgstr "Projeto Cockpit"
 
 #: src/dialogs/permissions.tsx:285
 msgid "Collapse"
@@ -243,7 +236,7 @@ msgstr "O nome do diretório não pode estar vazio"
 
 #: src/dialogs/mkdir.tsx:46
 msgid "Directory name cannot include a /"
-msgstr "O nome do diretório não pode incluir uma /."
+msgstr "O nome do diretório não pode incluir uma /"
 
 #: src/dialogs/mkdir.tsx:44
 msgid "Directory name too long"
@@ -327,6 +320,9 @@ msgid ""
 "Files being pasted have a different owner. By default, ownership will be "
 "changed to match the destination directory."
 msgstr ""
+"Os arquivos que estão sendo colados têm um proprietário diferente. Por "
+"padrão, a propriedade será alterada para corresponder ao diretório de "
+"destino."
 
 #: src/upload-button.tsx:360
 msgid "Files uploaded"
@@ -470,10 +466,8 @@ msgid "New name"
 msgstr "Novo nome"
 
 #: src/dialogs/copyPasteOwnership.tsx:198
-#, fuzzy
-#| msgid "New name"
 msgid "New owner"
-msgstr "Novo nome"
+msgstr "Novo proprietário"
 
 #: src/dialogs/permissions.tsx:235
 msgid "No access"
@@ -539,7 +533,7 @@ msgstr "Colar"
 
 #: src/dialogs/copyPasteOwnership.tsx:186
 msgid "Paste as owner"
-msgstr ""
+msgstr "Colar como proprietário"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:123
 msgid "Paste file or directory"
@@ -587,7 +581,7 @@ msgstr "Recarregar"
 
 #: src/files-breadcrumbs.tsx:142
 msgid "Remove from bookmarks"
-msgstr ""
+msgstr "Remover dos marcadores"
 
 #: src/menu.tsx:168 src/dialogs/rename.tsx:89
 msgid "Rename"
@@ -734,10 +728,8 @@ msgid "filesystem"
 msgstr "sistema de arquivos"
 
 #: src/dialogs/copyPasteOwnership.tsx:126
-#, fuzzy
-#| msgid "Keep original"
 msgid "keep original owners"
-msgstr "Manter original"
+msgstr "manter proprietários originais"
 
 #~ msgid "Remove current directory"
 #~ msgstr "Remover diretório atual"
