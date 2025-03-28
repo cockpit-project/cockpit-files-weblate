@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-21 03:19+0000\n"
+"POT-Creation-Date: 2025-03-27 03:20+0000\n"
 "PO-Revision-Date: 2025-02-12 19:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
@@ -82,7 +82,7 @@ msgstr "접근"
 msgid "Activate selected item, enter directory"
 msgstr "선택된 항목을 활성화 하고, 디렉토리를 입력합니다"
 
-#: src/files-breadcrumbs.tsx:144
+#: src/files-breadcrumbs.tsx:139
 msgid "Add to bookmarks"
 msgstr "즐겨찾기에 추가"
 
@@ -90,22 +90,22 @@ msgstr "즐겨찾기에 추가"
 msgid "Apply this action to all conflicting files"
 msgstr "모든 충돌하는 파일에 이와 같은 동작을 적용합니다"
 
-#: src/common.ts:68
+#: src/common.ts:66
 msgid "Block device"
 msgstr "블록 장치"
 
-#: src/files-breadcrumbs.tsx:155
+#: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
 msgstr "즐겨찾기"
 
 #: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
-#: src/dialogs/mkdir.tsx:103 src/dialogs/permissions.tsx:320
-#: src/dialogs/create-file.tsx:160 src/dialogs/delete.tsx:98
+#: src/dialogs/mkdir.tsx:102 src/dialogs/permissions.tsx:320
+#: src/dialogs/create-file.tsx:159 src/dialogs/delete.tsx:98
 #: src/dialogs/rename.tsx:98 src/dialogs/copyPasteOwnership.tsx:178
 msgid "Cancel"
 msgstr "취소"
 
-#: src/upload-button.tsx:458
+#: src/upload-button.tsx:457
 msgid "Cancel upload of $0"
 msgstr "$0 올려주기 취소"
 
@@ -117,7 +117,7 @@ msgstr "취소됨"
 msgid "Cancelled upload of $0"
 msgstr "$0 올려주기 취소됨"
 
-#: src/dialogs/create-file.tsx:226
+#: src/dialogs/create-file.tsx:225
 msgid "Cannot create file in current directory"
 msgstr "현재 디렉토리에서 파일을 생성 할 수 없습니다"
 
@@ -137,7 +137,7 @@ msgstr "권한 변경"
 msgid "Change permissions for enclosed files"
 msgstr "첨부된 파일을 위한 권한 변경"
 
-#: src/common.ts:69
+#: src/common.ts:67
 msgid "Character device"
 msgstr "문자 장치"
 
@@ -169,7 +169,7 @@ msgstr "복사"
 msgid "Copy selected file or directory"
 msgstr "선택된 파일 또는 디렉토리를 복사"
 
-#: src/dialogs/mkdir.tsx:101 src/dialogs/create-file.tsx:157
+#: src/dialogs/mkdir.tsx:100 src/dialogs/create-file.tsx:156
 msgid "Create"
 msgstr "생성"
 
@@ -177,7 +177,7 @@ msgstr "생성"
 msgid "Create directory"
 msgstr "디렉토리 생성"
 
-#: src/menu.tsx:117 src/dialogs/create-file.tsx:144
+#: src/menu.tsx:117 src/dialogs/create-file.tsx:143
 msgid "Create file"
 msgstr "파일 생성"
 
@@ -209,7 +209,7 @@ msgstr "파일 $0를 삭제할까요?"
 msgid "Delete link $0?"
 msgstr "링크 $0를 삭제할까요?"
 
-#: src/common.ts:70
+#: src/common.ts:68
 msgid "Directory"
 msgstr "디렉토리"
 
@@ -225,7 +225,7 @@ msgstr "디렉토리는 $0 디렉토리, $1 파일, $2 숨김 파일을 포함�
 msgid "Directory is empty"
 msgstr "디렉토리가 비었습니다"
 
-#: src/dialogs/mkdir.tsx:121
+#: src/dialogs/mkdir.tsx:120
 msgid "Directory name"
 msgstr "디렉토리 이름"
 
@@ -241,11 +241,11 @@ msgstr "디렉토리 이름은 /를 포함 할 수 없습니다"
 msgid "Directory name too long"
 msgstr "디렉토리 이름이 너무 길어요"
 
-#: src/dialogs/mkdir.tsx:135
+#: src/dialogs/mkdir.tsx:134
 msgid "Directory owner"
 msgstr "디렉토리 소유자"
 
-#: src/common.ts:121
+#: src/common.ts:119
 msgid "Directory with the same name exists"
 msgstr "동일한 이름을 갖는 디렉토리가 존재합니다"
 
@@ -270,7 +270,7 @@ msgstr "올려지는 파일을 삭제합니다"
 msgid "Edit $0"
 msgstr "$0 편집"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:96 src/files-breadcrumbs.tsx:303
+#: src/dialogs/keyboardShortcutsHelp.tsx:96 src/files-breadcrumbs.tsx:298
 msgid "Edit path"
 msgstr "경로 편집"
 
@@ -282,7 +282,7 @@ msgstr "권한을 편집합니다"
 msgid "Editing"
 msgstr "편집하기"
 
-#: src/common.ts:58
+#: src/common.ts:56
 msgid "Execute-only"
 msgstr "실행-전용"
 
@@ -294,11 +294,11 @@ msgstr "실패함"
 msgid "File browser"
 msgstr "파일 탐색기"
 
-#: src/common.ts:123
+#: src/common.ts:121
 msgid "File exists"
 msgstr "파일이 존재합니다"
 
-#: src/dialogs/create-file.tsx:175
+#: src/dialogs/create-file.tsx:174
 msgid "File name"
 msgstr "파일 이름"
 
@@ -306,7 +306,7 @@ msgstr "파일 이름"
 msgid "File uploaded"
 msgstr "파일 올려짐"
 
-#: src/common.ts:118
+#: src/common.ts:116
 msgid "Filename is the same as original name"
 msgstr "파일이름이 원래의 이름과 동일합니다"
 
@@ -326,7 +326,7 @@ msgstr ""
 msgid "Files uploaded"
 msgstr "파일 올려짐"
 
-#: src/files-breadcrumbs.tsx:236
+#: src/files-breadcrumbs.tsx:231
 msgid "Filesystem"
 msgstr "파일시스템"
 
@@ -383,7 +383,7 @@ msgstr "그룹 접근"
 msgid "Hide hidden items"
 msgstr "숨겨진 항목 감추기"
 
-#: src/files-breadcrumbs.tsx:51
+#: src/files-breadcrumbs.tsx:52
 msgid "Home"
 msgstr "홈"
 
@@ -431,19 +431,19 @@ msgstr "관대한 허용"
 msgid "Name"
 msgstr "이름"
 
-#: src/common.ts:112
+#: src/common.ts:110
 msgid "Name cannot be empty"
 msgstr "이름은 비워 둘 수 없습니다"
 
-#: src/common.ts:116
+#: src/common.ts:114
 msgid "Name cannot include a /"
 msgstr "이름은 /를 포함 할 수 없습니다"
 
-#: src/common.ts:114
+#: src/common.ts:112
 msgid "Name too long"
 msgstr "이름이 너무 길어요"
 
-#: src/common.ts:71
+#: src/common.ts:69
 msgid "Named pipe"
 msgstr "이름이 지정된 파이프"
 
@@ -475,7 +475,7 @@ msgstr "접근 불가"
 msgid "No matching results"
 msgstr "일치하는 결과를 찾을 수 없습니다"
 
-#: src/common.ts:57
+#: src/common.ts:55
 msgid "None"
 msgstr "없음"
 
@@ -504,7 +504,7 @@ msgid "Overwrite"
 msgstr "덮어쓰기"
 
 #: src/files-card-body.tsx:557 src/files-card-body.tsx:596
-#: src/dialogs/permissions.tsx:334 src/dialogs/create-file.tsx:197
+#: src/dialogs/permissions.tsx:334 src/dialogs/create-file.tsx:196
 #: src/files-footer-detail.tsx:79 src/header.tsx:99
 msgid "Owner"
 msgstr "소유자"
@@ -541,7 +541,7 @@ msgstr "파일 또는 디렉토리 붙여넣기"
 msgid "Pasting failed"
 msgstr "붙여넣기 실패함"
 
-#: src/dialogs/create-file.tsx:227
+#: src/dialogs/create-file.tsx:226
 msgid "Permission denied"
 msgstr "권한이 거부되었습니다"
 
@@ -553,23 +553,23 @@ msgstr "권한"
 msgid "Permissions for $0 files"
 msgstr "$0 파일을 위한 권한"
 
-#: src/common.ts:62
+#: src/common.ts:60
 msgid "Read and execute"
 msgstr "읽기 및 실행"
 
-#: src/dialogs/permissions.tsx:225 src/common.ts:63
+#: src/dialogs/permissions.tsx:225 src/common.ts:61
 msgid "Read and write"
 msgstr "일기 및 쓰기"
 
-#: src/common.ts:64
+#: src/common.ts:62
 msgid "Read, write, and execute"
 msgstr "읽기, 쓰기 및 실행"
 
-#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:61
+#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:59
 msgid "Read-only"
 msgstr "읽기-전용"
 
-#: src/common.ts:73
+#: src/common.ts:71
 msgid "Regular file"
 msgstr "일반 파일"
 
@@ -577,7 +577,7 @@ msgstr "일반 파일"
 msgid "Reload"
 msgstr "재적재"
 
-#: src/files-breadcrumbs.tsx:142
+#: src/files-breadcrumbs.tsx:137
 msgid "Remove from bookmarks"
 msgstr "즐겨찾기에서 제거"
 
@@ -637,7 +637,7 @@ msgstr "크기"
 msgid "Smallest size"
 msgstr "최소 크기"
 
-#: src/common.ts:74
+#: src/common.ts:72
 msgid "Socket"
 msgstr "소켓"
 
@@ -645,7 +645,7 @@ msgstr "소켓"
 msgid "Sort"
 msgstr "정렬"
 
-#: src/common.ts:72
+#: src/common.ts:70
 msgid "Symbolic link"
 msgstr "심볼릭 링크"
 
@@ -661,7 +661,7 @@ msgstr "파일이 디스크에서 제거되었습니다"
 msgid "The file has changed on disk"
 msgstr "파일이 디스크에서 변경되었습니다"
 
-#: src/files-breadcrumbs.tsx:101
+#: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
 msgstr "즐겨찾기 디렉토리를 생성 할 수 없음"
 
@@ -669,15 +669,15 @@ msgstr "즐겨찾기 디렉토리를 생성 할 수 없음"
 msgid "Unable to move uploaded file to final destination"
 msgstr "올려진 파일을 최종 목적지에 이동 할 수 없음"
 
-#: src/files-breadcrumbs.tsx:121
+#: src/files-breadcrumbs.tsx:119
 msgid "Unable to save bookmark file"
 msgstr "즐겨찾기 파일을 저장 할 수 없음"
 
-#: src/upload-button.tsx:494
+#: src/upload-button.tsx:493
 msgid "Upload"
 msgstr "올려주기"
 
-#: src/upload-button.tsx:475
+#: src/upload-button.tsx:474
 msgid "Upload $0% completed"
 msgstr "올려주기 $0% c완료"
 
@@ -689,7 +689,7 @@ msgstr "올려주기 오류"
 msgid "Uploaded as $0, $1"
 msgstr "$0, $1 로 올려짐"
 
-#: src/upload-button.tsx:439
+#: src/upload-button.tsx:438
 msgid "Uploads"
 msgstr "올려주기"
 
@@ -701,11 +701,11 @@ msgstr "사용자"
 msgid "View $0"
 msgstr "$0 보기"
 
-#: src/common.ts:60
+#: src/common.ts:58
 msgid "Write and execute"
 msgstr "쓰기 및 실행"
 
-#: src/dialogs/permissions.tsx:245 src/common.ts:59
+#: src/dialogs/permissions.tsx:245 src/common.ts:57
 msgid "Write-only"
 msgstr "쓰기-전용"
 

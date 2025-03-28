@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-21 03:19+0000\n"
+"POT-Creation-Date: 2025-03-27 03:20+0000\n"
 "PO-Revision-Date: 2025-03-21 19:47+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -83,7 +83,7 @@ msgstr "Pääsy"
 msgid "Activate selected item, enter directory"
 msgstr "Aktivoi valittu kohde, siirry hakemistoon"
 
-#: src/files-breadcrumbs.tsx:144
+#: src/files-breadcrumbs.tsx:139
 msgid "Add to bookmarks"
 msgstr "Lisää kirjanmerkkeihin"
 
@@ -91,22 +91,22 @@ msgstr "Lisää kirjanmerkkeihin"
 msgid "Apply this action to all conflicting files"
 msgstr "Käytä tätä toimintoa kaikkiin ristiriitaisiin tiedostoihin"
 
-#: src/common.ts:68
+#: src/common.ts:66
 msgid "Block device"
 msgstr "Lohkolaite"
 
-#: src/files-breadcrumbs.tsx:155
+#: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
 #: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
-#: src/dialogs/mkdir.tsx:103 src/dialogs/permissions.tsx:320
-#: src/dialogs/create-file.tsx:160 src/dialogs/delete.tsx:98
+#: src/dialogs/mkdir.tsx:102 src/dialogs/permissions.tsx:320
+#: src/dialogs/create-file.tsx:159 src/dialogs/delete.tsx:98
 #: src/dialogs/rename.tsx:98 src/dialogs/copyPasteOwnership.tsx:178
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/upload-button.tsx:458
+#: src/upload-button.tsx:457
 msgid "Cancel upload of $0"
 msgstr "Peru $0:n lataus ulospäin"
 
@@ -118,7 +118,7 @@ msgstr "Peruttu"
 msgid "Cancelled upload of $0"
 msgstr "$0:n lataus ulospäin peruttu"
 
-#: src/dialogs/create-file.tsx:226
+#: src/dialogs/create-file.tsx:225
 msgid "Cannot create file in current directory"
 msgstr "Nykyiseen hakemistoon ei voi luoda tiedostoa"
 
@@ -138,7 +138,7 @@ msgstr "Muuta käyttöoikeuksia"
 msgid "Change permissions for enclosed files"
 msgstr "Muuta suljettujen tiedostojen käyttöoikeuksia"
 
-#: src/common.ts:69
+#: src/common.ts:67
 msgid "Character device"
 msgstr "Merkkilaite"
 
@@ -170,7 +170,7 @@ msgstr "Kopio"
 msgid "Copy selected file or directory"
 msgstr "Kopioi valittu tiedosto tai kansio"
 
-#: src/dialogs/mkdir.tsx:101 src/dialogs/create-file.tsx:157
+#: src/dialogs/mkdir.tsx:100 src/dialogs/create-file.tsx:156
 msgid "Create"
 msgstr "Luo"
 
@@ -178,7 +178,7 @@ msgstr "Luo"
 msgid "Create directory"
 msgstr "Luo hakemisto"
 
-#: src/menu.tsx:117 src/dialogs/create-file.tsx:144
+#: src/menu.tsx:117 src/dialogs/create-file.tsx:143
 msgid "Create file"
 msgstr "Luo tiedosto"
 
@@ -210,7 +210,7 @@ msgstr "Poistetaanko tiedosto $0?"
 msgid "Delete link $0?"
 msgstr "Poistetaanko linkki $0?"
 
-#: src/common.ts:70
+#: src/common.ts:68
 msgid "Directory"
 msgstr "Hakemisto"
 
@@ -226,7 +226,7 @@ msgstr "Hakemisto sisältää $0 hakemistoa, $1 tiedostoa, $2 piilotettua"
 msgid "Directory is empty"
 msgstr "Hakemisto on tyhjä"
 
-#: src/dialogs/mkdir.tsx:121
+#: src/dialogs/mkdir.tsx:120
 msgid "Directory name"
 msgstr "Hakemiston nimi"
 
@@ -242,11 +242,11 @@ msgstr "Hakemiston nimessä ei voi olla \"/\""
 msgid "Directory name too long"
 msgstr "Hakemiston nimi liian pitkä"
 
-#: src/dialogs/mkdir.tsx:135
+#: src/dialogs/mkdir.tsx:134
 msgid "Directory owner"
 msgstr "Hakemiston omistaja"
 
-#: src/common.ts:121
+#: src/common.ts:119
 msgid "Directory with the same name exists"
 msgstr "Samanniminen hakemisto on olemassa"
 
@@ -271,7 +271,7 @@ msgstr "Pudota ulospäinladattavat tiedostot"
 msgid "Edit $0"
 msgstr "Muokkaa $0"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:96 src/files-breadcrumbs.tsx:303
+#: src/dialogs/keyboardShortcutsHelp.tsx:96 src/files-breadcrumbs.tsx:298
 msgid "Edit path"
 msgstr "Muokkaa polkua"
 
@@ -283,7 +283,7 @@ msgstr "Muokkaa käyttöoikeuksia"
 msgid "Editing"
 msgstr "Muokataan"
 
-#: src/common.ts:58
+#: src/common.ts:56
 msgid "Execute-only"
 msgstr "Vain suoritettavaksi"
 
@@ -295,11 +295,11 @@ msgstr "Epäonnistui"
 msgid "File browser"
 msgstr "Tiedostoselain"
 
-#: src/common.ts:123
+#: src/common.ts:121
 msgid "File exists"
 msgstr "Tiedosto on olemassa"
 
-#: src/dialogs/create-file.tsx:175
+#: src/dialogs/create-file.tsx:174
 msgid "File name"
 msgstr "Tiedostonimi"
 
@@ -307,7 +307,7 @@ msgstr "Tiedostonimi"
 msgid "File uploaded"
 msgstr "Tiedosto ladattu ulospäin"
 
-#: src/common.ts:118
+#: src/common.ts:116
 msgid "Filename is the same as original name"
 msgstr "Tiedostonimi on sama kuin alkuperäinen nimi"
 
@@ -327,7 +327,7 @@ msgstr ""
 msgid "Files uploaded"
 msgstr "Tiedostot ladattu ulospäin"
 
-#: src/files-breadcrumbs.tsx:236
+#: src/files-breadcrumbs.tsx:231
 msgid "Filesystem"
 msgstr "Tiedostojärjestelmä"
 
@@ -384,7 +384,7 @@ msgstr "Ryhmään pääsy"
 msgid "Hide hidden items"
 msgstr "Piilota piilotetut kohteet"
 
-#: src/files-breadcrumbs.tsx:51
+#: src/files-breadcrumbs.tsx:52
 msgid "Home"
 msgstr "Koti"
 
@@ -432,19 +432,19 @@ msgstr "Eniten salliva"
 msgid "Name"
 msgstr "Nimi"
 
-#: src/common.ts:112
+#: src/common.ts:110
 msgid "Name cannot be empty"
 msgstr "Nimi ei voi olla tyhjä"
 
-#: src/common.ts:116
+#: src/common.ts:114
 msgid "Name cannot include a /"
 msgstr "Nimessä ei saa olla \"/\""
 
-#: src/common.ts:114
+#: src/common.ts:112
 msgid "Name too long"
 msgstr "Nimi liian pitkä"
 
-#: src/common.ts:71
+#: src/common.ts:69
 msgid "Named pipe"
 msgstr "Nimetty putki"
 
@@ -476,7 +476,7 @@ msgstr "Ei pääsyä"
 msgid "No matching results"
 msgstr "Ei vastaavia tuloksia"
 
-#: src/common.ts:57
+#: src/common.ts:55
 msgid "None"
 msgstr "Ei mitään"
 
@@ -505,7 +505,7 @@ msgid "Overwrite"
 msgstr "Korvaa"
 
 #: src/files-card-body.tsx:557 src/files-card-body.tsx:596
-#: src/dialogs/permissions.tsx:334 src/dialogs/create-file.tsx:197
+#: src/dialogs/permissions.tsx:334 src/dialogs/create-file.tsx:196
 #: src/files-footer-detail.tsx:79 src/header.tsx:99
 msgid "Owner"
 msgstr "Omistaja"
@@ -542,7 +542,7 @@ msgstr "Liitä tiedosto tai hakemisto"
 msgid "Pasting failed"
 msgstr "Liittäminen epäonnistui"
 
-#: src/dialogs/create-file.tsx:227
+#: src/dialogs/create-file.tsx:226
 msgid "Permission denied"
 msgstr "Käyttö estetty"
 
@@ -554,23 +554,23 @@ msgstr "Käyttöoikeudet"
 msgid "Permissions for $0 files"
 msgstr "Käyttöoikeudet $0 tiedostoille"
 
-#: src/common.ts:62
+#: src/common.ts:60
 msgid "Read and execute"
 msgstr "Luku ja suoritus"
 
-#: src/dialogs/permissions.tsx:225 src/common.ts:63
+#: src/dialogs/permissions.tsx:225 src/common.ts:61
 msgid "Read and write"
 msgstr "Luku ja kirjoitus"
 
-#: src/common.ts:64
+#: src/common.ts:62
 msgid "Read, write, and execute"
 msgstr "Luku, kirjoitus ja suoritus"
 
-#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:61
+#: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:59
 msgid "Read-only"
 msgstr "Vain luku"
 
-#: src/common.ts:73
+#: src/common.ts:71
 msgid "Regular file"
 msgstr "Säännöllinen tiedosto"
 
@@ -578,7 +578,7 @@ msgstr "Säännöllinen tiedosto"
 msgid "Reload"
 msgstr "Lataa uudelleen"
 
-#: src/files-breadcrumbs.tsx:142
+#: src/files-breadcrumbs.tsx:137
 msgid "Remove from bookmarks"
 msgstr "Poista kirjanmerkeistä"
 
@@ -638,7 +638,7 @@ msgstr "Koko"
 msgid "Smallest size"
 msgstr "Pienin koko"
 
-#: src/common.ts:74
+#: src/common.ts:72
 msgid "Socket"
 msgstr "Pistoke"
 
@@ -646,7 +646,7 @@ msgstr "Pistoke"
 msgid "Sort"
 msgstr "Järjestele"
 
-#: src/common.ts:72
+#: src/common.ts:70
 msgid "Symbolic link"
 msgstr "Symbolinen linkki"
 
@@ -662,7 +662,7 @@ msgstr "Tiedosto on poistettu levyltä"
 msgid "The file has changed on disk"
 msgstr "Tiedosto on muuttunut levyllä"
 
-#: src/files-breadcrumbs.tsx:101
+#: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
 msgstr "Kirjanmerkkihakemistoa ei voi luoda"
 
@@ -670,16 +670,16 @@ msgstr "Kirjanmerkkihakemistoa ei voi luoda"
 msgid "Unable to move uploaded file to final destination"
 msgstr "Ulospäinladattua tiedostoa ei voida siirtää lopulliseen määränpäähän"
 
-#: src/files-breadcrumbs.tsx:121
+#: src/files-breadcrumbs.tsx:119
 msgid "Unable to save bookmark file"
 msgstr "Kirjanmerkkitiedostoa ei voi tallentaa"
 
-#: src/upload-button.tsx:494
+#: src/upload-button.tsx:493
 msgid "Upload"
 msgstr "Lataa ulospäin"
 
 #
-#: src/upload-button.tsx:475
+#: src/upload-button.tsx:474
 msgid "Upload $0% completed"
 msgstr "Lataus ulospäin $0 % valmis"
 
@@ -691,7 +691,7 @@ msgstr "Lataus ulospäin -virhe"
 msgid "Uploaded as $0, $1"
 msgstr "Ladattu ulospäin $0:na, $1"
 
-#: src/upload-button.tsx:439
+#: src/upload-button.tsx:438
 msgid "Uploads"
 msgstr "Lataukset ulospäin"
 
@@ -703,11 +703,11 @@ msgstr "Käyttäjä"
 msgid "View $0"
 msgstr "Näytä $0"
 
-#: src/common.ts:60
+#: src/common.ts:58
 msgid "Write and execute"
 msgstr "Kirjoitus ja suoritus"
 
-#: src/dialogs/permissions.tsx:245 src/common.ts:59
+#: src/dialogs/permissions.tsx:245 src/common.ts:57
 msgid "Write-only"
 msgstr "Vain kirjoitus"
 
