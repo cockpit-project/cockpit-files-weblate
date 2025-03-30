@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-27 03:20+0000\n"
+"POT-Creation-Date: 2025-03-30 03:27+0000\n"
 "PO-Revision-Date: 2025-02-12 19:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
@@ -26,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.9.2\n"
 
-#: src/menu.tsx:63
+#: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr "\"$0\" 존재하며, 붙여서 덮어쓰지 않습니다."
 
@@ -73,6 +73,20 @@ msgstr ""
 msgid "A-Z"
 msgstr "A-Z"
 
+#: src/dialogs/symlink.tsx:225
+msgid "Absolute"
+msgstr ""
+
+#: src/dialogs/symlink.tsx:211
+msgid ""
+"Absolute symlinks are ideal when referring to files or directories that "
+"won't move, such as system files."
+msgstr ""
+
+#: src/dialogs/symlink.tsx:207
+msgid "Absolute vs. Relative"
+msgstr ""
+
 #: src/dialogs/permissions.tsx:366
 msgid "Access"
 msgstr "접근"
@@ -99,9 +113,10 @@ msgid "Bookmarks"
 msgstr "즐겨찾기"
 
 #: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
-#: src/dialogs/mkdir.tsx:102 src/dialogs/permissions.tsx:320
-#: src/dialogs/create-file.tsx:159 src/dialogs/delete.tsx:98
-#: src/dialogs/rename.tsx:98 src/dialogs/copyPasteOwnership.tsx:178
+#: src/dialogs/mkdir.tsx:102 src/dialogs/symlink.tsx:162
+#: src/dialogs/permissions.tsx:320 src/dialogs/create-file.tsx:159
+#: src/dialogs/delete.tsx:98 src/dialogs/rename.tsx:98
+#: src/dialogs/copyPasteOwnership.tsx:178
 msgid "Cancel"
 msgstr "취소"
 
@@ -161,7 +176,7 @@ msgstr "Cockpit 프로젝트"
 msgid "Collapse"
 msgstr "붕괴"
 
-#: src/menu.tsx:157 src/menu.tsx:202
+#: src/menu.tsx:158 src/menu.tsx:212
 msgid "Copy"
 msgstr "복사"
 
@@ -173,19 +188,31 @@ msgstr "선택된 파일 또는 디렉토리를 복사"
 msgid "Create"
 msgstr "생성"
 
-#: src/menu.tsx:112 src/dialogs/mkdir.tsx:87
+#: src/menu.tsx:113 src/dialogs/mkdir.tsx:87
 msgid "Create directory"
 msgstr "디렉토리 생성"
 
-#: src/menu.tsx:117 src/dialogs/create-file.tsx:143
+#: src/menu.tsx:118 src/dialogs/create-file.tsx:143
 msgid "Create file"
 msgstr "파일 생성"
+
+#: src/menu.tsx:204 src/dialogs/symlink.tsx:160
+#, fuzzy
+#| msgid "Create file"
+msgid "Create link"
+msgstr "파일 생성"
+
+#: src/dialogs/symlink.tsx:139
+#, fuzzy
+#| msgid "Rename link $0"
+msgid "Create link to $0"
+msgstr "링크 $0 이름변경"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:111
 msgid "Create new directory"
 msgstr "신규 디렉토리 생성"
 
-#: src/menu.tsx:174 src/menu.tsx:207 src/dialogs/delete.tsx:96
+#: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:96
 msgid "Delete"
 msgstr "삭제"
 
@@ -245,7 +272,7 @@ msgstr "디렉토리 이름이 너무 길어요"
 msgid "Directory owner"
 msgstr "디렉토리 소유자"
 
-#: src/common.ts:119
+#: src/dialogs/symlink.tsx:50 src/common.ts:119
 msgid "Directory with the same name exists"
 msgstr "동일한 이름을 갖는 디렉토리가 존재합니다"
 
@@ -257,7 +284,7 @@ msgstr "그리드로 표시"
 msgid "Display as a list"
 msgstr "목록으로 표시"
 
-#: src/menu.tsx:184
+#: src/menu.tsx:185
 msgid "Download"
 msgstr "내려받기"
 
@@ -274,7 +301,7 @@ msgstr "$0 편집"
 msgid "Edit path"
 msgstr "경로 편집"
 
-#: src/menu.tsx:123 src/menu.tsx:163 src/menu.tsx:221
+#: src/menu.tsx:124 src/menu.tsx:164 src/menu.tsx:231
 msgid "Edit permissions"
 msgstr "권한을 편집합니다"
 
@@ -294,7 +321,7 @@ msgstr "실패함"
 msgid "File browser"
 msgstr "파일 탐색기"
 
-#: src/common.ts:121
+#: src/dialogs/symlink.tsx:52 src/common.ts:121
 msgid "File exists"
 msgstr "파일이 존재합니다"
 
@@ -431,7 +458,7 @@ msgstr "관대한 허용"
 msgid "Name"
 msgstr "이름"
 
-#: src/common.ts:110
+#: src/dialogs/symlink.tsx:47 src/common.ts:110
 msgid "Name cannot be empty"
 msgstr "이름은 비워 둘 수 없습니다"
 
@@ -479,11 +506,11 @@ msgstr "일치하는 결과를 찾을 수 없습니다"
 msgid "None"
 msgstr "없음"
 
-#: src/menu.tsx:132 src/menu.tsx:193
+#: src/menu.tsx:133 src/menu.tsx:194
 msgid "Open in terminal"
 msgstr "터미널에서 열기"
 
-#: src/menu.tsx:149
+#: src/menu.tsx:150
 msgid "Open text file"
 msgstr "텍스트 파일 열기"
 
@@ -525,7 +552,7 @@ msgstr "소유자 내림차순"
 msgid "Ownership"
 msgstr "소유권"
 
-#: src/menu.tsx:105 src/dialogs/copyPasteOwnership.tsx:176
+#: src/menu.tsx:106 src/dialogs/copyPasteOwnership.tsx:176
 msgid "Paste"
 msgstr "붙여넣기"
 
@@ -537,7 +564,7 @@ msgstr "소유자로 붙여넣기"
 msgid "Paste file or directory"
 msgstr "파일 또는 디렉토리 붙여넣기"
 
-#: src/menu.tsx:62 src/dialogs/copyPasteOwnership.tsx:64
+#: src/menu.tsx:63 src/dialogs/copyPasteOwnership.tsx:64
 msgid "Pasting failed"
 msgstr "붙여넣기 실패함"
 
@@ -573,6 +600,16 @@ msgstr "읽기-전용"
 msgid "Regular file"
 msgstr "일반 파일"
 
+#: src/dialogs/symlink.tsx:232
+msgid "Relative"
+msgstr ""
+
+#: src/dialogs/symlink.tsx:214
+msgid ""
+"Relative symlinks are useful when both a symlink and target might move at "
+"the same time, such as when renaming or moving a parent directory."
+msgstr ""
+
 #: src/dialogs/editor.tsx:236
 msgid "Reload"
 msgstr "재적재"
@@ -581,7 +618,7 @@ msgstr "재적재"
 msgid "Remove from bookmarks"
 msgstr "즐겨찾기에서 제거"
 
-#: src/menu.tsx:168 src/dialogs/rename.tsx:89
+#: src/menu.tsx:169 src/dialogs/rename.tsx:89
 msgid "Rename"
 msgstr "이름변경"
 
@@ -649,6 +686,14 @@ msgstr "정렬"
 msgid "Symbolic link"
 msgstr "심볼릭 링크"
 
+#: src/dialogs/symlink.tsx:187
+msgid "Symlink name"
+msgstr ""
+
+#: src/dialogs/symlink.tsx:180
+msgid "Target"
+msgstr ""
+
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
 msgstr "기존 파일이 예상치 못하게 변경되었습니다"
@@ -660,6 +705,10 @@ msgstr "파일이 디스크에서 제거되었습니다"
 #: src/dialogs/editor.tsx:231
 msgid "The file has changed on disk"
 msgstr "파일이 디스크에서 변경되었습니다"
+
+#: src/dialogs/symlink.tsx:203
+msgid "Type"
+msgstr ""
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
@@ -729,6 +778,10 @@ msgstr "파일시스템"
 msgid "keep original owners"
 msgstr "원소유자 유지"
 
+#: src/dialogs/symlink.tsx:64
+msgid "link to $0"
+msgstr ""
+
 #~ msgid "Remove current directory"
 #~ msgstr "현재 디렉토리를 제거합니다"
 
@@ -763,6 +816,3 @@ msgstr "원소유자 유지"
 
 #~ msgid "Rename directory $0"
 #~ msgstr "디렉토리 $0 이름변경"
-
-#~ msgid "Rename link $0"
-#~ msgstr "링크 $0 이름변경"

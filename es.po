@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-27 03:20+0000\n"
+"POT-Creation-Date: 2025-03-30 03:27+0000\n"
 "PO-Revision-Date: 2025-02-04 07:14+0000\n"
 "Last-Translator: N M <nm@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -26,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.9.2\n"
 
-#: src/menu.tsx:63
+#: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr "\"$0\" existe, no se permite pegar para sobreescribirlo."
 
@@ -76,6 +76,20 @@ msgstr ""
 msgid "A-Z"
 msgstr "A-Z"
 
+#: src/dialogs/symlink.tsx:225
+msgid "Absolute"
+msgstr ""
+
+#: src/dialogs/symlink.tsx:211
+msgid ""
+"Absolute symlinks are ideal when referring to files or directories that "
+"won't move, such as system files."
+msgstr ""
+
+#: src/dialogs/symlink.tsx:207
+msgid "Absolute vs. Relative"
+msgstr ""
+
 #: src/dialogs/permissions.tsx:366
 msgid "Access"
 msgstr "Acceso"
@@ -104,9 +118,10 @@ msgid "Bookmarks"
 msgstr "Marcadores"
 
 #: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
-#: src/dialogs/mkdir.tsx:102 src/dialogs/permissions.tsx:320
-#: src/dialogs/create-file.tsx:159 src/dialogs/delete.tsx:98
-#: src/dialogs/rename.tsx:98 src/dialogs/copyPasteOwnership.tsx:178
+#: src/dialogs/mkdir.tsx:102 src/dialogs/symlink.tsx:162
+#: src/dialogs/permissions.tsx:320 src/dialogs/create-file.tsx:159
+#: src/dialogs/delete.tsx:98 src/dialogs/rename.tsx:98
+#: src/dialogs/copyPasteOwnership.tsx:178
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -166,7 +181,7 @@ msgstr "Proyecto Cockpit"
 msgid "Collapse"
 msgstr "Colapsar"
 
-#: src/menu.tsx:157 src/menu.tsx:202
+#: src/menu.tsx:158 src/menu.tsx:212
 msgid "Copy"
 msgstr "Copiar"
 
@@ -178,19 +193,31 @@ msgstr "Copiar archivo o directorio seleccionado"
 msgid "Create"
 msgstr "Crear"
 
-#: src/menu.tsx:112 src/dialogs/mkdir.tsx:87
+#: src/menu.tsx:113 src/dialogs/mkdir.tsx:87
 msgid "Create directory"
 msgstr "Crear directorio"
 
-#: src/menu.tsx:117 src/dialogs/create-file.tsx:143
+#: src/menu.tsx:118 src/dialogs/create-file.tsx:143
 msgid "Create file"
 msgstr "Crear archivo"
+
+#: src/menu.tsx:204 src/dialogs/symlink.tsx:160
+#, fuzzy
+#| msgid "Create file"
+msgid "Create link"
+msgstr "Crear archivo"
+
+#: src/dialogs/symlink.tsx:139
+#, fuzzy
+#| msgid "Delete link $0?"
+msgid "Create link to $0"
+msgstr "¿Eliminar enlace $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:111
 msgid "Create new directory"
 msgstr "Crear nuevo directorio"
 
-#: src/menu.tsx:174 src/menu.tsx:207 src/dialogs/delete.tsx:96
+#: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:96
 msgid "Delete"
 msgstr "Eliminar"
 
@@ -250,7 +277,7 @@ msgstr "El nombre del directorio es demasiado largo"
 msgid "Directory owner"
 msgstr "Propietario del directorio"
 
-#: src/common.ts:119
+#: src/dialogs/symlink.tsx:50 src/common.ts:119
 msgid "Directory with the same name exists"
 msgstr "Ya existe un directorio con el mismo nombre"
 
@@ -262,7 +289,7 @@ msgstr "Mostrar como una cuadrícula"
 msgid "Display as a list"
 msgstr "Mostrar como una lista"
 
-#: src/menu.tsx:184
+#: src/menu.tsx:185
 msgid "Download"
 msgstr "Descargar"
 
@@ -279,7 +306,7 @@ msgstr "Editar $0"
 msgid "Edit path"
 msgstr "Editar ruta"
 
-#: src/menu.tsx:123 src/menu.tsx:163 src/menu.tsx:221
+#: src/menu.tsx:124 src/menu.tsx:164 src/menu.tsx:231
 msgid "Edit permissions"
 msgstr "Editar permisos"
 
@@ -299,7 +326,7 @@ msgstr "Falló"
 msgid "File browser"
 msgstr "Explorador de archivos"
 
-#: src/common.ts:121
+#: src/dialogs/symlink.tsx:52 src/common.ts:121
 msgid "File exists"
 msgstr "El archivo existe"
 
@@ -434,7 +461,7 @@ msgstr "Más permisivo"
 msgid "Name"
 msgstr "Nombre"
 
-#: src/common.ts:110
+#: src/dialogs/symlink.tsx:47 src/common.ts:110
 msgid "Name cannot be empty"
 msgstr "Nombre no puede estar vacío."
 
@@ -484,11 +511,11 @@ msgstr "No se encontraron resultados"
 msgid "None"
 msgstr "Ninguno"
 
-#: src/menu.tsx:132 src/menu.tsx:193
+#: src/menu.tsx:133 src/menu.tsx:194
 msgid "Open in terminal"
 msgstr "Abrir en terminal"
 
-#: src/menu.tsx:149
+#: src/menu.tsx:150
 msgid "Open text file"
 msgstr "Abrir archivo de texto"
 
@@ -530,7 +557,7 @@ msgstr "Propetario descendiente"
 msgid "Ownership"
 msgstr "Propiedad"
 
-#: src/menu.tsx:105 src/dialogs/copyPasteOwnership.tsx:176
+#: src/menu.tsx:106 src/dialogs/copyPasteOwnership.tsx:176
 msgid "Paste"
 msgstr "Pegar"
 
@@ -542,7 +569,7 @@ msgstr ""
 msgid "Paste file or directory"
 msgstr "Pegar archivo o directorio"
 
-#: src/menu.tsx:62 src/dialogs/copyPasteOwnership.tsx:64
+#: src/menu.tsx:63 src/dialogs/copyPasteOwnership.tsx:64
 msgid "Pasting failed"
 msgstr "Falló el pegado"
 
@@ -578,6 +605,16 @@ msgstr "Solo lectura"
 msgid "Regular file"
 msgstr "Archivo regular"
 
+#: src/dialogs/symlink.tsx:232
+msgid "Relative"
+msgstr ""
+
+#: src/dialogs/symlink.tsx:214
+msgid ""
+"Relative symlinks are useful when both a symlink and target might move at "
+"the same time, such as when renaming or moving a parent directory."
+msgstr ""
+
 #: src/dialogs/editor.tsx:236
 msgid "Reload"
 msgstr "Recargar"
@@ -586,7 +623,7 @@ msgstr "Recargar"
 msgid "Remove from bookmarks"
 msgstr ""
 
-#: src/menu.tsx:168 src/dialogs/rename.tsx:89
+#: src/menu.tsx:169 src/dialogs/rename.tsx:89
 msgid "Rename"
 msgstr "Renombrar"
 
@@ -654,6 +691,14 @@ msgstr "Ordenar"
 msgid "Symbolic link"
 msgstr "Enlace simbólico"
 
+#: src/dialogs/symlink.tsx:187
+msgid "Symlink name"
+msgstr ""
+
+#: src/dialogs/symlink.tsx:180
+msgid "Target"
+msgstr ""
+
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
 msgstr "El archivo existente cambió de manera inesperada"
@@ -665,6 +710,10 @@ msgstr "El archivo ha sido eliminado del disco"
 #: src/dialogs/editor.tsx:231
 msgid "The file has changed on disk"
 msgstr "El archivo ha cambiado en el disco"
+
+#: src/dialogs/symlink.tsx:203
+msgid "Type"
+msgstr ""
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
@@ -736,6 +785,10 @@ msgstr "sistema de archivos"
 #| msgid "Keep original"
 msgid "keep original owners"
 msgstr "Mantener original"
+
+#: src/dialogs/symlink.tsx:64
+msgid "link to $0"
+msgstr ""
 
 #~ msgid "Remove current directory"
 #~ msgstr "Remover directorio actual"

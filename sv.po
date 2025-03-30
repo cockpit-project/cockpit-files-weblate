@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-27 03:20+0000\n"
+"POT-Creation-Date: 2025-03-30 03:27+0000\n"
 "PO-Revision-Date: 2025-02-12 19:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -26,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.9.2\n"
 
-#: src/menu.tsx:63
+#: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
 msgstr "\"$0\" existerar, skriver inte över med klistra in."
 
@@ -74,6 +74,20 @@ msgstr ""
 msgid "A-Z"
 msgstr "A-Z"
 
+#: src/dialogs/symlink.tsx:225
+msgid "Absolute"
+msgstr ""
+
+#: src/dialogs/symlink.tsx:211
+msgid ""
+"Absolute symlinks are ideal when referring to files or directories that "
+"won't move, such as system files."
+msgstr ""
+
+#: src/dialogs/symlink.tsx:207
+msgid "Absolute vs. Relative"
+msgstr ""
+
 #: src/dialogs/permissions.tsx:366
 msgid "Access"
 msgstr "Åtkomst"
@@ -100,9 +114,10 @@ msgid "Bookmarks"
 msgstr "Bokmärken"
 
 #: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
-#: src/dialogs/mkdir.tsx:102 src/dialogs/permissions.tsx:320
-#: src/dialogs/create-file.tsx:159 src/dialogs/delete.tsx:98
-#: src/dialogs/rename.tsx:98 src/dialogs/copyPasteOwnership.tsx:178
+#: src/dialogs/mkdir.tsx:102 src/dialogs/symlink.tsx:162
+#: src/dialogs/permissions.tsx:320 src/dialogs/create-file.tsx:159
+#: src/dialogs/delete.tsx:98 src/dialogs/rename.tsx:98
+#: src/dialogs/copyPasteOwnership.tsx:178
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -162,7 +177,7 @@ msgstr "Cockpitprojektet"
 msgid "Collapse"
 msgstr "Fäll ihop"
 
-#: src/menu.tsx:157 src/menu.tsx:202
+#: src/menu.tsx:158 src/menu.tsx:212
 msgid "Copy"
 msgstr "Kopiera"
 
@@ -174,19 +189,31 @@ msgstr "Kopiera vald fil eller katalog"
 msgid "Create"
 msgstr "Skapa"
 
-#: src/menu.tsx:112 src/dialogs/mkdir.tsx:87
+#: src/menu.tsx:113 src/dialogs/mkdir.tsx:87
 msgid "Create directory"
 msgstr "Skapa katalog"
 
-#: src/menu.tsx:117 src/dialogs/create-file.tsx:143
+#: src/menu.tsx:118 src/dialogs/create-file.tsx:143
 msgid "Create file"
 msgstr "Skapa fil"
+
+#: src/menu.tsx:204 src/dialogs/symlink.tsx:160
+#, fuzzy
+#| msgid "Create file"
+msgid "Create link"
+msgstr "Skapa fil"
+
+#: src/dialogs/symlink.tsx:139
+#, fuzzy
+#| msgid "Rename link $0"
+msgid "Create link to $0"
+msgstr "Byt namn på länk $0"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:111
 msgid "Create new directory"
 msgstr "Skapa ny katalog"
 
-#: src/menu.tsx:174 src/menu.tsx:207 src/dialogs/delete.tsx:96
+#: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:96
 msgid "Delete"
 msgstr "Ta bort"
 
@@ -246,7 +273,7 @@ msgstr "Katalognamn för långt"
 msgid "Directory owner"
 msgstr "Katalogägare"
 
-#: src/common.ts:119
+#: src/dialogs/symlink.tsx:50 src/common.ts:119
 msgid "Directory with the same name exists"
 msgstr "Katalog med samma namn existerar"
 
@@ -258,7 +285,7 @@ msgstr "Visa som ett rutnät"
 msgid "Display as a list"
 msgstr "Visa som en lista"
 
-#: src/menu.tsx:184
+#: src/menu.tsx:185
 msgid "Download"
 msgstr "Hämta"
 
@@ -275,7 +302,7 @@ msgstr "Redigera $0"
 msgid "Edit path"
 msgstr "Redigera sökväg"
 
-#: src/menu.tsx:123 src/menu.tsx:163 src/menu.tsx:221
+#: src/menu.tsx:124 src/menu.tsx:164 src/menu.tsx:231
 msgid "Edit permissions"
 msgstr "Redigera behörigheter"
 
@@ -295,7 +322,7 @@ msgstr "Misslyckades"
 msgid "File browser"
 msgstr "Filbläddrare"
 
-#: src/common.ts:121
+#: src/dialogs/symlink.tsx:52 src/common.ts:121
 msgid "File exists"
 msgstr "Fil existerar"
 
@@ -432,7 +459,7 @@ msgstr "Mest tillåtande"
 msgid "Name"
 msgstr "Namn"
 
-#: src/common.ts:110
+#: src/dialogs/symlink.tsx:47 src/common.ts:110
 msgid "Name cannot be empty"
 msgstr "Namn kan inte vara tomt"
 
@@ -480,11 +507,11 @@ msgstr "Inga matchande resultat"
 msgid "None"
 msgstr "Inga"
 
-#: src/menu.tsx:132 src/menu.tsx:193
+#: src/menu.tsx:133 src/menu.tsx:194
 msgid "Open in terminal"
 msgstr "Öppna i terminal"
 
-#: src/menu.tsx:149
+#: src/menu.tsx:150
 msgid "Open text file"
 msgstr "Öppna en textfil"
 
@@ -526,7 +553,7 @@ msgstr "Ägare minskande"
 msgid "Ownership"
 msgstr "Ägarskap"
 
-#: src/menu.tsx:105 src/dialogs/copyPasteOwnership.tsx:176
+#: src/menu.tsx:106 src/dialogs/copyPasteOwnership.tsx:176
 msgid "Paste"
 msgstr "Klistra in"
 
@@ -538,7 +565,7 @@ msgstr "Klistra in som ägare"
 msgid "Paste file or directory"
 msgstr "Klistra in fil eller katalog"
 
-#: src/menu.tsx:62 src/dialogs/copyPasteOwnership.tsx:64
+#: src/menu.tsx:63 src/dialogs/copyPasteOwnership.tsx:64
 msgid "Pasting failed"
 msgstr "Inklistring misslyckades"
 
@@ -574,6 +601,16 @@ msgstr "Läs-endast"
 msgid "Regular file"
 msgstr "Vanlig fil"
 
+#: src/dialogs/symlink.tsx:232
+msgid "Relative"
+msgstr ""
+
+#: src/dialogs/symlink.tsx:214
+msgid ""
+"Relative symlinks are useful when both a symlink and target might move at "
+"the same time, such as when renaming or moving a parent directory."
+msgstr ""
+
 #: src/dialogs/editor.tsx:236
 msgid "Reload"
 msgstr "Ladda om"
@@ -582,7 +619,7 @@ msgstr "Ladda om"
 msgid "Remove from bookmarks"
 msgstr "Ta bort från bokmärken"
 
-#: src/menu.tsx:168 src/dialogs/rename.tsx:89
+#: src/menu.tsx:169 src/dialogs/rename.tsx:89
 msgid "Rename"
 msgstr "Byt namn"
 
@@ -650,6 +687,14 @@ msgstr "Sortera"
 msgid "Symbolic link"
 msgstr "Symbolisk länk"
 
+#: src/dialogs/symlink.tsx:187
+msgid "Symlink name"
+msgstr ""
+
+#: src/dialogs/symlink.tsx:180
+msgid "Target"
+msgstr ""
+
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
 msgstr "Den befintliga filen ändrades oväntat"
@@ -661,6 +706,10 @@ msgstr "Filen har tagits bort på disken"
 #: src/dialogs/editor.tsx:231
 msgid "The file has changed on disk"
 msgstr "Filen har ändrats på disken"
+
+#: src/dialogs/symlink.tsx:203
+msgid "Type"
+msgstr ""
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
@@ -730,6 +779,10 @@ msgstr "filsystem"
 msgid "keep original owners"
 msgstr "behåll ursprungliga ägare"
 
+#: src/dialogs/symlink.tsx:64
+msgid "link to $0"
+msgstr ""
+
 #~ msgid "Remove current directory"
 #~ msgstr "Ta bort aktuell katalog"
 
@@ -766,6 +819,3 @@ msgstr "behåll ursprungliga ägare"
 
 #~ msgid "Rename directory $0"
 #~ msgstr "Byt namn på katalog $0"
-
-#~ msgid "Rename link $0"
-#~ msgstr "Byt namn på länk $0"
