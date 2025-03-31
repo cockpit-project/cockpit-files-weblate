@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-30 03:27+0000\n"
-"PO-Revision-Date: 2025-03-14 15:38+0000\n"
+"PO-Revision-Date: 2025-04-01 02:53+0000\n"
 "Last-Translator: JW Wang <v72807647@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_TW/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.3\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -72,17 +72,17 @@ msgstr "由 A 到 Z"
 
 #: src/dialogs/symlink.tsx:225
 msgid "Absolute"
-msgstr ""
+msgstr "絕對"
 
 #: src/dialogs/symlink.tsx:211
 msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
-msgstr ""
+msgstr "絕對符號連結適合指向不會被移動的檔案或目錄，例如系統檔案。"
 
 #: src/dialogs/symlink.tsx:207
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "絕對 vs. 相對"
 
 #: src/dialogs/permissions.tsx:366
 msgid "Access"
@@ -194,16 +194,12 @@ msgid "Create file"
 msgstr "建立檔案"
 
 #: src/menu.tsx:204 src/dialogs/symlink.tsx:160
-#, fuzzy
-#| msgid "Create file"
 msgid "Create link"
-msgstr "建立檔案"
+msgstr "建立連結"
 
 #: src/dialogs/symlink.tsx:139
-#, fuzzy
-#| msgid "Delete link $0?"
 msgid "Create link to $0"
-msgstr "刪除連結 $0 ？"
+msgstr "建立至 $0 的連結"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:111
 msgid "Create new directory"
@@ -599,13 +595,14 @@ msgstr "一般檔案"
 
 #: src/dialogs/symlink.tsx:232
 msgid "Relative"
-msgstr ""
+msgstr "相對"
 
 #: src/dialogs/symlink.tsx:214
 msgid ""
 "Relative symlinks are useful when both a symlink and target might move at "
 "the same time, such as when renaming or moving a parent directory."
-msgstr ""
+msgstr "相對符號連結在符號連結與目標同時都可能被移動時相當有用，如重新命名或移動上層"
+"目錄時。"
 
 #: src/dialogs/editor.tsx:236
 msgid "Reload"
@@ -685,7 +682,7 @@ msgstr "符號連結"
 
 #: src/dialogs/symlink.tsx:187
 msgid "Symlink name"
-msgstr ""
+msgstr "符號連結名稱"
 
 #: src/dialogs/symlink.tsx:180
 msgid "Target"
@@ -778,7 +775,7 @@ msgstr "保留原始擁有者"
 
 #: src/dialogs/symlink.tsx:64
 msgid "link to $0"
-msgstr ""
+msgstr "連結至 $0"
 
 #~ msgid "Remove current directory"
 #~ msgstr "移除目前的目錄"
