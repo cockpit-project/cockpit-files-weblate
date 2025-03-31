@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-30 03:27+0000\n"
 "PO-Revision-Date: 2025-04-01 02:53+0000\n"
-"Last-Translator: JW Wang <v72807647@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -686,7 +687,7 @@ msgstr "符號連結名稱"
 
 #: src/dialogs/symlink.tsx:180
 msgid "Target"
-msgstr ""
+msgstr "目標"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
@@ -702,7 +703,7 @@ msgstr "該檔案已在磁碟上被變更"
 
 #: src/dialogs/symlink.tsx:203
 msgid "Type"
-msgstr ""
+msgstr "類型"
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
