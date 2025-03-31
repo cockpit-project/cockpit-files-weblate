@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-30 03:27+0000\n"
-"PO-Revision-Date: 2025-02-12 19:38+0000\n"
+"PO-Revision-Date: 2025-04-01 02:53+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ka/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -76,17 +76,19 @@ msgstr "A-Z"
 
 #: src/dialogs/symlink.tsx:225
 msgid "Absolute"
-msgstr ""
+msgstr "აბსოლუტური"
 
 #: src/dialogs/symlink.tsx:211
 msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
 msgstr ""
+"აბსოლუტური სიმბმულები იდეალურია, როცა მიმართავთ ფაილებს, ან საქაღალდეებს, "
+"რომლის გადატანაც არ მოხდება. მაგ: სისტემური ფაილები."
 
 #: src/dialogs/symlink.tsx:207
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "აბსოლუტური vs ფარდობითი"
 
 #: src/dialogs/permissions.tsx:366
 msgid "Access"
@@ -198,16 +200,12 @@ msgid "Create file"
 msgstr "ფაილის შექმნა"
 
 #: src/menu.tsx:204 src/dialogs/symlink.tsx:160
-#, fuzzy
-#| msgid "Create file"
 msgid "Create link"
-msgstr "ფაილის შექმნა"
+msgstr "ბმულის შექმნა"
 
 #: src/dialogs/symlink.tsx:139
-#, fuzzy
-#| msgid "Delete link $0?"
 msgid "Create link to $0"
-msgstr "წავშალო ბმული $0?"
+msgstr "ბმულის შექმნა $0-მდე"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:111
 msgid "Create new directory"
@@ -603,13 +601,16 @@ msgstr "ჩვეულებრივი ფაილი"
 
 #: src/dialogs/symlink.tsx:232
 msgid "Relative"
-msgstr ""
+msgstr "შედარებითი"
 
 #: src/dialogs/symlink.tsx:214
 msgid ""
 "Relative symlinks are useful when both a symlink and target might move at "
 "the same time, such as when renaming or moving a parent directory."
 msgstr ""
+"შედარებითი სიმბმულები სასარგებლოა, როცა ორივე, სიმბმულიც და სამიზნეც "
+"შეიძლება, ერთდროულად იქნეს გადაადგილებული. მაგალითად, როცა სახელს არქმევთ, "
+"ან გადაგაგაქვთ მშობელი საქაღალდე."
 
 #: src/dialogs/editor.tsx:236
 msgid "Reload"
@@ -689,11 +690,11 @@ msgstr "სიმბმული"
 
 #: src/dialogs/symlink.tsx:187
 msgid "Symlink name"
-msgstr ""
+msgstr "სიმბმულის სახელი"
 
 #: src/dialogs/symlink.tsx:180
 msgid "Target"
-msgstr ""
+msgstr "სამიზნე"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
@@ -709,7 +710,7 @@ msgstr "ფაილი შეიცვალა დისკზე"
 
 #: src/dialogs/symlink.tsx:203
 msgid "Type"
-msgstr ""
+msgstr "ტიპი"
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
@@ -782,7 +783,7 @@ msgstr "ორიგინალი მფლობელების შენ�
 
 #: src/dialogs/symlink.tsx:64
 msgid "link to $0"
-msgstr ""
+msgstr "ბმული $0-ზე"
 
 #~ msgid "Remove current directory"
 #~ msgstr "მიმდინარე საქაღალდის წაშლა"
