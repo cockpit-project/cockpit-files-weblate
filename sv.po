@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-30 03:27+0000\n"
 "PO-Revision-Date: 2025-04-01 02:53+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
@@ -694,7 +695,7 @@ msgstr "Namn på symbolisk länk"
 
 #: src/dialogs/symlink.tsx:180
 msgid "Target"
-msgstr ""
+msgstr "Mål"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
@@ -710,7 +711,7 @@ msgstr "Filen har ändrats på disken"
 
 #: src/dialogs/symlink.tsx:203
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
