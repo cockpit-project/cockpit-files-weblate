@@ -15,16 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-30 03:27+0000\n"
-"PO-Revision-Date: 2025-02-12 19:38+0000\n"
+"PO-Revision-Date: 2025-04-01 02:53+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -76,17 +76,19 @@ msgstr "A-Z"
 
 #: src/dialogs/symlink.tsx:225
 msgid "Absolute"
-msgstr ""
+msgstr "Absolut"
 
 #: src/dialogs/symlink.tsx:211
 msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
 msgstr ""
+"Absoluta symboliska länkar är idealiska när du hänvisar till filer eller "
+"kataloger som inte kan flyttas, till exempel systemfiler."
 
 #: src/dialogs/symlink.tsx:207
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "Absolut vs. Relativ"
 
 #: src/dialogs/permissions.tsx:366
 msgid "Access"
@@ -198,16 +200,12 @@ msgid "Create file"
 msgstr "Skapa fil"
 
 #: src/menu.tsx:204 src/dialogs/symlink.tsx:160
-#, fuzzy
-#| msgid "Create file"
 msgid "Create link"
-msgstr "Skapa fil"
+msgstr "Skapa länk"
 
 #: src/dialogs/symlink.tsx:139
-#, fuzzy
-#| msgid "Rename link $0"
 msgid "Create link to $0"
-msgstr "Byt namn på länk $0"
+msgstr "Skapa länk till $0"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:111
 msgid "Create new directory"
@@ -603,13 +601,16 @@ msgstr "Vanlig fil"
 
 #: src/dialogs/symlink.tsx:232
 msgid "Relative"
-msgstr ""
+msgstr "Relativ"
 
 #: src/dialogs/symlink.tsx:214
 msgid ""
 "Relative symlinks are useful when both a symlink and target might move at "
 "the same time, such as when renaming or moving a parent directory."
 msgstr ""
+"Relativa symboliska länkar är användbara när både en symbolisk länk och mål "
+"kan flyttas samtidigt, till exempel när du byter namn på eller flyttar en "
+"överordnad katalog."
 
 #: src/dialogs/editor.tsx:236
 msgid "Reload"
@@ -689,7 +690,7 @@ msgstr "Symbolisk länk"
 
 #: src/dialogs/symlink.tsx:187
 msgid "Symlink name"
-msgstr ""
+msgstr "Namn på symbolisk länk"
 
 #: src/dialogs/symlink.tsx:180
 msgid "Target"
@@ -781,7 +782,7 @@ msgstr "behåll ursprungliga ägare"
 
 #: src/dialogs/symlink.tsx:64
 msgid "link to $0"
-msgstr ""
+msgstr "länk till $0"
 
 #~ msgid "Remove current directory"
 #~ msgstr "Ta bort aktuell katalog"
