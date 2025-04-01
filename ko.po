@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-31 03:27+0000\n"
 "PO-Revision-Date: 2025-04-01 19:54+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -691,7 +692,7 @@ msgstr "심볼릭 링크 이름"
 
 #: src/dialogs/symlink.tsx:180
 msgid "Target"
-msgstr ""
+msgstr "대상"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
@@ -707,7 +708,7 @@ msgstr "파일이 디스크에서 변경되었습니다"
 
 #: src/dialogs/symlink.tsx:203
 msgid "Type"
-msgstr ""
+msgstr "유형"
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
