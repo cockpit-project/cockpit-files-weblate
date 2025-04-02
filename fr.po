@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-02 03:23+0000\n"
 "PO-Revision-Date: 2025-04-02 12:05+0000\n"
-"Last-Translator: Adrien D <email@linuxtricks.fr>\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fr/>\n"
 "Language: fr\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
-msgstr "\"$0\" existe, ne pas écraser en collant."
+msgstr "\"$0\" existe, il ne sera pas écrasé par le contenu à coller."
 
 #: src/upload-button.tsx:67
 msgid "$0 files"
@@ -41,12 +41,12 @@ msgstr "$0 fichiers sélectionnés"
 #: src/files-card-body.tsx:532
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
-msgstr[0] "$0 objet caché"
-msgstr[1] "$0 objets cachés"
+msgstr[0] "$0 élément est masqué"
+msgstr[1] "$0 éléments sont masqués"
 
 #: src/dialogs/permissions.tsx:300
 msgid "$0 permissions"
-msgstr "permissions de $0"
+msgstr "Autorisations de $0"
 
 #: src/dialogs/copyPasteOwnership.tsx:117
 msgid "(original owner)"
@@ -59,9 +59,8 @@ msgid ""
 "editor."
 msgstr ""
 "Une interface utilisateur de système de fichiers pour Cockpit. Vous pouvez "
-"parcourir les répertoires, télécharger et téléverser des fichiers, et "
-"modifier leurs propriétés. Elle inclut également un éditeur de fichiers "
-"simple."
+"parcourir les répertoires, uploader et télécharger des fichiers, et modifier "
+"leurs propriétés. Elle inclut également un éditeur de fichiers simple."
 
 #: src/upload-button.tsx:122
 msgid ""
