@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-02 03:23+0000\n"
 "PO-Revision-Date: 2025-04-02 12:57+0000\n"
-"Last-Translator: Adrien D <email@linuxtricks.fr>\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fr/>\n"
 "Language: fr\n"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: src/dialogs/symlink.tsx:207
 msgid "Absolute vs. Relative"
-msgstr "Absolu vs Relatif"
+msgstr "Absolu vs. relatif"
 
 #: src/dialogs/permissions.tsx:366
 msgid "Access"
