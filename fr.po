@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-02 03:23+0000\n"
-"PO-Revision-Date: 2025-04-02 12:57+0000\n"
+"PO-Revision-Date: 2025-04-02 13:38+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fr/>\n"
@@ -571,15 +571,15 @@ msgstr "Échec du collage"
 
 #: src/dialogs/create-file.tsx:226
 msgid "Permission denied"
-msgstr "Permission refusée"
+msgstr "Accès refusé"
 
 #: src/files-card-body.tsx:562 src/header.tsx:110
 msgid "Permissions"
-msgstr "Permissions"
+msgstr "Autorisations"
 
 #: src/dialogs/permissions.tsx:301
 msgid "Permissions for $0 files"
-msgstr "Permissions pour les fichiers $0"
+msgstr "Autorisations pour $0 fichiers"
 
 #: src/common.ts:60
 msgid "Read and execute"
@@ -591,7 +591,7 @@ msgstr "Lecture et écriture"
 
 #: src/common.ts:62
 msgid "Read, write, and execute"
-msgstr "Lecture, écriture, exécution"
+msgstr "Lecture, écriture et exécution"
 
 #: src/dialogs/editor.tsx:172 src/dialogs/permissions.tsx:230 src/common.ts:59
 msgid "Read-only"
@@ -610,9 +610,9 @@ msgid ""
 "Relative symlinks are useful when both a symlink and target might move at "
 "the same time, such as when renaming or moving a parent directory."
 msgstr ""
-"Les liens symboliques relatifs sont utiles lorsque à la fois un lien "
-"symbolique et sa cible peuvent être déplacés en même temps, par exemple lors "
-"du renommage ou du déplacement d'un répertoire parent."
+"Les liens symboliques relatifs sont utiles lorsqu'un lien symbolique et sa "
+"cible sont susceptibles être déplacés en même temps, par exemple lors du "
+"renommage ou du déplacement d'un répertoire parent."
 
 #: src/dialogs/editor.tsx:236
 msgid "Reload"
@@ -620,7 +620,7 @@ msgstr "Recharger"
 
 #: src/files-breadcrumbs.tsx:137
 msgid "Remove from bookmarks"
-msgstr "Supprimer des favoris"
+msgstr "Supprimer des marque-pages"
 
 #: src/menu.tsx:169 src/dialogs/rename.tsx:89
 msgid "Rename"
@@ -652,11 +652,11 @@ msgstr "Contexte de sécurité"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:129
 msgid "Select all"
-msgstr "Sélectionner tout"
+msgstr "Tout sélectionner"
 
 #: src/dialogs/permissions.tsx:417
 msgid "Set executable as program"
-msgstr "Définir comme exécutable"
+msgstr "Définir l'exécutable comme programme"
 
 #: src/dialogs/permissions.tsx:286
 msgid "Show all files"
@@ -700,7 +700,7 @@ msgstr "Cible"
 
 #: src/dialogs/editor.tsx:59
 msgid "The existing file changed unexpectedly"
-msgstr "Le fichier existant a changé de manière inattendue"
+msgstr "Le fichier existant a été modifié de manière inattendue"
 
 #: src/dialogs/editor.tsx:57 src/dialogs/editor.tsx:230
 msgid "The file has been removed on disk"
@@ -708,7 +708,7 @@ msgstr "Le fichier a été supprimé du disque"
 
 #: src/dialogs/editor.tsx:231
 msgid "The file has changed on disk"
-msgstr "Le fichier a changé sur le disque"
+msgstr "Le fichier a été modifié sur le disque"
 
 #: src/dialogs/symlink.tsx:203
 msgid "Type"
@@ -716,7 +716,7 @@ msgstr "Type"
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
-msgstr "Impossible de créer le répertoire de favoris"
+msgstr "Impossible de créer le répertoire des marque-pages"
 
 #: src/upload-button.tsx:320
 msgid "Unable to move uploaded file to final destination"
@@ -724,28 +724,28 @@ msgstr "Impossible de déplacer le fichier téléchargé vers la destination fin
 
 #: src/files-breadcrumbs.tsx:119
 msgid "Unable to save bookmark file"
-msgstr "Impossible de sauvegarder le fichier favori"
+msgstr "Impossible d'enregistrer le fichier des marque-pages"
 
 #: src/upload-button.tsx:493
 msgid "Upload"
-msgstr "Téléverser"
+msgstr "Uploader"
 
 #
 #: src/upload-button.tsx:474
 msgid "Upload $0% completed"
-msgstr "Téléversement $0% effectué"
+msgstr "Upload effectué à $0 %"
 
 #: src/upload-button.tsx:319 src/upload-button.tsx:343
 msgid "Upload error"
-msgstr "Erreur lors du téléversement"
+msgstr "Erreur d'upload"
 
 #: src/upload-button.tsx:71
 msgid "Uploaded as $0, $1"
-msgstr "Téléversé comme $0,$1"
+msgstr "Uploadé en tant que $0,$1"
 
 #: src/upload-button.tsx:438
 msgid "Uploads"
-msgstr "Téléversements"
+msgstr "Uploads"
 
 #: src/files-footer-detail.tsx:143
 msgid "User"
@@ -769,7 +769,7 @@ msgstr "Z-A"
 
 #: src/manifest.json:0
 msgid "explorer"
-msgstr "navigateur"
+msgstr "explorateur"
 
 #: src/manifest.json:0
 msgid "files"
