@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-02 03:23+0000\n"
-"PO-Revision-Date: 2025-04-02 14:10+0000\n"
-"Last-Translator: Adrien D <email@linuxtricks.fr>\n"
+"PO-Revision-Date: 2025-04-03 14:53+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fr/>\n"
 "Language: fr\n"
@@ -83,13 +83,13 @@ msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
 msgstr ""
-"Les liens symboliques absolus sont idéaux lorsqu'il s'agit de faire "
-"référence à des fichiers ou des répertoires qui ne bougeront pas, comme les "
-"fichiers système."
+"Les liens symboliques absolus sont idéals lorsqu'il s'agit de faire "
+"référence à des fichiers ou des répertoires qui ne seront pas déplacés, "
+"comme les fichiers système."
 
 #: src/dialogs/symlink.tsx:207
 msgid "Absolute vs. Relative"
-msgstr "Absolu vs. relatif"
+msgstr "Absolu vs relatif"
 
 #: src/dialogs/permissions.tsx:366
 msgid "Access"
@@ -102,7 +102,7 @@ msgstr "Activer l'élément sélectionné, entrer dans le répertoire"
 
 #: src/files-breadcrumbs.tsx:139
 msgid "Add to bookmarks"
-msgstr "Ajouter aux favoris"
+msgstr "Ajouter aux marque-pages"
 
 #: src/upload-button.tsx:145
 msgid "Apply this action to all conflicting files"
@@ -110,11 +110,11 @@ msgstr "Appliquer cette action à tous les fichiers en conflit"
 
 #: src/common.ts:66
 msgid "Block device"
-msgstr "Périphérique block"
+msgstr "Périphérique de blocs"
 
 #: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
-msgstr "Favoris"
+msgstr "Marque-pages"
 
 #: src/upload-button.tsx:116 src/dialogs/editor.tsx:211
 #: src/dialogs/mkdir.tsx:102 src/dialogs/symlink.tsx:162
@@ -126,7 +126,7 @@ msgstr "Annuler"
 
 #: src/upload-button.tsx:457
 msgid "Cancel upload of $0"
-msgstr "Annuler le téléversement de $0"
+msgstr "Annuler l'upload de $0"
 
 #: src/upload-button.tsx:340
 msgid "Cancelled"
@@ -134,7 +134,7 @@ msgstr "Annulé"
 
 #: src/upload-button.tsx:341
 msgid "Cancelled upload of $0"
-msgstr "Téléversement annulé pour $0"
+msgstr "Upload de $0 annulé"
 
 #: src/dialogs/create-file.tsx:225
 msgid "Cannot create file in current directory"
@@ -142,8 +142,7 @@ msgstr "Impossible de créer le fichier dans le répertoire actuel"
 
 #: src/files-folder-view.tsx:177
 msgid "Cannot drop files, another upload is already in progress"
-msgstr ""
-"Impossible de déposer des fichiers, un autre téléversement est déjà en cours"
+msgstr "Impossible de déposer des fichiers, un autre upload est déjà en cours"
 
 #: src/dialogs/permissions.tsx:311
 msgid "Change"
@@ -151,15 +150,15 @@ msgstr "Modifier"
 
 #: src/upload-button.tsx:391
 msgid "Change permissions"
-msgstr "Changer les permissions"
+msgstr "Modifier les autorisations"
 
 #: src/dialogs/permissions.tsx:318
 msgid "Change permissions for enclosed files"
-msgstr "Changer les permissions pour les fichiers inclus"
+msgstr "Modifier les autorisations pour les fichiers inclus"
 
 #: src/common.ts:67
 msgid "Character device"
-msgstr "périphérique en mode caractère"
+msgstr "Périphérique de caractères"
 
 #: src/files-card-body.tsx:520
 msgid "Clear filter"
@@ -191,11 +190,11 @@ msgstr "Copier le fichier ou le répertoire sélectionné"
 
 #: src/dialogs/mkdir.tsx:100 src/dialogs/create-file.tsx:156
 msgid "Create"
-msgstr "Créez"
+msgstr "Créer"
 
 #: src/menu.tsx:113 src/dialogs/mkdir.tsx:87
 msgid "Create directory"
-msgstr "Créer un dossier"
+msgstr "Créer un répertoire"
 
 #: src/menu.tsx:118 src/dialogs/create-file.tsx:143
 msgid "Create file"
@@ -219,7 +218,7 @@ msgstr "Supprimer"
 
 #: src/dialogs/delete.tsx:45
 msgid "Delete $0 items?"
-msgstr "Supprimer les éléments $0 ?"
+msgstr "Supprimer $0 éléments ?"
 
 #: src/dialogs/delete.tsx:62
 msgid "Delete $0?"
@@ -227,7 +226,7 @@ msgstr "Supprimer $0 ?"
 
 #: src/dialogs/delete.tsx:59
 msgid "Delete directory $0?"
-msgstr "Supprimer le dossier $0 ?"
+msgstr "Supprimer le répertoire $0 ?"
 
 #: src/dialogs/delete.tsx:51
 msgid "Delete file $0?"
@@ -247,35 +246,35 @@ msgstr "Le répertoire contient $0 répertoires, $1 fichiers"
 
 #: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
-msgstr "Le répertoire contient $0 dossiers, $1 fichiers, $2 cachés"
+msgstr "Le répertoire contient $0 répertoires, $1 fichiers, $2 masqués"
 
 #: src/files-card-body.tsx:527
 msgid "Directory is empty"
-msgstr "Dossier vide"
+msgstr "Répertoire vide"
 
 #: src/dialogs/mkdir.tsx:120
 msgid "Directory name"
-msgstr "Nom du dossier"
+msgstr "Nom du répertoire"
 
 #: src/dialogs/mkdir.tsx:42
 msgid "Directory name cannot be empty"
-msgstr "Le nom du dossier ne peut être vide"
+msgstr "Le nom du répertoire ne peut pas être vide"
 
 #: src/dialogs/mkdir.tsx:46
 msgid "Directory name cannot include a /"
-msgstr "Le nom du dossier ne peur inclure un /"
+msgstr "Le nom du répertoire ne peut pas contenir un /"
 
 #: src/dialogs/mkdir.tsx:44
 msgid "Directory name too long"
-msgstr "Nom de dossier trop long"
+msgstr "Nom de répertoire trop long"
 
 #: src/dialogs/mkdir.tsx:134
 msgid "Directory owner"
-msgstr "Propriétaire du dossier"
+msgstr "Propriétaire du répertoire"
 
 #: src/dialogs/symlink.tsx:50 src/common.ts:119
 msgid "Directory with the same name exists"
-msgstr "Un dossier avec le même nom existe"
+msgstr "Un répertoire portant le même nom existe"
 
 #: src/header.tsx:256
 msgid "Display as a grid"
@@ -287,28 +286,28 @@ msgstr "Afficher sous forme de liste"
 
 #: src/menu.tsx:185
 msgid "Download"
-msgstr "Téléchargez"
+msgstr "Télécharger"
 
 #: src/files-folder-view.tsx:169
 msgid "Drop files to upload"
-msgstr "Déposer les fichiers pour les téléverser"
+msgstr "Déposez les fichiers à uploader"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:170
 msgid "Edit $0"
-msgstr "Éditer $0"
+msgstr "Modifier $0"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:96 src/files-breadcrumbs.tsx:298
 msgid "Edit path"
-msgstr "Éditer le chemin"
+msgstr "Modifier le chemin"
 
 #: src/menu.tsx:124 src/menu.tsx:164 src/menu.tsx:231
 msgid "Edit permissions"
-msgstr "Éditer les permissions"
+msgstr "Modifier les autorisations"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:156
 msgid "Editing"
-msgstr "Modifier"
+msgstr "Modification"
 
 #: src/common.ts:56
 msgid "Execute-only"
