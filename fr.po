@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-02 03:23+0000\n"
 "PO-Revision-Date: 2025-04-02 14:10+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fr/>\n"
 "Language: fr\n"
@@ -313,7 +312,7 @@ msgstr "Modifier"
 
 #: src/common.ts:56
 msgid "Execute-only"
-msgstr "Exécution uniquement"
+msgstr "Exécution seule"
 
 #: src/upload-button.tsx:279
 msgid "Failed"
@@ -333,7 +332,7 @@ msgstr "Nom du fichier"
 
 #: src/upload-button.tsx:360
 msgid "File uploaded"
-msgstr "Fichier téléversé"
+msgstr "Fichier uploadé"
 
 #: src/common.ts:116
 msgid "Filename is the same as original name"
@@ -348,12 +347,13 @@ msgid ""
 "Files being pasted have a different owner. By default, ownership will be "
 "changed to match the destination directory."
 msgstr ""
-"Les fichiers collés ont un propriétaire différent. Par défaut, la propriété "
-"sera modifiée pour correspondre au répertoire de destination."
+"Le propriétaire des fichiers collés est différent. Par défaut, le "
+"propriétaire des fichiers sera modifié pour correspondre au répertoire de "
+"destination."
 
 #: src/upload-button.tsx:360
 msgid "Files uploaded"
-msgstr "Fichiers téléversés"
+msgstr "Fichiers uploadés"
 
 #: src/files-breadcrumbs.tsx:231
 msgid "Filesystem"
@@ -393,11 +393,11 @@ msgstr "En arrière"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:76
 msgid "Go forward"
-msgstr "En avant"
+msgstr "Suivant"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:64
 msgid "Go up a directory"
-msgstr "Répertoire parent"
+msgstr "Aller au répertoire parent"
 
 #: src/files-card-body.tsx:596 src/dialogs/permissions.tsx:349
 #: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
@@ -406,15 +406,15 @@ msgstr "Groupe"
 
 #: src/dialogs/permissions.tsx:380
 msgid "Group access"
-msgstr "Accès du groupe"
+msgstr "Accès groupe"
 
 #: src/header.tsx:287
 msgid "Hide hidden items"
-msgstr "Cacher les éléments cachés"
+msgstr "Masquer les éléments masqués"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
-msgstr "Dossier personnel"
+msgstr "Espace personnel"
 
 #: src/dialogs/editor.tsx:239
 msgid "Ignore"
@@ -438,11 +438,11 @@ msgstr "Dernière modification"
 
 #: src/header.tsx:117
 msgid "Least permissive"
-msgstr "Moins permissif"
+msgstr "Le moins permissif"
 
 #: org.cockpit_project.files.metainfo.xml:6
 msgid "Manage your files"
-msgstr "Gérer vos fichiers"
+msgstr "Gérez vos fichiers"
 
 #: src/dialogs/permissions.tsx:279
 msgid "Missing type"
@@ -454,7 +454,7 @@ msgstr "Modifié"
 
 #: src/header.tsx:113
 msgid "Most permissive"
-msgstr "Plus permissif"
+msgstr "Le plus permissif"
 
 #: src/files-card-body.tsx:547 src/header.tsx:66
 msgid "Name"
@@ -462,11 +462,11 @@ msgstr "Nom"
 
 #: src/dialogs/symlink.tsx:47 src/common.ts:110
 msgid "Name cannot be empty"
-msgstr "Le nom ne peut être vide"
+msgstr "Le nom ne peut pas être vide"
 
 #: src/common.ts:114
 msgid "Name cannot include a /"
-msgstr "Le nom ne peut contenir un /"
+msgstr "Le nom ne peut pas contenir de /"
 
 #: src/common.ts:112
 msgid "Name too long"
@@ -474,7 +474,7 @@ msgstr "Nom trop long"
 
 #: src/common.ts:69
 msgid "Named pipe"
-msgstr "Tube nommé"
+msgstr "Named pipe"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:146
 msgid "Navigation"
@@ -506,7 +506,7 @@ msgstr "Aucun résultat correspondant"
 
 #: src/common.ts:55
 msgid "None"
-msgstr "Aucun"
+msgstr "Aucune"
 
 #: src/menu.tsx:133 src/menu.tsx:194
 msgid "Open in terminal"
@@ -518,7 +518,7 @@ msgstr "Ouvrir le fichier texte"
 
 #: src/upload-button.tsx:136
 msgid "Original file on server"
-msgstr "Fichier d'origine sur le serveur"
+msgstr "Fichier original sur le serveur"
 
 #: src/files-card-body.tsx:596 src/files-footer-detail.tsx:79
 msgid "Others"
@@ -526,7 +526,7 @@ msgstr "Autres"
 
 #: src/dialogs/permissions.tsx:392
 msgid "Others access"
-msgstr "Autres accès"
+msgstr "Accès autres"
 
 #: src/dialogs/editor.tsx:195 src/dialogs/rename.tsx:96
 msgid "Overwrite"
@@ -540,7 +540,7 @@ msgstr "Propriétaire"
 
 #: src/dialogs/permissions.tsx:368
 msgid "Owner access"
-msgstr "Accès du propriétare"
+msgstr "Accès propriétare"
 
 #: src/header.tsx:102
 msgid "Owner ascending"
@@ -564,7 +564,7 @@ msgstr "Coller en tant que propriétaire"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:123
 msgid "Paste file or directory"
-msgstr "Coller le fichier ou le dossier"
+msgstr "Coller le fichier ou le répertoire"
 
 #: src/menu.tsx:63 src/dialogs/copyPasteOwnership.tsx:64
 msgid "Pasting failed"
