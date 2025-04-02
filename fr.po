@@ -15,41 +15,42 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 03:33+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-02 11:59+0000\n"
+"Last-Translator: Adrien D <email@linuxtricks.fr>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-files/cockpit-files/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
-msgstr ""
+msgstr "\"$0\" existe, ne pas écraser en collant."
 
 #: src/upload-button.tsx:67
 msgid "$0 files"
-msgstr ""
+msgstr "fichiers $0"
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
-msgstr ""
+msgstr "$0 fichiers sélectionnés"
 
 #: src/files-card-body.tsx:532
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 objet caché"
+msgstr[1] "$0 objets cachés"
 
 #: src/dialogs/permissions.tsx:300
 msgid "$0 permissions"
-msgstr ""
+msgstr "permissions de $0"
 
 #: src/dialogs/copyPasteOwnership.tsx:117
 msgid "(original owner)"
-msgstr ""
+msgstr "(propriétaire original)"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -57,20 +58,26 @@ msgid ""
 "download files, and change their properties. It also includes a simple file "
 "editor."
 msgstr ""
+"Une interface utilisateur de système de fichiers pour Cockpit. Vous pouvez "
+"parcourir les répertoires, télécharger et téléverser des fichiers, et "
+"modifier leurs propriétés. Elle inclut également un éditeur de fichiers "
+"simple."
 
 #: src/upload-button.tsx:122
 msgid ""
 "A file with the same name already exists in \"$0\". Replacing it will "
 "overwrite its content."
 msgstr ""
+"Un fichier portant le même nom existe déjà dans \"$0\". Le remplacer "
+"écrasera son contenu."
 
 #: src/header.tsx:69
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #: src/dialogs/symlink.tsx:225
 msgid "Absolute"
-msgstr ""
+msgstr "Absolu"
 
 #: src/dialogs/symlink.tsx:211
 msgid ""
