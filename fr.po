@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-02 03:23+0000\n"
 "PO-Revision-Date: 2025-04-02 14:10+0000\n"
-"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
+"Last-Translator: Adrien D <email@linuxtricks.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fr/>\n"
 "Language: fr\n"
@@ -389,7 +389,7 @@ msgstr "Forcer la suppression du lien $0 ?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:70
 msgid "Go back"
-msgstr "En arrière"
+msgstr "Précédent"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:76
 msgid "Go forward"
@@ -746,7 +746,7 @@ msgstr "Uploadé en tant que $0,$1"
 
 #: src/upload-button.tsx:438
 msgid "Uploads"
-msgstr "Uploads"
+msgstr "Téléversements"
 
 #: src/files-footer-detail.tsx:143
 msgid "User"
