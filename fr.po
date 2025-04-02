@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-01 03:33+0000\n"
 "PO-Revision-Date: 2025-04-02 11:59+0000\n"
-"Last-Translator: Adrien D <email@linuxtricks.fr>\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fr/>\n"
 "Language: fr\n"
@@ -32,7 +32,7 @@ msgstr "\"$0\" existe, ne pas écraser en collant."
 
 #: src/upload-button.tsx:67
 msgid "$0 files"
-msgstr "fichiers $0"
+msgstr "$0 fichiers"
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
