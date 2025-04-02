@@ -15,8 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-02 03:23+0000\n"
-"PO-Revision-Date: 2025-04-02 13:38+0000\n"
-"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
+"PO-Revision-Date: 2025-04-02 14:10+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/fr/>\n"
 "Language: fr\n"
@@ -110,7 +111,7 @@ msgstr "Appliquer cette action à tous les fichiers en conflit"
 
 #: src/common.ts:66
 msgid "Block device"
-msgstr "Périphérique bloc"
+msgstr "Périphérique block"
 
 #: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
@@ -147,7 +148,7 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:311
 msgid "Change"
-msgstr "Changer"
+msgstr "Modifier"
 
 #: src/upload-button.tsx:391
 msgid "Change permissions"
@@ -159,7 +160,7 @@ msgstr "Changer les permissions pour les fichiers inclus"
 
 #: src/common.ts:67
 msgid "Character device"
-msgstr "Périphérique caractère"
+msgstr "périphérique en mode caractère"
 
 #: src/files-card-body.tsx:520
 msgid "Clear filter"
@@ -175,7 +176,7 @@ msgstr "Cockpit Files"
 
 #: org.cockpit_project.files.metainfo.xml:21
 msgid "Cockpit Project"
-msgstr "Projet Cockpit"
+msgstr "Cockpit Project"
 
 #: src/dialogs/permissions.tsx:285
 msgid "Collapse"
@@ -191,7 +192,7 @@ msgstr "Copier le fichier ou le répertoire sélectionné"
 
 #: src/dialogs/mkdir.tsx:100 src/dialogs/create-file.tsx:156
 msgid "Create"
-msgstr "Créer"
+msgstr "Créez"
 
 #: src/menu.tsx:113 src/dialogs/mkdir.tsx:87
 msgid "Create directory"
@@ -239,7 +240,7 @@ msgstr "Supprimer le lien $0 ?"
 
 #: src/common.ts:68
 msgid "Directory"
-msgstr "Dossier"
+msgstr "Répertoire"
 
 #: src/files-footer-detail.tsx:63
 msgid "Directory contains $0 directories, $1 files"
@@ -287,7 +288,7 @@ msgstr "Afficher sous forme de liste"
 
 #: src/menu.tsx:185
 msgid "Download"
-msgstr "Télécharger"
+msgstr "Téléchargez"
 
 #: src/files-folder-view.tsx:169
 msgid "Drop files to upload"
@@ -308,7 +309,7 @@ msgstr "Éditer les permissions"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:156
 msgid "Editing"
-msgstr "Edition"
+msgstr "Modifier"
 
 #: src/common.ts:56
 msgid "Execute-only"
