@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-03 03:22+0000\n"
 "PO-Revision-Date: 2025-04-08 19:23+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/es/>\n"
 "Language: es\n"
@@ -110,7 +109,7 @@ msgstr "Aplicar esta acción para todos los conflictos"
 
 #: src/common.ts:66
 msgid "Block device"
-msgstr "Dispositivo de bloques"
+msgstr "Dispositivo de bloque"
 
 #: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
