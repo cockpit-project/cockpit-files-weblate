@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 03:22+0000\n"
-"PO-Revision-Date: 2025-04-08 19:26+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-04-09 19:53+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "cockpit-files/cockpit-files/es/>\n"
 "Language: es\n"
@@ -307,7 +306,7 @@ msgstr "Editar permisos"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:156
 msgid "Editing"
-msgstr "Modificar rol:"
+msgstr "Modificando"
 
 #: src/common.ts:56
 msgid "Execute-only"
