@@ -695,7 +695,7 @@ msgstr "Nome do link simbólico"
 
 #: src/dialogs/symlink.tsx:183
 msgid "Target"
-msgstr "Alvo"
+msgstr "Destino"
 
 #: src/dialogs/editor.tsx:62
 msgid "The existing file changed unexpectedly"
