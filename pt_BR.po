@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-05 03:35+0000\n"
 "PO-Revision-Date: 2025-05-08 00:48+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -710,7 +711,7 @@ msgstr "O arquivo foi alterado no disco"
 
 #: src/dialogs/symlink.tsx:206
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
