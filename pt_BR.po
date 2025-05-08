@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-05 03:35+0000\n"
-"PO-Revision-Date: 2025-03-28 02:53+0000\n"
+"PO-Revision-Date: 2025-05-08 00:48+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit-files/cockpit-files/pt_BR/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -76,17 +76,19 @@ msgstr "A-Z"
 
 #: src/dialogs/symlink.tsx:228
 msgid "Absolute"
-msgstr ""
+msgstr "Absoluto"
 
 #: src/dialogs/symlink.tsx:214
 msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
 msgstr ""
+"Link simbólicos absolutos são ideais para fazer referência a arquivos ou "
+"diretórios que não serão movidos, tal como arquivos do sistema."
 
 #: src/dialogs/symlink.tsx:210
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "Absoluto vs. Relativo"
 
 #: src/dialogs/permissions.tsx:367
 msgid "Access"
@@ -198,16 +200,12 @@ msgid "Create file"
 msgstr "Criar arquivo"
 
 #: src/menu.tsx:204 src/dialogs/symlink.tsx:163
-#, fuzzy
-#| msgid "Create file"
 msgid "Create link"
-msgstr "Criar arquivo"
+msgstr "Criar link"
 
 #: src/dialogs/symlink.tsx:142
-#, fuzzy
-#| msgid "Rename link $0"
 msgid "Create link to $0"
-msgstr "Renomear o link $0"
+msgstr "Criar link para $0"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:114
 msgid "Create new directory"
@@ -604,13 +602,15 @@ msgstr "Arquivo regular"
 
 #: src/dialogs/symlink.tsx:235
 msgid "Relative"
-msgstr ""
+msgstr "Relativo"
 
 #: src/dialogs/symlink.tsx:217
 msgid ""
 "Relative symlinks are useful when both a symlink and target might move at "
 "the same time, such as when renaming or moving a parent directory."
 msgstr ""
+"Links relativos são úteis quando tanto um link simbólico quanto o destino se "
+"movem ao mesmo tempo, tal como ao renomear ou mover um diretório pai."
 
 #: src/dialogs/editor.tsx:239
 msgid "Reload"
@@ -690,11 +690,11 @@ msgstr "Link simbólico"
 
 #: src/dialogs/symlink.tsx:190
 msgid "Symlink name"
-msgstr ""
+msgstr "Nome do link simbólico"
 
 #: src/dialogs/symlink.tsx:183
 msgid "Target"
-msgstr ""
+msgstr "Alvo"
 
 #: src/dialogs/editor.tsx:62
 msgid "The existing file changed unexpectedly"
@@ -782,7 +782,7 @@ msgstr "manter proprietários originais"
 
 #: src/dialogs/symlink.tsx:67
 msgid "link to $0"
-msgstr ""
+msgstr "link para $0"
 
 #~ msgid "Remove current directory"
 #~ msgstr "Remover diretório atual"
