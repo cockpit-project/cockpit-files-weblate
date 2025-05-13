@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-13 03:34+0000\n"
-"PO-Revision-Date: 2025-05-13 19:01+0000\n"
+"PO-Revision-Date: 2025-05-14 14:12+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/tr/>\n"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: src/dialogs/symlink.tsx:210
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "Göreceli'ye karşı Kesin"
 
 #: src/dialogs/permissions.tsx:367
 msgid "Access"
@@ -100,10 +100,8 @@ msgid "Activate selected item, enter directory"
 msgstr "Seçili ögeyi etkinleştir, dizine gir"
 
 #: src/files-breadcrumbs.tsx:139
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Add to bookmarks"
-msgstr "Yer imi ekle"
+msgstr "Yer işaretlerine ekle"
 
 #: src/upload-button.tsx:148
 msgid "Apply this action to all conflicting files"
@@ -115,7 +113,7 @@ msgstr "Blok aygıtı"
 
 #: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
-msgstr "Yer imleri"
+msgstr "Yer işaretleri"
 
 #: src/dialogs/mkdir.tsx:105 src/dialogs/rename.tsx:101
 #: src/dialogs/editor.tsx:214 src/dialogs/permissions.tsx:321
@@ -202,16 +200,12 @@ msgid "Create file"
 msgstr "Dosya oluştur"
 
 #: src/dialogs/symlink.tsx:163 src/menu.tsx:204
-#, fuzzy
-#| msgid "Create file"
 msgid "Create link"
-msgstr "Dosya oluştur"
+msgstr "Bağlantı oluştur"
 
 #: src/dialogs/symlink.tsx:142
-#, fuzzy
-#| msgid "Rename link $0"
 msgid "Create link to $0"
-msgstr "$0 bağlantısını yeniden adlandır"
+msgstr "$0 için bağlantı oluştur"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:114
 msgid "Create new directory"
@@ -351,6 +345,8 @@ msgid ""
 "Files being pasted have a different owner. By default, ownership will be "
 "changed to match the destination directory."
 msgstr ""
+"Yapıştırılan dosyaların farklı bir sahibi var. Varsayılan olarak sahiplik, "
+"hedef dizin ile eşleşmesi için değiştirilecektir."
 
 #: src/upload-button.tsx:363
 msgid "Files uploaded"
@@ -494,10 +490,8 @@ msgid "New name"
 msgstr "Yeni ad"
 
 #: src/dialogs/copyPasteOwnership.tsx:201
-#, fuzzy
-#| msgid "New name"
 msgid "New owner"
-msgstr "Yeni ad"
+msgstr "Yeni sahibi"
 
 #: src/dialogs/permissions.tsx:236
 msgid "No access"
@@ -563,7 +557,7 @@ msgstr "Yapıştır"
 
 #: src/dialogs/copyPasteOwnership.tsx:189
 msgid "Paste as owner"
-msgstr ""
+msgstr "Sahibi olarak yapıştır"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:126
 msgid "Paste file or directory"
@@ -607,13 +601,16 @@ msgstr "Normal dosya"
 
 #: src/dialogs/symlink.tsx:235
 msgid "Relative"
-msgstr ""
+msgstr "Göreceli"
 
 #: src/dialogs/symlink.tsx:217
 msgid ""
 "Relative symlinks are useful when both a symlink and target might move at "
 "the same time, such as when renaming or moving a parent directory."
 msgstr ""
+"Göreceli sembolik bağlantılar, bir üst dizini yeniden adlandırırken veya "
+"taşırken olduğu gibi, hem bir sembolik bağlantı hem de hedef aynı anda "
+"hareket edebildiğinde kullanışlıdır."
 
 #: src/dialogs/editor.tsx:239
 msgid "Reload"
@@ -621,7 +618,7 @@ msgstr "Yeniden yükle"
 
 #: src/files-breadcrumbs.tsx:137
 msgid "Remove from bookmarks"
-msgstr ""
+msgstr "Yer işaretlerinden kaldır"
 
 #: src/dialogs/rename.tsx:92 src/menu.tsx:169
 msgid "Rename"
@@ -693,11 +690,11 @@ msgstr "Sembolik bağlantı"
 
 #: src/dialogs/symlink.tsx:190
 msgid "Symlink name"
-msgstr ""
+msgstr "Sembolik bağlantı adı"
 
 #: src/dialogs/symlink.tsx:183
 msgid "Target"
-msgstr ""
+msgstr "Hedef"
 
 #: src/dialogs/editor.tsx:62
 msgid "The existing file changed unexpectedly"
@@ -713,11 +710,11 @@ msgstr "Dosya disk üzerinde değişti"
 
 #: src/dialogs/symlink.tsx:206
 msgid "Type"
-msgstr ""
+msgstr "Tür"
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
-msgstr "Yer imi dizini oluşturulamıyor"
+msgstr "Yer işareti dizini oluşturulamıyor"
 
 #: src/upload-button.tsx:323
 msgid "Unable to move uploaded file to final destination"
@@ -725,7 +722,7 @@ msgstr "Karşıya yüklenen dosya son hedefe taşınamıyor"
 
 #: src/files-breadcrumbs.tsx:119
 msgid "Unable to save bookmark file"
-msgstr "Yer imi dosyası kaydedilemiyor"
+msgstr "Yer işareti dosyası kaydedilemiyor"
 
 #: src/upload-button.tsx:496
 msgid "Upload"
@@ -780,14 +777,12 @@ msgid "filesystem"
 msgstr "dosya sistemi"
 
 #: src/dialogs/copyPasteOwnership.tsx:129
-#, fuzzy
-#| msgid "Keep original"
 msgid "keep original owners"
-msgstr "Orijinali sakla"
+msgstr "orijinal sahiplerini sakla"
 
 #: src/dialogs/symlink.tsx:67
 msgid "link to $0"
-msgstr ""
+msgstr "$0 için bağlantı"
 
 #~ msgid "Remove current directory"
 #~ msgstr "Geçerli dizini kaldır"
