@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 03:32+0000\n"
+"POT-Creation-Date: 2025-05-13 03:34+0000\n"
 "PO-Revision-Date: 2024-12-18 10:38+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -111,11 +111,11 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/upload-button.tsx:119 src/dialogs/editor.tsx:214
-#: src/dialogs/create-file.tsx:162 src/dialogs/copyPasteOwnership.tsx:181
-#: src/dialogs/rename.tsx:101 src/dialogs/mkdir.tsx:105
-#: src/dialogs/symlink.tsx:165 src/dialogs/permissions.tsx:321
-#: src/dialogs/delete.tsx:101
+#: src/dialogs/mkdir.tsx:105 src/dialogs/rename.tsx:101
+#: src/dialogs/editor.tsx:214 src/dialogs/permissions.tsx:321
+#: src/dialogs/delete.tsx:101 src/dialogs/create-file.tsx:162
+#: src/dialogs/copyPasteOwnership.tsx:181 src/dialogs/symlink.tsx:165
+#: src/upload-button.tsx:119
 msgid "Cancel"
 msgstr ""
 
@@ -185,21 +185,21 @@ msgstr "Nɣel"
 msgid "Copy selected file or directory"
 msgstr ""
 
-#: src/dialogs/create-file.tsx:159 src/dialogs/mkdir.tsx:103
+#: src/dialogs/mkdir.tsx:103 src/dialogs/create-file.tsx:159
 msgid "Create"
 msgstr "Snulfu-d"
 
-#: src/menu.tsx:113 src/dialogs/mkdir.tsx:90
+#: src/dialogs/mkdir.tsx:90 src/menu.tsx:113
 msgid "Create directory"
 msgstr ""
 
-#: src/menu.tsx:118 src/dialogs/create-file.tsx:146
+#: src/dialogs/create-file.tsx:146 src/menu.tsx:118
 #, fuzzy
 #| msgid "Create"
 msgid "Create file"
 msgstr "Snulfu-d"
 
-#: src/menu.tsx:204 src/dialogs/symlink.tsx:163
+#: src/dialogs/symlink.tsx:163 src/menu.tsx:204
 #, fuzzy
 #| msgid "Create"
 msgid "Create link"
@@ -213,7 +213,7 @@ msgstr ""
 msgid "Create new directory"
 msgstr ""
 
-#: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:99
+#: src/dialogs/delete.tsx:99 src/menu.tsx:175 src/menu.tsx:217
 msgid "Delete"
 msgstr "Kkes"
 
@@ -273,7 +273,7 @@ msgstr ""
 msgid "Directory owner"
 msgstr ""
 
-#: src/common.ts:119 src/dialogs/symlink.tsx:53
+#: src/dialogs/symlink.tsx:53 src/common.ts:119
 msgid "Directory with the same name exists"
 msgstr ""
 
@@ -300,7 +300,7 @@ msgstr "Snifel isem"
 msgid "Edit $0"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:298 src/dialogs/keyboardShortcutsHelp.tsx:99
+#: src/dialogs/keyboardShortcutsHelp.tsx:99 src/files-breadcrumbs.tsx:298
 msgid "Edit path"
 msgstr ""
 
@@ -324,7 +324,7 @@ msgstr ""
 msgid "File browser"
 msgstr ""
 
-#: src/common.ts:121 src/dialogs/symlink.tsx:55
+#: src/dialogs/symlink.tsx:55 src/common.ts:121
 msgid "File exists"
 msgstr ""
 
@@ -404,8 +404,8 @@ msgstr ""
 msgid "Go up a directory"
 msgstr ""
 
-#: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
 #: src/files-card-body.tsx:596 src/dialogs/permissions.tsx:350
+#: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
 msgid "Group"
 msgstr "Agraw"
 
@@ -453,7 +453,7 @@ msgstr ""
 msgid "Missing type"
 msgstr ""
 
-#: src/header.tsx:88 src/files-card-body.tsx:552
+#: src/files-card-body.tsx:552 src/header.tsx:88
 msgid "Modified"
 msgstr ""
 
@@ -461,11 +461,11 @@ msgstr ""
 msgid "Most permissive"
 msgstr ""
 
-#: src/header.tsx:66 src/files-card-body.tsx:547
+#: src/files-card-body.tsx:547 src/header.tsx:66
 msgid "Name"
 msgstr "Isem"
 
-#: src/common.ts:110 src/dialogs/symlink.tsx:50
+#: src/dialogs/symlink.tsx:50 src/common.ts:110
 msgid "Name cannot be empty"
 msgstr ""
 
@@ -525,7 +525,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr ""
 
-#: src/files-footer-detail.tsx:79 src/files-card-body.tsx:596
+#: src/files-card-body.tsx:596 src/files-footer-detail.tsx:79
 msgid "Others"
 msgstr "Wiyyaḍ"
 
@@ -533,13 +533,13 @@ msgstr "Wiyyaḍ"
 msgid "Others access"
 msgstr ""
 
-#: src/dialogs/editor.tsx:198 src/dialogs/rename.tsx:99
+#: src/dialogs/rename.tsx:99 src/dialogs/editor.tsx:198
 msgid "Overwrite"
 msgstr ""
 
-#: src/header.tsx:99 src/files-footer-detail.tsx:79 src/files-card-body.tsx:557
-#: src/files-card-body.tsx:596 src/dialogs/create-file.tsx:199
-#: src/dialogs/permissions.tsx:335
+#: src/files-card-body.tsx:557 src/files-card-body.tsx:596 src/header.tsx:99
+#: src/dialogs/permissions.tsx:335 src/dialogs/create-file.tsx:199
+#: src/files-footer-detail.tsx:79
 msgid "Owner"
 msgstr "Bab-is"
 
@@ -559,7 +559,7 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/menu.tsx:106 src/dialogs/copyPasteOwnership.tsx:179
+#: src/dialogs/copyPasteOwnership.tsx:179 src/menu.tsx:106
 msgid "Paste"
 msgstr ""
 
@@ -571,7 +571,7 @@ msgstr ""
 msgid "Paste file or directory"
 msgstr ""
 
-#: src/menu.tsx:63 src/dialogs/copyPasteOwnership.tsx:67
+#: src/dialogs/copyPasteOwnership.tsx:67 src/menu.tsx:63
 msgid "Pasting failed"
 msgstr ""
 
@@ -581,7 +581,7 @@ msgstr ""
 msgid "Permission denied"
 msgstr "Tisirag"
 
-#: src/header.tsx:110 src/files-card-body.tsx:562
+#: src/files-card-body.tsx:562 src/header.tsx:110
 msgid "Permissions"
 msgstr "Tisirag"
 
@@ -593,7 +593,7 @@ msgstr "Tisirag i $0 n yifuyla"
 msgid "Read and execute"
 msgstr ""
 
-#: src/common.ts:61 src/dialogs/permissions.tsx:226
+#: src/dialogs/permissions.tsx:226 src/common.ts:61
 msgid "Read and write"
 msgstr ""
 
@@ -601,7 +601,7 @@ msgstr ""
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/common.ts:59 src/dialogs/editor.tsx:175 src/dialogs/permissions.tsx:231
+#: src/dialogs/editor.tsx:175 src/dialogs/permissions.tsx:231 src/common.ts:59
 msgid "Read-only"
 msgstr ""
 
@@ -627,7 +627,7 @@ msgstr ""
 msgid "Remove from bookmarks"
 msgstr ""
 
-#: src/menu.tsx:169 src/dialogs/rename.tsx:92
+#: src/dialogs/rename.tsx:92 src/menu.tsx:169
 msgid "Rename"
 msgstr "Snifel isem"
 
@@ -667,7 +667,7 @@ msgstr ""
 msgid "Show all files"
 msgstr ""
 
-#: src/header.tsx:284 src/files-card-body.tsx:535
+#: src/files-card-body.tsx:535 src/header.tsx:284
 msgid "Show hidden items"
 msgstr ""
 
@@ -675,7 +675,7 @@ msgstr ""
 msgid "Show keyboard shortcuts"
 msgstr ""
 
-#: src/header.tsx:77 src/files-card-body.tsx:548
+#: src/files-card-body.tsx:548 src/header.tsx:77
 msgid "Size"
 msgstr "Teɣzi"
 
@@ -764,7 +764,7 @@ msgstr ""
 msgid "Write and execute"
 msgstr ""
 
-#: src/common.ts:57 src/dialogs/permissions.tsx:246
+#: src/dialogs/permissions.tsx:246 src/common.ts:57
 msgid "Write-only"
 msgstr ""
 
