@@ -15,16 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-13 03:34+0000\n"
-"PO-Revision-Date: 2025-01-13 14:38+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/tr/>\n"
+"PO-Revision-Date: 2025-05-13 19:01+0000\n"
+"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-files/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -49,10 +49,8 @@ msgid "$0 permissions"
 msgstr "$0 izinleri"
 
 #: src/dialogs/copyPasteOwnership.tsx:120
-#, fuzzy
-#| msgid "Original file on server"
 msgid "(original owner)"
-msgstr "Sunucudaki orijinal dosya"
+msgstr "(orijinal sahibi)"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -78,13 +76,15 @@ msgstr "A-Z"
 
 #: src/dialogs/symlink.tsx:228
 msgid "Absolute"
-msgstr ""
+msgstr "Kesin"
 
 #: src/dialogs/symlink.tsx:214
 msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
 msgstr ""
+"Kesin sembolik bağlantılar, sistem dosyaları gibi hareket etmeyen dosyalara "
+"veya dizinlere başvururken idealdir."
 
 #: src/dialogs/symlink.tsx:210
 msgid "Absolute vs. Relative"
