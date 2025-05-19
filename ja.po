@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 03:34+0000\n"
+"POT-Creation-Date: 2025-05-19 03:38+0000\n"
 "PO-Revision-Date: 2025-02-28 05:41+0000\n"
 "Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -43,7 +43,7 @@ msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
 msgstr[0] "$0 個の項目が非表示"
 
-#: src/dialogs/permissions.tsx:301
+#: src/dialogs/permissions.tsx:299
 msgid "$0 permissions"
 msgstr "$0 個のパーミッション"
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Absolute vs. Relative"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:367
+#: src/dialogs/permissions.tsx:365
 msgid "Access"
 msgstr "アクセス"
 
@@ -112,11 +112,11 @@ msgstr "ブロックデバイス"
 msgid "Bookmarks"
 msgstr "ブックマーク"
 
-#: src/upload-button.tsx:119 src/dialogs/editor.tsx:214
-#: src/dialogs/create-file.tsx:162 src/dialogs/copyPasteOwnership.tsx:180
-#: src/dialogs/rename.tsx:101 src/dialogs/mkdir.tsx:105
-#: src/dialogs/symlink.tsx:165 src/dialogs/permissions.tsx:321
-#: src/dialogs/delete.tsx:101
+#: src/upload-button.tsx:119 src/dialogs/rename.tsx:101
+#: src/dialogs/delete.tsx:101 src/dialogs/permissions.tsx:319
+#: src/dialogs/create-file.tsx:162 src/dialogs/mkdir.tsx:105
+#: src/dialogs/symlink.tsx:165 src/dialogs/editor.tsx:214
+#: src/dialogs/copyPasteOwnership.tsx:180
 msgid "Cancel"
 msgstr "取り消し"
 
@@ -140,7 +140,7 @@ msgstr "カレントディレクトリーにファイルを作成できません
 msgid "Cannot drop files, another upload is already in progress"
 msgstr "ファイルをドロップできません。別のアップロードがすでに進行中です"
 
-#: src/dialogs/permissions.tsx:312
+#: src/dialogs/permissions.tsx:310
 msgid "Change"
 msgstr "変更"
 
@@ -148,7 +148,7 @@ msgstr "変更"
 msgid "Change permissions"
 msgstr "パーミッションの変更"
 
-#: src/dialogs/permissions.tsx:319
+#: src/dialogs/permissions.tsx:317
 msgid "Change permissions for enclosed files"
 msgstr "含まれるファイルのパーミッションの変更"
 
@@ -172,7 +172,7 @@ msgstr "Cockpit ファイル"
 msgid "Cockpit Project"
 msgstr "Cockpit プロジェクト"
 
-#: src/dialogs/permissions.tsx:286
+#: src/dialogs/permissions.tsx:284
 msgid "Collapse"
 msgstr "折りたたむ"
 
@@ -275,7 +275,7 @@ msgstr "ディレクトリー名が長すぎます"
 msgid "Directory owner"
 msgstr "ディレクトリー所有者"
 
-#: src/common.ts:119 src/dialogs/symlink.tsx:53
+#: src/dialogs/symlink.tsx:53 src/common.ts:119
 msgid "Directory with the same name exists"
 msgstr "同じ名前のディレクトリーが存在します"
 
@@ -300,7 +300,7 @@ msgstr "アップロードするファイルをドロップする"
 msgid "Edit $0"
 msgstr "$0 の編集"
 
-#: src/files-breadcrumbs.tsx:298 src/dialogs/keyboardShortcutsHelp.tsx:99
+#: src/dialogs/keyboardShortcutsHelp.tsx:99 src/files-breadcrumbs.tsx:298
 msgid "Edit path"
 msgstr "パスの編集"
 
@@ -324,7 +324,7 @@ msgstr "失敗"
 msgid "File browser"
 msgstr "ファイルブラウザー"
 
-#: src/common.ts:121 src/dialogs/symlink.tsx:55
+#: src/dialogs/symlink.tsx:55 src/common.ts:121
 msgid "File exists"
 msgstr "ファイルが存在します"
 
@@ -401,11 +401,11 @@ msgid "Go up a directory"
 msgstr "1 つ上のディレクトリーに移動する"
 
 #: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
-#: src/files-card-body.tsx:596 src/dialogs/permissions.tsx:350
+#: src/dialogs/permissions.tsx:348 src/files-card-body.tsx:596
 msgid "Group"
 msgstr "グループ"
 
-#: src/dialogs/permissions.tsx:381
+#: src/dialogs/permissions.tsx:379
 msgid "Group access"
 msgstr "グループアクセス"
 
@@ -445,7 +445,7 @@ msgstr "最も許容度が低い"
 msgid "Manage your files"
 msgstr "ファイルの管理"
 
-#: src/dialogs/permissions.tsx:280
+#: src/dialogs/permissions.tsx:278
 msgid "Missing type"
 msgstr "存在しないタイプ"
 
@@ -461,7 +461,7 @@ msgstr "最も許容度が高い"
 msgid "Name"
 msgstr "名前"
 
-#: src/common.ts:110 src/dialogs/symlink.tsx:50
+#: src/dialogs/symlink.tsx:50 src/common.ts:110
 msgid "Name cannot be empty"
 msgstr "名前は空欄にできません"
 
@@ -497,7 +497,7 @@ msgstr "新しい名前"
 msgid "New owner"
 msgstr "新しい所有者"
 
-#: src/dialogs/permissions.tsx:236
+#: src/dialogs/permissions.tsx:234
 msgid "No access"
 msgstr "アクセスなし"
 
@@ -525,21 +525,21 @@ msgstr "サーバー上の元のファイル"
 msgid "Others"
 msgstr "その他のユーザー"
 
-#: src/dialogs/permissions.tsx:393
+#: src/dialogs/permissions.tsx:391
 msgid "Others access"
 msgstr "その他のユーザーのアクセス"
 
-#: src/dialogs/editor.tsx:198 src/dialogs/rename.tsx:99
+#: src/dialogs/rename.tsx:99 src/dialogs/editor.tsx:198
 msgid "Overwrite"
 msgstr "上書き"
 
-#: src/header.tsx:99 src/files-footer-detail.tsx:79 src/files-card-body.tsx:557
-#: src/files-card-body.tsx:596 src/dialogs/create-file.tsx:199
-#: src/dialogs/permissions.tsx:335
+#: src/files-footer-detail.tsx:79 src/dialogs/permissions.tsx:333
+#: src/dialogs/create-file.tsx:199 src/header.tsx:99
+#: src/files-card-body.tsx:557 src/files-card-body.tsx:596
 msgid "Owner"
 msgstr "所有者"
 
-#: src/dialogs/permissions.tsx:369
+#: src/dialogs/permissions.tsx:367
 msgid "Owner access"
 msgstr "所有者アクセス"
 
@@ -551,7 +551,7 @@ msgstr "所有者昇順"
 msgid "Owner descending"
 msgstr "所有者降順"
 
-#: src/dialogs/permissions.tsx:334
+#: src/dialogs/permissions.tsx:332
 msgid "Ownership"
 msgstr "所有権"
 
@@ -579,7 +579,7 @@ msgstr "パーミッションが拒否されました"
 msgid "Permissions"
 msgstr "パーミッション"
 
-#: src/dialogs/permissions.tsx:302
+#: src/dialogs/permissions.tsx:300
 msgid "Permissions for $0 files"
 msgstr "$0 ファイルのパーミッション"
 
@@ -587,7 +587,7 @@ msgstr "$0 ファイルのパーミッション"
 msgid "Read and execute"
 msgstr "読み取りおよび実行"
 
-#: src/common.ts:61 src/dialogs/permissions.tsx:226
+#: src/dialogs/permissions.tsx:224 src/common.ts:61
 msgid "Read and write"
 msgstr "読み取りおよび書き込み"
 
@@ -595,7 +595,7 @@ msgstr "読み取りおよび書き込み"
 msgid "Read, write, and execute"
 msgstr "読み取り、書き込み、および実行"
 
-#: src/common.ts:59 src/dialogs/editor.tsx:175 src/dialogs/permissions.tsx:231
+#: src/dialogs/permissions.tsx:229 src/dialogs/editor.tsx:175 src/common.ts:59
 msgid "Read-only"
 msgstr "読み取り専用"
 
@@ -645,7 +645,7 @@ msgstr "ファイル $0 を置き換えますか?"
 msgid "Save"
 msgstr "保存"
 
-#: src/dialogs/permissions.tsx:406
+#: src/dialogs/permissions.tsx:404
 msgid "Security context"
 msgstr "セキュリティーコンテキスト"
 
@@ -653,11 +653,11 @@ msgstr "セキュリティーコンテキスト"
 msgid "Select all"
 msgstr "すべて選択"
 
-#: src/dialogs/permissions.tsx:418
+#: src/dialogs/permissions.tsx:416
 msgid "Set executable as program"
 msgstr "実行可能ファイルをプログラムとして設定"
 
-#: src/dialogs/permissions.tsx:287
+#: src/dialogs/permissions.tsx:285
 msgid "Show all files"
 msgstr "すべてのファイルの表示"
 
@@ -758,7 +758,7 @@ msgstr "$0 の表示"
 msgid "Write and execute"
 msgstr "書き込みおよび実行"
 
-#: src/common.ts:57 src/dialogs/permissions.tsx:246
+#: src/dialogs/permissions.tsx:244 src/common.ts:57
 msgid "Write-only"
 msgstr "書き込み専用"
 
