@@ -15,16 +15,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-19 03:38+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-05-24 00:44+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-files/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -114,7 +115,7 @@ msgstr ""
 #: src/dialogs/symlink.tsx:165 src/dialogs/editor.tsx:214
 #: src/dialogs/copyPasteOwnership.tsx:180
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء"
 
 #: src/upload-button.tsx:460
 msgid "Cancel upload of $0"
@@ -166,7 +167,7 @@ msgstr ""
 
 #: org.cockpit_project.files.metainfo.xml:21
 msgid "Cockpit Project"
-msgstr ""
+msgstr "مشروع Cockpit"
 
 #: src/dialogs/permissions.tsx:284
 msgid "Collapse"
@@ -182,7 +183,7 @@ msgstr ""
 
 #: src/dialogs/create-file.tsx:159 src/dialogs/mkdir.tsx:103
 msgid "Create"
-msgstr ""
+msgstr "إنشاء"
 
 #: src/menu.tsx:113 src/dialogs/mkdir.tsx:90
 msgid "Create directory"
@@ -206,7 +207,7 @@ msgstr ""
 
 #: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:99
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: src/dialogs/delete.tsx:48
 msgid "Delete $0 items?"
@@ -214,7 +215,7 @@ msgstr ""
 
 #: src/dialogs/delete.tsx:65
 msgid "Delete $0?"
-msgstr ""
+msgstr "حذف $0؟"
 
 #: src/dialogs/delete.tsx:62
 msgid "Delete directory $0?"
@@ -278,7 +279,7 @@ msgstr ""
 
 #: src/menu.tsx:185
 msgid "Download"
-msgstr ""
+msgstr "نزِّل"
 
 #: src/files-folder-view.tsx:169
 msgid "Drop files to upload"
