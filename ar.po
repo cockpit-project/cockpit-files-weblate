@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-25 03:39+0000\n"
-"PO-Revision-Date: 2025-05-24 00:44+0000\n"
+"PO-Revision-Date: 2025-05-31 14:01+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -346,7 +346,7 @@ msgstr ""
 
 #: src/files-breadcrumbs.tsx:231
 msgid "Filesystem"
-msgstr ""
+msgstr "نظام الملفات"
 
 #: src/header.tsx:190
 msgid "Filter directory"
@@ -561,7 +561,7 @@ msgstr ""
 
 #: src/dialogs/create-file.tsx:229
 msgid "Permission denied"
-msgstr ""
+msgstr "الإذن مرفوض"
 
 #: src/header.tsx:110 src/files-card-body.tsx:562
 msgid "Permissions"
