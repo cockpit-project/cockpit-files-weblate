@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-01 03:50+0000\n"
 "PO-Revision-Date: 2025-06-01 14:21+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/it/>\n"
 "Language: it\n"
@@ -433,11 +432,11 @@ msgstr "Dimensione maggiore"
 
 #: src/header.tsx:95
 msgid "Last modified"
-msgstr ""
+msgstr "Ultima modifica"
 
 #: src/header.tsx:117
 msgid "Least permissive"
-msgstr ""
+msgstr "Meno permissivo"
 
 #: org.cockpit_project.files.metainfo.xml:6
 msgid "Manage your files"
@@ -620,7 +619,7 @@ msgstr "Ricarica"
 
 #: src/files-breadcrumbs.tsx:137
 msgid "Remove from bookmarks"
-msgstr ""
+msgstr "Rimuovi dai segnalibri"
 
 #: src/menu.tsx:169 src/dialogs/rename.tsx:92
 msgid "Rename"
@@ -628,7 +627,7 @@ msgstr "Rinomina"
 
 #: src/dialogs/rename.tsx:110
 msgid "Rename $0?"
-msgstr ""
+msgstr "Rinomina $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:107
 msgid "Rename selected file or directory"
@@ -676,19 +675,19 @@ msgstr "Dimensione"
 
 #: src/header.tsx:84
 msgid "Smallest size"
-msgstr ""
+msgstr "Dimensione minima"
 
 #: src/common.ts:72
 msgid "Socket"
-msgstr ""
+msgstr "Socket"
 
 #: src/header.tsx:271
 msgid "Sort"
-msgstr ""
+msgstr "ordina"
 
 #: src/common.ts:70
 msgid "Symbolic link"
-msgstr ""
+msgstr "Link Simbolico"
 
 #: src/dialogs/symlink.tsx:190
 msgid "Symlink name"
@@ -696,11 +695,11 @@ msgstr "Nome collegamento simbolico"
 
 #: src/dialogs/symlink.tsx:183
 msgid "Target"
-msgstr ""
+msgstr "Target"
 
 #: src/dialogs/editor.tsx:62
 msgid "The existing file changed unexpectedly"
-msgstr ""
+msgstr "Il file esistente è cambiato inaspettatamente"
 
 #: src/dialogs/editor.tsx:60 src/dialogs/editor.tsx:234
 msgid "The file has been removed on disk"
@@ -728,12 +727,12 @@ msgstr "Impossibile salvare il file dei segnalibri"
 
 #: src/upload-button.tsx:496
 msgid "Upload"
-msgstr ""
+msgstr "Caricare"
 
 #
 #: src/upload-button.tsx:477
 msgid "Upload $0% completed"
-msgstr ""
+msgstr "Caricamento $0 completato"
 
 #: src/upload-button.tsx:322 src/upload-button.tsx:346
 msgid "Upload error"
@@ -745,7 +744,7 @@ msgstr "Caricato come $0, $1"
 
 #: src/upload-button.tsx:441
 msgid "Uploads"
-msgstr ""
+msgstr "Caricamento"
 
 #: src/files-footer-detail.tsx:143
 msgid "User"
@@ -769,7 +768,7 @@ msgstr "Z-A"
 
 #: src/manifest.json:0
 msgid "explorer"
-msgstr ""
+msgstr "Explorer"
 
 #: src/manifest.json:0
 msgid "files"
@@ -781,8 +780,8 @@ msgstr "filesystem"
 
 #: src/dialogs/copyPasteOwnership.tsx:129
 msgid "keep original owners"
-msgstr ""
+msgstr "mantenere i proprietari originali"
 
 #: src/dialogs/symlink.tsx:67
 msgid "link to $0"
-msgstr ""
+msgstr "Collega a $0"
