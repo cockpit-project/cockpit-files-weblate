@@ -15,15 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-01 03:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-06-01 11:33+0000\n"
+"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-files/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Cockpit manifest2po\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -113,7 +114,7 @@ msgstr ""
 #: src/dialogs/symlink.tsx:165 src/dialogs/editor.tsx:215
 #: src/dialogs/copyPasteOwnership.tsx:180
 msgid "Cancel"
-msgstr ""
+msgstr "Annulla"
 
 #: src/upload-button.tsx:460
 msgid "Cancel upload of $0"
@@ -165,7 +166,7 @@ msgstr ""
 
 #: org.cockpit_project.files.metainfo.xml:21
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Progetto Cockpit"
 
 #: src/dialogs/permissions.tsx:284
 msgid "Collapse"
@@ -181,7 +182,7 @@ msgstr ""
 
 #: src/dialogs/create-file.tsx:159 src/dialogs/mkdir.tsx:103
 msgid "Create"
-msgstr ""
+msgstr "Crea"
 
 #: src/menu.tsx:113 src/dialogs/mkdir.tsx:90
 msgid "Create directory"
@@ -205,7 +206,7 @@ msgstr ""
 
 #: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:99
 msgid "Delete"
-msgstr ""
+msgstr "Elimina"
 
 #: src/dialogs/delete.tsx:48
 msgid "Delete $0 items?"
@@ -213,7 +214,7 @@ msgstr ""
 
 #: src/dialogs/delete.tsx:65
 msgid "Delete $0?"
-msgstr ""
+msgstr "Eliminare $0?"
 
 #: src/dialogs/delete.tsx:62
 msgid "Delete directory $0?"
@@ -277,7 +278,7 @@ msgstr ""
 
 #: src/menu.tsx:185
 msgid "Download"
-msgstr ""
+msgstr "Scarica"
 
 #: src/files-folder-view.tsx:169
 msgid "Drop files to upload"
@@ -445,7 +446,7 @@ msgstr ""
 
 #: src/header.tsx:66 src/files-card-body.tsx:547
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: src/dialogs/symlink.tsx:50 src/common.ts:110
 msgid "Name cannot be empty"
@@ -523,7 +524,7 @@ msgstr ""
 #: src/dialogs/create-file.tsx:199 src/header.tsx:99
 #: src/files-card-body.tsx:557 src/files-card-body.tsx:596
 msgid "Owner"
-msgstr ""
+msgstr "Proprietario"
 
 #: src/dialogs/permissions.tsx:367
 msgid "Owner access"
@@ -609,7 +610,7 @@ msgstr ""
 
 #: src/menu.tsx:169 src/dialogs/rename.tsx:92
 msgid "Rename"
-msgstr ""
+msgstr "Rinomina"
 
 #: src/dialogs/rename.tsx:110
 msgid "Rename $0?"
@@ -657,7 +658,7 @@ msgstr ""
 
 #: src/header.tsx:77 src/files-card-body.tsx:548
 msgid "Size"
-msgstr ""
+msgstr "Dimensione"
 
 #: src/header.tsx:84
 msgid "Smallest size"
@@ -734,11 +735,11 @@ msgstr ""
 
 #: src/files-footer-detail.tsx:143
 msgid "User"
-msgstr ""
+msgstr "Utente"
 
 #: src/dialogs/editor.tsx:174
 msgid "View $0"
-msgstr ""
+msgstr "Visualizza $0"
 
 #: src/common.ts:58
 msgid "Write and execute"
