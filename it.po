@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-01 03:50+0000\n"
-"PO-Revision-Date: 2025-06-01 11:33+0000\n"
-"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"PO-Revision-Date: 2025-06-01 13:11+0000\n"
+"Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/it/>\n"
 "Language: it\n"
@@ -28,29 +28,29 @@ msgstr ""
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
-msgstr ""
+msgstr "“$0” esiste, non si sovrascrive con l'incolla."
 
 #: src/upload-button.tsx:70
 msgid "$0 files"
-msgstr ""
+msgstr "$0 files"
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
-msgstr ""
+msgstr "$0 file selezionati"
 
 #: src/files-card-body.tsx:532
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 l'elemento è nascosto"
+msgstr[1] "$0 gli elementi sono nascosti"
 
 #: src/dialogs/permissions.tsx:299
 msgid "$0 permissions"
-msgstr ""
+msgstr "$0 permessioni"
 
 #: src/dialogs/copyPasteOwnership.tsx:120
 msgid "(original owner)"
-msgstr ""
+msgstr "(propietario originario)"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: src/header.tsx:69
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #: src/dialogs/symlink.tsx:228
 msgid "Absolute"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: src/files-breadcrumbs.tsx:139
 msgid "Add to bookmarks"
-msgstr ""
+msgstr "Aggiungi ai segnalibri"
 
 #: src/upload-button.tsx:148
 msgid "Apply this action to all conflicting files"
@@ -102,11 +102,11 @@ msgstr ""
 
 #: src/common.ts:66
 msgid "Block device"
-msgstr ""
+msgstr "blocca il dispositivo"
 
 #: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
-msgstr ""
+msgstr "Segnalibri"
 
 #: src/upload-button.tsx:119 src/dialogs/rename.tsx:101
 #: src/dialogs/delete.tsx:101 src/dialogs/permissions.tsx:319
@@ -118,7 +118,7 @@ msgstr "Annulla"
 
 #: src/upload-button.tsx:460
 msgid "Cancel upload of $0"
-msgstr ""
+msgstr "Annulla caricamento di $0"
 
 #: src/upload-button.tsx:343
 msgid "Cancelled"
@@ -154,15 +154,15 @@ msgstr ""
 
 #: src/files-card-body.tsx:520
 msgid "Clear filter"
-msgstr ""
+msgstr "Cancella filtro"
 
 #: src/dialogs/editor.tsx:215 src/dialogs/keyboardShortcutsHelp.tsx:46
 msgid "Close"
-msgstr ""
+msgstr "Chiudi"
 
 #: src/index.html:20
 msgid "Cockpit Files"
-msgstr ""
+msgstr "File di Cockpit"
 
 #: org.cockpit_project.files.metainfo.xml:21
 msgid "Cockpit Project"
@@ -170,15 +170,15 @@ msgstr "Progetto Cockpit"
 
 #: src/dialogs/permissions.tsx:284
 msgid "Collapse"
-msgstr ""
+msgstr "Comprimi"
 
 #: src/menu.tsx:158 src/menu.tsx:212
 msgid "Copy"
-msgstr ""
+msgstr "copia"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:120
 msgid "Copy selected file or directory"
-msgstr ""
+msgstr "Copia i file o directory selezionati"
 
 #: src/dialogs/create-file.tsx:159 src/dialogs/mkdir.tsx:103
 msgid "Create"
@@ -186,23 +186,23 @@ msgstr "Crea"
 
 #: src/menu.tsx:113 src/dialogs/mkdir.tsx:90
 msgid "Create directory"
-msgstr ""
+msgstr "Crea directory"
 
 #: src/menu.tsx:118 src/dialogs/create-file.tsx:146
 msgid "Create file"
-msgstr ""
+msgstr "Crea file"
 
 #: src/menu.tsx:204 src/dialogs/symlink.tsx:163
 msgid "Create link"
-msgstr ""
+msgstr "Crea link"
 
 #: src/dialogs/symlink.tsx:142
 msgid "Create link to $0"
-msgstr ""
+msgstr "Crea link a $0"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:114
 msgid "Create new directory"
-msgstr ""
+msgstr "Crea una nuova cartella"
 
 #: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:99
 msgid "Delete"
@@ -210,7 +210,7 @@ msgstr "Elimina"
 
 #: src/dialogs/delete.tsx:48
 msgid "Delete $0 items?"
-msgstr ""
+msgstr "Cancella $0 oggetti?"
 
 #: src/dialogs/delete.tsx:65
 msgid "Delete $0?"
@@ -222,19 +222,19 @@ msgstr ""
 
 #: src/dialogs/delete.tsx:54
 msgid "Delete file $0?"
-msgstr ""
+msgstr "Cancella file $0?"
 
 #: src/dialogs/delete.tsx:58
 msgid "Delete link $0?"
-msgstr ""
+msgstr "Cancella link $0?"
 
 #: src/common.ts:68
 msgid "Directory"
-msgstr ""
+msgstr "Cartella"
 
 #: src/files-footer-detail.tsx:63
 msgid "Directory contains $0 directories, $1 files"
-msgstr ""
+msgstr "La cartella contiene $0 cartelle, $1 file"
 
 #: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
@@ -353,7 +353,7 @@ msgstr ""
 
 #: src/header.tsx:91
 msgid "First modified"
-msgstr ""
+msgstr "Prima modifica"
 
 #: src/dialogs/delete.tsx:65
 msgid "Force delete $0"
@@ -385,12 +385,12 @@ msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:67
 msgid "Go up a directory"
-msgstr ""
+msgstr "Tornare alla cartella superiore"
 
 #: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
 #: src/dialogs/permissions.tsx:348 src/files-card-body.tsx:596
 msgid "Group"
-msgstr ""
+msgstr "Gruppo"
 
 #: src/dialogs/permissions.tsx:379
 msgid "Group access"
@@ -402,11 +402,11 @@ msgstr ""
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
-msgstr ""
+msgstr "Pagina principale"
 
 #: src/dialogs/editor.tsx:243
 msgid "Ignore"
-msgstr ""
+msgstr "Ignora"
 
 #: src/upload-button.tsx:118
 msgid "Keep original"
