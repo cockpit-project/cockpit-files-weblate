@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-01 03:50+0000\n"
 "PO-Revision-Date: 2025-06-01 13:11+0000\n"
-"Last-Translator: Nathan <nathan95@live.it>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/it/>\n"
 "Language: it\n"
@@ -58,12 +59,17 @@ msgid ""
 "download files, and change their properties. It also includes a simple file "
 "editor."
 msgstr ""
+"Un'interfaccia utente per il file system per Cockpit. Puoi sfogliare le "
+"cartelle, caricare e scaricare file e modificarne le proprietà. Include "
+"anche un semplice editor di file."
 
 #: src/upload-button.tsx:125
 msgid ""
 "A file with the same name already exists in \"$0\". Replacing it will "
 "overwrite its content."
 msgstr ""
+"Un file con lo stesso nome esiste già in \"$0\". Sostituendolo ne "
+"sovrascriverai il contenuto."
 
 #: src/header.tsx:69
 msgid "A-Z"
@@ -71,26 +77,28 @@ msgstr "A-Z"
 
 #: src/dialogs/symlink.tsx:228
 msgid "Absolute"
-msgstr ""
+msgstr "Assoluto"
 
 #: src/dialogs/symlink.tsx:214
 msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
 msgstr ""
+"I collegamenti simbolici assoluti sono ideali quando ci si riferisce a file "
+"o cartelle che non verranno spostati, come i file di sistema."
 
 #: src/dialogs/symlink.tsx:210
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "Assoluto vs. Relativo"
 
 #: src/dialogs/permissions.tsx:365
 msgid "Access"
-msgstr ""
+msgstr "Accesso"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:85
 #: src/dialogs/keyboardShortcutsHelp.tsx:91
 msgid "Activate selected item, enter directory"
-msgstr ""
+msgstr "Attiva l'elemento selezionato, entra nella cartella"
 
 #: src/files-breadcrumbs.tsx:139
 msgid "Add to bookmarks"
@@ -98,7 +106,7 @@ msgstr "Aggiungi ai segnalibri"
 
 #: src/upload-button.tsx:148
 msgid "Apply this action to all conflicting files"
-msgstr ""
+msgstr "Applica questa azione a tutti i file in conflitto"
 
 #: src/common.ts:66
 msgid "Block device"
@@ -122,35 +130,35 @@ msgstr "Annulla caricamento di $0"
 
 #: src/upload-button.tsx:343
 msgid "Cancelled"
-msgstr ""
+msgstr "Annullato"
 
 #: src/upload-button.tsx:344
 msgid "Cancelled upload of $0"
-msgstr ""
+msgstr "Caricamento di $0 annullato"
 
 #: src/dialogs/create-file.tsx:228
 msgid "Cannot create file in current directory"
-msgstr ""
+msgstr "Impossibile creare il file nella cartella corrente"
 
 #: src/files-folder-view.tsx:177
 msgid "Cannot drop files, another upload is already in progress"
-msgstr ""
+msgstr "Impossibile rilasciare i file, un altro caricamento è già in corso"
 
 #: src/dialogs/permissions.tsx:310
 msgid "Change"
-msgstr ""
+msgstr "Modifica"
 
 #: src/upload-button.tsx:394
 msgid "Change permissions"
-msgstr ""
+msgstr "Modifica permessi"
 
 #: src/dialogs/permissions.tsx:317
 msgid "Change permissions for enclosed files"
-msgstr ""
+msgstr "Modifica permessi per i file inclusi"
 
 #: src/common.ts:67
 msgid "Character device"
-msgstr ""
+msgstr "dispositivo a caratteri"
 
 #: src/files-card-body.tsx:520
 msgid "Clear filter"
@@ -238,43 +246,43 @@ msgstr "La cartella contiene $0 cartelle, $1 file"
 
 #: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
-msgstr ""
+msgstr "La cartella contiene $0 cartelle, $1 file, $2 nascosti"
 
 #: src/files-card-body.tsx:527
 msgid "Directory is empty"
-msgstr ""
+msgstr "La cartella è vuota"
 
 #: src/dialogs/mkdir.tsx:123
 msgid "Directory name"
-msgstr ""
+msgstr "Nome cartella"
 
 #: src/dialogs/mkdir.tsx:45
 msgid "Directory name cannot be empty"
-msgstr ""
+msgstr "Il nome della cartella non può essere vuoto"
 
 #: src/dialogs/mkdir.tsx:49
 msgid "Directory name cannot include a /"
-msgstr ""
+msgstr "Il nome della cartella non può includere /"
 
 #: src/dialogs/mkdir.tsx:47
 msgid "Directory name too long"
-msgstr ""
+msgstr "Nome della cartella troppo lungo"
 
 #: src/dialogs/mkdir.tsx:137
 msgid "Directory owner"
-msgstr ""
+msgstr "Proprietario cartella"
 
 #: src/dialogs/symlink.tsx:53 src/common.ts:119
 msgid "Directory with the same name exists"
-msgstr ""
+msgstr "Esiste una cartella con lo stesso nome"
 
 #: src/header.tsx:254
 msgid "Display as a grid"
-msgstr ""
+msgstr "Visualizza come griglia"
 
 #: src/header.tsx:253
 msgid "Display as a list"
-msgstr ""
+msgstr "Visualizza come elenco"
 
 #: src/menu.tsx:185
 msgid "Download"
@@ -282,74 +290,77 @@ msgstr "Scarica"
 
 #: src/files-folder-view.tsx:169
 msgid "Drop files to upload"
-msgstr ""
+msgstr "Trascina i file qui per caricarli"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:174
 msgid "Edit $0"
-msgstr ""
+msgstr "Modifica $0"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:99 src/files-breadcrumbs.tsx:298
 msgid "Edit path"
-msgstr ""
+msgstr "Modifica percorso"
 
 #: src/menu.tsx:124 src/menu.tsx:164 src/menu.tsx:231
 msgid "Edit permissions"
-msgstr ""
+msgstr "Modifica permessi"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:159
 msgid "Editing"
-msgstr ""
+msgstr "Modifica"
 
 #: src/common.ts:56
 msgid "Execute-only"
-msgstr ""
+msgstr "Sola esecuzione"
 
 #: src/upload-button.tsx:282
 msgid "Failed"
-msgstr ""
+msgstr "Fallito"
 
 #: src/manifest.json:0
 msgid "File browser"
-msgstr ""
+msgstr "Browser file"
 
 #: src/dialogs/symlink.tsx:55 src/common.ts:121
 msgid "File exists"
-msgstr ""
+msgstr "Il file esiste già"
 
 #: src/dialogs/create-file.tsx:177
 msgid "File name"
-msgstr ""
+msgstr "Nome del file"
 
 #: src/upload-button.tsx:363
 msgid "File uploaded"
-msgstr ""
+msgstr "File caricato"
 
 #: src/common.ts:116
 msgid "Filename is the same as original name"
-msgstr ""
+msgstr "Il nome del file è uguale al nome originale"
 
 #: org.cockpit_project.files.metainfo.xml:5
 msgid "Files"
-msgstr ""
+msgstr "File"
 
 #: src/dialogs/copyPasteOwnership.tsx:197
 msgid ""
 "Files being pasted have a different owner. By default, ownership will be "
 "changed to match the destination directory."
 msgstr ""
+"I file incollati hanno un proprietario diverso. Per impostazione "
+"predefinita, la proprietà verrà modificata per corrispondere alla cartella "
+"di destinazione."
 
 #: src/upload-button.tsx:363
 msgid "Files uploaded"
-msgstr ""
+msgstr "File caricati"
 
 #: src/files-breadcrumbs.tsx:231
 msgid "Filesystem"
-msgstr ""
+msgstr "File system"
 
 #: src/header.tsx:190
 msgid "Filter directory"
-msgstr ""
+msgstr "Filtra cartella"
 
 #: src/header.tsx:91
 msgid "First modified"
@@ -357,31 +368,31 @@ msgstr "Prima modifica"
 
 #: src/dialogs/delete.tsx:65
 msgid "Force delete $0"
-msgstr ""
+msgstr "Forza eliminazione di $0"
 
 #: src/dialogs/delete.tsx:48
 msgid "Force delete $0 items"
-msgstr ""
+msgstr "Forza eliminazione di $0 elementi"
 
 #: src/dialogs/delete.tsx:62
 msgid "Force delete directory $0?"
-msgstr ""
+msgstr "Forzare l'eliminazione della cartella $0?"
 
 #: src/dialogs/delete.tsx:54
 msgid "Force delete file $0?"
-msgstr ""
+msgstr "Forzare l'eliminazione del file $0?"
 
 #: src/dialogs/delete.tsx:58
 msgid "Force delete link $0?"
-msgstr ""
+msgstr "Forzare l'eliminazione del collegamento $0?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:73
 msgid "Go back"
-msgstr ""
+msgstr "Va indietro"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:79
 msgid "Go forward"
-msgstr ""
+msgstr "Avanti"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:67
 msgid "Go up a directory"
@@ -394,11 +405,11 @@ msgstr "Gruppo"
 
 #: src/dialogs/permissions.tsx:379
 msgid "Group access"
-msgstr ""
+msgstr "Accesso gruppo"
 
 #: src/header.tsx:284
 msgid "Hide hidden items"
-msgstr ""
+msgstr "Nascondi elementi nascosti"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
