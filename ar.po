@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-01 03:50+0000\n"
-"PO-Revision-Date: 2025-05-31 16:49+0000\n"
+"PO-Revision-Date: 2025-06-08 23:57+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
@@ -447,7 +447,7 @@ msgstr ""
 
 #: src/header.tsx:66 src/files-card-body.tsx:547
 msgid "Name"
-msgstr ""
+msgstr "الاسم"
 
 #: src/dialogs/symlink.tsx:50 src/common.ts:110
 msgid "Name cannot be empty"
@@ -525,7 +525,7 @@ msgstr ""
 #: src/dialogs/create-file.tsx:199 src/header.tsx:99
 #: src/files-card-body.tsx:557 src/files-card-body.tsx:596
 msgid "Owner"
-msgstr ""
+msgstr "المالك"
 
 #: src/dialogs/permissions.tsx:367
 msgid "Owner access"
@@ -611,7 +611,7 @@ msgstr ""
 
 #: src/menu.tsx:169 src/dialogs/rename.tsx:92
 msgid "Rename"
-msgstr ""
+msgstr "إعادة التسمية"
 
 #: src/dialogs/rename.tsx:110
 msgid "Rename $0?"
