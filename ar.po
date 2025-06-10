@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-08 03:44+0000\n"
-"PO-Revision-Date: 2025-06-08 23:57+0000\n"
+"PO-Revision-Date: 2025-06-11 03:29+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
@@ -659,7 +659,7 @@ msgstr ""
 
 #: src/header.tsx:77 src/files-card-body.tsx:548
 msgid "Size"
-msgstr ""
+msgstr "الحجم"
 
 #: src/header.tsx:84
 msgid "Smallest size"
@@ -736,11 +736,11 @@ msgstr ""
 
 #: src/files-footer-detail.tsx:143
 msgid "User"
-msgstr ""
+msgstr "مستخدم"
 
 #: src/dialogs/editor.tsx:173
 msgid "View $0"
-msgstr ""
+msgstr "عرض $0"
 
 #: src/common.ts:58
 msgid "Write and execute"
