@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-12 03:38+0000\n"
-"PO-Revision-Date: 2025-06-11 03:29+0000\n"
+"PO-Revision-Date: 2025-06-14 22:30+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
@@ -183,7 +183,7 @@ msgstr ""
 
 #: src/dialogs/mkdir.tsx:148 src/dialogs/create-file.tsx:208
 msgid "Create"
-msgstr "إنشاء"
+msgstr "أنشئ"
 
 #: src/menu.tsx:113 src/dialogs/mkdir.tsx:93
 msgid "Create directory"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: src/dialogs/delete.tsx:64
 msgid "Delete $0?"
-msgstr "حذف $0؟"
+msgstr "حذف $0"
 
 #: src/dialogs/delete.tsx:61
 msgid "Delete directory $0?"
