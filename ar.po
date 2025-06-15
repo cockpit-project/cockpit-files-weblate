@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-14 03:34+0000\n"
-"PO-Revision-Date: 2025-06-14 22:30+0000\n"
+"PO-Revision-Date: 2025-06-15 13:10+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
@@ -33,21 +33,25 @@ msgstr ""
 
 #: src/upload-button.tsx:69
 msgid "$0 files"
-msgstr ""
+msgstr "$0 ملفات"
 
 #: src/files-footer-detail.tsx:35
 msgid "$0 files selected"
-msgstr ""
+msgstr "$0 ملفاً محدداً"
 
 #: src/files-card-body.tsx:532
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "لا عنصر مخفي"
+msgstr[1] "عنصر واحد مخفي"
+msgstr[2] "عنصران مخفيان"
+msgstr[3] "$0 عناصر مخفية"
+msgstr[4] "$0 عنصراً مخفياً"
+msgstr[5] "$0 عنصراً مخفياً"
 
 #: src/dialogs/permissions.tsx:302
 msgid "$0 permissions"
-msgstr ""
+msgstr "$0 صلاحيات"
 
 #: src/dialogs/copyPasteOwnership.tsx:119
 msgid "(original owner)"
@@ -123,7 +127,7 @@ msgstr ""
 
 #: src/upload-button.tsx:352
 msgid "Cancelled"
-msgstr ""
+msgstr "تم إلغاؤه"
 
 #: src/upload-button.tsx:353
 msgid "Cancelled upload of $0"
@@ -155,7 +159,7 @@ msgstr ""
 
 #: src/files-card-body.tsx:520
 msgid "Clear filter"
-msgstr ""
+msgstr "إزالة عامل التصفية"
 
 #: src/dialogs/editor.tsx:252 src/dialogs/keyboardShortcutsHelp.tsx:46
 msgid "Close"
@@ -163,7 +167,7 @@ msgstr ""
 
 #: src/index.html:20
 msgid "Cockpit Files"
-msgstr ""
+msgstr "ملفات Cockpit"
 
 #: org.cockpit_project.files.metainfo.xml:21
 msgid "Cockpit Project"
@@ -171,39 +175,39 @@ msgstr "مشروع Cockpit"
 
 #: src/dialogs/permissions.tsx:283
 msgid "Collapse"
-msgstr ""
+msgstr "انهيار"
 
 #: src/menu.tsx:158 src/menu.tsx:212
 msgid "Copy"
-msgstr ""
+msgstr "نسخ"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:121
 msgid "Copy selected file or directory"
-msgstr ""
+msgstr "لنسخ المجلد أو الدليل المحدد"
 
 #: src/dialogs/mkdir.tsx:148 src/dialogs/create-file.tsx:208
 msgid "Create"
-msgstr "أنشئ"
+msgstr "إنشاء"
 
 #: src/menu.tsx:113 src/dialogs/mkdir.tsx:93
 msgid "Create directory"
-msgstr ""
+msgstr "إنشاء دليل"
 
 #: src/menu.tsx:118 src/dialogs/create-file.tsx:151
 msgid "Create file"
-msgstr ""
+msgstr "إنشاء ملف"
 
 #: src/menu.tsx:204 src/dialogs/symlink.tsx:244
 msgid "Create link"
-msgstr ""
+msgstr "إنشاء رابط"
 
 #: src/dialogs/symlink.tsx:141
 msgid "Create link to $0"
-msgstr ""
+msgstr "إنشاء رابط إلى $0"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:115
 msgid "Create new directory"
-msgstr ""
+msgstr "إنشاء دليل جديد"
 
 #: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:108
 msgid "Delete"
@@ -211,27 +215,27 @@ msgstr "حذف"
 
 #: src/dialogs/delete.tsx:47
 msgid "Delete $0 items?"
-msgstr ""
+msgstr "حذف $0 عنصراً؟"
 
 #: src/dialogs/delete.tsx:64
 msgid "Delete $0?"
-msgstr "حذف $0"
+msgstr "حذف $0؟"
 
 #: src/dialogs/delete.tsx:61
 msgid "Delete directory $0?"
-msgstr ""
+msgstr "حذف الدليل $0؟"
 
 #: src/dialogs/delete.tsx:53
 msgid "Delete file $0?"
-msgstr ""
+msgstr "حذف الملف $0؟"
 
 #: src/dialogs/delete.tsx:57
 msgid "Delete link $0?"
-msgstr ""
+msgstr "حذف الرابط $0؟"
 
 #: src/common.ts:68
 msgid "Directory"
-msgstr ""
+msgstr "دليل"
 
 #: src/files-footer-detail.tsx:63
 msgid "Directory contains $0 directories, $1 files"
@@ -247,35 +251,35 @@ msgstr ""
 
 #: src/dialogs/mkdir.tsx:109
 msgid "Directory name"
-msgstr ""
+msgstr "اسم الدليل"
 
 #: src/dialogs/mkdir.tsx:44
 msgid "Directory name cannot be empty"
-msgstr ""
+msgstr "اسم الدليل لا يمكن أن يكون فارغاً"
 
 #: src/dialogs/mkdir.tsx:48
 msgid "Directory name cannot include a /"
-msgstr ""
+msgstr "اسم الدليل لا يمكن أن يتضمن /"
 
 #: src/dialogs/mkdir.tsx:46
 msgid "Directory name too long"
-msgstr ""
+msgstr "اسم الدليل كبير جداَ"
 
 #: src/dialogs/mkdir.tsx:123
 msgid "Directory owner"
-msgstr ""
+msgstr "مدير الدليل"
 
 #: src/dialogs/symlink.tsx:52 src/common.ts:119
 msgid "Directory with the same name exists"
-msgstr ""
+msgstr "الدليل موجود بنفس الاسم"
 
 #: src/header.tsx:254
 msgid "Display as a grid"
-msgstr ""
+msgstr "إظهار كشبكة"
 
 #: src/header.tsx:253
 msgid "Display as a list"
-msgstr ""
+msgstr "إظهار كقائمة"
 
 #: src/menu.tsx:185
 msgid "Download"
@@ -283,24 +287,24 @@ msgstr "نزِّل"
 
 #: src/files-folder-view.tsx:169
 msgid "Drop files to upload"
-msgstr ""
+msgstr "أسقط الملفات للتحميل"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:173
 msgid "Edit $0"
-msgstr ""
+msgstr "عدِّل $0"
 
 #: src/files-breadcrumbs.tsx:298 src/dialogs/keyboardShortcutsHelp.tsx:100
 msgid "Edit path"
-msgstr ""
+msgstr "عدل المسار"
 
 #: src/menu.tsx:124 src/menu.tsx:164 src/menu.tsx:231
 msgid "Edit permissions"
-msgstr ""
+msgstr "عدِّل الصلاحيات"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:160
 msgid "Editing"
-msgstr ""
+msgstr "تعديل"
 
 #: src/common.ts:56
 msgid "Execute-only"
@@ -332,7 +336,7 @@ msgstr ""
 
 #: org.cockpit_project.files.metainfo.xml:5
 msgid "Files"
-msgstr ""
+msgstr "الملفات"
 
 #: src/dialogs/copyPasteOwnership.tsx:196
 msgid ""
