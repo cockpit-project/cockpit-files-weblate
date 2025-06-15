@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-14 03:34+0000\n"
 "PO-Revision-Date: 2025-06-15 13:10+0000\n"
-"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
 "Language: ar\n"
@@ -163,7 +164,7 @@ msgstr "إزالة عامل التصفية"
 
 #: src/dialogs/editor.tsx:252 src/dialogs/keyboardShortcutsHelp.tsx:46
 msgid "Close"
-msgstr ""
+msgstr "أغلق"
 
 #: src/index.html:20
 msgid "Cockpit Files"
@@ -283,7 +284,7 @@ msgstr "إظهار كقائمة"
 
 #: src/menu.tsx:185
 msgid "Download"
-msgstr "نزِّل"
+msgstr "تنزيل"
 
 #: src/files-folder-view.tsx:169
 msgid "Drop files to upload"
