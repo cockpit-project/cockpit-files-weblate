@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-15 03:43+0000\n"
-"PO-Revision-Date: 2025-06-15 21:35+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-15 21:38+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
 "Language: ar\n"
@@ -415,7 +414,7 @@ msgstr "اخفِ العناصر المخفية"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
-msgstr "الرئيسية"
+msgstr "المنزل"
 
 #: src/dialogs/editor.tsx:216
 msgid "Ignore"
@@ -483,11 +482,11 @@ msgstr ""
 
 #: src/upload-button.tsx:136
 msgid "New file"
-msgstr ""
+msgstr "ملف جديد"
 
 #: src/dialogs/rename.tsx:104
 msgid "New filename"
-msgstr ""
+msgstr "اسم ملف جديد"
 
 #: src/dialogs/rename.tsx:104
 msgid "New name"
@@ -495,11 +494,11 @@ msgstr ""
 
 #: src/dialogs/copyPasteOwnership.tsx:199
 msgid "New owner"
-msgstr ""
+msgstr "مالك جديد"
 
 #: src/dialogs/permissions.tsx:233
 msgid "No access"
-msgstr ""
+msgstr "لا وصول"
 
 #: src/files-card-body.tsx:519
 msgid "No matching results"
@@ -511,19 +510,20 @@ msgstr ""
 
 #: src/menu.tsx:133 src/menu.tsx:194
 msgid "Open in terminal"
-msgstr ""
+msgstr "فتح في الطرفية"
 
 #: src/menu.tsx:150
 msgid "Open text file"
-msgstr ""
+msgstr "افتح الملف النصي"
 
 #: src/upload-button.tsx:141
 msgid "Original file on server"
-msgstr ""
+msgstr "الملف الأصلي على الخادم"
 
 #: src/files-footer-detail.tsx:79 src/files-card-body.tsx:596
+#, fuzzy
 msgid "Others"
-msgstr ""
+msgstr "أشياء أُخرى"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Others access"
