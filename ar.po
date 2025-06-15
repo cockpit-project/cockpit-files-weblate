@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-15 03:43+0000\n"
 "PO-Revision-Date: 2025-06-15 21:35+0000\n"
-"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
 "Language: ar\n"
@@ -402,7 +403,7 @@ msgstr "الانتقال للأعلى"
 #: src/dialogs/permissions.tsx:332 src/files-footer-detail.tsx:79
 #: src/files-footer-detail.tsx:151 src/files-card-body.tsx:596
 msgid "Group"
-msgstr ""
+msgstr "مجموعة"
 
 #: src/dialogs/permissions.tsx:363
 msgid "Group access"
@@ -414,11 +415,11 @@ msgstr "اخفِ العناصر المخفية"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
-msgstr ""
+msgstr "الرئيسية"
 
 #: src/dialogs/editor.tsx:216
 msgid "Ignore"
-msgstr ""
+msgstr "تجاهل"
 
 #: src/upload-button.tsx:158
 msgid "Keep original"
@@ -426,7 +427,7 @@ msgstr "حافظ على الأصل"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:146
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "اختصارات لوحة المفاتيح"
 
 #: src/header.tsx:80
 msgid "Largest size"
