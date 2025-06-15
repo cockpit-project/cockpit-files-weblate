@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-15 03:43+0000\n"
 "PO-Revision-Date: 2025-06-15 21:40+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
 "Language: ar\n"
@@ -589,7 +588,7 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:223 src/common.ts:61
 msgid "Read and write"
-msgstr ""
+msgstr "اقرأ واكتب"
 
 #: src/common.ts:62
 msgid "Read, write, and execute"
