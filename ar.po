@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-15 03:43+0000\n"
-"PO-Revision-Date: 2025-06-15 16:56+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-15 21:35+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
 "Language: ar\n"
@@ -30,7 +29,7 @@ msgstr ""
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
-msgstr ""
+msgstr "الملف \"$0\" موجود ، ولن يؤدي اللصق لاستبداله."
 
 #: src/upload-button.tsx:69
 msgid "$0 files"
@@ -245,15 +244,15 @@ msgstr "دليل"
 
 #: src/files-footer-detail.tsx:63
 msgid "Directory contains $0 directories, $1 files"
-msgstr ""
+msgstr "الدليل يحوي على $0 دلائل، $1 ملفات"
 
 #: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
-msgstr ""
+msgstr "المجلد يحتوي على $0 مجلدات، $1 ملفات $2 مخفية"
 
 #: src/files-card-body.tsx:527
 msgid "Directory is empty"
-msgstr ""
+msgstr "الدليل فارغ"
 
 #: src/dialogs/mkdir.tsx:109
 msgid "Directory name"
@@ -386,19 +385,19 @@ msgstr "حذف الملف $0 بشكل إجباري؟"
 
 #: src/dialogs/delete.tsx:57
 msgid "Force delete link $0?"
-msgstr ""
+msgstr "حذف الرابط $0 بشكل إجباري؟"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:74
 msgid "Go back"
-msgstr ""
+msgstr "الرجوع للخلف"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:80
 msgid "Go forward"
-msgstr ""
+msgstr "التقدّم للأمام"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:68
 msgid "Go up a directory"
-msgstr ""
+msgstr "الانتقال للأعلى"
 
 #: src/dialogs/permissions.tsx:332 src/files-footer-detail.tsx:79
 #: src/files-footer-detail.tsx:151 src/files-card-body.tsx:596
@@ -407,11 +406,11 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:363
 msgid "Group access"
-msgstr ""
+msgstr "دخول المجموعة"
 
 #: src/header.tsx:284
 msgid "Hide hidden items"
-msgstr ""
+msgstr "اخفِ العناصر المخفية"
 
 #: src/files-breadcrumbs.tsx:52
 msgid "Home"
@@ -423,7 +422,7 @@ msgstr ""
 
 #: src/upload-button.tsx:158
 msgid "Keep original"
-msgstr ""
+msgstr "حافظ على الأصل"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:146
 msgid "Keyboard shortcuts"
@@ -431,19 +430,19 @@ msgstr ""
 
 #: src/header.tsx:80
 msgid "Largest size"
-msgstr ""
+msgstr "أكبر حجم"
 
 #: src/header.tsx:95
 msgid "Last modified"
-msgstr ""
+msgstr "آخر تعديل"
 
 #: src/header.tsx:117
 msgid "Least permissive"
-msgstr ""
+msgstr "أقل تساهلاً"
 
 #: org.cockpit_project.files.metainfo.xml:6
 msgid "Manage your files"
-msgstr ""
+msgstr "ادمج ملفاتك"
 
 #: src/dialogs/permissions.tsx:277
 msgid "Missing type"
