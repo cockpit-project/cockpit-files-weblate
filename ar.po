@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-15 03:43+0000\n"
-"PO-Revision-Date: 2025-06-15 13:10+0000\n"
+"PO-Revision-Date: 2025-06-15 16:56+0000\n"
 "Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
@@ -55,7 +55,7 @@ msgstr "$0 صلاحيات"
 
 #: src/dialogs/copyPasteOwnership.tsx:119
 msgid "(original owner)"
-msgstr ""
+msgstr "(المالك الأصلي)"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -63,30 +63,35 @@ msgid ""
 "download files, and change their properties. It also includes a simple file "
 "editor."
 msgstr ""
+"واجهة مستخدم نظام الملفات لـ Cockpit. بإمكانك تصفح الدلائل، تحميل الملفات "
+"وتنزيلها، وتغيير خصائصها. كما تتضمن أيضًا محرر ملفات بسيط."
 
 #: src/upload-button.tsx:115
 msgid ""
 "A file with the same name already exists in \"$0\". Replacing it will "
 "overwrite its content."
 msgstr ""
+"يوجد ملف بنفس الاسم بالفعل في \"$0\". سيؤدي استبداله إلى الكتابة فوق محتواه."
 
 #: src/header.tsx:69
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #: src/dialogs/symlink.tsx:215
 msgid "Absolute"
-msgstr ""
+msgstr "مطلق"
 
 #: src/dialogs/symlink.tsx:201
 msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
 msgstr ""
+"تعتبر الروابط الرمزية المطلقة نموذجية عند الإشارة إلى الملفات أو الدلائل "
+"التي لن تتحرك، مثل ملفات النظام."
 
 #: src/dialogs/symlink.tsx:197
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "المطلق مقابل النسبي"
 
 #: src/dialogs/permissions.tsx:349
 msgid "Access"
@@ -95,15 +100,15 @@ msgstr ""
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
 msgid "Activate selected item, enter directory"
-msgstr ""
+msgstr "تنشيط العنصر المحدد، ادخل الدليل"
 
 #: src/files-breadcrumbs.tsx:139
 msgid "Add to bookmarks"
-msgstr ""
+msgstr "إضافة إلى العلامات المرجعية"
 
 #: src/upload-button.tsx:150
 msgid "Apply this action to all conflicting files"
-msgstr ""
+msgstr "قم بتطبيق هذا الإجراء على جميع الملفات المتعارضة"
 
 #: src/common.ts:66
 msgid "Block device"
@@ -111,7 +116,7 @@ msgstr ""
 
 #: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
-msgstr ""
+msgstr "العلامات المرجعية"
 
 #: src/upload-button.tsx:159 src/dialogs/editor.tsx:252
 #: src/dialogs/delete.tsx:110 src/dialogs/permissions.tsx:422
@@ -123,7 +128,7 @@ msgstr "إلغاء"
 
 #: src/upload-button.tsx:469
 msgid "Cancel upload of $0"
-msgstr ""
+msgstr "إلغاء تحميل $0"
 
 #: src/upload-button.tsx:352
 msgid "Cancelled"
@@ -131,31 +136,31 @@ msgstr "تم إلغاؤه"
 
 #: src/upload-button.tsx:353
 msgid "Cancelled upload of $0"
-msgstr ""
+msgstr "تم إلغاء تحميل $0"
 
 #: src/dialogs/create-file.tsx:227
 msgid "Cannot create file in current directory"
-msgstr ""
+msgstr "يتعذر إنشاء ملف في الدليل الحالي"
 
 #: src/files-folder-view.tsx:177
 msgid "Cannot drop files, another upload is already in progress"
-msgstr ""
+msgstr "لا يمكن إسقاط الملفات، هناك تحميل آخر قيد المعالجة بالفعل"
 
 #: src/dialogs/permissions.tsx:413
 msgid "Change"
-msgstr ""
+msgstr "تغيير"
 
 #: src/upload-button.tsx:403
 msgid "Change permissions"
-msgstr ""
+msgstr "تغيير الصلاحيات"
 
 #: src/dialogs/permissions.tsx:420
 msgid "Change permissions for enclosed files"
-msgstr ""
+msgstr "تغيير صلاحيات الملفات المرفقة"
 
 #: src/common.ts:67
 msgid "Character device"
-msgstr ""
+msgstr "جهاز محوري"
 
 #: src/files-card-body.tsx:520
 msgid "Clear filter"
@@ -308,7 +313,7 @@ msgstr "تعديل"
 
 #: src/common.ts:56
 msgid "Execute-only"
-msgstr ""
+msgstr "التنفيذ فقط"
 
 #: src/upload-button.tsx:291
 msgid "Failed"
@@ -316,23 +321,23 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "File browser"
-msgstr ""
+msgstr "متصفح الملفات"
 
 #: src/dialogs/symlink.tsx:54 src/common.ts:121
 msgid "File exists"
-msgstr ""
+msgstr "الملف موجود"
 
 #: src/dialogs/create-file.tsx:163
 msgid "File name"
-msgstr ""
+msgstr "اسم الملف"
 
 #: src/upload-button.tsx:372
 msgid "File uploaded"
-msgstr ""
+msgstr "تم تحميل الملف"
 
 #: src/common.ts:116
 msgid "Filename is the same as original name"
-msgstr ""
+msgstr "اسم الملف هو نفس الاسم الأصلي"
 
 #: org.cockpit_project.files.metainfo.xml:5
 msgid "Files"
@@ -343,10 +348,12 @@ msgid ""
 "Files being pasted have a different owner. By default, ownership will be "
 "changed to match the destination directory."
 msgstr ""
+"الملفات التي يتم لصقها لها مالك مختلف. بشكل افتراضي، سيتم تغيير الملكية "
+"لتتناسب مع الدليل الوجهة."
 
 #: src/upload-button.tsx:372
 msgid "Files uploaded"
-msgstr ""
+msgstr "الملفات التي تم تحميلها"
 
 #: src/files-breadcrumbs.tsx:231
 msgid "Filesystem"
@@ -354,27 +361,27 @@ msgstr "نظام الملفات"
 
 #: src/header.tsx:190
 msgid "Filter directory"
-msgstr ""
+msgstr "دليل التصفية"
 
 #: src/header.tsx:91
 msgid "First modified"
-msgstr ""
+msgstr "التعديل الأول"
 
 #: src/dialogs/delete.tsx:64
 msgid "Force delete $0"
-msgstr ""
+msgstr "حذف $0 بشكل إجباري"
 
 #: src/dialogs/delete.tsx:47
 msgid "Force delete $0 items"
-msgstr ""
+msgstr "حذف $0 عنصراً بشكل إجباري"
 
 #: src/dialogs/delete.tsx:61
 msgid "Force delete directory $0?"
-msgstr ""
+msgstr "حذف الدليل $0 بشكل إجباري؟"
 
 #: src/dialogs/delete.tsx:53
 msgid "Force delete file $0?"
-msgstr ""
+msgstr "حذف الملف $0 بشكل إجباري؟"
 
 #: src/dialogs/delete.tsx:57
 msgid "Force delete link $0?"
@@ -740,7 +747,7 @@ msgstr ""
 
 #: src/files-footer-detail.tsx:143
 msgid "User"
-msgstr "مستخدم"
+msgstr "المستخدم"
 
 #: src/dialogs/editor.tsx:173
 msgid "View $0"
