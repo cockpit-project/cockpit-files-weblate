@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-15 03:43+0000\n"
 "PO-Revision-Date: 2025-06-15 22:08+0000\n"
-"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
 "Language: ar\n"
@@ -616,7 +617,7 @@ msgstr ""
 
 #: src/dialogs/editor.tsx:213
 msgid "Reload"
-msgstr ""
+msgstr "إعادة تحميل"
 
 #: src/files-breadcrumbs.tsx:137
 msgid "Remove from bookmarks"
@@ -680,7 +681,7 @@ msgstr "أصغر حجم"
 
 #: src/common.ts:72
 msgid "Socket"
-msgstr ""
+msgstr "مقبس الشبكة"
 
 #: src/header.tsx:271
 msgid "Sort"
@@ -696,7 +697,7 @@ msgstr "اسم الرابط الرمزي"
 
 #: src/dialogs/symlink.tsx:170
 msgid "Target"
-msgstr ""
+msgstr "الهدف"
 
 #: src/dialogs/editor.tsx:61
 msgid "The existing file changed unexpectedly"
@@ -712,7 +713,7 @@ msgstr "تم تغيير الملف على القرص"
 
 #: src/dialogs/symlink.tsx:193
 msgid "Type"
-msgstr ""
+msgstr "النوع"
 
 #: src/files-breadcrumbs.tsx:99
 msgid "Unable to create bookmark directory"
@@ -773,11 +774,11 @@ msgstr "مستعرض"
 
 #: src/manifest.json:0
 msgid "files"
-msgstr ""
+msgstr "الملفات"
 
 #: src/manifest.json:0
 msgid "filesystem"
-msgstr ""
+msgstr "نظام الملفات"
 
 #: src/dialogs/copyPasteOwnership.tsx:128
 msgid "keep original owners"
