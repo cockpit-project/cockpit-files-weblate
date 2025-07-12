@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 03:50+0000\n"
+"POT-Creation-Date: 2025-07-12 03:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 03:50+0000\n"
+"POT-Creation-Date: 2025-07-12 03:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,10 +131,10 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:422 src/dialogs/copyPasteOwnership.tsx:179
+#: src/dialogs/editor.tsx:252 src/dialogs/copyPasteOwnership.tsx:179
 #: src/dialogs/delete.tsx:110 src/dialogs/mkdir.tsx:150
-#: src/dialogs/editor.tsx:252 src/dialogs/rename.tsx:100
-#: src/dialogs/create-file.tsx:211 src/dialogs/symlink.tsx:246
+#: src/dialogs/permissions.tsx:422 src/dialogs/create-file.tsx:211
+#: src/dialogs/rename.tsx:100 src/dialogs/symlink.tsx:246
 #: src/upload-button.tsx:159
 msgid "Cancel"
 msgstr ""
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Clear filter"
 msgstr ""
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:46 src/dialogs/editor.tsx:252
+#: src/dialogs/editor.tsx:252 src/dialogs/keyboardShortcutsHelp.tsx:46
 msgid "Close"
 msgstr ""
 
@@ -207,15 +207,15 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/menu.tsx:113 src/dialogs/mkdir.tsx:93
+#: src/dialogs/mkdir.tsx:93 src/menu.tsx:113
 msgid "Create directory"
 msgstr ""
 
-#: src/menu.tsx:118 src/dialogs/create-file.tsx:151
+#: src/dialogs/create-file.tsx:151 src/menu.tsx:118
 msgid "Create file"
 msgstr ""
 
-#: src/menu.tsx:204 src/dialogs/symlink.tsx:244
+#: src/dialogs/symlink.tsx:244 src/menu.tsx:204
 msgid "Create link"
 msgstr ""
 
@@ -227,7 +227,7 @@ msgstr ""
 msgid "Create new directory"
 msgstr ""
 
-#: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:108
+#: src/dialogs/delete.tsx:108 src/menu.tsx:175 src/menu.tsx:217
 msgid "Delete"
 msgstr ""
 
@@ -312,7 +312,7 @@ msgstr ""
 msgid "Edit $0"
 msgstr ""
 
-#: src/files-breadcrumbs.tsx:298 src/dialogs/keyboardShortcutsHelp.tsx:100
+#: src/dialogs/keyboardShortcutsHelp.tsx:100 src/files-breadcrumbs.tsx:298
 msgid "Edit path"
 msgstr ""
 
@@ -410,8 +410,8 @@ msgstr ""
 msgid "Go up a directory"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:332 src/files-card-body.tsx:596
-#: src/files-footer-detail.tsx:79 src/files-footer-detail.tsx:151
+#: src/dialogs/permissions.tsx:332 src/files-footer-detail.tsx:79
+#: src/files-footer-detail.tsx:151 src/files-card-body.tsx:596
 msgid "Group"
 msgstr ""
 
@@ -531,7 +531,7 @@ msgstr ""
 msgid "Original file on server"
 msgstr ""
 
-#: src/files-card-body.tsx:596 src/files-footer-detail.tsx:79
+#: src/files-footer-detail.tsx:79 src/files-card-body.tsx:596
 msgid "Others"
 msgstr ""
 
@@ -544,8 +544,8 @@ msgid "Overwrite"
 msgstr ""
 
 #: src/dialogs/permissions.tsx:317 src/dialogs/create-file.tsx:185
-#: src/header.tsx:99 src/files-card-body.tsx:557 src/files-card-body.tsx:596
-#: src/files-footer-detail.tsx:79
+#: src/header.tsx:99 src/files-footer-detail.tsx:79 src/files-card-body.tsx:557
+#: src/files-card-body.tsx:596
 msgid "Owner"
 msgstr ""
 
@@ -565,7 +565,7 @@ msgstr ""
 msgid "Ownership"
 msgstr ""
 
-#: src/menu.tsx:106 src/dialogs/copyPasteOwnership.tsx:177
+#: src/dialogs/copyPasteOwnership.tsx:177 src/menu.tsx:106
 msgid "Paste"
 msgstr ""
 
@@ -577,7 +577,7 @@ msgstr ""
 msgid "Paste file or directory"
 msgstr ""
 
-#: src/menu.tsx:63 src/dialogs/copyPasteOwnership.tsx:66
+#: src/dialogs/copyPasteOwnership.tsx:66 src/menu.tsx:63
 msgid "Pasting failed"
 msgstr ""
 
@@ -605,7 +605,7 @@ msgstr ""
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/dialogs/permissions.tsx:228 src/dialogs/editor.tsx:175 src/common.ts:59
+#: src/dialogs/editor.tsx:175 src/dialogs/permissions.tsx:228 src/common.ts:59
 msgid "Read-only"
 msgstr ""
 
@@ -631,7 +631,7 @@ msgstr ""
 msgid "Remove from bookmarks"
 msgstr ""
 
-#: src/menu.tsx:169 src/dialogs/rename.tsx:91
+#: src/dialogs/rename.tsx:91 src/menu.tsx:169
 msgid "Rename"
 msgstr ""
 
