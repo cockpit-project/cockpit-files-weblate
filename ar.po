@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-09 03:45+0000\n"
-"PO-Revision-Date: 2025-07-07 19:48+0000\n"
-"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
+"PO-Revision-Date: 2025-07-18 05:53+0000\n"
+"Last-Translator: Abdullah Albaroty <albaroty@gmail.com>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ar/>\n"
 "Language: ar\n"
@@ -624,7 +624,7 @@ msgstr "الإزالة من العلامات المرجعية"
 
 #: src/menu.tsx:169 src/dialogs/rename.tsx:91
 msgid "Rename"
-msgstr "إعادة التسمية"
+msgstr "أعد التسمية"
 
 #: src/dialogs/rename.tsx:114
 msgid "Rename $0?"
@@ -652,7 +652,7 @@ msgstr "السياق الأمني"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:133
 msgid "Select all"
-msgstr "تحديد الكل"
+msgstr "حدد الكل"
 
 #: src/dialogs/permissions.tsx:401
 msgid "Set executable as program"
