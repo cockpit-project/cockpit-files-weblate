@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-09 03:45+0000\n"
-"PO-Revision-Date: 2025-05-16 04:47+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"PO-Revision-Date: 2025-07-18 05:53+0000\n"
+"Last-Translator: Jo Hyeonsu <cloud9350@naver.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -584,7 +584,7 @@ msgstr "읽기 및 실행"
 
 #: src/dialogs/permissions.tsx:223 src/common.ts:61
 msgid "Read and write"
-msgstr "일기 및 쓰기"
+msgstr "읽기 및 쓰기"
 
 #: src/common.ts:62
 msgid "Read, write, and execute"
