@@ -15,9 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-18 03:51+0000\n"
-"PO-Revision-Date: 2025-05-25 19:27+0000\n"
-"Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
-"fedoraproject.org>\n"
+"PO-Revision-Date: 2025-07-30 21:35+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/kab/>\n"
 "Language: kab\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -576,10 +576,8 @@ msgid "Pasting failed"
 msgstr ""
 
 #: src/dialogs/create-file.tsx:228
-#, fuzzy
-#| msgid "Permissions"
 msgid "Permission denied"
-msgstr "Tisirag"
+msgstr "Tettwagi tsiregt"
 
 #: src/header.tsx:110 src/files-card-body.tsx:562
 msgid "Permissions"
