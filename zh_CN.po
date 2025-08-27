@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-27 03:25+0000\n"
-"PO-Revision-Date: 2025-08-27 03:53+0000\n"
+"PO-Revision-Date: 2025-08-28 16:53+0000\n"
 "Last-Translator: fangzheng <fz0000@sina.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/zh_CN/>\n"
@@ -194,16 +194,12 @@ msgid "Create file"
 msgstr "创建文件"
 
 #: src/dialogs/symlink.tsx:244 src/menu.tsx:204
-#, fuzzy
-#| msgid "Create file"
 msgid "Create link"
-msgstr "创建文件"
+msgstr "创建链接"
 
 #: src/dialogs/symlink.tsx:141
-#, fuzzy
-#| msgid "Delete link $0?"
 msgid "Create link to $0"
-msgstr "删除链接 $0 ？"
+msgstr "创建到 $0 的链接"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:115
 msgid "Create new directory"
@@ -775,7 +771,7 @@ msgstr "保留原始所有者"
 
 #: src/dialogs/symlink.tsx:66
 msgid "link to $0"
-msgstr ""
+msgstr "链接到 $0"
 
 #~ msgid "Remove current directory"
 #~ msgstr "删除当前目录"
