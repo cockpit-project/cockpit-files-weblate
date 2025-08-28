@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 03:25+0000\n"
+"POT-Creation-Date: 2025-08-28 03:25+0000\n"
 "PO-Revision-Date: 2025-08-28 16:53+0000\n"
 "Last-Translator: fangzheng <fz0000@sina.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -109,11 +109,11 @@ msgstr "块设备"
 msgid "Bookmarks"
 msgstr "书签"
 
-#: src/dialogs/copyPasteOwnership.tsx:179 src/dialogs/create-file.tsx:211
-#: src/dialogs/symlink.tsx:246 src/dialogs/rename.tsx:100
-#: src/dialogs/editor.tsx:252 src/dialogs/mkdir.tsx:150
-#: src/dialogs/permissions.tsx:422 src/dialogs/delete.tsx:110
-#: src/upload-button.tsx:159
+#: src/upload-button.tsx:159 src/dialogs/symlink.tsx:246
+#: src/dialogs/create-file.tsx:211 src/dialogs/delete.tsx:110
+#: src/dialogs/editor.tsx:252 src/dialogs/copyPasteOwnership.tsx:179
+#: src/dialogs/permissions.tsx:422 src/dialogs/mkdir.tsx:150
+#: src/dialogs/rename.tsx:100
 msgid "Cancel"
 msgstr "取消"
 
@@ -157,7 +157,7 @@ msgstr "字符设备"
 msgid "Clear filter"
 msgstr "清除过滤器"
 
-#: src/dialogs/keyboardShortcutsHelp.tsx:46 src/dialogs/editor.tsx:252
+#: src/dialogs/editor.tsx:252 src/dialogs/keyboardShortcutsHelp.tsx:46
 msgid "Close"
 msgstr "关闭"
 
@@ -185,15 +185,15 @@ msgstr "复制所选的文件或目录"
 msgid "Create"
 msgstr "创建"
 
-#: src/dialogs/mkdir.tsx:93 src/menu.tsx:113
+#: src/menu.tsx:113 src/dialogs/mkdir.tsx:93
 msgid "Create directory"
 msgstr "创建目录"
 
-#: src/dialogs/create-file.tsx:151 src/menu.tsx:118
+#: src/menu.tsx:118 src/dialogs/create-file.tsx:151
 msgid "Create file"
 msgstr "创建文件"
 
-#: src/dialogs/symlink.tsx:244 src/menu.tsx:204
+#: src/menu.tsx:204 src/dialogs/symlink.tsx:244
 msgid "Create link"
 msgstr "创建链接"
 
@@ -205,7 +205,7 @@ msgstr "创建到 $0 的链接"
 msgid "Create new directory"
 msgstr "创建新目录"
 
-#: src/dialogs/delete.tsx:108 src/menu.tsx:175 src/menu.tsx:217
+#: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:108
 msgid "Delete"
 msgstr "删除"
 
@@ -517,7 +517,7 @@ msgstr "其它"
 msgid "Others access"
 msgstr "其它人访问权限"
 
-#: src/dialogs/rename.tsx:98 src/dialogs/editor.tsx:236
+#: src/dialogs/editor.tsx:236 src/dialogs/rename.tsx:98
 msgid "Overwrite"
 msgstr "覆盖"
 
@@ -543,7 +543,7 @@ msgstr "所有者降序"
 msgid "Ownership"
 msgstr "所有权"
 
-#: src/dialogs/copyPasteOwnership.tsx:177 src/menu.tsx:106
+#: src/menu.tsx:106 src/dialogs/copyPasteOwnership.tsx:177
 msgid "Paste"
 msgstr "粘贴"
 
@@ -555,7 +555,7 @@ msgstr "粘贴为所有者"
 msgid "Paste file or directory"
 msgstr "粘贴文件或目录"
 
-#: src/dialogs/copyPasteOwnership.tsx:66 src/menu.tsx:63
+#: src/menu.tsx:63 src/dialogs/copyPasteOwnership.tsx:66
 msgid "Pasting failed"
 msgstr "粘贴失败"
 
@@ -609,7 +609,7 @@ msgstr "重载"
 msgid "Remove from bookmarks"
 msgstr "从书签中删除"
 
-#: src/dialogs/rename.tsx:91 src/menu.tsx:169
+#: src/menu.tsx:169 src/dialogs/rename.tsx:91
 msgid "Rename"
 msgstr "重命名"
 
