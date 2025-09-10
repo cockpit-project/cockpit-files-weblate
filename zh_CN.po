@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-28 03:25+0000\n"
-"PO-Revision-Date: 2025-08-28 16:53+0000\n"
-"Last-Translator: fangzheng <fz0000@sina.com>\n"
+"PO-Revision-Date: 2025-09-11 01:28+0000\n"
+"Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.2\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -72,17 +72,17 @@ msgstr "由 A 到 Z"
 
 #: src/dialogs/symlink.tsx:215
 msgid "Absolute"
-msgstr ""
+msgstr "绝对"
 
 #: src/dialogs/symlink.tsx:201
 msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
-msgstr ""
+msgstr "绝对符号链接适合指向不会被移动的文件或目录（例如系统文件）。"
 
 #: src/dialogs/symlink.tsx:197
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "绝对 vs. 相对"
 
 #: src/dialogs/permissions.tsx:349
 msgid "Access"
@@ -593,7 +593,7 @@ msgstr "常规文件"
 
 #: src/dialogs/symlink.tsx:222
 msgid "Relative"
-msgstr ""
+msgstr "相对"
 
 #: src/dialogs/symlink.tsx:204
 msgid ""
