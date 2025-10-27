@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-17 03:26+0000\n"
-"PO-Revision-Date: 2025-10-17 09:54+0000\n"
+"PO-Revision-Date: 2025-10-28 20:39+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/en_GB/>\n"
@@ -211,7 +211,7 @@ msgstr ""
 
 #: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:108
 msgid "Delete"
-msgstr ""
+msgstr "Delete"
 
 #: src/dialogs/delete.tsx:47
 msgid "Delete $0 items?"
@@ -312,7 +312,7 @@ msgstr ""
 
 #: src/upload-button.tsx:289
 msgid "Failed"
-msgstr ""
+msgstr "Failed"
 
 #: src/manifest.json:0
 msgid "File browser"
@@ -451,7 +451,7 @@ msgstr ""
 
 #: src/header.tsx:66 src/files-card-body.tsx:547
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: src/common.ts:110 src/dialogs/symlink.tsx:49
 msgid "Name cannot be empty"
