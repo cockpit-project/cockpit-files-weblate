@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-19 03:35+0000\n"
-"PO-Revision-Date: 2025-11-20 01:58+0000\n"
+"PO-Revision-Date: 2025-11-25 15:57+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/pt_BR/>\n"
@@ -157,7 +157,7 @@ msgstr "Alterar permissões para os arquivos incluídos"
 
 #: src/common.ts:67
 msgid "Character device"
-msgstr "Dispositivo de caracteres"
+msgstr "Dispositivo de caractere"
 
 #: src/files-card-body.tsx:520
 msgid "Clear filter"
@@ -265,7 +265,7 @@ msgstr "O nome do diretório não pode incluir uma /"
 
 #: src/dialogs/mkdir.tsx:46
 msgid "Directory name too long"
-msgstr "Nome do diretório muito longo"
+msgstr "Nome do diretório longo demais"
 
 #: src/dialogs/mkdir.tsx:123
 msgid "Directory owner"
