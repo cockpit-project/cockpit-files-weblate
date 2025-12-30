@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-25 03:50+0000\n"
-"PO-Revision-Date: 2025-10-28 20:39+0000\n"
+"PO-Revision-Date: 2025-12-31 10:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/en_GB/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -83,35 +83,37 @@ msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
 msgstr ""
+"Absolute symlinks are ideal when referring to files or directories that "
+"won't move, such as system files."
 
 #: src/dialogs/symlink.tsx:197
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "Absolute vs. Relative"
 
 #: src/dialogs/permissions.tsx:349
 msgid "Access"
-msgstr ""
+msgstr "Access"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
 msgid "Activate selected item, enter directory"
-msgstr ""
+msgstr "Activate selected item, enter directory"
 
 #: src/files-breadcrumbs.tsx:139
 msgid "Add to bookmarks"
-msgstr ""
+msgstr "Add to bookmarks"
 
 #: src/upload-button.tsx:150
 msgid "Apply this action to all conflicting files"
-msgstr ""
+msgstr "Apply this action to all conflicting files"
 
 #: src/common.ts:66
 msgid "Block device"
-msgstr ""
+msgstr "Block device"
 
 #: src/files-breadcrumbs.tsx:150
 msgid "Bookmarks"
-msgstr ""
+msgstr "Bookmarks"
 
 #: src/upload-button.tsx:159 src/dialogs/symlink.tsx:246
 #: src/dialogs/copyPasteOwnership.tsx:179 src/dialogs/editor.tsx:252
@@ -123,15 +125,15 @@ msgstr "Cancel"
 
 #: src/upload-button.tsx:467
 msgid "Cancel upload of $0"
-msgstr ""
+msgstr "Cancel upload of $0"
 
 #: src/upload-button.tsx:350
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelled"
 
 #: src/upload-button.tsx:351
 msgid "Cancelled upload of $0"
-msgstr ""
+msgstr "Cancelled upload of $0"
 
 #: src/dialogs/create-file.tsx:225
 msgid "Cannot create file in current directory"
