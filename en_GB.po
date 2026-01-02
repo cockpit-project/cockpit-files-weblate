@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-31 03:50+0000\n"
-"PO-Revision-Date: 2025-12-31 10:58+0000\n"
+"PO-Revision-Date: 2026-01-03 20:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/en_GB/>\n"
@@ -137,15 +137,15 @@ msgstr "Cancelled upload of $0"
 
 #: src/dialogs/create-file.tsx:225
 msgid "Cannot create file in current directory"
-msgstr ""
+msgstr "Cannot create file in current directory"
 
 #: src/files-folder-view.tsx:177
 msgid "Cannot drop files, another upload is already in progress"
-msgstr ""
+msgstr "Cannot drop files, another upload is already in progress"
 
 #: src/dialogs/permissions.tsx:413
 msgid "Change"
-msgstr ""
+msgstr "Change"
 
 #: src/upload-button.tsx:401
 msgid "Change permissions"
@@ -637,7 +637,7 @@ msgstr ""
 
 #: src/dialogs/editor.tsx:249
 msgid "Save"
-msgstr ""
+msgstr "Save"
 
 #: src/dialogs/permissions.tsx:388
 msgid "Security context"
