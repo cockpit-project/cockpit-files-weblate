@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-03 03:45+0000\n"
-"PO-Revision-Date: 2026-01-03 20:58+0000\n"
+"PO-Revision-Date: 2026-01-09 15:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/en_GB/>\n"
@@ -149,19 +149,19 @@ msgstr "Change"
 
 #: src/upload-button.tsx:401
 msgid "Change permissions"
-msgstr ""
+msgstr "Change permissions"
 
 #: src/dialogs/permissions.tsx:420
 msgid "Change permissions for enclosed files"
-msgstr ""
+msgstr "Change permissions for enclosed files"
 
 #: src/common.ts:67
 msgid "Character device"
-msgstr ""
+msgstr "Character device"
 
 #: src/files-card-body.tsx:520
 msgid "Clear filter"
-msgstr ""
+msgstr "Clear filter"
 
 #: src/dialogs/editor.tsx:252 src/dialogs/keyboardShortcutsHelp.tsx:46
 msgid "Close"
@@ -169,27 +169,27 @@ msgstr "Close"
 
 #: src/index.html:20
 msgid "Cockpit Files"
-msgstr ""
+msgstr "Cockpit Files"
 
 #: org.cockpit_project.files.metainfo.xml:21
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Cockpit Project"
 
 #: src/dialogs/permissions.tsx:283
 msgid "Collapse"
-msgstr ""
+msgstr "Collapse"
 
 #: src/menu.tsx:158 src/menu.tsx:212
 msgid "Copy"
-msgstr ""
+msgstr "Copy"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:121
 msgid "Copy selected file or directory"
-msgstr ""
+msgstr "Copy selected file or directory"
 
 #: src/dialogs/mkdir.tsx:148 src/dialogs/create-file.tsx:206
 msgid "Create"
-msgstr ""
+msgstr "Create"
 
 #: src/menu.tsx:113 src/dialogs/mkdir.tsx:93
 msgid "Create directory"
