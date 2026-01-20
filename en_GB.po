@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-16 03:52+0000\n"
-"PO-Revision-Date: 2026-01-09 15:58+0000\n"
+"PO-Revision-Date: 2026-01-21 17:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/en_GB/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
@@ -193,23 +193,23 @@ msgstr "Create"
 
 #: src/menu.tsx:113 src/dialogs/mkdir.tsx:93
 msgid "Create directory"
-msgstr ""
+msgstr "Create directory"
 
 #: src/menu.tsx:118 src/dialogs/create-file.tsx:149
 msgid "Create file"
-msgstr ""
+msgstr "Create file"
 
 #: src/menu.tsx:204 src/dialogs/symlink.tsx:244
 msgid "Create link"
-msgstr ""
+msgstr "Create link"
 
 #: src/dialogs/symlink.tsx:141
 msgid "Create link to $0"
-msgstr ""
+msgstr "Create link to $0"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:115
 msgid "Create new directory"
-msgstr ""
+msgstr "Create new directory"
 
 #: src/menu.tsx:175 src/menu.tsx:217 src/dialogs/delete.tsx:108
 msgid "Delete"
@@ -217,23 +217,23 @@ msgstr "Delete"
 
 #: src/dialogs/delete.tsx:47
 msgid "Delete $0 items?"
-msgstr ""
+msgstr "Delete $0 items?"
 
 #: src/dialogs/delete.tsx:64
 msgid "Delete $0?"
-msgstr ""
+msgstr "Delete $0?"
 
 #: src/dialogs/delete.tsx:61
 msgid "Delete directory $0?"
-msgstr ""
+msgstr "Delete directory $0?"
 
 #: src/dialogs/delete.tsx:53
 msgid "Delete file $0?"
-msgstr ""
+msgstr "Delete file $0?"
 
 #: src/dialogs/delete.tsx:57
 msgid "Delete link $0?"
-msgstr ""
+msgstr "Delete link $0?"
 
 #: src/common.ts:68
 msgid "Directory"
