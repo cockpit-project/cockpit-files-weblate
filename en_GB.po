@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-24 03:50+0000\n"
-"PO-Revision-Date: 2026-01-21 17:58+0000\n"
+"PO-Revision-Date: 2026-01-26 20:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/en_GB/>\n"
@@ -237,43 +237,43 @@ msgstr "Delete link $0?"
 
 #: src/common.ts:68
 msgid "Directory"
-msgstr ""
+msgstr "Directory"
 
 #: src/files-footer-detail.tsx:63
 msgid "Directory contains $0 directories, $1 files"
-msgstr ""
+msgstr "Directory contains $0 directories, $1 files"
 
 #: src/files-footer-detail.tsx:64
 msgid "Directory contains $0 directories, $1 files, $2 hidden"
-msgstr ""
+msgstr "Directory contains $0 directories, $1 files, $2 hidden"
 
 #: src/files-card-body.tsx:527
 msgid "Directory is empty"
-msgstr ""
+msgstr "Directory is empty"
 
 #: src/dialogs/mkdir.tsx:109
 msgid "Directory name"
-msgstr ""
+msgstr "Directory name"
 
 #: src/dialogs/mkdir.tsx:44
 msgid "Directory name cannot be empty"
-msgstr ""
+msgstr "Directory name cannot be empty"
 
 #: src/dialogs/mkdir.tsx:48
 msgid "Directory name cannot include a /"
-msgstr ""
+msgstr "Directory name cannot include a /"
 
 #: src/dialogs/mkdir.tsx:46
 msgid "Directory name too long"
-msgstr ""
+msgstr "Directory name too long"
 
 #: src/dialogs/mkdir.tsx:123
 msgid "Directory owner"
-msgstr ""
+msgstr "Directory owner"
 
 #: src/common.ts:119 src/dialogs/symlink.tsx:52
 msgid "Directory with the same name exists"
-msgstr ""
+msgstr "Directory with the same name exists"
 
 #: src/header.tsx:254
 msgid "Display as a grid"
