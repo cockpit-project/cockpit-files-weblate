@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-27 04:01+0000\n"
-"PO-Revision-Date: 2026-01-27 21:58+0000\n"
+"PO-Revision-Date: 2026-01-29 12:58+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
@@ -479,7 +479,7 @@ msgstr ""
 
 #: src/dialogs/rename.tsx:104
 msgid "New name"
-msgstr ""
+msgstr "Uus nimi"
 
 #: src/dialogs/copyPasteOwnership.tsx:199
 msgid "New owner"
@@ -639,7 +639,7 @@ msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:133
 msgid "Select all"
-msgstr ""
+msgstr "Vali kõik"
 
 #: src/dialogs/permissions.tsx:401
 msgid "Set executable as program"
