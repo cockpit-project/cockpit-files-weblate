@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-31 04:17+0000\n"
-"PO-Revision-Date: 2026-01-29 12:58+0000\n"
+"PO-Revision-Date: 2026-02-02 08:58+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: src/menu.tsx:64
 msgid "\"$0\" exists, not overwriting with paste."
-msgstr ""
+msgstr "„$0“ on olemas, ei kirjuta seda asetamisega üle."
 
 #: src/upload-button.tsx:69
 msgid "$0 files"
@@ -47,11 +47,11 @@ msgstr[1] "$0 objekti on peidetud"
 
 #: src/dialogs/permissions.tsx:302
 msgid "$0 permissions"
-msgstr ""
+msgstr "$0 - õigused"
 
 #: src/dialogs/copyPasteOwnership.tsx:119
 msgid "(original owner)"
-msgstr ""
+msgstr "(algne omanik)"
 
 #: org.cockpit_project.files.metainfo.xml:8
 msgid ""
@@ -59,47 +59,54 @@ msgid ""
 "download files, and change their properties. It also includes a simple file "
 "editor."
 msgstr ""
+"Failisüsteemi kasutajaliides Cockpiti jaoks. Saad sirvida kaustu, faile üles "
+"ja alla laadida ning muuta failide omadusi. Lisaks on olemas lihtne "
+"failitoimeti."
 
 #: src/upload-button.tsx:115
 msgid ""
 "A file with the same name already exists in \"$0\". Replacing it will "
 "overwrite its content."
 msgstr ""
+"Kasutas „$0“ on juba olemas sellise nimega fail. Kui kavatsed ta asendada, "
+"sis kirjutatakse ka sisu üle."
 
 #: src/header.tsx:69
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #: src/dialogs/symlink.tsx:215
 msgid "Absolute"
-msgstr ""
+msgstr "Absoluutne"
 
 #: src/dialogs/symlink.tsx:201
 msgid ""
 "Absolute symlinks are ideal when referring to files or directories that "
 "won't move, such as system files."
 msgstr ""
+"Absoluutsed sümbollingid sobivad olukorras, kus nad viitavad failidele või "
+"kaustadele, mis püsivad kogu aeg samas kohas, näiteks nagu süsteemifailid."
 
 #: src/dialogs/symlink.tsx:197
 msgid "Absolute vs. Relative"
-msgstr ""
+msgstr "Absoluutne või suhteline"
 
 #: src/dialogs/permissions.tsx:349
 msgid "Access"
-msgstr ""
+msgstr "Ligipääs"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:86
 #: src/dialogs/keyboardShortcutsHelp.tsx:92
 msgid "Activate selected item, enter directory"
-msgstr ""
+msgstr "Aktiveeri valitud objekt või sisene kausta"
 
 #: src/files-breadcrumbs.tsx:139
 msgid "Add to bookmarks"
-msgstr ""
+msgstr "Lisa järjehoidjana"
 
 #: src/upload-button.tsx:150
 msgid "Apply this action to all conflicting files"
-msgstr ""
+msgstr "Rakenda seda tegevust kõikidele vastuolus failidele"
 
 #: src/common.ts:66
 msgid "Block device"
@@ -119,15 +126,15 @@ msgstr "Katkesta"
 
 #: src/upload-button.tsx:467
 msgid "Cancel upload of $0"
-msgstr ""
+msgstr "Katkesta üleslaadimine: „$0“"
 
 #: src/upload-button.tsx:350
 msgid "Cancelled"
-msgstr ""
+msgstr "Katkestatud"
 
 #: src/upload-button.tsx:351
 msgid "Cancelled upload of $0"
-msgstr ""
+msgstr "Üleslaadimine on katkestatud: „$0“"
 
 #: src/dialogs/create-file.tsx:225
 msgid "Cannot create file in current directory"
@@ -139,15 +146,15 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:413
 msgid "Change"
-msgstr ""
+msgstr "Muuda"
 
 #: src/upload-button.tsx:401
 msgid "Change permissions"
-msgstr ""
+msgstr "Muuda õigusi"
 
 #: src/dialogs/permissions.tsx:420
 msgid "Change permissions for enclosed files"
-msgstr ""
+msgstr "Muuda kaasatud failide õigusi"
 
 #: src/common.ts:67
 msgid "Character device"
@@ -342,7 +349,7 @@ msgstr ""
 
 #: src/upload-button.tsx:370
 msgid "Files uploaded"
-msgstr ""
+msgstr "Failid on laaditud üles"
 
 #: src/files-breadcrumbs.tsx:231
 msgid "Filesystem"
@@ -391,11 +398,11 @@ msgstr ""
 #: src/files-card-body.tsx:596 src/files-footer-detail.tsx:79
 #: src/files-footer-detail.tsx:151 src/dialogs/permissions.tsx:332
 msgid "Group"
-msgstr ""
+msgstr "Grupp"
 
 #: src/dialogs/permissions.tsx:363
 msgid "Group access"
-msgstr ""
+msgstr "Ligipääs grupile"
 
 #: src/header.tsx:284
 msgid "Hide hidden items"
@@ -411,7 +418,7 @@ msgstr "Eira"
 
 #: src/upload-button.tsx:158
 msgid "Keep original"
-msgstr ""
+msgstr "Säilita algne"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:146
 msgid "Keyboard shortcuts"
@@ -435,7 +442,7 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:277
 msgid "Missing type"
-msgstr ""
+msgstr "Tüüp on puudu"
 
 #: src/files-card-body.tsx:552 src/header.tsx:88
 msgid "Modified"
@@ -451,7 +458,7 @@ msgstr "Nimi"
 
 #: src/common.ts:110 src/dialogs/symlink.tsx:49
 msgid "Name cannot be empty"
-msgstr ""
+msgstr "Nimi ei saa tühjaks jääda"
 
 #: src/common.ts:114
 msgid "Name cannot include a /"
@@ -471,7 +478,7 @@ msgstr ""
 
 #: src/upload-button.tsx:136
 msgid "New file"
-msgstr ""
+msgstr "Uus fail"
 
 #: src/dialogs/rename.tsx:104
 msgid "New filename"
@@ -487,7 +494,7 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:233
 msgid "No access"
-msgstr ""
+msgstr "Ligipääs puudub"
 
 #: src/files-card-body.tsx:519
 msgid "No matching results"
@@ -507,7 +514,7 @@ msgstr ""
 
 #: src/upload-button.tsx:141
 msgid "Original file on server"
-msgstr ""
+msgstr "Algne fail serveris"
 
 #: src/files-card-body.tsx:596 src/files-footer-detail.tsx:79
 msgid "Others"
@@ -515,7 +522,7 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:375
 msgid "Others access"
-msgstr ""
+msgstr "Ligipääs teistele"
 
 #: src/dialogs/editor.tsx:236 src/dialogs/rename.tsx:98
 msgid "Overwrite"
@@ -525,11 +532,11 @@ msgstr ""
 #: src/files-footer-detail.tsx:79 src/header.tsx:99
 #: src/dialogs/create-file.tsx:183 src/dialogs/permissions.tsx:317
 msgid "Owner"
-msgstr ""
+msgstr "Omanik"
 
 #: src/dialogs/permissions.tsx:351
 msgid "Owner access"
-msgstr ""
+msgstr "Ligipääs omanikule"
 
 #: src/header.tsx:102
 msgid "Owner ascending"
@@ -541,7 +548,7 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:316
 msgid "Ownership"
-msgstr ""
+msgstr "Omand"
 
 #: src/menu.tsx:106 src/dialogs/copyPasteOwnership.tsx:177
 msgid "Paste"
@@ -569,7 +576,7 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:303
 msgid "Permissions for $0 files"
-msgstr ""
+msgstr "„$0“ faili õigused"
 
 #: src/common.ts:60
 msgid "Read and execute"
@@ -577,7 +584,7 @@ msgstr ""
 
 #: src/common.ts:61 src/dialogs/permissions.tsx:223
 msgid "Read and write"
-msgstr ""
+msgstr "Loetav ja kirjutatav"
 
 #: src/common.ts:62
 msgid "Read, write, and execute"
@@ -593,13 +600,16 @@ msgstr ""
 
 #: src/dialogs/symlink.tsx:222
 msgid "Relative"
-msgstr ""
+msgstr "Suhteline"
 
 #: src/dialogs/symlink.tsx:204
 msgid ""
 "Relative symlinks are useful when both a symlink and target might move at "
 "the same time, such as when renaming or moving a parent directory."
 msgstr ""
+"Absoluutsed sümbollingid sobivad olukorras, kus nii sümbollink kui tema siht "
+"võivad samal ajal muutuda, näiteks nime muutmisel või kausta teise kohta "
+"tõstmisel."
 
 #: src/dialogs/editor.tsx:213
 msgid "Reload"
@@ -627,7 +637,7 @@ msgstr "Asenda"
 
 #: src/upload-button.tsx:108
 msgid "Replace file $0?"
-msgstr ""
+msgstr "Kas asendada „$0“ faili?"
 
 #: src/dialogs/editor.tsx:249
 msgid "Save"
@@ -635,7 +645,7 @@ msgstr "Salvesta"
 
 #: src/dialogs/permissions.tsx:388
 msgid "Security context"
-msgstr ""
+msgstr "Turvakontekst"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:133
 msgid "Select all"
@@ -643,11 +653,11 @@ msgstr "Vali kõik"
 
 #: src/dialogs/permissions.tsx:401
 msgid "Set executable as program"
-msgstr ""
+msgstr "Määra programmina käivitatavaks"
 
 #: src/dialogs/permissions.tsx:284
 msgid "Show all files"
-msgstr ""
+msgstr "Näita kõiki faile"
 
 #: src/files-card-body.tsx:535 src/header.tsx:284
 msgid "Show hidden items"
@@ -679,7 +689,7 @@ msgstr ""
 
 #: src/dialogs/symlink.tsx:177
 msgid "Symlink name"
-msgstr ""
+msgstr "Sümbollingi nimi"
 
 #: src/dialogs/symlink.tsx:170
 msgid "Target"
@@ -707,7 +717,7 @@ msgstr ""
 
 #: src/upload-button.tsx:330
 msgid "Unable to move uploaded file to final destination"
-msgstr ""
+msgstr "Üleslaaditud faili sihtkausta tõstmine ei õnnestu"
 
 #: src/files-breadcrumbs.tsx:119
 msgid "Unable to save bookmark file"
@@ -715,24 +725,24 @@ msgstr ""
 
 #: src/upload-button.tsx:503
 msgid "Upload"
-msgstr ""
+msgstr "Laadi üles"
 
 #
 #: src/upload-button.tsx:484
 msgid "Upload $0% completed"
-msgstr ""
+msgstr "Üleslaadimine on valmis: $0%"
 
 #: src/upload-button.tsx:329 src/upload-button.tsx:353
 msgid "Upload error"
-msgstr ""
+msgstr "Üleslaadimisviga"
 
 #: src/upload-button.tsx:73
 msgid "Uploaded as $0, $1"
-msgstr ""
+msgstr "Üleslaaditud kui: $0, $1"
 
 #: src/upload-button.tsx:448
 msgid "Uploads"
-msgstr ""
+msgstr "Üleslaadimised"
 
 #: src/files-footer-detail.tsx:143
 msgid "User"
@@ -748,7 +758,7 @@ msgstr ""
 
 #: src/common.ts:57 src/dialogs/permissions.tsx:243
 msgid "Write-only"
-msgstr ""
+msgstr "Vaid kirjutatav"
 
 #: src/header.tsx:73
 msgid "Z-A"
@@ -772,4 +782,4 @@ msgstr ""
 
 #: src/dialogs/symlink.tsx:66
 msgid "link to $0"
-msgstr ""
+msgstr "link asukohale „$0“"
