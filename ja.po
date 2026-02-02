@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-02 04:37+0000\n"
-"PO-Revision-Date: 2026-01-29 12:58+0000\n"
+"PO-Revision-Date: 2026-02-03 13:58+0000\n"
 "Last-Translator: Kohei Takahashi <flast@flast.jp>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/ja/>\n"
@@ -199,10 +199,8 @@ msgid "Create file"
 msgstr "ファイルの作成"
 
 #: src/menu.tsx:204 src/dialogs/symlink.tsx:244
-#, fuzzy
-#| msgid "Create file"
 msgid "Create link"
-msgstr "ファイルの作成"
+msgstr "リンクの作成"
 
 #: src/dialogs/symlink.tsx:141
 #, fuzzy
