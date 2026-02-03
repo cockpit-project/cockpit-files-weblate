@@ -482,7 +482,7 @@ msgstr "Uus fail"
 
 #: src/dialogs/rename.tsx:104
 msgid "New filename"
-msgstr ""
+msgstr "Uus fail"
 
 #: src/dialogs/rename.tsx:104
 msgid "New name"
