@@ -770,7 +770,7 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "files"
-msgstr ""
+msgstr "Failid"
 
 #: src/manifest.json:0
 msgid "filesystem"
