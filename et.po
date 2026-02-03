@@ -15,9 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-03 04:28+0000\n"
-"PO-Revision-Date: 2026-02-03 13:58+0000\n"
-"Last-Translator: Priit Jõerüüt "
-"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-02-04 12:55+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/et/>\n"
 "Language: et\n"
@@ -422,7 +422,7 @@ msgstr "Säilita algne"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:146
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Klahvistiku kiirklahvid"
 
 #: src/header.tsx:80
 msgid "Largest size"
@@ -430,7 +430,7 @@ msgstr ""
 
 #: src/header.tsx:95
 msgid "Last modified"
-msgstr ""
+msgstr "Viimati muudetud: $0"
 
 #: src/header.tsx:117
 msgid "Least permissive"
@@ -746,7 +746,7 @@ msgstr "Üleslaadimised"
 
 #: src/files-footer-detail.tsx:143
 msgid "User"
-msgstr ""
+msgstr "Kasutaja"
 
 #: src/dialogs/editor.tsx:173
 msgid "View $0"
