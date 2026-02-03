@@ -568,7 +568,7 @@ msgstr ""
 
 #: src/dialogs/create-file.tsx:226
 msgid "Permission denied"
-msgstr ""
+msgstr "Juurepääs keelatud"
 
 #: src/files-card-body.tsx:562 src/header.tsx:110
 msgid "Permissions"
@@ -629,7 +629,7 @@ msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:108
 msgid "Rename selected file or directory"
-msgstr ""
+msgstr "Kopeeri valitud fail või kaust"
 
 #: src/upload-button.tsx:156
 msgid "Replace"
