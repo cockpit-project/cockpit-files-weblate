@@ -15,9 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-02 04:37+0000\n"
-"PO-Revision-Date: 2026-02-02 08:58+0000\n"
-"Last-Translator: Priit Jõerüüt "
-"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-02-03 13:58+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/et/>\n"
 "Language: et\n"
@@ -552,7 +552,7 @@ msgstr "Omand"
 
 #: src/menu.tsx:106 src/dialogs/copyPasteOwnership.tsx:177
 msgid "Paste"
-msgstr ""
+msgstr "_Aseta"
 
 #: src/dialogs/copyPasteOwnership.tsx:191
 msgid "Paste as owner"
