@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-03 04:28+0000\n"
+"POT-Creation-Date: 2026-02-04 04:22+0000\n"
 "PO-Revision-Date: 2026-02-04 12:55+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
@@ -142,7 +142,8 @@ msgstr "Faili ei õnnestu sellesse kausta luua"
 
 #: src/files-folder-view.tsx:177
 msgid "Cannot drop files, another upload is already in progress"
-msgstr "Kuna teine üleslaadimine on juba töös, siis faile ei saa siia lohistada"
+msgstr ""
+"Kuna teine üleslaadimine on juba töös, siis faile ei saa siia lohistada"
 
 #: src/dialogs/permissions.tsx:413
 msgid "Change"
