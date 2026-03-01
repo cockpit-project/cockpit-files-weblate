@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-15 04:35+0000\n"
-"PO-Revision-Date: 2026-01-26 20:58+0000\n"
+"PO-Revision-Date: 2026-03-02 14:58+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/en_GB/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: src/menu.tsx:51
 msgid "\"$0\" exists, not overwriting with paste."
@@ -277,40 +277,40 @@ msgstr "Directory with the same name exists"
 
 #: src/header.tsx:241
 msgid "Display as a grid"
-msgstr ""
+msgstr "Display as a grid"
 
 #: src/header.tsx:240
 msgid "Display as a list"
-msgstr ""
+msgstr "Display as a list"
 
 #: src/menu.tsx:172
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #: src/files-folder-view.tsx:156
 msgid "Drop files to upload"
-msgstr ""
+msgstr "Drop files to upload"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:160
 msgid "Edit $0"
-msgstr ""
+msgstr "Edit $0"
 
 #: src/files-breadcrumbs.tsx:285 src/dialogs/keyboardShortcutsHelp.tsx:87
 msgid "Edit path"
-msgstr ""
+msgstr "Edit path"
 
 #: src/menu.tsx:111 src/menu.tsx:151 src/menu.tsx:218
 msgid "Edit permissions"
-msgstr ""
+msgstr "Edit permissions"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:147
 msgid "Editing"
-msgstr ""
+msgstr "Editing"
 
 #: src/common.ts:43
 msgid "Execute-only"
-msgstr ""
+msgstr "Execute-only"
 
 #: src/upload-button.tsx:276
 msgid "Failed"
@@ -318,19 +318,19 @@ msgstr "Failed"
 
 #: src/manifest.json:0
 msgid "File browser"
-msgstr ""
+msgstr "File browser"
 
 #: src/common.ts:108 src/dialogs/symlink.tsx:41
 msgid "File exists"
-msgstr ""
+msgstr "File exists"
 
 #: src/dialogs/create-file.tsx:148
 msgid "File name"
-msgstr ""
+msgstr "File name"
 
 #: src/upload-button.tsx:357
 msgid "File uploaded"
-msgstr ""
+msgstr "File uploaded"
 
 #: src/common.ts:103
 msgid "Filename is the same as original name"
