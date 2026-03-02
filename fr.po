@@ -15,16 +15,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-02 04:27+0000\n"
-"PO-Revision-Date: 2025-04-03 14:53+0000\n"
-"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"files/cockpit-files/fr/>\n"
+"PO-Revision-Date: 2026-03-03 15:58+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-files/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -318,10 +319,8 @@ msgid "Failed"
 msgstr "Échec"
 
 #: src/files-card-body.tsx:580
-#, fuzzy
-#| msgid "Files"
 msgid "File"
-msgstr "Fichiers"
+msgstr "Fichier"
 
 #: src/manifest.json:0
 msgid "File browser"
@@ -374,7 +373,7 @@ msgstr "Première modification"
 
 #: src/files-card-body.tsx:578
 msgid "Folder"
-msgstr ""
+msgstr "Dossier"
 
 #: src/dialogs/delete.tsx:51
 msgid "Force delete $0"
