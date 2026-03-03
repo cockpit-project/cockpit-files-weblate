@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,7 +139,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr ""
 
@@ -348,7 +348,7 @@ msgstr ""
 msgid "File name"
 msgstr ""
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr ""
 
@@ -366,7 +366,7 @@ msgid ""
 "changed to match the destination directory."
 msgstr ""
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr ""
 
@@ -744,12 +744,12 @@ msgstr ""
 msgid "Unable to save bookmark file"
 msgstr ""
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr ""
 
 #
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr ""
 
@@ -761,7 +761,7 @@ msgstr ""
 msgid "Uploaded as $0, $1"
 msgstr ""
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr ""
 
