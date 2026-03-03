@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2026-03-03 15:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -125,7 +125,7 @@ msgstr "Marque-pages"
 msgid "Cancel"
 msgstr "Annuler"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "Annuler l'upload de $0"
 
@@ -149,7 +149,7 @@ msgstr "Impossible de déposer des fichiers, un autre upload est déjà en cours
 msgid "Change"
 msgstr "Modifier"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "Modifier les autorisations"
 
@@ -334,7 +334,7 @@ msgstr "Le fichier existe"
 msgid "File name"
 msgstr "Nom du fichier"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "Fichier uploadé"
 
@@ -355,7 +355,7 @@ msgstr ""
 "propriétaire des fichiers sera modifié pour correspondre au répertoire de "
 "destination."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "Fichiers uploadés"
 
@@ -737,12 +737,12 @@ msgstr ""
 msgid "Unable to save bookmark file"
 msgstr "Impossible d'enregistrer le fichier des marque-pages"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Uploader"
 
 #
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Upload effectué à $0 %"
 
@@ -754,7 +754,7 @@ msgstr "Erreur d'upload"
 msgid "Uploaded as $0, $1"
 msgstr "Uploadé en tant que $0,$1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Téléversements"
 

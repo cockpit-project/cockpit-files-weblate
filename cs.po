@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2026-03-03 15:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -124,7 +124,7 @@ msgstr "Záložky"
 msgid "Cancel"
 msgstr "Storno"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "Zrušit nahrávání $0"
 
@@ -149,7 +149,7 @@ msgstr ""
 msgid "Change"
 msgstr "Změnit"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "Změnit oprávnění"
 
@@ -334,7 +334,7 @@ msgstr "Soubor existuje"
 msgid "File name"
 msgstr "Název souboru"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "Soubor nahrán"
 
@@ -354,7 +354,7 @@ msgstr ""
 "Vkládané soubory mají jiného vlastníka. Ve výchozím stavu bude vlastnictví "
 "změněno tak, aby odpovídalo cílové složce."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "Soubory nahrány"
 
@@ -735,11 +735,11 @@ msgstr "Nebylo možné přesunout nahrané soubory do konečného umístění"
 msgid "Unable to save bookmark file"
 msgstr "Nepodařilo se uložit soubor se záložkami"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Nahrát"
 
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Nahrávání z $0% dokončeno"
 
@@ -751,7 +751,7 @@ msgstr "Chyba nahrávání"
 msgid "Uploaded as $0, $1"
 msgstr "Nahráno jako $0,$1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Nahrání"
 

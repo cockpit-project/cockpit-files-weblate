@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2026-03-03 15:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -124,7 +124,7 @@ msgstr "სანიშნეები"
 msgid "Cancel"
 msgstr "გაუქმება"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "$0-ის ატვირთვის შეწყვეტა"
 
@@ -148,7 +148,7 @@ msgstr "ფაილებს ვერ დაყრით, რადგან �
 msgid "Change"
 msgstr "შეცვლა"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "წვდომების შეცვლა"
 
@@ -333,7 +333,7 @@ msgstr "ფაილი არსებობს"
 msgid "File name"
 msgstr "ფაილის სახელი"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "ფაილი ატვირთულია"
 
@@ -353,7 +353,7 @@ msgstr ""
 "ჩასმული ფაილების მფლობელი განსხვავებულია. ნაგულისხმევად მფლობელობა "
 "შეიცვლება, რომ ის სამიზნე საქაღალდისას დაემთხვეს."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "ფაილები ატვირთულია"
 
@@ -734,12 +734,12 @@ msgstr "ატვირთული ფაილების საბოლო�
 msgid "Unable to save bookmark file"
 msgstr "სანიშნეს ფაილის შენახვა შეუძლებელია"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "ატვირთვა"
 
 #
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "ატვირთვის $0% დასრულდა"
 
@@ -751,7 +751,7 @@ msgstr "ატვირთვის შეცდომა"
 msgid "Uploaded as $0, $1"
 msgstr "ატვირთულია, როგორც $0.$1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "ატვირთვები"
 

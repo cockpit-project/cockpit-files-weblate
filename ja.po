@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2026-02-03 13:58+0000\n"
 "Last-Translator: Kohei Takahashi <flast@flast.jp>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -122,7 +122,7 @@ msgstr "ブックマーク"
 msgid "Cancel"
 msgstr "取り消し"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "$0 のアップロードをキャンセルする"
 
@@ -146,7 +146,7 @@ msgstr "ファイルをドロップできません。別のアップロードが
 msgid "Change"
 msgstr "変更"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "パーミッションの変更"
 
@@ -338,7 +338,7 @@ msgstr "ファイルが存在します"
 msgid "File name"
 msgstr "ファイル名"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "ファイルをアップロードしました"
 
@@ -358,7 +358,7 @@ msgstr ""
 "貼り付けるファイルの所有者が異なります。デフォルトでは、貼り付け先のディレク"
 "トリーに合わせて所有権が変更されます。"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "アップロードされたファイル"
 
@@ -736,12 +736,12 @@ msgstr "アップロードしたファイルを最終移動先に移動できま
 msgid "Unable to save bookmark file"
 msgstr "ブックマークファイルを保存できません"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "アップロード"
 
 #
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "アップロード $0% 完了"
 
@@ -753,7 +753,7 @@ msgstr "アップロードエラー"
 msgid "Uploaded as $0, $1"
 msgstr "$0、$1 としてアップロードしました"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "アップロード"
 

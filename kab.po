@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2026-02-15 21:58+0000\n"
 "Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/cockpit/"
@@ -118,7 +118,7 @@ msgstr ""
 msgid "Cancel"
 msgstr "Semmet"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr ""
 
@@ -142,7 +142,7 @@ msgstr ""
 msgid "Change"
 msgstr "Snifel"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 #, fuzzy
 #| msgid "Permissions"
 msgid "Change permissions"
@@ -339,7 +339,7 @@ msgstr ""
 msgid "File name"
 msgstr "Snifel isem"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 #, fuzzy
 #| msgid "Rename"
 msgid "File uploaded"
@@ -359,7 +359,7 @@ msgid ""
 "changed to match the destination directory."
 msgstr ""
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 #, fuzzy
 #| msgid "Rename"
 msgid "Files uploaded"
@@ -739,12 +739,12 @@ msgstr ""
 msgid "Unable to save bookmark file"
 msgstr ""
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr ""
 
 #
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr ""
 
@@ -756,7 +756,7 @@ msgstr ""
 msgid "Uploaded as $0, $1"
 msgstr ""
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr ""
 

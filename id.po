@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2026-02-01 02:58+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -122,7 +122,7 @@ msgstr "Penanda"
 msgid "Cancel"
 msgstr "Batal"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "Batalkan unggahan $0"
 
@@ -146,7 +146,7 @@ msgstr "Tidak dapat menjatuhkan berkas, unggahan lain sedang berlangsung"
 msgid "Change"
 msgstr "Ubah"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "Ubah izin"
 
@@ -333,7 +333,7 @@ msgstr "Berkas sudah ada"
 msgid "File name"
 msgstr "Nama berkas"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "Berkas berhasil diunggah"
 
@@ -353,7 +353,7 @@ msgstr ""
 "Berkas yang ditempel memiliki pemilik yang berbeda. Secara bawaan, "
 "kepemilikan akan diubah agar sesuai dengan direktori tujuan."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "Berkas berhasil diunggah"
 
@@ -733,12 +733,12 @@ msgstr "Tidak dapat memindahkan berkas yang diunggah ke tujuan akhir"
 msgid "Unable to save bookmark file"
 msgstr "Tidak dapat menyimpan berkas penanda"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Unggah"
 
 #
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Unggahan $0% selesai"
 
@@ -750,7 +750,7 @@ msgstr "Kesalahan unggahan"
 msgid "Uploaded as $0, $1"
 msgstr "Diunggah sebagai $0, $1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Unggahan"
 

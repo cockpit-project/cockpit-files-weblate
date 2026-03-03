@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2025-12-25 18:09+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
@@ -122,7 +122,7 @@ msgstr "즐겨찾기"
 msgid "Cancel"
 msgstr "취소"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "$0 올려주기 취소"
 
@@ -146,7 +146,7 @@ msgstr "다른 파일이 이미 진행 중이기 때문에 파일을 삭제 할 
 msgid "Change"
 msgstr "변경"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "권한 변경"
 
@@ -333,7 +333,7 @@ msgstr "파일이 존재합니다"
 msgid "File name"
 msgstr "파일 이름"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "파일 올려짐"
 
@@ -353,7 +353,7 @@ msgstr ""
 "붙여 넣기 중인 파일에 다른 소유자가 있습니다. 기본 값으로, 소유권은 대상 디렉"
 "토리와 일치하도록 변경됩니다."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "파일 올려짐"
 
@@ -733,11 +733,11 @@ msgstr "올려진 파일을 최종 목적지에 이동 할 수 없음"
 msgid "Unable to save bookmark file"
 msgstr "즐겨찾기 파일을 저장 할 수 없음"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "올려주기"
 
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "올려주기 $0% c완료"
 
@@ -749,7 +749,7 @@ msgstr "올려주기 오류"
 msgid "Uploaded as $0, $1"
 msgstr "$0, $1 로 올려짐"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "올려주기"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2025-07-09 15:08+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
@@ -112,7 +112,7 @@ msgstr "Lesezeichen"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "Upload von $0 abbrechen"
 
@@ -138,7 +138,7 @@ msgstr ""
 msgid "Change"
 msgstr "Ändern"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "Berechtigungen ändern"
 
@@ -325,7 +325,7 @@ msgstr "Datei existiert"
 msgid "File name"
 msgstr "Dateiname"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "Datei hochgeladen"
 
@@ -345,7 +345,7 @@ msgstr ""
 "Die eingefügten Dateien haben einen anderen Eigentümer. Standardmäßig wird "
 "der Eigentümer so geändert, dass er mit dem Zielverzeichnis übereinstimmt."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "Dateien hochgeladen"
 
@@ -727,11 +727,11 @@ msgstr ""
 msgid "Unable to save bookmark file"
 msgstr "Lesezeichendatei kann nicht gespeichert werden"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Hochladen"
 
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Hochladen $0% abgeschlossen"
 
@@ -743,7 +743,7 @@ msgstr "Hochladefehler"
 msgid "Uploaded as $0, $1"
 msgstr "Als $0, $1 hochgeladen"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Hochladevorgänge"
 

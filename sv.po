@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2026-03-03 15:58+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -123,7 +123,7 @@ msgstr "Bokmärken"
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "Avbryt uppladdning av $0"
 
@@ -147,7 +147,7 @@ msgstr "Det går inte att släppa filer, en annan uppladdning pågår redan"
 msgid "Change"
 msgstr "Ändra"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "Ändra behörigheter"
 
@@ -332,7 +332,7 @@ msgstr "Fil existerar"
 msgid "File name"
 msgstr "Filnamn"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "Fil uppladdad"
 
@@ -352,7 +352,7 @@ msgstr ""
 "Filer som klistras in har en annan ägare. Som standard kommer äganderätten "
 "att ändras för att matcha målkatalogen."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "Filer uppladdade"
 
@@ -733,11 +733,11 @@ msgstr "Det gick inte att flytta uppladdad fil till slutdestinationen"
 msgid "Unable to save bookmark file"
 msgstr "Kan inte spara bokmärkesfilen"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Ladda upp"
 
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Uppladdning $0% slutförd"
 
@@ -749,7 +749,7 @@ msgstr "Uppladdningsfel"
 msgid "Uploaded as $0, $1"
 msgstr "Uppladdad som $0,$1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Uppladdningar"
 

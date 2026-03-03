@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2025-04-03 14:53+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -123,7 +123,7 @@ msgstr "Kirjanmerkit"
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "Peru $0:n lataus ulospäin"
 
@@ -147,7 +147,7 @@ msgstr "Tiedostoja ei voi pudottaa, toinen lataus ulospäin on jo meneillään"
 msgid "Change"
 msgstr "Vaihda"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "Muuta käyttöoikeuksia"
 
@@ -334,7 +334,7 @@ msgstr "Tiedosto on olemassa"
 msgid "File name"
 msgstr "Tiedostonimi"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "Tiedosto ladattu ulospäin"
 
@@ -354,7 +354,7 @@ msgstr ""
 "Liitettävällä tiedostolla on eri omistaja. Oletusarvoisesti omistajuus "
 "muutetaan vastaamaan kohdehakemistoa."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "Tiedostot ladattu ulospäin"
 
@@ -735,12 +735,12 @@ msgstr "Ulospäinladattua tiedostoa ei voida siirtää lopulliseen määränpä�
 msgid "Unable to save bookmark file"
 msgstr "Kirjanmerkkitiedostoa ei voi tallentaa"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Lataa ulospäin"
 
 #
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Lataus ulospäin $0 % valmis"
 
@@ -752,7 +752,7 @@ msgstr "Lataus ulospäin -virhe"
 msgid "Uploaded as $0, $1"
 msgstr "Ladattu ulospäin $0:na, $1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Lataukset ulospäin"
 

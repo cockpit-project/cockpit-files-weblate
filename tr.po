@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2026-03-03 15:58+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -123,7 +123,7 @@ msgstr "Yer işaretleri"
 msgid "Cancel"
 msgstr "İptal"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "$0 karşıya yüklenmesini iptal et"
 
@@ -147,7 +147,7 @@ msgstr "Dosyalar bırakılamıyor, başka bir karşıya yükleme zaten devam edi
 msgid "Change"
 msgstr "Değiştir"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "İzinleri değiştir"
 
@@ -332,7 +332,7 @@ msgstr "Dosya var"
 msgid "File name"
 msgstr "Dosya adı"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "Dosya karşıya yüklendi"
 
@@ -352,7 +352,7 @@ msgstr ""
 "Yapıştırılan dosyaların farklı bir sahibi var. Varsayılan olarak sahiplik, "
 "hedef dizin ile eşleşmesi için değiştirilecektir."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "Dosyalar karşıya yüklendi"
 
@@ -733,11 +733,11 @@ msgstr "Karşıya yüklenen dosya son hedefe taşınamıyor"
 msgid "Unable to save bookmark file"
 msgstr "Yer işareti dosyası kaydedilemiyor"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Karşıya yükle"
 
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Karşıya yükleme %$0 tamamlandı"
 
@@ -749,7 +749,7 @@ msgstr "Karşıya yükleme hatası"
 msgid "Uploaded as $0, $1"
 msgstr "$0, $1 olarak karşıya yüklendi"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Yüklenenler"
 

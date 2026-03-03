@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2025-11-17 16:58+0000\n"
 "Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -117,7 +117,7 @@ msgstr "书签"
 msgid "Cancel"
 msgstr "取消"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "取消上传 $0"
 
@@ -141,7 +141,7 @@ msgstr "无法丢弃文件，另一个上传已在进行中"
 msgid "Change"
 msgstr "变更"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "更改权限"
 
@@ -328,7 +328,7 @@ msgstr "文件已存在"
 msgid "File name"
 msgstr "文件名"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "文件已上传"
 
@@ -346,7 +346,7 @@ msgid ""
 "changed to match the destination directory."
 msgstr "要粘贴的文件有不同的所有者。默认情况下，所有权将更改为与目标目录匹配。"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "文件已上传"
 
@@ -725,11 +725,11 @@ msgstr "无法将上传的文件移至最终目的地"
 msgid "Unable to save bookmark file"
 msgstr "无法保存书签文件"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "上传"
 
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "上传 $0 已完成"
 
@@ -741,7 +741,7 @@ msgstr "上传失败"
 msgid "Uploaded as $0, $1"
 msgstr "上传为 $0，$1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "上传项目"
 

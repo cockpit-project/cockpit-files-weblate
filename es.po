@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2025-11-12 21:01+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -123,7 +123,7 @@ msgstr "Marcadores"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "Cancelar la subida de $0"
 
@@ -147,7 +147,7 @@ msgstr "No se pueden soltar archivos, ya hay una carga en progreso"
 msgid "Change"
 msgstr "Cambiar"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "Modificar permisos"
 
@@ -334,7 +334,7 @@ msgstr "El archivo existe"
 msgid "File name"
 msgstr "Nombre de archivo"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "Archivo subido"
 
@@ -354,7 +354,7 @@ msgstr ""
 "Archivos siendo pegados tienen un propietario diferente. Por defecto, la "
 "propiedad será modificada para coincidir con el directorio del destino."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "Archivos subidos"
 
@@ -734,12 +734,12 @@ msgstr "No se puede mover el archivo subido a su destino final"
 msgid "Unable to save bookmark file"
 msgstr "No es posible guardar el archivo de marcador"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Subir"
 
 #
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Carga del $0% completado"
 
@@ -751,7 +751,7 @@ msgstr "Error de subida"
 msgid "Uploaded as $0, $1"
 msgstr "Subido como $0, $1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Subidas"
 

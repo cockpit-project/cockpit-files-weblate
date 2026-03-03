@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2026-01-24 11:58+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
@@ -123,7 +123,7 @@ msgstr "Segnalibri"
 msgid "Cancel"
 msgstr "Annulla"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "Annulla caricamento di $0"
 
@@ -147,7 +147,7 @@ msgstr "Impossibile rilasciare i file, un altro caricamento è già in corso"
 msgid "Change"
 msgstr "Modifica"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "Modifica permessi"
 
@@ -334,7 +334,7 @@ msgstr "Il file esiste già"
 msgid "File name"
 msgstr "Nome del file"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "File caricato"
 
@@ -355,7 +355,7 @@ msgstr ""
 "predefinita, la proprietà verrà modificata per corrispondere alla cartella "
 "di destinazione."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "File caricati"
 
@@ -736,12 +736,12 @@ msgstr "Impossibile spostare il file caricato nella destinazione finale"
 msgid "Unable to save bookmark file"
 msgstr "Impossibile salvare il file dei segnalibri"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Caricare"
 
 #
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Caricamento $0 completato"
 
@@ -753,7 +753,7 @@ msgstr "Errore di caricamento"
 msgid "Uploaded as $0, $1"
 msgstr "Caricato come $0, $1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Caricamento"
 

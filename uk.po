@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-02 04:27+0000\n"
+"POT-Creation-Date: 2026-03-03 04:27+0000\n"
 "PO-Revision-Date: 2025-05-14 19:17+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -125,7 +125,7 @@ msgstr "Закладки"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: src/upload-button.tsx:474
+#: src/upload-button.tsx:476
 msgid "Cancel upload of $0"
 msgstr "Скасувати вивантаження $0"
 
@@ -149,7 +149,7 @@ msgstr "Скидання файлів неможливе, виконуємо і�
 msgid "Change"
 msgstr "Змінити"
 
-#: src/upload-button.tsx:402
+#: src/upload-button.tsx:404
 msgid "Change permissions"
 msgstr "Змінити права доступу"
 
@@ -336,7 +336,7 @@ msgstr "Файл існує"
 msgid "File name"
 msgstr "Назва файла"
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "File uploaded"
 msgstr "Файл вивантажено"
 
@@ -356,7 +356,7 @@ msgstr ""
 "Файли, які ви вставляєте мають іншого власника. Типово, права власності буде "
 "змінено так, щоб вони відповідали каталогу призначення."
 
-#: src/upload-button.tsx:371
+#: src/upload-button.tsx:373
 msgid "Files uploaded"
 msgstr "Файли вивантажено"
 
@@ -737,11 +737,11 @@ msgstr "НЕ вдалося пересунути вивантажений фай
 msgid "Unable to save bookmark file"
 msgstr "Не вдалося зберегти файл закладки"
 
-#: src/upload-button.tsx:510
+#: src/upload-button.tsx:512
 msgid "Upload"
 msgstr "Вивантажити"
 
-#: src/upload-button.tsx:491
+#: src/upload-button.tsx:493
 msgid "Upload $0% completed"
 msgstr "Вивантаження завершено на $0%"
 
@@ -753,7 +753,7 @@ msgstr "Помилка під час вивантаження"
 msgid "Uploaded as $0, $1"
 msgstr "Вивантажено як $0, $1"
 
-#: src/upload-button.tsx:455
+#: src/upload-button.tsx:457
 msgid "Uploads"
 msgstr "Вивантаження"
 
