@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  files.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 04:31+0000\n"
+"POT-Creation-Date: 2026-03-18 04:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  files.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 04:31+0000\n"
+"POT-Creation-Date: 2026-03-18 04:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,6 +59,10 @@ msgstr ""
 
 #: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
+msgstr ""
+
+#: src/dialogs/editor.tsx:274
+msgid "$0 has unsaved changes and which will be permanently lost if discarded."
 msgstr ""
 
 #: src/files-card-body.tsx:519
@@ -133,9 +137,9 @@ msgstr ""
 
 #: src/upload-button.tsx:146 src/dialogs/create-file.tsx:196
 #: src/dialogs/rename.tsx:87 src/dialogs/permissions.tsx:409
-#: src/dialogs/copyPasteOwnership.tsx:166 src/dialogs/editor.tsx:239
-#: src/dialogs/mkdir.tsx:137 src/dialogs/symlink.tsx:233
-#: src/dialogs/delete.tsx:97
+#: src/dialogs/copyPasteOwnership.tsx:166 src/dialogs/editor.tsx:248
+#: src/dialogs/editor.tsx:314 src/dialogs/mkdir.tsx:137
+#: src/dialogs/symlink.tsx:233 src/dialogs/delete.tsx:97
 msgid "Cancel"
 msgstr ""
 
@@ -179,7 +183,7 @@ msgstr ""
 msgid "Clear filter"
 msgstr ""
 
-#: src/dialogs/editor.tsx:239 src/dialogs/keyboardShortcutsHelp.tsx:33
+#: src/dialogs/editor.tsx:248 src/dialogs/keyboardShortcutsHelp.tsx:33
 msgid "Close"
 msgstr ""
 
@@ -291,6 +295,10 @@ msgstr ""
 msgid "Directory with the same name exists"
 msgstr ""
 
+#: src/dialogs/editor.tsx:307
+msgid "Discard"
+msgstr ""
+
 #: src/header.tsx:241
 msgid "Display as a grid"
 msgstr ""
@@ -308,7 +316,7 @@ msgid "Drop files to upload"
 msgstr ""
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:160
+#: src/dialogs/editor.tsx:165
 msgid "Edit $0"
 msgstr ""
 
@@ -435,7 +443,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: src/dialogs/editor.tsx:203
+#: src/dialogs/editor.tsx:208
 msgid "Ignore"
 msgstr ""
 
@@ -547,7 +555,8 @@ msgstr ""
 msgid "Others access"
 msgstr ""
 
-#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:223
+#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:228
+#: src/dialogs/editor.tsx:285
 msgid "Overwrite"
 msgstr ""
 
@@ -614,7 +623,7 @@ msgstr ""
 msgid "Read, write, and execute"
 msgstr ""
 
-#: src/common.ts:53 src/dialogs/permissions.tsx:215 src/dialogs/editor.tsx:162
+#: src/common.ts:53 src/dialogs/permissions.tsx:215 src/dialogs/editor.tsx:167
 msgid "Read-only"
 msgstr ""
 
@@ -632,7 +641,7 @@ msgid ""
 "the same time, such as when renaming or moving a parent directory."
 msgstr ""
 
-#: src/dialogs/editor.tsx:200
+#: src/dialogs/editor.tsx:205
 msgid "Reload"
 msgstr ""
 
@@ -660,8 +669,12 @@ msgstr ""
 msgid "Replace file $0?"
 msgstr ""
 
-#: src/dialogs/editor.tsx:236
+#: src/dialogs/editor.tsx:242 src/dialogs/editor.tsx:299
 msgid "Save"
+msgstr ""
+
+#: src/dialogs/editor.tsx:259
+msgid "Save changes?"
 msgstr ""
 
 #: src/dialogs/permissions.tsx:375
@@ -716,16 +729,24 @@ msgstr ""
 msgid "Target"
 msgstr ""
 
-#: src/dialogs/editor.tsx:48
+#: src/dialogs/editor.tsx:50
 msgid "The existing file changed unexpectedly"
 msgstr ""
 
-#: src/dialogs/editor.tsx:46 src/dialogs/editor.tsx:194
+#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:199
 msgid "The file has been removed on disk"
 msgstr ""
 
-#: src/dialogs/editor.tsx:195
+#: src/dialogs/editor.tsx:200
 msgid "The file has changed on disk"
+msgstr ""
+
+#: src/dialogs/editor.tsx:269
+msgid "The file has changed on disk between when it was opened and now"
+msgstr ""
+
+#: src/dialogs/editor.tsx:268
+msgid "The file was deleted after it was opened, saving will recreate it."
 msgstr ""
 
 #: src/dialogs/symlink.tsx:180
@@ -769,7 +790,7 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: src/dialogs/editor.tsx:160
+#: src/dialogs/editor.tsx:165
 msgid "View $0"
 msgstr ""
 
