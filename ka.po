@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-17 04:31+0000\n"
+"POT-Creation-Date: 2026-03-23 04:54+0000\n"
 "PO-Revision-Date: 2026-03-03 15:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -38,6 +38,10 @@ msgstr "$0 ფაილი"
 #: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
 msgstr "მონიშნულია $0 ფაილი"
+
+#: src/dialogs/editor.tsx:274
+msgid "$0 has unsaved changes and which will be permanently lost if discarded."
+msgstr ""
 
 #: src/files-card-body.tsx:519
 msgid "$0 item is hidden"
@@ -118,9 +122,9 @@ msgstr "სანიშნეები"
 
 #: src/upload-button.tsx:146 src/dialogs/create-file.tsx:196
 #: src/dialogs/rename.tsx:87 src/dialogs/permissions.tsx:409
-#: src/dialogs/copyPasteOwnership.tsx:166 src/dialogs/editor.tsx:239
-#: src/dialogs/mkdir.tsx:137 src/dialogs/symlink.tsx:233
-#: src/dialogs/delete.tsx:97
+#: src/dialogs/copyPasteOwnership.tsx:166 src/dialogs/editor.tsx:248
+#: src/dialogs/editor.tsx:314 src/dialogs/mkdir.tsx:137
+#: src/dialogs/symlink.tsx:233 src/dialogs/delete.tsx:97
 msgid "Cancel"
 msgstr "გაუქმება"
 
@@ -164,7 +168,7 @@ msgstr "სიმბოლური მოწყობილობა"
 msgid "Clear filter"
 msgstr "ფილტრის გასუფთავება"
 
-#: src/dialogs/editor.tsx:239 src/dialogs/keyboardShortcutsHelp.tsx:33
+#: src/dialogs/editor.tsx:248 src/dialogs/keyboardShortcutsHelp.tsx:33
 msgid "Close"
 msgstr "დახურვა"
 
@@ -276,6 +280,10 @@ msgstr "საქაღალდის მფლობელი"
 msgid "Directory with the same name exists"
 msgstr "საქაღალდე იგივე სახელით უკვე არსებობს"
 
+#: src/dialogs/editor.tsx:307
+msgid "Discard"
+msgstr ""
+
 #: src/header.tsx:241
 msgid "Display as a grid"
 msgstr "ბადის სახით ჩვენება"
@@ -293,7 +301,7 @@ msgid "Drop files to upload"
 msgstr "ასატვირთად დაყარეთ ფაილები"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:160
+#: src/dialogs/editor.tsx:165
 msgid "Edit $0"
 msgstr "$0-ის ჩასწორება"
 
@@ -422,7 +430,7 @@ msgstr "დამალული ელემენტების დამა�
 msgid "Home"
 msgstr "საწყისი"
 
-#: src/dialogs/editor.tsx:203
+#: src/dialogs/editor.tsx:208
 msgid "Ignore"
 msgstr "დაიგნორება"
 
@@ -534,7 +542,8 @@ msgstr "სხვები"
 msgid "Others access"
 msgstr "სხვების წვდომა"
 
-#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:223
+#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:228
+#: src/dialogs/editor.tsx:285
 msgid "Overwrite"
 msgstr "გადაწერა"
 
@@ -601,7 +610,7 @@ msgstr "წაკითხვა და ჩაწერა"
 msgid "Read, write, and execute"
 msgstr "წაკითხვა, ჩაწერა და გაშვება"
 
-#: src/common.ts:53 src/dialogs/permissions.tsx:215 src/dialogs/editor.tsx:162
+#: src/common.ts:53 src/dialogs/permissions.tsx:215 src/dialogs/editor.tsx:167
 msgid "Read-only"
 msgstr "მხოლოდ-წასაკითხად"
 
@@ -622,7 +631,7 @@ msgstr ""
 "შეიძლება, ერთდროულად იქნეს გადაადგილებული. მაგალითად, როცა სახელს არქმევთ, "
 "ან გადაგაგაქვთ მშობელი საქაღალდე."
 
-#: src/dialogs/editor.tsx:200
+#: src/dialogs/editor.tsx:205
 msgid "Reload"
 msgstr "თავიდან ჩატვირთვა"
 
@@ -650,9 +659,13 @@ msgstr "ჩანაცვლება"
 msgid "Replace file $0?"
 msgstr "ჩავანაცვლო ფაილი $0?"
 
-#: src/dialogs/editor.tsx:236
+#: src/dialogs/editor.tsx:242 src/dialogs/editor.tsx:299
 msgid "Save"
 msgstr "შენახვა"
+
+#: src/dialogs/editor.tsx:259
+msgid "Save changes?"
+msgstr ""
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
@@ -706,17 +719,27 @@ msgstr "სიმბმულის სახელი"
 msgid "Target"
 msgstr "სამიზნე"
 
-#: src/dialogs/editor.tsx:48
+#: src/dialogs/editor.tsx:50
 msgid "The existing file changed unexpectedly"
 msgstr "არსებული ფაილი წარმატებით შეიცვალა"
 
-#: src/dialogs/editor.tsx:46 src/dialogs/editor.tsx:194
+#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:199
 msgid "The file has been removed on disk"
 msgstr "ფაილი წაიშალა დისკიდან"
 
-#: src/dialogs/editor.tsx:195
+#: src/dialogs/editor.tsx:200
 msgid "The file has changed on disk"
 msgstr "ფაილი შეიცვალა დისკზე"
+
+#: src/dialogs/editor.tsx:269
+#, fuzzy
+#| msgid "The file has changed on disk"
+msgid "The file has changed on disk between when it was opened and now"
+msgstr "ფაილი შეიცვალა დისკზე"
+
+#: src/dialogs/editor.tsx:268
+msgid "The file was deleted after it was opened, saving will recreate it."
+msgstr ""
 
 #: src/dialogs/symlink.tsx:180
 msgid "Type"
@@ -759,7 +782,7 @@ msgstr "ატვირთვები"
 msgid "User"
 msgstr "მომხმარებელი"
 
-#: src/dialogs/editor.tsx:160
+#: src/dialogs/editor.tsx:165
 msgid "View $0"
 msgstr "$0-ის ნახვა"
 
