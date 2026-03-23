@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-23 04:54+0000\n"
-"PO-Revision-Date: 2026-03-03 15:58+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"PO-Revision-Date: 2026-03-24 09:58+0000\n"
+"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/tr/>\n"
 "Language: tr\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -41,6 +41,8 @@ msgstr "$0 dosya seçildi"
 #: src/dialogs/editor.tsx:274
 msgid "$0 has unsaved changes and which will be permanently lost if discarded."
 msgstr ""
+"$0 kaydedilmemiş değişikliklere sahip ve vazgeçilirse kalıcı olarak "
+"kaybolacaktır."
 
 #: src/files-card-body.tsx:519
 msgid "$0 item is hidden"
@@ -281,7 +283,7 @@ msgstr "Aynı ada sahip dizin var"
 
 #: src/dialogs/editor.tsx:307
 msgid "Discard"
-msgstr ""
+msgstr "Vazgeç"
 
 #: src/header.tsx:241
 msgid "Display as a grid"
@@ -664,7 +666,7 @@ msgstr "Kaydet"
 
 #: src/dialogs/editor.tsx:259
 msgid "Save changes?"
-msgstr ""
+msgstr "Değişiklikler kaydedilsin mi?"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
@@ -731,14 +733,12 @@ msgid "The file has changed on disk"
 msgstr "Dosya disk üzerinde değişti"
 
 #: src/dialogs/editor.tsx:269
-#, fuzzy
-#| msgid "The file has changed on disk"
 msgid "The file has changed on disk between when it was opened and now"
-msgstr "Dosya disk üzerinde değişti"
+msgstr "Dosya, açıldığı zaman ile şu an arasında diskte değişti"
 
 #: src/dialogs/editor.tsx:268
 msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr ""
+msgstr "Dosya açıldıktan sonra silindi, kaydetmek yeniden oluşturacak."
 
 #: src/dialogs/symlink.tsx:180
 msgid "Type"
