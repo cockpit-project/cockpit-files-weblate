@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-23 04:54+0000\n"
-"PO-Revision-Date: 2026-03-18 02:16+0000\n"
+"PO-Revision-Date: 2026-03-24 09:58+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/ro/>\n"
@@ -42,6 +42,8 @@ msgstr "$0 fișiere selectate"
 #: src/dialogs/editor.tsx:274
 msgid "$0 has unsaved changes and which will be permanently lost if discarded."
 msgstr ""
+"$0 conține modificări nesalvate, care se vor pierde definitiv dacă sunt "
+"anulate(eliminate)."
 
 #: src/files-card-body.tsx:519
 msgid "$0 item is hidden"
@@ -283,7 +285,7 @@ msgstr "Există deja un director cu același nume"
 
 #: src/dialogs/editor.tsx:307
 msgid "Discard"
-msgstr ""
+msgstr "Eliminare"
 
 #: src/header.tsx:241
 msgid "Display as a grid"
@@ -666,7 +668,7 @@ msgstr "Salvează"
 
 #: src/dialogs/editor.tsx:259
 msgid "Save changes?"
-msgstr ""
+msgstr "Salvați modificările:?"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
@@ -733,14 +735,16 @@ msgid "The file has changed on disk"
 msgstr "Fișierul a fost modificat pe disc"
 
 #: src/dialogs/editor.tsx:269
-#, fuzzy
-#| msgid "The file has changed on disk"
 msgid "The file has changed on disk between when it was opened and now"
-msgstr "Fișierul a fost modificat pe disc"
+msgstr ""
+"Fișierul a fost modificat pe disc între momentul în care a fost deschis și "
+"momentul actual"
 
 #: src/dialogs/editor.tsx:268
 msgid "The file was deleted after it was opened, saving will recreate it."
 msgstr ""
+"Fișierul a fost șters pe disc după ce a fost deschis; salvarea îl va recrea "
+"(din memoria tampon)."
 
 #: src/dialogs/symlink.tsx:180
 msgid "Type"
