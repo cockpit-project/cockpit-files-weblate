@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-23 04:54+0000\n"
-"PO-Revision-Date: 2026-03-03 15:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-03-24 09:58+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/ka/>\n"
 "Language: ka\n"
@@ -25,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -42,6 +41,8 @@ msgstr "მონიშნულია $0 ფაილი"
 #: src/dialogs/editor.tsx:274
 msgid "$0 has unsaved changes and which will be permanently lost if discarded."
 msgstr ""
+"$0-ს აქვს შეუნახავი ცვლილებები, რომლებიც სამუდამოდ დაიკარგება, თუ არ "
+"შეინახავთ."
 
 #: src/files-card-body.tsx:519
 msgid "$0 item is hidden"
@@ -282,7 +283,7 @@ msgstr "საქაღალდე იგივე სახელით უკ
 
 #: src/dialogs/editor.tsx:307
 msgid "Discard"
-msgstr ""
+msgstr "მოცილება"
 
 #: src/header.tsx:241
 msgid "Display as a grid"
@@ -323,7 +324,7 @@ msgstr "მხოლოდ-გამშვები"
 
 #: src/upload-button.tsx:277
 msgid "Failed"
-msgstr "შეცდომა"
+msgstr "ჩავარდა"
 
 #: src/files-card-body.tsx:580
 msgid "File"
@@ -665,7 +666,7 @@ msgstr "შენახვა"
 
 #: src/dialogs/editor.tsx:259
 msgid "Save changes?"
-msgstr ""
+msgstr "შევინახო ცვლილებები?"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
@@ -732,14 +733,12 @@ msgid "The file has changed on disk"
 msgstr "ფაილი შეიცვალა დისკზე"
 
 #: src/dialogs/editor.tsx:269
-#, fuzzy
-#| msgid "The file has changed on disk"
 msgid "The file has changed on disk between when it was opened and now"
-msgstr "ფაილი შეიცვალა დისკზე"
+msgstr "ფაილი შეიცვალა დისკზე მას შემდეგ, რაც ის გახსენით"
 
 #: src/dialogs/editor.tsx:268
 msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr ""
+msgstr "ფაილი წაიშალა მას შემდეგ, რაც გახსენით. შენახვა მას თავიდან შექმნის."
 
 #: src/dialogs/symlink.tsx:180
 msgid "Type"
