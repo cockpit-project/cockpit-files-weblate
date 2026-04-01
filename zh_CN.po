@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-31 04:59+0000\n"
-"PO-Revision-Date: 2025-11-17 16:58+0000\n"
-"Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
+"PO-Revision-Date: 2026-04-02 23:59+0000\n"
+"Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -40,7 +40,7 @@ msgstr "选择了 $0 文件"
 
 #: src/dialogs/editor.tsx:274
 msgid "$0 has unsaved changes and which will be permanently lost if discarded."
-msgstr ""
+msgstr "$0 有未保存的更改，丢弃后将永久丢失。"
 
 #: src/files-card-body.tsx:519
 msgid "$0 item is hidden"
@@ -275,7 +275,7 @@ msgstr "同名的目录已经存在"
 
 #: src/dialogs/editor.tsx:307
 msgid "Discard"
-msgstr ""
+msgstr "丢弃"
 
 #: src/header.tsx:241
 msgid "Display as a grid"
@@ -319,8 +319,6 @@ msgid "Failed"
 msgstr "失败"
 
 #: src/files-card-body.tsx:580
-#, fuzzy
-#| msgid "Files"
 msgid "File"
 msgstr "文件"
 
@@ -372,7 +370,7 @@ msgstr "最先修改"
 
 #: src/files-card-body.tsx:578
 msgid "Folder"
-msgstr ""
+msgstr "文件夹"
 
 #: src/dialogs/delete.tsx:51
 msgid "Force delete $0"
@@ -655,7 +653,7 @@ msgstr "保存"
 
 #: src/dialogs/editor.tsx:259
 msgid "Save changes?"
-msgstr ""
+msgstr "保存更改？"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
@@ -722,14 +720,12 @@ msgid "The file has changed on disk"
 msgstr "文件已在磁盘上进行了更改"
 
 #: src/dialogs/editor.tsx:269
-#, fuzzy
-#| msgid "The file has changed on disk"
 msgid "The file has changed on disk between when it was opened and now"
-msgstr "文件已在磁盘上进行了更改"
+msgstr "该文件在打开后和现在之间已在磁盘上发生更改"
 
 #: src/dialogs/editor.tsx:268
 msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr ""
+msgstr "该文件在打开后已被删除，保存将重新创建它。"
 
 #: src/dialogs/symlink.tsx:180
 msgid "Type"
