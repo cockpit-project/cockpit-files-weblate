@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-12 05:54+0000\n"
-"PO-Revision-Date: 2026-01-24 11:58+0000\n"
+"PO-Revision-Date: 2026-05-15 14:59+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/it/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -41,6 +41,8 @@ msgstr "$0 file selezionati"
 #: src/dialogs/editor.tsx:274
 msgid "$0 has unsaved changes and which will be permanently lost if discarded."
 msgstr ""
+"$0 ha delle modifiche non salvate che andranno perse definitivamente se "
+"scartate."
 
 #: src/files-card-body.tsx:519
 msgid "$0 item is hidden"
@@ -281,7 +283,7 @@ msgstr "Esiste una cartella con lo stesso nome"
 
 #: src/dialogs/editor.tsx:307
 msgid "Discard"
-msgstr ""
+msgstr "Scarta"
 
 #: src/header.tsx:241
 msgid "Display as a grid"
@@ -325,8 +327,6 @@ msgid "Failed"
 msgstr "Fallito"
 
 #: src/files-card-body.tsx:580
-#, fuzzy
-#| msgid "Files"
 msgid "File"
 msgstr "File"
 
@@ -381,7 +381,7 @@ msgstr "Prima modifica"
 
 #: src/files-card-body.tsx:578
 msgid "Folder"
-msgstr ""
+msgstr "Cartella"
 
 #: src/dialogs/delete.tsx:51
 msgid "Force delete $0"
@@ -666,7 +666,7 @@ msgstr "Salva"
 
 #: src/dialogs/editor.tsx:259
 msgid "Save changes?"
-msgstr ""
+msgstr "Salvare le modifiche?"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
@@ -733,14 +733,16 @@ msgid "The file has changed on disk"
 msgstr "Il file è cambiato sul disco"
 
 #: src/dialogs/editor.tsx:269
-#, fuzzy
-#| msgid "The file has changed on disk"
 msgid "The file has changed on disk between when it was opened and now"
-msgstr "Il file è cambiato sul disco"
+msgstr ""
+"Il file sul disco è stato modificato nel periodo tra l'apertura e il momento "
+"attuale"
 
 #: src/dialogs/editor.tsx:268
 msgid "The file was deleted after it was opened, saving will recreate it."
 msgstr ""
+"Il file è stato eliminato dopo essere stato aperto; il salvataggio lo "
+"ricreerà."
 
 #: src/dialogs/symlink.tsx:180
 msgid "Type"
