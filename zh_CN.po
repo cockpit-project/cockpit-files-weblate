@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-17 06:03+0000\n"
-"PO-Revision-Date: 2026-04-02 23:59+0000\n"
-"Last-Translator: 耗子 <haozi@loli.email>\n"
+"PO-Revision-Date: 2026-05-17 12:08+0000\n"
+"Last-Translator: Luke Na <narukeu@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -36,7 +36,7 @@ msgstr "$0 文件"
 
 #: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
-msgstr "选择了 $0 文件"
+msgstr "选择了 $0 个文件"
 
 #: src/dialogs/editor.tsx:274
 msgid "$0 has unsaved changes and which will be permanently lost if discarded."
@@ -139,7 +139,7 @@ msgstr "不能在当前目录中创建文件"
 
 #: src/files-folder-view.tsx:164
 msgid "Cannot drop files, another upload is already in progress"
-msgstr "无法丢弃文件，另一个上传已在进行中"
+msgstr "无法拖放文件，另一个上传已在进行中"
 
 #: src/dialogs/permissions.tsx:400
 msgid "Change"
@@ -291,7 +291,7 @@ msgstr "下载"
 
 #: src/files-folder-view.tsx:156
 msgid "Drop files to upload"
-msgstr "删除要上传的文件"
+msgstr "拖放文件以上传"
 
 #. Translators: This is the title of a modal dialog.  $0 represents a filename.
 #: src/dialogs/editor.tsx:165
@@ -308,7 +308,7 @@ msgstr "编辑权限"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:147
 msgid "Editing"
-msgstr "编辑中"
+msgstr "编辑"
 
 #: src/common.ts:50
 msgid "Execute-only"
@@ -350,7 +350,7 @@ msgstr "文件"
 msgid ""
 "Files being pasted have a different owner. By default, ownership will be "
 "changed to match the destination directory."
-msgstr "要粘贴的文件有不同的所有者。默认情况下，所有权将更改为与目标目录匹配。"
+msgstr "要粘贴的文件所有者与目标目录不同。默认情况下，所有权将更改为与目标目录一致。"
 
 #: src/upload-button.tsx:373
 msgid "Files uploaded"
@@ -402,7 +402,7 @@ msgstr "继续"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:55
 msgid "Go up a directory"
-msgstr "转到目录"
+msgstr "转到上级目录"
 
 #: src/dialogs/permissions.tsx:319 src/files-card-body.tsx:591
 #: src/files-footer-detail.tsx:80 src/files-footer-detail.tsx:152
@@ -567,7 +567,7 @@ msgstr "粘贴"
 
 #: src/dialogs/copyPasteOwnership.tsx:178
 msgid "Paste as owner"
-msgstr "粘贴为所有者"
+msgstr "以指定所有者粘贴"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:114
 msgid "Paste file or directory"
@@ -726,7 +726,7 @@ msgstr "该文件在打开后和现在之间已在磁盘上发生更改"
 
 #: src/dialogs/editor.tsx:268
 msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr "该文件在打开后已被删除，保存将重新创建它。"
+msgstr "文件在打开后已被删除，保存将重新创建该文件。"
 
 #: src/dialogs/symlink.tsx:180
 msgid "Type"
