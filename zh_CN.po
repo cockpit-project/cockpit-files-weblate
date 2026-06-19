@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-17 06:03+0000\n"
-"PO-Revision-Date: 2026-05-17 12:08+0000\n"
-"Last-Translator: Luke Na <narukeu@outlook.com>\n"
+"PO-Revision-Date: 2026-06-20 10:11+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.5\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -40,7 +40,7 @@ msgstr "选择了 $0 个文件"
 
 #: src/dialogs/editor.tsx:274
 msgid "$0 has unsaved changes and which will be permanently lost if discarded."
-msgstr "$0 有未保存的更改，丢弃后将永久丢失。"
+msgstr ""
 
 #: src/files-card-body.tsx:519
 msgid "$0 item is hidden"
@@ -275,7 +275,7 @@ msgstr "同名的目录已经存在"
 
 #: src/dialogs/editor.tsx:307
 msgid "Discard"
-msgstr "丢弃"
+msgstr ""
 
 #: src/header.tsx:241
 msgid "Display as a grid"
@@ -370,7 +370,7 @@ msgstr "最先修改"
 
 #: src/files-card-body.tsx:578
 msgid "Folder"
-msgstr "文件夹"
+msgstr ""
 
 #: src/dialogs/delete.tsx:51
 msgid "Force delete $0"
@@ -654,7 +654,7 @@ msgstr "保存"
 
 #: src/dialogs/editor.tsx:259
 msgid "Save changes?"
-msgstr "保存更改？"
+msgstr ""
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
