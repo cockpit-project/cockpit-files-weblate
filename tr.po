@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-20 06:47+0000\n"
-"PO-Revision-Date: 2026-03-24 09:58+0000\n"
-"Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
+"PO-Revision-Date: 2026-06-21 14:10+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/tr/>\n"
 "Language: tr\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -118,10 +118,8 @@ msgid "Block device"
 msgstr "Blok aygıtı"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Bookmarks"
 msgid "Bookmarked"
-msgstr "Yer işaretleri"
+msgstr "Yer işaretlerine eklendi"
 
 #: src/files-breadcrumbs.tsx:154
 msgid "Bookmarks"
@@ -181,7 +179,7 @@ msgstr "Kapat"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:135
 msgid "Close editor"
-msgstr ""
+msgstr "Düzenleyiciyi kapat"
 
 #: src/index.html:8
 msgid "Cockpit Files"
@@ -329,10 +327,8 @@ msgid "Editing"
 msgstr "Düzenleme"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:172
-#, fuzzy
-#| msgid "Edit $0"
 msgid "Editor"
-msgstr "$0 dosyasını düzenle"
+msgstr "Düzenleyici"
 
 #: src/common.ts:50
 msgid "Execute-only"
@@ -540,10 +536,8 @@ msgid "None"
 msgstr "Yok"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Add to bookmarks"
 msgid "Not bookmarked"
-msgstr "Yer işaretlerine ekle"
+msgstr "Yer işaretlerine eklenmedi"
 
 #: src/menu.tsx:126 src/menu.tsx:187
 msgid "Open in terminal"
@@ -690,10 +684,8 @@ msgid "Save changes?"
 msgstr "Değişiklikler kaydedilsin mi?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
-#, fuzzy
-#| msgid "Remove current directory"
 msgid "Save current file"
-msgstr "Geçerli dizini kaldır"
+msgstr "Geçerli dosyayı kaydet"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
