@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-20 06:47+0000\n"
-"PO-Revision-Date: 2026-04-08 09:58+0000\n"
+"PO-Revision-Date: 2026-06-21 14:10+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/ro/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -120,10 +120,8 @@ msgid "Block device"
 msgstr "Dispozitiv de blocuri"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Bookmarks"
 msgid "Bookmarked"
-msgstr "Marcaje"
+msgstr "Adăugat la marcaje"
 
 #: src/files-breadcrumbs.tsx:154
 msgid "Bookmarks"
@@ -183,7 +181,7 @@ msgstr "Închide"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:135
 msgid "Close editor"
-msgstr ""
+msgstr "Închide editorul"
 
 #: src/index.html:8
 msgid "Cockpit Files"
@@ -331,10 +329,8 @@ msgid "Editing"
 msgstr "Editare"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:172
-#, fuzzy
-#| msgid "Edit $0"
 msgid "Editor"
-msgstr "Editează $0"
+msgstr "Editor"
 
 #: src/common.ts:50
 msgid "Execute-only"
@@ -542,10 +538,8 @@ msgid "None"
 msgstr "Niciuna"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Add to bookmarks"
 msgid "Not bookmarked"
-msgstr "Adaugă la marcaje"
+msgstr "Nu este adăugat la marcaje"
 
 #: src/menu.tsx:126 src/menu.tsx:187
 msgid "Open in terminal"
@@ -693,7 +687,7 @@ msgstr "Salvați modificările:?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
 msgid "Save current file"
-msgstr ""
+msgstr "Salvează fișierul curent"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
