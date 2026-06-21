@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-20 06:47+0000\n"
-"PO-Revision-Date: 2026-03-24 09:58+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"PO-Revision-Date: 2026-06-21 14:10+0000\n"
+"Last-Translator: Min Kyung Kwon <min.kyung.kwon.dev@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -115,10 +115,8 @@ msgid "Block device"
 msgstr "블록 장치"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Bookmarks"
 msgid "Bookmarked"
-msgstr "즐겨찾기"
+msgstr "즐겨찾기 됨"
 
 #: src/files-breadcrumbs.tsx:154
 msgid "Bookmarks"
@@ -178,7 +176,7 @@ msgstr "종료"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:135
 msgid "Close editor"
-msgstr ""
+msgstr "편집기 닫기"
 
 #: src/index.html:8
 msgid "Cockpit Files"
@@ -326,10 +324,8 @@ msgid "Editing"
 msgstr "편집하기"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:172
-#, fuzzy
-#| msgid "Edit $0"
 msgid "Editor"
-msgstr "$0 편집"
+msgstr "편집기"
 
 #: src/common.ts:50
 msgid "Execute-only"
@@ -537,10 +533,8 @@ msgid "None"
 msgstr "없음"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Add to bookmarks"
 msgid "Not bookmarked"
-msgstr "즐겨찾기에 추가"
+msgstr "즐겨찾기 안 됨"
 
 #: src/menu.tsx:126 src/menu.tsx:187
 msgid "Open in terminal"
@@ -686,10 +680,8 @@ msgid "Save changes?"
 msgstr "변경을 저장할까요?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
-#, fuzzy
-#| msgid "Remove current directory"
 msgid "Save current file"
-msgstr "현재 디렉토리를 제거합니다"
+msgstr "현재 파일 저장"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
