@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-20 06:47+0000\n"
-"PO-Revision-Date: 2026-05-17 07:00+0000\n"
+"PO-Revision-Date: 2026-06-21 14:10+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/uk/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.5\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -120,10 +120,8 @@ msgid "Block device"
 msgstr "Блоковий пристрій"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Bookmarks"
 msgid "Bookmarked"
-msgstr "Закладки"
+msgstr "Має закладку"
 
 #: src/files-breadcrumbs.tsx:154
 msgid "Bookmarks"
@@ -183,7 +181,7 @@ msgstr "Закрити"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:135
 msgid "Close editor"
-msgstr ""
+msgstr "Закрити редактор"
 
 #: src/index.html:8
 msgid "Cockpit Files"
@@ -331,10 +329,8 @@ msgid "Editing"
 msgstr "Редагування"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:172
-#, fuzzy
-#| msgid "Edit $0"
 msgid "Editor"
-msgstr "Змінити $0"
+msgstr "Редактор"
 
 #: src/common.ts:50
 msgid "Execute-only"
@@ -542,10 +538,8 @@ msgid "None"
 msgstr "Немає"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Add to bookmarks"
 msgid "Not bookmarked"
-msgstr "Додати до закладок"
+msgstr "Не має закладки"
 
 #: src/menu.tsx:126 src/menu.tsx:187
 msgid "Open in terminal"
@@ -693,7 +687,7 @@ msgstr "Зберегти зміни?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
 msgid "Save current file"
-msgstr ""
+msgstr "Зберегти поточний файл"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
