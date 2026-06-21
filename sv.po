@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-20 06:47+0000\n"
-"PO-Revision-Date: 2026-05-12 13:59+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-06-21 14:10+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/sv/>\n"
 "Language: sv\n"
@@ -25,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -119,10 +118,8 @@ msgid "Block device"
 msgstr "Blockenhet"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Bookmarks"
 msgid "Bookmarked"
-msgstr "Bokmärken"
+msgstr "Bokmärkt"
 
 #: src/files-breadcrumbs.tsx:154
 msgid "Bookmarks"
@@ -182,7 +179,7 @@ msgstr "Stäng"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:135
 msgid "Close editor"
-msgstr ""
+msgstr "Stäng redigerare"
 
 #: src/index.html:8
 msgid "Cockpit Files"
@@ -330,10 +327,8 @@ msgid "Editing"
 msgstr "Redigerar"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:172
-#, fuzzy
-#| msgid "Edit $0"
 msgid "Editor"
-msgstr "Redigera $0"
+msgstr "Redigerare"
 
 #: src/common.ts:50
 msgid "Execute-only"
@@ -541,10 +536,8 @@ msgid "None"
 msgstr "Inga"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Add to bookmarks"
 msgid "Not bookmarked"
-msgstr "Lägg till i bokmärken"
+msgstr "Inte bokmärkt"
 
 #: src/menu.tsx:126 src/menu.tsx:187
 msgid "Open in terminal"
@@ -691,10 +684,8 @@ msgid "Save changes?"
 msgstr "Spara ändringar?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
-#, fuzzy
-#| msgid "Remove current directory"
 msgid "Save current file"
-msgstr "Ta bort aktuell katalog"
+msgstr "Spara nuvarande fil"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
