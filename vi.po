@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-03 06:17+0000\n"
 "PO-Revision-Date: 2026-07-06 16:55+0000\n"
-"Last-Translator: Vo Huy <hoanghuy309@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/vi/>\n"
 "Language: vi\n"
@@ -146,7 +147,7 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:400
 msgid "Change"
-msgstr ""
+msgstr "Thay đổi"
 
 #: src/upload-button.tsx:404
 msgid "Change permissions"
