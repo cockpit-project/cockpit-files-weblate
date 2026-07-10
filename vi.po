@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-09 06:28+0000\n"
-"PO-Revision-Date: 2026-07-09 07:17+0000\n"
+"PO-Revision-Date: 2026-07-11 07:00+0000\n"
 "Last-Translator: Vo Huy <hoanghuy309@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/vi/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.7.1.dev0\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -551,7 +551,7 @@ msgstr ""
 #: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:250
 #: src/dialogs/editor.tsx:307
 msgid "Overwrite"
-msgstr ""
+msgstr "Ghi đè"
 
 #: src/dialogs/create-file.tsx:185 src/dialogs/permissions.tsx:304
 #: src/files-card-body.tsx:544 src/files-card-body.tsx:591
