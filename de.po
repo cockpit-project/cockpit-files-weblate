@@ -5,7 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-11 05:28+0000\n"
 "PO-Revision-Date: 2026-07-18 17:17+0000\n"
-"Last-Translator: Lukas Bitz <naetzuwa45@tutamail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/de/>\n"
 "Language: de\n"
@@ -675,10 +676,8 @@ msgid "Save changes?"
 msgstr "Änderungen speichern?"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:131
-#, fuzzy
-#| msgid "Remove current directory"
 msgid "Save current file"
-msgstr "Aktuelles Verzeichnis entfernen"
+msgstr "Die momentan geöffnete Datei speichern"
 
 #: src/dialogs/permissions.tsx:375
 msgid "Security context"
