@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: starter-kit 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-11 05:28+0000\n"
+"POT-Creation-Date: 2026-07-18 05:11+0000\n"
 "PO-Revision-Date: 2026-07-18 17:17+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -115,11 +115,11 @@ msgstr "Als Lesezeichen gespeichert"
 msgid "Bookmarks"
 msgstr "Lesezeichen"
 
-#: src/upload-button.tsx:146 src/dialogs/create-file.tsx:211
-#: src/dialogs/mkdir.tsx:137 src/dialogs/copyPasteOwnership.tsx:166
-#: src/dialogs/rename.tsx:87 src/dialogs/editor.tsx:270
-#: src/dialogs/editor.tsx:336 src/dialogs/permissions.tsx:409
 #: src/dialogs/delete.tsx:97 src/dialogs/symlink.tsx:233
+#: src/dialogs/permissions.tsx:409 src/dialogs/editor.tsx:270
+#: src/dialogs/editor.tsx:336 src/dialogs/rename.tsx:87
+#: src/dialogs/create-file.tsx:211 src/dialogs/mkdir.tsx:137
+#: src/dialogs/copyPasteOwnership.tsx:166 src/upload-button.tsx:146
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -418,8 +418,8 @@ msgstr "Weitergehen"
 msgid "Go up a directory"
 msgstr "Ein Verzeichnis nach oben gehen"
 
-#: src/dialogs/permissions.tsx:319 src/files-card-body.tsx:591
-#: src/files-footer-detail.tsx:80 src/files-footer-detail.tsx:152
+#: src/dialogs/permissions.tsx:319 src/files-footer-detail.tsx:80
+#: src/files-footer-detail.tsx:152 src/files-card-body.tsx:591
 msgid "Group"
 msgstr "Gruppe"
 
@@ -467,7 +467,7 @@ msgstr "Verwalten Sie Ihre Dateien"
 msgid "Missing type"
 msgstr "Fehlender Typ"
 
-#: src/files-card-body.tsx:539 src/files-card-body.tsx:659 src/header.tsx:75
+#: src/header.tsx:75 src/files-card-body.tsx:539 src/files-card-body.tsx:659
 msgid "Modified"
 msgstr "Geändert"
 
@@ -475,7 +475,7 @@ msgstr "Geändert"
 msgid "Most permissive"
 msgstr "Am meisten zulässig"
 
-#: src/files-card-body.tsx:534 src/header.tsx:53
+#: src/header.tsx:53 src/files-card-body.tsx:534
 msgid "Name"
 msgstr "Name"
 
@@ -543,7 +543,7 @@ msgstr "Textdatei öffnen"
 msgid "Original file on server"
 msgstr "Originaldatei auf dem Server"
 
-#: src/files-card-body.tsx:591 src/files-footer-detail.tsx:80
+#: src/files-footer-detail.tsx:80 src/files-card-body.tsx:591
 msgid "Others"
 msgstr "Andere"
 
@@ -551,14 +551,14 @@ msgstr "Andere"
 msgid "Others access"
 msgstr "Anderer Zugriff"
 
-#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:250
-#: src/dialogs/editor.tsx:307
+#: src/dialogs/editor.tsx:250 src/dialogs/editor.tsx:307
+#: src/dialogs/rename.tsx:85
 msgid "Overwrite"
 msgstr "Überschreiben"
 
-#: src/dialogs/create-file.tsx:185 src/dialogs/permissions.tsx:304
-#: src/files-card-body.tsx:544 src/files-card-body.tsx:591
-#: src/files-card-body.tsx:667 src/header.tsx:86 src/files-footer-detail.tsx:80
+#: src/dialogs/permissions.tsx:304 src/dialogs/create-file.tsx:185
+#: src/files-footer-detail.tsx:80 src/header.tsx:86 src/files-card-body.tsx:544
+#: src/files-card-body.tsx:591 src/files-card-body.tsx:667
 msgid "Owner"
 msgstr "Eigentümer"
 
@@ -598,7 +598,7 @@ msgstr "Einfügen fehlgeschlagen"
 msgid "Permission denied"
 msgstr "Erlaubnis verweigert"
 
-#: src/files-card-body.tsx:549 src/files-card-body.tsx:674 src/header.tsx:97
+#: src/header.tsx:97 src/files-card-body.tsx:549 src/files-card-body.tsx:674
 msgid "Permissions"
 msgstr "Berechtigungen"
 
@@ -618,7 +618,7 @@ msgstr "Lesen und schreiben"
 msgid "Read, write, and execute"
 msgstr "Lesen, schreiben und ausführen"
 
-#: src/dialogs/editor.tsx:189 src/dialogs/permissions.tsx:215 src/common.ts:53
+#: src/dialogs/permissions.tsx:215 src/dialogs/editor.tsx:189 src/common.ts:53
 msgid "Read-only"
 msgstr "Nur lesen"
 
@@ -695,7 +695,7 @@ msgstr "Ausführbare Datei als Programm festlegen"
 msgid "Show all files"
 msgstr "Alle Dateien anzeigen"
 
-#: src/files-card-body.tsx:522 src/header.tsx:271
+#: src/header.tsx:271 src/files-card-body.tsx:522
 msgid "Show hidden items"
 msgstr "Versteckte Elemente anzeigen"
 
@@ -703,7 +703,7 @@ msgstr "Versteckte Elemente anzeigen"
 msgid "Show keyboard shortcuts"
 msgstr "Tastenkombinationen anzeigen"
 
-#: src/files-card-body.tsx:535 src/files-card-body.tsx:652 src/header.tsx:64
+#: src/header.tsx:64 src/files-card-body.tsx:535 src/files-card-body.tsx:652
 msgid "Size"
 msgstr "Größe"
 
