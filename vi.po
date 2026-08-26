@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-23 03:33+0000\n"
-"PO-Revision-Date: 2026-07-11 07:00+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-08-27 15:18+0000\n"
+"Last-Translator: Vo Huy <hoanghuy309@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-files/vi/>\n"
 "Language: vi\n"
@@ -25,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.7.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -419,7 +418,7 @@ msgstr ""
 #: src/dialogs/permissions.tsx:319 src/files-card-body.tsx:591
 #: src/files-footer-detail.tsx:80 src/files-footer-detail.tsx:152
 msgid "Group"
-msgstr ""
+msgstr "Nhóm"
 
 #: src/dialogs/permissions.tsx:350
 msgid "Group access"
@@ -435,7 +434,7 @@ msgstr ""
 
 #: src/dialogs/editor.tsx:230
 msgid "Ignore"
-msgstr ""
+msgstr "Bỏ qua"
 
 #: src/upload-button.tsx:145
 msgid "Keep original"
