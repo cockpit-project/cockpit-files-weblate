@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-27 13:05+0000\n"
-"PO-Revision-Date: 2026-06-21 14:10+0000\n"
-"Last-Translator: Min Kyung Kwon <min.kyung.kwon.dev@gmail.com>\n"
+"PO-Revision-Date: 2026-09-11 03:17+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/ko/>\n"
 "Language: ko\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -260,7 +260,7 @@ msgstr "디렉토리는 $0 디렉토리, $1 파일, $2 숨김 파일을 포함�
 
 #: src/files-card-body.tsx:514
 msgid "Directory is empty"
-msgstr "디렉토리가 비었습니다"
+msgstr "디렉토리가 비어 있습니다"
 
 #: src/dialogs/mkdir.tsx:96
 msgid "Directory name"
