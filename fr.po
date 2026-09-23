@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 08:01+0000\n"
-"PO-Revision-Date: 2026-07-03 16:17+0000\n"
+"PO-Revision-Date: 2026-09-24 10:17+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-files/fr/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.7.1.dev0\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: src/menu.tsx:53
 msgid "\"$0\" exists, not overwriting with paste."
@@ -264,7 +264,7 @@ msgstr "Le répertoire contient $0 répertoires, $1 fichiers, $2 masqués"
 
 #: src/files-card-body.tsx:514
 msgid "Directory is empty"
-msgstr "Répertoire vide"
+msgstr "Le répertoire est vide"
 
 #: src/dialogs/mkdir.tsx:96
 msgid "Directory name"
@@ -443,7 +443,7 @@ msgstr "Masquer les éléments masqués"
 
 #: src/files-breadcrumbs.tsx:46
 msgid "Home"
-msgstr "Espace personnel"
+msgstr "Répertoire personnel"
 
 #: src/dialogs/editor.tsx:230
 msgid "Ignore"
