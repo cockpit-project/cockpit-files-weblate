@@ -443,7 +443,7 @@ msgstr "Peida peidetud objektid"
 
 #: src/files-breadcrumbs.tsx:46
 msgid "Home"
-msgstr "Kodukaust"
+msgstr "Kodu"
 
 #: src/dialogs/editor.tsx:230
 msgid "Ignore"
