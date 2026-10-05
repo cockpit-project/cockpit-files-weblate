@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-28 11:35+0000\n"
-"PO-Revision-Date: 2026-08-23 19:20+0000\n"
+"PO-Revision-Date: 2026-10-06 14:18+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/en_GB/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.10\n"
 
 #: src/index.html:8
 msgid "Cockpit Files"
@@ -32,19 +32,19 @@ msgstr "Cockpit Files"
 
 #: src/files-breadcrumbs.tsx:46
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: src/files-breadcrumbs.tsx:94
 msgid "Unable to create bookmark directory"
-msgstr ""
+msgstr "Unable to create bookmark directory"
 
 #: src/files-breadcrumbs.tsx:117
 msgid "Unable to save bookmark file"
-msgstr ""
+msgstr "Unable to save bookmark file"
 
 #: src/files-breadcrumbs.tsx:139
 msgid "Remove from bookmarks"
-msgstr ""
+msgstr "Remove from bookmarks"
 
 #: src/files-breadcrumbs.tsx:141
 msgid "Add to bookmarks"
@@ -55,20 +55,16 @@ msgid "Bookmarks"
 msgstr "Bookmarks"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Bookmarks"
 msgid "Bookmarked"
-msgstr "Bookmarks"
+msgstr "Bookmarked"
 
 #: src/files-breadcrumbs.tsx:161
-#, fuzzy
-#| msgid "Add to bookmarks"
 msgid "Not bookmarked"
-msgstr "Add to bookmarks"
+msgstr "Not bookmarked"
 
 #: src/files-breadcrumbs.tsx:236
 msgid "Filesystem"
-msgstr ""
+msgstr "Filesystem"
 
 #: src/files-breadcrumbs.tsx:303 src/dialogs/keyboardShortcutsHelp.tsx:87
 msgid "Edit path"
@@ -84,42 +80,42 @@ msgstr "A-Z"
 
 #: src/header.tsx:60
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: src/header.tsx:64 src/files-card-body.tsx:535 src/files-card-body.tsx:652
 msgid "Size"
-msgstr ""
+msgstr "Size"
 
 #: src/header.tsx:67
 msgid "Largest size"
-msgstr ""
+msgstr "Largest size"
 
 #: src/header.tsx:71
 msgid "Smallest size"
-msgstr ""
+msgstr "Smallest size"
 
 #: src/header.tsx:75 src/files-card-body.tsx:539 src/files-card-body.tsx:659
 msgid "Modified"
-msgstr ""
+msgstr "Modified"
 
 #: src/header.tsx:78
 msgid "First modified"
-msgstr ""
+msgstr "First modified"
 
 #: src/header.tsx:82
 msgid "Last modified"
-msgstr ""
+msgstr "Last modified"
 
 #: src/header.tsx:86 src/dialogs/permissions.tsx:319
 #: src/dialogs/create-file.tsx:185 src/files-card-body.tsx:544
 #: src/files-card-body.tsx:591 src/files-card-body.tsx:667
 #: src/files-footer-detail.tsx:80
 msgid "Owner"
-msgstr ""
+msgstr "Owner"
 
 #: src/header.tsx:89
 msgid "Owner ascending"
-msgstr ""
+msgstr "Owner ascending"
 
 #: src/header.tsx:93
 msgid "Owner descending"
