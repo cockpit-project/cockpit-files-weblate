@@ -16,7 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-06 09:24+0000\n"
 "PO-Revision-Date: 2026-10-21 08:18+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "translate.fedoraproject.org/projects/cockpit/cockpit-files/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -32,7 +33,7 @@ msgstr "Cockpit 檔案"
 
 #: src/files-breadcrumbs.tsx:46
 msgid "Home"
-msgstr "主目錄"
+msgstr "主頁"
 
 #: src/files-breadcrumbs.tsx:94
 msgid "Unable to create bookmark directory"
@@ -72,7 +73,7 @@ msgstr ""
 
 #: src/header.tsx:53 src/files-card-body.tsx:534
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: src/header.tsx:56
 msgid "A-Z"
@@ -84,7 +85,7 @@ msgstr ""
 
 #: src/header.tsx:64 src/files-card-body.tsx:535 src/files-card-body.tsx:652
 msgid "Size"
-msgstr ""
+msgstr "占用大小"
 
 #: src/header.tsx:67
 msgid "Largest size"
@@ -205,11 +206,11 @@ msgstr ""
 #: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
 #: src/dialogs/create-file.tsx:211 src/dialogs/mkdir.tsx:137
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/upload-button.tsx:278
 msgid "Failed"
-msgstr ""
+msgstr "己失敗"
 
 #: src/upload-button.tsx:322 src/upload-button.tsx:352
 msgid "Upload error"
