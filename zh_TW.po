@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-06 09:24+0000\n"
 "PO-Revision-Date: 2026-10-21 08:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -454,7 +453,7 @@ msgstr "移除目前的目錄"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:135
 msgid "Close editor"
-msgstr ""
+msgstr "關閉編輯器"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:148
 msgid "Keyboard shortcuts"
@@ -469,10 +468,8 @@ msgid "Editing"
 msgstr "正在編輯"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:172
-#, fuzzy
-#| msgid "Edit $0"
 msgid "Editor"
-msgstr "編輯 $0"
+msgstr "編輯器"
 
 #: src/dialogs/delete.tsx:34
 msgid "Force delete $0 items"
@@ -701,11 +698,11 @@ msgstr "儲存"
 
 #: src/dialogs/editor.tsx:281
 msgid "Save changes?"
-msgstr "儲存變更"
+msgstr "儲存變更?"
 
 #: src/dialogs/editor.tsx:290
 msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr ""
+msgstr "該檔案在開啟後已遭刪除，若進行儲存操作，系統將自動重新建立該檔案。"
 
 #: src/dialogs/editor.tsx:291
 #, fuzzy
@@ -715,11 +712,11 @@ msgstr "該檔案已在磁碟上被變更"
 
 #: src/dialogs/editor.tsx:296
 msgid "$0 has unsaved changes and which will be permanently lost if discarded."
-msgstr ""
+msgstr "$0 有未儲存的變更，若將其棄用，這些變更將會永久遺失。"
 
 #: src/dialogs/editor.tsx:329
 msgid "Discard"
-msgstr ""
+msgstr "捨棄"
 
 #: src/dialogs/create-file.tsx:163
 msgid "File name"
