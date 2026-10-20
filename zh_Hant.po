@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-06 09:24+0000\n"
 "PO-Revision-Date: 2026-10-21 08:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "translate.fedoraproject.org/projects/cockpit/cockpit-files/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -37,39 +36,39 @@ msgstr "主頁"
 
 #: src/files-breadcrumbs.tsx:94
 msgid "Unable to create bookmark directory"
-msgstr ""
+msgstr "無法建立書籤目錄"
 
 #: src/files-breadcrumbs.tsx:117
 msgid "Unable to save bookmark file"
-msgstr ""
+msgstr "無法儲存書籤檔案"
 
 #: src/files-breadcrumbs.tsx:139
 msgid "Remove from bookmarks"
-msgstr ""
+msgstr "從書籤中移除"
 
 #: src/files-breadcrumbs.tsx:141
 msgid "Add to bookmarks"
-msgstr ""
+msgstr "加入書籤"
 
 #: src/files-breadcrumbs.tsx:154
 msgid "Bookmarks"
-msgstr ""
+msgstr "書籤"
 
 #: src/files-breadcrumbs.tsx:161
 msgid "Bookmarked"
-msgstr ""
+msgstr "己標記書籤"
 
 #: src/files-breadcrumbs.tsx:161
 msgid "Not bookmarked"
-msgstr ""
+msgstr "無己標記書籤"
 
 #: src/files-breadcrumbs.tsx:236
 msgid "Filesystem"
-msgstr ""
+msgstr "檔案系統"
 
 #: src/files-breadcrumbs.tsx:303 src/dialogs/keyboardShortcutsHelp.tsx:87
 msgid "Edit path"
-msgstr ""
+msgstr "編輯路徑"
 
 #: src/header.tsx:53 src/files-card-body.tsx:534
 msgid "Name"
@@ -77,11 +76,11 @@ msgstr "名稱"
 
 #: src/header.tsx:56
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #: src/header.tsx:60
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: src/header.tsx:64 src/files-card-body.tsx:535 src/files-card-body.tsx:652
 msgid "Size"
@@ -89,116 +88,116 @@ msgstr "占用大小"
 
 #: src/header.tsx:67
 msgid "Largest size"
-msgstr ""
+msgstr "最大占用大小"
 
 #: src/header.tsx:71
 msgid "Smallest size"
-msgstr ""
+msgstr "最小占用大小"
 
 #: src/header.tsx:75 src/files-card-body.tsx:539 src/files-card-body.tsx:659
 msgid "Modified"
-msgstr ""
+msgstr "已修改"
 
 #: src/header.tsx:78
 msgid "First modified"
-msgstr ""
+msgstr "最近已修改"
 
 #: src/header.tsx:82
 msgid "Last modified"
-msgstr ""
+msgstr "最後已修改"
 
 #: src/header.tsx:86 src/dialogs/permissions.tsx:319
 #: src/dialogs/create-file.tsx:185 src/files-card-body.tsx:544
 #: src/files-card-body.tsx:591 src/files-card-body.tsx:667
 #: src/files-footer-detail.tsx:80
 msgid "Owner"
-msgstr ""
+msgstr "擁有人"
 
 #: src/header.tsx:89
 msgid "Owner ascending"
-msgstr ""
+msgstr "正在增加擁有人"
 
 #: src/header.tsx:93
 msgid "Owner descending"
-msgstr ""
+msgstr "正在減少擁有人"
 
 #: src/header.tsx:97 src/files-card-body.tsx:549 src/files-card-body.tsx:674
 msgid "Permissions"
-msgstr ""
+msgstr "權限"
 
 #: src/header.tsx:100
 msgid "Most permissive"
-msgstr ""
+msgstr "權限寬鬆"
 
 #: src/header.tsx:104
 msgid "Least permissive"
-msgstr ""
+msgstr "權限嚴格"
 
 #: src/header.tsx:152
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "顯示鍵盤快捷鍵"
 
 #: src/header.tsx:177
 msgid "Filter directory"
-msgstr ""
+msgstr "篩選目錄"
 
 #: src/header.tsx:240
 msgid "Display as a list"
-msgstr ""
+msgstr "以列表形式顯示"
 
 #: src/header.tsx:241
 msgid "Display as a grid"
-msgstr ""
+msgstr "以網格形式顯示"
 
 #: src/header.tsx:258
 msgid "Sort"
-msgstr ""
+msgstr "排序"
 
 #: src/header.tsx:271
 msgid "Hide hidden items"
-msgstr ""
+msgstr "隱藏己隱藏項目"
 
 #: src/header.tsx:271 src/files-card-body.tsx:522
 msgid "Show hidden items"
-msgstr ""
+msgstr "顯示己隱藏項目"
 
 #: src/upload-button.tsx:56
 msgid "$0 files"
-msgstr ""
+msgstr "$0 個檔案"
 
 #: src/upload-button.tsx:60
 msgid "Uploaded as $0, $1"
-msgstr ""
+msgstr "上傳時標記為 $0、$1"
 
 #: src/upload-button.tsx:95
 msgid "Replace file $0?"
-msgstr ""
+msgstr "要覆寫檔案 $0 嗎？"
 
 #: src/upload-button.tsx:102
 msgid ""
 "A file with the same name already exists in \"$0\". Replacing it will "
 "overwrite its content."
-msgstr ""
+msgstr "在 「$0」 中已存在同名的檔案。若進行替換，將覆寫該檔案的內容。"
 
 #: src/upload-button.tsx:123
 msgid "New file"
-msgstr ""
+msgstr "新建檔案"
 
 #: src/upload-button.tsx:128
 msgid "Original file on server"
-msgstr ""
+msgstr "伺服器上的原始檔案"
 
 #: src/upload-button.tsx:137
 msgid "Apply this action to all conflicting files"
-msgstr ""
+msgstr "將此動作套用至所有發生衝突的檔案"
 
 #: src/upload-button.tsx:143
 msgid "Replace"
-msgstr ""
+msgstr "替換"
 
 #: src/upload-button.tsx:145
 msgid "Keep original"
-msgstr ""
+msgstr "保留原檔"
 
 #: src/upload-button.tsx:146 src/dialogs/delete.tsx:97
 #: src/dialogs/permissions.tsx:424 src/dialogs/copyPasteOwnership.tsx:170
@@ -214,35 +213,35 @@ msgstr "己失敗"
 
 #: src/upload-button.tsx:322 src/upload-button.tsx:352
 msgid "Upload error"
-msgstr ""
+msgstr "上傳錯誤"
 
 #: src/upload-button.tsx:324
 msgid "Unable to move uploaded file to final destination"
-msgstr ""
+msgstr "無法將上傳的檔案移動至最終目的地"
 
 #: src/upload-button.tsx:346
 msgid "Cancelled"
-msgstr ""
+msgstr "己取消"
 
 #: src/upload-button.tsx:348
 msgid "Cancelled upload of $0"
-msgstr ""
+msgstr "已取消上傳 $0"
 
 #: src/upload-button.tsx:374
 msgid "File uploaded"
-msgstr ""
+msgstr "檔案己上傳"
 
 #: src/upload-button.tsx:374
 msgid "Files uploaded"
-msgstr ""
+msgstr "已上傳的檔案"
 
 #: src/upload-button.tsx:405
 msgid "Change permissions"
-msgstr ""
+msgstr "變更權限"
 
 #: src/upload-button.tsx:458
 msgid "Uploads"
-msgstr ""
+msgstr "上傳"
 
 #: src/upload-button.tsx:477
 msgid "Cancel upload of $0"
