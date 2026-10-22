@@ -15,8 +15,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-21 07:59+0000\n"
-"PO-Revision-Date: 2026-10-21 08:18+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"PO-Revision-Date: 2026-10-23 09:18+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-files/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -32,7 +33,7 @@ msgstr "Cockpit Files"
 
 #: src/files-breadcrumbs.tsx:46
 msgid "Home"
-msgstr "家目錄"
+msgstr "家"
 
 #: src/files-breadcrumbs.tsx:94
 msgid "Unable to create bookmark directory"
