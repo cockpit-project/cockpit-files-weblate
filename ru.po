@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 10:02+0000\n"
+"POT-Creation-Date: 2026-11-20 10:27+0000\n"
 "PO-Revision-Date: 2026-09-11 03:17+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit/"
@@ -122,45 +122,57 @@ msgstr "Скрыть скрытые элементы"
 msgid "Show hidden items"
 msgstr "Показать скрытые элементы"
 
-#: src/files-breadcrumbs.tsx:46
-msgid "Home"
-msgstr "Домашний каталог"
+#: src/menu.tsx:51 src/dialogs/copyPasteOwnership.tsx:56
+msgid "Pasting failed"
+msgstr "Вставка не удалась"
 
-#: src/files-breadcrumbs.tsx:94
-msgid "Unable to create bookmark directory"
-msgstr "Не удаётся создать каталог закладок"
+#: src/menu.tsx:53
+msgid "\"$0\" exists, not overwriting with paste."
+msgstr "«$0» существует, вставка не перезапишет его."
 
-#: src/files-breadcrumbs.tsx:117
-msgid "Unable to save bookmark file"
-msgstr "Не удаётся сохранить файл закладок"
+#: src/menu.tsx:100 src/dialogs/copyPasteOwnership.tsx:168
+msgid "Paste"
+msgstr "Вставить"
 
-#: src/files-breadcrumbs.tsx:139
-msgid "Remove from bookmarks"
-msgstr "Удалить из закладок"
+#: src/menu.tsx:107 src/dialogs/mkdir.tsx:80
+msgid "Create directory"
+msgstr "Создать каталог"
 
-#: src/files-breadcrumbs.tsx:141
-msgid "Add to bookmarks"
-msgstr "Добавить в закладки"
+#: src/menu.tsx:112 src/dialogs/create-file.tsx:151
+msgid "Create file"
+msgstr "Создать файл"
 
-#: src/files-breadcrumbs.tsx:154
-msgid "Bookmarks"
-msgstr "Закладки"
+#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
+msgid "Edit permissions"
+msgstr "Изменить разрешения"
 
-#: src/files-breadcrumbs.tsx:161
-msgid "Bookmarked"
-msgstr "В закладках"
+#: src/menu.tsx:127 src/menu.tsx:188
+msgid "Open in terminal"
+msgstr "Открыть в терминале"
 
-#: src/files-breadcrumbs.tsx:161
-msgid "Not bookmarked"
-msgstr "Не в закладках"
+#: src/menu.tsx:144
+msgid "Open text file"
+msgstr "Открыть текстовый файл"
 
-#: src/files-breadcrumbs.tsx:236
-msgid "Filesystem"
-msgstr "Файловая система"
+#: src/menu.tsx:152 src/menu.tsx:206
+msgid "Copy"
+msgstr "Копировать"
 
-#: src/files-breadcrumbs.tsx:303 src/dialogs/keyboardShortcutsHelp.tsx:87
-msgid "Edit path"
-msgstr "Редактировать путь"
+#: src/menu.tsx:163 src/dialogs/rename.tsx:78
+msgid "Rename"
+msgstr "Переименовать"
+
+#: src/menu.tsx:169 src/menu.tsx:211 src/dialogs/delete.tsx:95
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/menu.tsx:179
+msgid "Download"
+msgstr "Скачать"
+
+#: src/menu.tsx:198 src/dialogs/symlink.tsx:231
+msgid "Create link"
+msgstr "Создать ссылку"
 
 #: src/common.ts:49
 msgid "None"
@@ -178,7 +190,7 @@ msgstr "Только запись"
 msgid "Write and execute"
 msgstr "Запись и выполнение"
 
-#: src/common.ts:53 src/dialogs/editor.tsx:189 src/dialogs/permissions.tsx:230
+#: src/common.ts:53 src/dialogs/permissions.tsx:230 src/dialogs/editor.tsx:189
 msgid "Read-only"
 msgstr "Только чтение"
 
@@ -246,266 +258,61 @@ msgstr "Каталог с таким именем уже существует"
 msgid "File exists"
 msgstr "Файл существует"
 
-#: src/dialogs/delete.tsx:34
-msgid "Force delete $0 items"
-msgstr "Принудительно удалить $0 элементов"
+#: src/files-breadcrumbs.tsx:46
+msgid "Home"
+msgstr "Домашний каталог"
 
-#: src/dialogs/delete.tsx:34
-msgid "Delete $0 items?"
-msgstr "Удалить $0 элементов?"
+#: src/files-breadcrumbs.tsx:94
+msgid "Unable to create bookmark directory"
+msgstr "Не удаётся создать каталог закладок"
 
-#: src/dialogs/delete.tsx:40
-msgid "Force delete file $0?"
-msgstr "Принудительно удалить файл $0?"
+#: src/files-breadcrumbs.tsx:117
+msgid "Unable to save bookmark file"
+msgstr "Не удаётся сохранить файл закладок"
 
-#: src/dialogs/delete.tsx:40
-msgid "Delete file $0?"
-msgstr "Удалить файл $0?"
+#: src/files-breadcrumbs.tsx:139
+msgid "Remove from bookmarks"
+msgstr "Удалить из закладок"
 
-#: src/dialogs/delete.tsx:44
-msgid "Force delete link $0?"
-msgstr "Принудительно удалить ссылку $0?"
+#: src/files-breadcrumbs.tsx:141
+msgid "Add to bookmarks"
+msgstr "Добавить в закладки"
 
-#: src/dialogs/delete.tsx:44
-msgid "Delete link $0?"
-msgstr "Удалить ссылку $0?"
+#: src/files-breadcrumbs.tsx:154
+msgid "Bookmarks"
+msgstr "Закладки"
 
-#: src/dialogs/delete.tsx:48
-msgid "Force delete directory $0?"
-msgstr "Принудительно удалить каталог $0?"
+#: src/files-breadcrumbs.tsx:161
+msgid "Bookmarked"
+msgstr "В закладках"
 
-#: src/dialogs/delete.tsx:48
-msgid "Delete directory $0?"
-msgstr "Удалить каталог $0?"
+#: src/files-breadcrumbs.tsx:161
+msgid "Not bookmarked"
+msgstr "Не в закладках"
 
-#: src/dialogs/delete.tsx:51
-msgid "Force delete $0"
-msgstr "Принудительно удалить $0"
+#: src/files-breadcrumbs.tsx:236
+msgid "Filesystem"
+msgstr "Файловая система"
 
-#: src/dialogs/delete.tsx:51
-msgid "Delete $0?"
-msgstr "Удалить $0?"
-
-#: src/dialogs/delete.tsx:95 src/menu.tsx:169 src/menu.tsx:211
-msgid "Delete"
-msgstr "Удалить"
-
-#: src/dialogs/delete.tsx:97 src/dialogs/rename.tsx:87
-#: src/dialogs/copyPasteOwnership.tsx:170 src/dialogs/mkdir.tsx:137
-#: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
-#: src/dialogs/create-file.tsx:211 src/dialogs/symlink.tsx:233
-#: src/dialogs/permissions.tsx:424 src/upload-button.tsx:146
-msgid "Cancel"
-msgstr "Отмена"
-
-#: src/dialogs/rename.tsx:78 src/menu.tsx:163
-msgid "Rename"
-msgstr "Переименовать"
-
-#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:250
-#: src/dialogs/editor.tsx:307
-msgid "Overwrite"
-msgstr "Перезаписать"
-
-#: src/dialogs/rename.tsx:91
-msgid "New filename"
-msgstr "Новое имя файла"
-
-#: src/dialogs/rename.tsx:91
-msgid "New name"
-msgstr "Новое имя"
-
-#: src/dialogs/rename.tsx:101
-msgid "Rename $0?"
-msgstr "Переименовать $0?"
-
-#: src/dialogs/copyPasteOwnership.tsx:56 src/menu.tsx:51
-msgid "Pasting failed"
-msgstr "Вставка не удалась"
-
-#: src/dialogs/copyPasteOwnership.tsx:110
-msgid "(original owner)"
-msgstr "(исходный владелец)"
-
-#: src/dialogs/copyPasteOwnership.tsx:119
-msgid "keep original owners"
-msgstr "сохранить исходных владельцев"
-
-#: src/dialogs/copyPasteOwnership.tsx:168 src/menu.tsx:100
-msgid "Paste"
-msgstr "Вставить"
-
-#: src/dialogs/copyPasteOwnership.tsx:182
-msgid "Paste as owner"
-msgstr "Вставить как владелец"
-
-#: src/dialogs/copyPasteOwnership.tsx:187
-msgid ""
-"Files being pasted have a different owner. By default, ownership will be "
-"changed to match the destination directory."
-msgstr ""
-"Вставляемые файлы имеют другого владельца. По умолчанию владелец будет "
-"изменён в соответствии с целевым каталогом."
-
-#: src/dialogs/copyPasteOwnership.tsx:190
-msgid "New owner"
-msgstr "Новый владелец"
-
-#: src/dialogs/mkdir.tsx:31
-msgid "Directory name cannot be empty"
-msgstr "Имя каталога не может быть пустым"
-
-#: src/dialogs/mkdir.tsx:33
-msgid "Directory name too long"
-msgstr "Имя каталога слишком длинное"
-
-#: src/dialogs/mkdir.tsx:35
-msgid "Directory name cannot include a /"
-msgstr "Имя каталога не может содержать /"
-
-#: src/dialogs/mkdir.tsx:80 src/menu.tsx:107
-msgid "Create directory"
-msgstr "Создать каталог"
-
-#: src/dialogs/mkdir.tsx:96
-msgid "Directory name"
-msgstr "Имя каталога"
-
-#: src/dialogs/mkdir.tsx:110
-msgid "Directory owner"
-msgstr "Владелец каталога"
-
-#: src/dialogs/mkdir.tsx:135 src/dialogs/create-file.tsx:208
-msgid "Create"
-msgstr "Создать"
-
-#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
-msgid "The file has been removed on disk"
-msgstr "Файл был удалён с диска"
-
-#: src/dialogs/editor.tsx:50
-msgid "The existing file changed unexpectedly"
-msgstr "Существующий файл неожиданно изменился"
-
-#. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:187
-msgid "Edit $0"
-msgstr "Редактировать $0"
-
-#: src/dialogs/editor.tsx:187
-msgid "View $0"
-msgstr "Просмотр $0"
-
-#: src/dialogs/editor.tsx:222
-msgid "The file has changed on disk"
-msgstr "Файл на диске изменился"
-
-#: src/dialogs/editor.tsx:227
-msgid "Reload"
-msgstr "Перезагрузить"
-
-#: src/dialogs/editor.tsx:230
-msgid "Ignore"
-msgstr "Игнорировать"
-
-#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
-msgid "Save"
-msgstr "Сохранить"
-
-#: src/dialogs/editor.tsx:270 src/dialogs/keyboardShortcutsHelp.tsx:33
-msgid "Close"
-msgstr "Закрыть"
-
-#: src/dialogs/editor.tsx:281
-msgid "Save changes?"
-msgstr "Сохранить изменения?"
-
-#: src/dialogs/editor.tsx:290
-msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr "Файл был удалён после открытия, сохранение воссоздаст его."
-
-#: src/dialogs/editor.tsx:291
-msgid "The file has changed on disk between when it was opened and now"
-msgstr "Файл изменился на диске с момента открытия"
-
-#: src/dialogs/editor.tsx:296
-msgid "$0 has unsaved changes and which will be permanently lost if discarded."
-msgstr ""
-"У $0 есть несохранённые изменения, которые будут безвозвратно потеряны при "
-"отмене."
-
-#: src/dialogs/editor.tsx:329
-msgid "Discard"
-msgstr "Отменить"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:55
-msgid "Go up a directory"
-msgstr "На уровень выше"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:61
-msgid "Go back"
-msgstr "Назад"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:67
-msgid "Go forward"
-msgstr "Вперёд"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:73
-#: src/dialogs/keyboardShortcutsHelp.tsx:79
-msgid "Activate selected item, enter directory"
-msgstr "Активировать выбранный элемент, войти в каталог"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:95
-msgid "Rename selected file or directory"
-msgstr "Переименовать выбранный файл или каталог"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:102
-msgid "Create new directory"
-msgstr "Создать каталог"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:108
-msgid "Copy selected file or directory"
-msgstr "Копировать выбранный файл или каталог"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:114
-msgid "Paste file or directory"
-msgstr "Вставить файл или каталог"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:120
-msgid "Select all"
-msgstr "Выбрать всё"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:131
-msgid "Save current file"
-msgstr "Сохранить текущий файл"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:135
-msgid "Close editor"
-msgstr "Закрыть редактор"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:148
-msgid "Keyboard shortcuts"
-msgstr "Горячие клавиши"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:152
-msgid "Navigation"
-msgstr "Навигация"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:162
-msgid "Editing"
-msgstr "Редактирование"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:172
-msgid "Editor"
-msgstr "Редактор"
-
-#: src/dialogs/create-file.tsx:151 src/menu.tsx:112
-msgid "Create file"
-msgstr "Создать файл"
+#: src/files-breadcrumbs.tsx:303 src/dialogs/keyboardShortcutsHelp.tsx:87
+msgid "Edit path"
+msgstr "Редактировать путь"
 
 #: src/dialogs/create-file.tsx:163
 msgid "File name"
 msgstr "Имя файла"
+
+#: src/dialogs/create-file.tsx:208 src/dialogs/mkdir.tsx:135
+msgid "Create"
+msgstr "Создать"
+
+#: src/dialogs/create-file.tsx:211 src/dialogs/permissions.tsx:424
+#: src/dialogs/mkdir.tsx:137 src/dialogs/copyPasteOwnership.tsx:170
+#: src/dialogs/symlink.tsx:233 src/dialogs/delete.tsx:97
+#: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
+#: src/dialogs/rename.tsx:87 src/upload-button.tsx:146
+msgid "Cancel"
+msgstr "Отмена"
 
 #: src/dialogs/create-file.tsx:228
 msgid "Cannot create file in current directory"
@@ -514,59 +321,6 @@ msgstr "Не удаётся создать файл в текущем катал
 #: src/dialogs/create-file.tsx:230
 msgid "Permission denied"
 msgstr "Отказано в доступе"
-
-#: src/dialogs/symlink.tsx:53
-msgid "link to $0"
-msgstr "ссылка на $0"
-
-#: src/dialogs/symlink.tsx:128
-msgid "Create link to $0"
-msgstr "Создать ссылку на $0"
-
-#: src/dialogs/symlink.tsx:157
-msgid "Target"
-msgstr "Цель"
-
-#: src/dialogs/symlink.tsx:164
-msgid "Symlink name"
-msgstr "Имя ссылки"
-
-#: src/dialogs/symlink.tsx:180
-msgid "Type"
-msgstr "Тип"
-
-#: src/dialogs/symlink.tsx:184
-msgid "Absolute vs. Relative"
-msgstr "Абсолютная и относительная"
-
-#: src/dialogs/symlink.tsx:188
-msgid ""
-"Absolute symlinks are ideal when referring to files or directories that "
-"won't move, such as system files."
-msgstr ""
-"Абсолютные ссылки идеальны для ссылок на файлы или каталоги, которые не "
-"будут перемещаться, например системные файлы."
-
-#: src/dialogs/symlink.tsx:191
-msgid ""
-"Relative symlinks are useful when both a symlink and target might move at "
-"the same time, such as when renaming or moving a parent directory."
-msgstr ""
-"Относительные ссылки полезны, когда ссылка и цель могут перемещаться "
-"одновременно, например при переименовании или перемещении родительского "
-"каталога."
-
-#: src/dialogs/symlink.tsx:202
-msgid "Absolute"
-msgstr "Абсолютная"
-
-#: src/dialogs/symlink.tsx:209
-msgid "Relative"
-msgstr "Относительная"
-
-#: src/dialogs/symlink.tsx:231 src/menu.tsx:198
-msgid "Create link"
-msgstr "Создать ссылку"
 
 #: src/dialogs/permissions.tsx:235
 msgid "No access"
@@ -633,6 +387,284 @@ msgstr "Изменить"
 msgid "Change permissions for enclosed files"
 msgstr "Изменить разрешения для вложенных файлов"
 
+#: src/dialogs/mkdir.tsx:31
+msgid "Directory name cannot be empty"
+msgstr "Имя каталога не может быть пустым"
+
+#: src/dialogs/mkdir.tsx:33
+msgid "Directory name too long"
+msgstr "Имя каталога слишком длинное"
+
+#: src/dialogs/mkdir.tsx:35
+msgid "Directory name cannot include a /"
+msgstr "Имя каталога не может содержать /"
+
+#: src/dialogs/mkdir.tsx:96
+msgid "Directory name"
+msgstr "Имя каталога"
+
+#: src/dialogs/mkdir.tsx:110
+msgid "Directory owner"
+msgstr "Владелец каталога"
+
+#: src/dialogs/copyPasteOwnership.tsx:110
+msgid "(original owner)"
+msgstr "(исходный владелец)"
+
+#: src/dialogs/copyPasteOwnership.tsx:119
+msgid "keep original owners"
+msgstr "сохранить исходных владельцев"
+
+#: src/dialogs/copyPasteOwnership.tsx:182
+msgid "Paste as owner"
+msgstr "Вставить как владелец"
+
+#: src/dialogs/copyPasteOwnership.tsx:187
+msgid ""
+"Files being pasted have a different owner. By default, ownership will be "
+"changed to match the destination directory."
+msgstr ""
+"Вставляемые файлы имеют другого владельца. По умолчанию владелец будет "
+"изменён в соответствии с целевым каталогом."
+
+#: src/dialogs/copyPasteOwnership.tsx:190
+msgid "New owner"
+msgstr "Новый владелец"
+
+#: src/dialogs/symlink.tsx:53
+msgid "link to $0"
+msgstr "ссылка на $0"
+
+#: src/dialogs/symlink.tsx:128
+msgid "Create link to $0"
+msgstr "Создать ссылку на $0"
+
+#: src/dialogs/symlink.tsx:157
+msgid "Target"
+msgstr "Цель"
+
+#: src/dialogs/symlink.tsx:164
+msgid "Symlink name"
+msgstr "Имя ссылки"
+
+#: src/dialogs/symlink.tsx:180
+msgid "Type"
+msgstr "Тип"
+
+#: src/dialogs/symlink.tsx:184
+msgid "Absolute vs. Relative"
+msgstr "Абсолютная и относительная"
+
+#: src/dialogs/symlink.tsx:188
+msgid ""
+"Absolute symlinks are ideal when referring to files or directories that "
+"won't move, such as system files."
+msgstr ""
+"Абсолютные ссылки идеальны для ссылок на файлы или каталоги, которые не "
+"будут перемещаться, например системные файлы."
+
+#: src/dialogs/symlink.tsx:191
+msgid ""
+"Relative symlinks are useful when both a symlink and target might move at "
+"the same time, such as when renaming or moving a parent directory."
+msgstr ""
+"Относительные ссылки полезны, когда ссылка и цель могут перемещаться "
+"одновременно, например при переименовании или перемещении родительского "
+"каталога."
+
+#: src/dialogs/symlink.tsx:202
+msgid "Absolute"
+msgstr "Абсолютная"
+
+#: src/dialogs/symlink.tsx:209
+msgid "Relative"
+msgstr "Относительная"
+
+#: src/dialogs/delete.tsx:34
+msgid "Force delete $0 items"
+msgstr "Принудительно удалить $0 элементов"
+
+#: src/dialogs/delete.tsx:34
+msgid "Delete $0 items?"
+msgstr "Удалить $0 элементов?"
+
+#: src/dialogs/delete.tsx:40
+msgid "Force delete file $0?"
+msgstr "Принудительно удалить файл $0?"
+
+#: src/dialogs/delete.tsx:40
+msgid "Delete file $0?"
+msgstr "Удалить файл $0?"
+
+#: src/dialogs/delete.tsx:44
+msgid "Force delete link $0?"
+msgstr "Принудительно удалить ссылку $0?"
+
+#: src/dialogs/delete.tsx:44
+msgid "Delete link $0?"
+msgstr "Удалить ссылку $0?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Force delete directory $0?"
+msgstr "Принудительно удалить каталог $0?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Delete directory $0?"
+msgstr "Удалить каталог $0?"
+
+#: src/dialogs/delete.tsx:51
+msgid "Force delete $0"
+msgstr "Принудительно удалить $0"
+
+#: src/dialogs/delete.tsx:51
+msgid "Delete $0?"
+msgstr "Удалить $0?"
+
+#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
+msgid "The file has been removed on disk"
+msgstr "Файл был удалён с диска"
+
+#: src/dialogs/editor.tsx:50
+msgid "The existing file changed unexpectedly"
+msgstr "Существующий файл неожиданно изменился"
+
+#. Translators: This is the title of a modal dialog.  $0 represents a filename.
+#: src/dialogs/editor.tsx:187
+msgid "Edit $0"
+msgstr "Редактировать $0"
+
+#: src/dialogs/editor.tsx:187
+msgid "View $0"
+msgstr "Просмотр $0"
+
+#: src/dialogs/editor.tsx:222
+msgid "The file has changed on disk"
+msgstr "Файл на диске изменился"
+
+#: src/dialogs/editor.tsx:227
+msgid "Reload"
+msgstr "Перезагрузить"
+
+#: src/dialogs/editor.tsx:230
+msgid "Ignore"
+msgstr "Игнорировать"
+
+#: src/dialogs/editor.tsx:250 src/dialogs/editor.tsx:307
+#: src/dialogs/rename.tsx:85
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/dialogs/editor.tsx:270 src/dialogs/keyboardShortcutsHelp.tsx:33
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/dialogs/editor.tsx:281
+msgid "Save changes?"
+msgstr "Сохранить изменения?"
+
+#: src/dialogs/editor.tsx:290
+msgid "The file was deleted after it was opened, saving will recreate it."
+msgstr "Файл был удалён после открытия, сохранение воссоздаст его."
+
+#: src/dialogs/editor.tsx:291
+msgid "The file has changed on disk between when it was opened and now"
+msgstr "Файл изменился на диске с момента открытия"
+
+#: src/dialogs/editor.tsx:296
+msgid "$0 has unsaved changes and which will be permanently lost if discarded."
+msgstr ""
+"У $0 есть несохранённые изменения, которые будут безвозвратно потеряны при "
+"отмене."
+
+#: src/dialogs/editor.tsx:329
+msgid "Discard"
+msgstr "Отменить"
+
+#: src/dialogs/rename.tsx:91
+msgid "New filename"
+msgstr "Новое имя файла"
+
+#: src/dialogs/rename.tsx:91
+msgid "New name"
+msgstr "Новое имя"
+
+#: src/dialogs/rename.tsx:101
+msgid "Rename $0?"
+msgstr "Переименовать $0?"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:55
+msgid "Go up a directory"
+msgstr "На уровень выше"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:61
+msgid "Go back"
+msgstr "Назад"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:67
+msgid "Go forward"
+msgstr "Вперёд"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:73
+#: src/dialogs/keyboardShortcutsHelp.tsx:79
+msgid "Activate selected item, enter directory"
+msgstr "Активировать выбранный элемент, войти в каталог"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:95
+msgid "Rename selected file or directory"
+msgstr "Переименовать выбранный файл или каталог"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:102
+msgid "Create new directory"
+msgstr "Создать каталог"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:108
+msgid "Copy selected file or directory"
+msgstr "Копировать выбранный файл или каталог"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:114
+msgid "Paste file or directory"
+msgstr "Вставить файл или каталог"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:120
+msgid "Select all"
+msgstr "Выбрать всё"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:131
+msgid "Save current file"
+msgstr "Сохранить текущий файл"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:135
+msgid "Close editor"
+msgstr "Закрыть редактор"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:148
+msgid "Keyboard shortcuts"
+msgstr "Горячие клавиши"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:152
+msgid "Navigation"
+msgstr "Навигация"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:162
+msgid "Editing"
+msgstr "Редактирование"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:172
+msgid "Editor"
+msgstr "Редактор"
+
+#: src/files-folder-view.tsx:156
+msgid "Drop files to upload"
+msgstr "Перетащите файлы для загрузки"
+
+#: src/files-folder-view.tsx:164
+msgid "Cannot drop files, another upload is already in progress"
+msgstr "Не удаётся переместить файлы, уже выполняется другая загрузка"
+
 #: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
 msgstr "Выбрано $0 файлов"
@@ -652,14 +684,6 @@ msgstr "Остальные"
 #: src/files-footer-detail.tsx:144
 msgid "User"
 msgstr "Пользователь"
-
-#: src/files-folder-view.tsx:156
-msgid "Drop files to upload"
-msgstr "Перетащите файлы для загрузки"
-
-#: src/files-folder-view.tsx:164
-msgid "Cannot drop files, another upload is already in progress"
-msgstr "Не удаётся переместить файлы, уже выполняется другая загрузка"
 
 #: src/upload-button.tsx:56
 msgid "$0 files"
@@ -749,30 +773,6 @@ msgstr "Загрузка завершена на $0%"
 #: src/upload-button.tsx:513
 msgid "Upload"
 msgstr "Загрузить"
-
-#: src/menu.tsx:53
-msgid "\"$0\" exists, not overwriting with paste."
-msgstr "«$0» существует, вставка не перезапишет его."
-
-#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
-msgid "Edit permissions"
-msgstr "Изменить разрешения"
-
-#: src/menu.tsx:127 src/menu.tsx:188
-msgid "Open in terminal"
-msgstr "Открыть в терминале"
-
-#: src/menu.tsx:144
-msgid "Open text file"
-msgstr "Открыть текстовый файл"
-
-#: src/menu.tsx:152 src/menu.tsx:206
-msgid "Copy"
-msgstr "Копировать"
-
-#: src/menu.tsx:179
-msgid "Download"
-msgstr "Скачать"
 
 #: src/files-card-body.tsx:506
 msgid "No matching results"

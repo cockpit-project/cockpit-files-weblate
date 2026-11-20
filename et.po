@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 10:02+0000\n"
+"POT-Creation-Date: 2026-11-20 10:27+0000\n"
 "PO-Revision-Date: 2026-09-27 07:17+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
@@ -122,45 +122,57 @@ msgstr "Peida peidetud objektid"
 msgid "Show hidden items"
 msgstr "Näita peidetud objekte"
 
-#: src/files-breadcrumbs.tsx:46
-msgid "Home"
-msgstr "Avaleht"
+#: src/menu.tsx:51 src/dialogs/copyPasteOwnership.tsx:56
+msgid "Pasting failed"
+msgstr "Asetamine ei õnnestunud"
 
-#: src/files-breadcrumbs.tsx:94
-msgid "Unable to create bookmark directory"
-msgstr "Järjehoidjate kausta loomine ei õnnestunud"
+#: src/menu.tsx:53
+msgid "\"$0\" exists, not overwriting with paste."
+msgstr "„$0“ on olemas, ei kirjuta seda asetamisega üle."
 
-#: src/files-breadcrumbs.tsx:117
-msgid "Unable to save bookmark file"
-msgstr "Järjehoidjate faili salvestamine ei õnnestunud"
+#: src/menu.tsx:100 src/dialogs/copyPasteOwnership.tsx:168
+msgid "Paste"
+msgstr "Aseta"
 
-#: src/files-breadcrumbs.tsx:139
-msgid "Remove from bookmarks"
-msgstr "Eemalda järjehoidjate seast"
+#: src/menu.tsx:107 src/dialogs/mkdir.tsx:80
+msgid "Create directory"
+msgstr "Loo kaust"
 
-#: src/files-breadcrumbs.tsx:141
-msgid "Add to bookmarks"
-msgstr "Lisa järjehoidjana"
+#: src/menu.tsx:112 src/dialogs/create-file.tsx:151
+msgid "Create file"
+msgstr "Loo fail"
 
-#: src/files-breadcrumbs.tsx:154
-msgid "Bookmarks"
-msgstr "Järjehoidjad"
+#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
+msgid "Edit permissions"
+msgstr "Muuda õigusi"
 
-#: src/files-breadcrumbs.tsx:161
-msgid "Bookmarked"
-msgstr "Lisatud järjehoidjana"
+#: src/menu.tsx:127 src/menu.tsx:188
+msgid "Open in terminal"
+msgstr "Ava terminalis"
 
-#: src/files-breadcrumbs.tsx:161
-msgid "Not bookmarked"
-msgstr "Pole järjehoidjana lisatud"
+#: src/menu.tsx:144
+msgid "Open text file"
+msgstr "Ava tekstifail"
 
-#: src/files-breadcrumbs.tsx:236
-msgid "Filesystem"
-msgstr "Failisüsteem"
+#: src/menu.tsx:152 src/menu.tsx:206
+msgid "Copy"
+msgstr "Kopeeri"
 
-#: src/files-breadcrumbs.tsx:303 src/dialogs/keyboardShortcutsHelp.tsx:87
-msgid "Edit path"
-msgstr "Muuda asukohta"
+#: src/menu.tsx:163 src/dialogs/rename.tsx:78
+msgid "Rename"
+msgstr "Muuda nime"
+
+#: src/menu.tsx:169 src/menu.tsx:211 src/dialogs/delete.tsx:95
+msgid "Delete"
+msgstr "Kustuta"
+
+#: src/menu.tsx:179
+msgid "Download"
+msgstr "Laadi alla"
+
+#: src/menu.tsx:198 src/dialogs/symlink.tsx:231
+msgid "Create link"
+msgstr "Loo link"
 
 #: src/common.ts:49
 msgid "None"
@@ -178,7 +190,7 @@ msgstr "Vaid kirjutatav"
 msgid "Write and execute"
 msgstr "Kirjutatav ja käivitatav"
 
-#: src/common.ts:53 src/dialogs/editor.tsx:189 src/dialogs/permissions.tsx:230
+#: src/common.ts:53 src/dialogs/permissions.tsx:230 src/dialogs/editor.tsx:189
 msgid "Read-only"
 msgstr "Vaid loetav"
 
@@ -246,266 +258,61 @@ msgstr "Sellise nimega kaust on juba olemas"
 msgid "File exists"
 msgstr "Fail on olemas"
 
-#: src/dialogs/delete.tsx:34
-msgid "Force delete $0 items"
-msgstr "Kustuta $0 objekti sundkorras"
+#: src/files-breadcrumbs.tsx:46
+msgid "Home"
+msgstr "Avaleht"
 
-#: src/dialogs/delete.tsx:34
-msgid "Delete $0 items?"
-msgstr "Kas kustutad $0 objekti?"
+#: src/files-breadcrumbs.tsx:94
+msgid "Unable to create bookmark directory"
+msgstr "Järjehoidjate kausta loomine ei õnnestunud"
 
-#: src/dialogs/delete.tsx:40
-msgid "Force delete file $0?"
-msgstr "Kas kustutad „$0“ faili sundkorras?"
+#: src/files-breadcrumbs.tsx:117
+msgid "Unable to save bookmark file"
+msgstr "Järjehoidjate faili salvestamine ei õnnestunud"
 
-#: src/dialogs/delete.tsx:40
-msgid "Delete file $0?"
-msgstr "Kas kustutad „$0“ faili?"
+#: src/files-breadcrumbs.tsx:139
+msgid "Remove from bookmarks"
+msgstr "Eemalda järjehoidjate seast"
 
-#: src/dialogs/delete.tsx:44
-msgid "Force delete link $0?"
-msgstr "Kas kustutad „$0“ lingi sundkorras?"
+#: src/files-breadcrumbs.tsx:141
+msgid "Add to bookmarks"
+msgstr "Lisa järjehoidjana"
 
-#: src/dialogs/delete.tsx:44
-msgid "Delete link $0?"
-msgstr "Kas kustutad „$0“ lingi?"
+#: src/files-breadcrumbs.tsx:154
+msgid "Bookmarks"
+msgstr "Järjehoidjad"
 
-#: src/dialogs/delete.tsx:48
-msgid "Force delete directory $0?"
-msgstr "Kas kustutad „$0“ kausta sundkorras?"
+#: src/files-breadcrumbs.tsx:161
+msgid "Bookmarked"
+msgstr "Lisatud järjehoidjana"
 
-#: src/dialogs/delete.tsx:48
-msgid "Delete directory $0?"
-msgstr "Kas kustutad „$0“ kausta?"
+#: src/files-breadcrumbs.tsx:161
+msgid "Not bookmarked"
+msgstr "Pole järjehoidjana lisatud"
 
-#: src/dialogs/delete.tsx:51
-msgid "Force delete $0"
-msgstr "Kustuta „$0“ sundkorras"
+#: src/files-breadcrumbs.tsx:236
+msgid "Filesystem"
+msgstr "Failisüsteem"
 
-#: src/dialogs/delete.tsx:51
-msgid "Delete $0?"
-msgstr "Kas kustutad: $0?"
-
-#: src/dialogs/delete.tsx:95 src/menu.tsx:169 src/menu.tsx:211
-msgid "Delete"
-msgstr "Kustuta"
-
-#: src/dialogs/delete.tsx:97 src/dialogs/rename.tsx:87
-#: src/dialogs/copyPasteOwnership.tsx:170 src/dialogs/mkdir.tsx:137
-#: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
-#: src/dialogs/create-file.tsx:211 src/dialogs/symlink.tsx:233
-#: src/dialogs/permissions.tsx:424 src/upload-button.tsx:146
-msgid "Cancel"
-msgstr "Katkesta"
-
-#: src/dialogs/rename.tsx:78 src/menu.tsx:163
-msgid "Rename"
-msgstr "Muuda nime"
-
-#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:250
-#: src/dialogs/editor.tsx:307
-msgid "Overwrite"
-msgstr "Kirjuta üle"
-
-#: src/dialogs/rename.tsx:91
-msgid "New filename"
-msgstr "Uus failinimi"
-
-#: src/dialogs/rename.tsx:91
-msgid "New name"
-msgstr "Uus nimi"
-
-#: src/dialogs/rename.tsx:101
-msgid "Rename $0?"
-msgstr "Kas muudad nime: $0?"
-
-#: src/dialogs/copyPasteOwnership.tsx:56 src/menu.tsx:51
-msgid "Pasting failed"
-msgstr "Asetamine ei õnnestunud"
-
-#: src/dialogs/copyPasteOwnership.tsx:110
-msgid "(original owner)"
-msgstr "(algne omanik)"
-
-#: src/dialogs/copyPasteOwnership.tsx:119
-msgid "keep original owners"
-msgstr "jäta algsed omanikus alles"
-
-#: src/dialogs/copyPasteOwnership.tsx:168 src/menu.tsx:100
-msgid "Paste"
-msgstr "Aseta"
-
-#: src/dialogs/copyPasteOwnership.tsx:182
-msgid "Paste as owner"
-msgstr "Aseta omanikuna"
-
-#: src/dialogs/copyPasteOwnership.tsx:187
-msgid ""
-"Files being pasted have a different owner. By default, ownership will be "
-"changed to match the destination directory."
-msgstr ""
-"Asetamisel failidel on erinevad omanikud. Vaikimisi kohendatakse omanik "
-"vastavaks sihtkausta omanikule."
-
-#: src/dialogs/copyPasteOwnership.tsx:190
-msgid "New owner"
-msgstr "Uus omanik"
-
-#: src/dialogs/mkdir.tsx:31
-msgid "Directory name cannot be empty"
-msgstr "Kausta nimi ei saa jääda tühjaks"
-
-#: src/dialogs/mkdir.tsx:33
-msgid "Directory name too long"
-msgstr "Kausta nimi on liiga pikk"
-
-#: src/dialogs/mkdir.tsx:35
-msgid "Directory name cannot include a /"
-msgstr "Kausta nimes ei saa olla kaldkriipsu /"
-
-#: src/dialogs/mkdir.tsx:80 src/menu.tsx:107
-msgid "Create directory"
-msgstr "Loo kaust"
-
-#: src/dialogs/mkdir.tsx:96
-msgid "Directory name"
-msgstr "Kausta nimi"
-
-#: src/dialogs/mkdir.tsx:110
-msgid "Directory owner"
-msgstr "Kausta omanik"
-
-#: src/dialogs/mkdir.tsx:135 src/dialogs/create-file.tsx:208
-msgid "Create"
-msgstr "Loo"
-
-#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
-msgid "The file has been removed on disk"
-msgstr "Fail on andmekandjalt eemaldatud"
-
-#: src/dialogs/editor.tsx:50
-msgid "The existing file changed unexpectedly"
-msgstr "Olemasolev fail muutus ootamatult"
-
-#. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:187
-msgid "Edit $0"
-msgstr "Muuda: $0"
-
-#: src/dialogs/editor.tsx:187
-msgid "View $0"
-msgstr "Vaata: $0"
-
-#: src/dialogs/editor.tsx:222
-msgid "The file has changed on disk"
-msgstr "Fail on andmekandjal muutunud"
-
-#: src/dialogs/editor.tsx:227
-msgid "Reload"
-msgstr "Laadi uuesti"
-
-#: src/dialogs/editor.tsx:230
-msgid "Ignore"
-msgstr "Eira"
-
-#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
-msgid "Save"
-msgstr "Salvesta"
-
-#: src/dialogs/editor.tsx:270 src/dialogs/keyboardShortcutsHelp.tsx:33
-msgid "Close"
-msgstr "Sulge"
-
-#: src/dialogs/editor.tsx:281
-msgid "Save changes?"
-msgstr "Kas salvestad muudatused?"
-
-#: src/dialogs/editor.tsx:290
-msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr "Fail on peale avamist kustutatud ning salvestamisel ta luuakse uuesti."
-
-#: src/dialogs/editor.tsx:291
-msgid "The file has changed on disk between when it was opened and now"
-msgstr "Fail on andmekandjal muutunud avamishetke ja praeguse hetke vahel"
-
-#: src/dialogs/editor.tsx:296
-msgid "$0 has unsaved changes and which will be permanently lost if discarded."
-msgstr ""
-"„$0“ sisaldab salvestamata muudatusi, mis lähevad loobumisel jäädavalt "
-"kaotsi."
-
-#: src/dialogs/editor.tsx:329
-msgid "Discard"
-msgstr "Loobu"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:55
-msgid "Go up a directory"
-msgstr "Mine kausta jagu ülespoole"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:61
-msgid "Go back"
-msgstr "Mine tagasi"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:67
-msgid "Go forward"
-msgstr "Mine edasi"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:73
-#: src/dialogs/keyboardShortcutsHelp.tsx:79
-msgid "Activate selected item, enter directory"
-msgstr "Aktiveeri valitud objekt või sisene kausta"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:95
-msgid "Rename selected file or directory"
-msgstr "Muuda valitud faili või kausta nime"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:102
-msgid "Create new directory"
-msgstr "Loo uus kaust"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:108
-msgid "Copy selected file or directory"
-msgstr "Kopeeri valitud fail või kaust"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:114
-msgid "Paste file or directory"
-msgstr "Aseta fail või kaust"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:120
-msgid "Select all"
-msgstr "Vali kõik"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:131
-msgid "Save current file"
-msgstr "Salvesta praegune fail"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:135
-msgid "Close editor"
-msgstr "Sulge muutmisvaade"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:148
-msgid "Keyboard shortcuts"
-msgstr "Klahvistiku kiirklahvid"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:152
-msgid "Navigation"
-msgstr "Liikumine"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:162
-msgid "Editing"
-msgstr "Muudan"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:172
-msgid "Editor"
-msgstr "Muutmisvaade"
-
-#: src/dialogs/create-file.tsx:151 src/menu.tsx:112
-msgid "Create file"
-msgstr "Loo fail"
+#: src/files-breadcrumbs.tsx:303 src/dialogs/keyboardShortcutsHelp.tsx:87
+msgid "Edit path"
+msgstr "Muuda asukohta"
 
 #: src/dialogs/create-file.tsx:163
 msgid "File name"
 msgstr "Failinimi"
+
+#: src/dialogs/create-file.tsx:208 src/dialogs/mkdir.tsx:135
+msgid "Create"
+msgstr "Loo"
+
+#: src/dialogs/create-file.tsx:211 src/dialogs/permissions.tsx:424
+#: src/dialogs/mkdir.tsx:137 src/dialogs/copyPasteOwnership.tsx:170
+#: src/dialogs/symlink.tsx:233 src/dialogs/delete.tsx:97
+#: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
+#: src/dialogs/rename.tsx:87 src/upload-button.tsx:146
+msgid "Cancel"
+msgstr "Katkesta"
 
 #: src/dialogs/create-file.tsx:228
 msgid "Cannot create file in current directory"
@@ -514,59 +321,6 @@ msgstr "Faili ei õnnestu sellesse kausta luua"
 #: src/dialogs/create-file.tsx:230
 msgid "Permission denied"
 msgstr "Juurepääs keelatud"
-
-#: src/dialogs/symlink.tsx:53
-msgid "link to $0"
-msgstr "link asukohale „$0“"
-
-#: src/dialogs/symlink.tsx:128
-msgid "Create link to $0"
-msgstr "Loo link siia: $0"
-
-#: src/dialogs/symlink.tsx:157
-msgid "Target"
-msgstr "Sihtmärk"
-
-#: src/dialogs/symlink.tsx:164
-msgid "Symlink name"
-msgstr "Sümbollingi nimi"
-
-#: src/dialogs/symlink.tsx:180
-msgid "Type"
-msgstr "Tüüp"
-
-#: src/dialogs/symlink.tsx:184
-msgid "Absolute vs. Relative"
-msgstr "Absoluutne või suhteline"
-
-#: src/dialogs/symlink.tsx:188
-msgid ""
-"Absolute symlinks are ideal when referring to files or directories that "
-"won't move, such as system files."
-msgstr ""
-"Absoluutsed sümbollingid sobivad olukorras, kus nad viitavad failidele või "
-"kaustadele, mis püsivad kogu aeg samas kohas, näiteks nagu süsteemifailid."
-
-#: src/dialogs/symlink.tsx:191
-msgid ""
-"Relative symlinks are useful when both a symlink and target might move at "
-"the same time, such as when renaming or moving a parent directory."
-msgstr ""
-"Absoluutsed sümbollingid sobivad olukorras, kus nii sümbollink kui tema siht "
-"võivad samal ajal muutuda, näiteks nime muutmisel või kausta teise kohta "
-"tõstmisel."
-
-#: src/dialogs/symlink.tsx:202
-msgid "Absolute"
-msgstr "Absoluutne"
-
-#: src/dialogs/symlink.tsx:209
-msgid "Relative"
-msgstr "Suhteline"
-
-#: src/dialogs/symlink.tsx:231 src/menu.tsx:198
-msgid "Create link"
-msgstr "Loo link"
 
 #: src/dialogs/permissions.tsx:235
 msgid "No access"
@@ -633,6 +387,285 @@ msgstr "Muuda"
 msgid "Change permissions for enclosed files"
 msgstr "Muuda kaasatud failide õigusi"
 
+#: src/dialogs/mkdir.tsx:31
+msgid "Directory name cannot be empty"
+msgstr "Kausta nimi ei saa jääda tühjaks"
+
+#: src/dialogs/mkdir.tsx:33
+msgid "Directory name too long"
+msgstr "Kausta nimi on liiga pikk"
+
+#: src/dialogs/mkdir.tsx:35
+msgid "Directory name cannot include a /"
+msgstr "Kausta nimes ei saa olla kaldkriipsu /"
+
+#: src/dialogs/mkdir.tsx:96
+msgid "Directory name"
+msgstr "Kausta nimi"
+
+#: src/dialogs/mkdir.tsx:110
+msgid "Directory owner"
+msgstr "Kausta omanik"
+
+#: src/dialogs/copyPasteOwnership.tsx:110
+msgid "(original owner)"
+msgstr "(algne omanik)"
+
+#: src/dialogs/copyPasteOwnership.tsx:119
+msgid "keep original owners"
+msgstr "jäta algsed omanikus alles"
+
+#: src/dialogs/copyPasteOwnership.tsx:182
+msgid "Paste as owner"
+msgstr "Aseta omanikuna"
+
+#: src/dialogs/copyPasteOwnership.tsx:187
+msgid ""
+"Files being pasted have a different owner. By default, ownership will be "
+"changed to match the destination directory."
+msgstr ""
+"Asetamisel failidel on erinevad omanikud. Vaikimisi kohendatakse omanik "
+"vastavaks sihtkausta omanikule."
+
+#: src/dialogs/copyPasteOwnership.tsx:190
+msgid "New owner"
+msgstr "Uus omanik"
+
+#: src/dialogs/symlink.tsx:53
+msgid "link to $0"
+msgstr "link asukohale „$0“"
+
+#: src/dialogs/symlink.tsx:128
+msgid "Create link to $0"
+msgstr "Loo link siia: $0"
+
+#: src/dialogs/symlink.tsx:157
+msgid "Target"
+msgstr "Sihtmärk"
+
+#: src/dialogs/symlink.tsx:164
+msgid "Symlink name"
+msgstr "Sümbollingi nimi"
+
+#: src/dialogs/symlink.tsx:180
+msgid "Type"
+msgstr "Tüüp"
+
+#: src/dialogs/symlink.tsx:184
+msgid "Absolute vs. Relative"
+msgstr "Absoluutne või suhteline"
+
+#: src/dialogs/symlink.tsx:188
+msgid ""
+"Absolute symlinks are ideal when referring to files or directories that "
+"won't move, such as system files."
+msgstr ""
+"Absoluutsed sümbollingid sobivad olukorras, kus nad viitavad failidele või "
+"kaustadele, mis püsivad kogu aeg samas kohas, näiteks nagu süsteemifailid."
+
+#: src/dialogs/symlink.tsx:191
+msgid ""
+"Relative symlinks are useful when both a symlink and target might move at "
+"the same time, such as when renaming or moving a parent directory."
+msgstr ""
+"Absoluutsed sümbollingid sobivad olukorras, kus nii sümbollink kui tema siht "
+"võivad samal ajal muutuda, näiteks nime muutmisel või kausta teise kohta "
+"tõstmisel."
+
+#: src/dialogs/symlink.tsx:202
+msgid "Absolute"
+msgstr "Absoluutne"
+
+#: src/dialogs/symlink.tsx:209
+msgid "Relative"
+msgstr "Suhteline"
+
+#: src/dialogs/delete.tsx:34
+msgid "Force delete $0 items"
+msgstr "Kustuta $0 objekti sundkorras"
+
+#: src/dialogs/delete.tsx:34
+msgid "Delete $0 items?"
+msgstr "Kas kustutad $0 objekti?"
+
+#: src/dialogs/delete.tsx:40
+msgid "Force delete file $0?"
+msgstr "Kas kustutad „$0“ faili sundkorras?"
+
+#: src/dialogs/delete.tsx:40
+msgid "Delete file $0?"
+msgstr "Kas kustutad „$0“ faili?"
+
+#: src/dialogs/delete.tsx:44
+msgid "Force delete link $0?"
+msgstr "Kas kustutad „$0“ lingi sundkorras?"
+
+#: src/dialogs/delete.tsx:44
+msgid "Delete link $0?"
+msgstr "Kas kustutad „$0“ lingi?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Force delete directory $0?"
+msgstr "Kas kustutad „$0“ kausta sundkorras?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Delete directory $0?"
+msgstr "Kas kustutad „$0“ kausta?"
+
+#: src/dialogs/delete.tsx:51
+msgid "Force delete $0"
+msgstr "Kustuta „$0“ sundkorras"
+
+#: src/dialogs/delete.tsx:51
+msgid "Delete $0?"
+msgstr "Kas kustutad: $0?"
+
+#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
+msgid "The file has been removed on disk"
+msgstr "Fail on andmekandjalt eemaldatud"
+
+#: src/dialogs/editor.tsx:50
+msgid "The existing file changed unexpectedly"
+msgstr "Olemasolev fail muutus ootamatult"
+
+#. Translators: This is the title of a modal dialog.  $0 represents a filename.
+#: src/dialogs/editor.tsx:187
+msgid "Edit $0"
+msgstr "Muuda: $0"
+
+#: src/dialogs/editor.tsx:187
+msgid "View $0"
+msgstr "Vaata: $0"
+
+#: src/dialogs/editor.tsx:222
+msgid "The file has changed on disk"
+msgstr "Fail on andmekandjal muutunud"
+
+#: src/dialogs/editor.tsx:227
+msgid "Reload"
+msgstr "Laadi uuesti"
+
+#: src/dialogs/editor.tsx:230
+msgid "Ignore"
+msgstr "Eira"
+
+#: src/dialogs/editor.tsx:250 src/dialogs/editor.tsx:307
+#: src/dialogs/rename.tsx:85
+msgid "Overwrite"
+msgstr "Kirjuta üle"
+
+#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
+msgid "Save"
+msgstr "Salvesta"
+
+#: src/dialogs/editor.tsx:270 src/dialogs/keyboardShortcutsHelp.tsx:33
+msgid "Close"
+msgstr "Sulge"
+
+#: src/dialogs/editor.tsx:281
+msgid "Save changes?"
+msgstr "Kas salvestad muudatused?"
+
+#: src/dialogs/editor.tsx:290
+msgid "The file was deleted after it was opened, saving will recreate it."
+msgstr "Fail on peale avamist kustutatud ning salvestamisel ta luuakse uuesti."
+
+#: src/dialogs/editor.tsx:291
+msgid "The file has changed on disk between when it was opened and now"
+msgstr "Fail on andmekandjal muutunud avamishetke ja praeguse hetke vahel"
+
+#: src/dialogs/editor.tsx:296
+msgid "$0 has unsaved changes and which will be permanently lost if discarded."
+msgstr ""
+"„$0“ sisaldab salvestamata muudatusi, mis lähevad loobumisel jäädavalt "
+"kaotsi."
+
+#: src/dialogs/editor.tsx:329
+msgid "Discard"
+msgstr "Loobu"
+
+#: src/dialogs/rename.tsx:91
+msgid "New filename"
+msgstr "Uus failinimi"
+
+#: src/dialogs/rename.tsx:91
+msgid "New name"
+msgstr "Uus nimi"
+
+#: src/dialogs/rename.tsx:101
+msgid "Rename $0?"
+msgstr "Kas muudad nime: $0?"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:55
+msgid "Go up a directory"
+msgstr "Mine kausta jagu ülespoole"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:61
+msgid "Go back"
+msgstr "Mine tagasi"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:67
+msgid "Go forward"
+msgstr "Mine edasi"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:73
+#: src/dialogs/keyboardShortcutsHelp.tsx:79
+msgid "Activate selected item, enter directory"
+msgstr "Aktiveeri valitud objekt või sisene kausta"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:95
+msgid "Rename selected file or directory"
+msgstr "Muuda valitud faili või kausta nime"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:102
+msgid "Create new directory"
+msgstr "Loo uus kaust"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:108
+msgid "Copy selected file or directory"
+msgstr "Kopeeri valitud fail või kaust"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:114
+msgid "Paste file or directory"
+msgstr "Aseta fail või kaust"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:120
+msgid "Select all"
+msgstr "Vali kõik"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:131
+msgid "Save current file"
+msgstr "Salvesta praegune fail"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:135
+msgid "Close editor"
+msgstr "Sulge muutmisvaade"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:148
+msgid "Keyboard shortcuts"
+msgstr "Klahvistiku kiirklahvid"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:152
+msgid "Navigation"
+msgstr "Liikumine"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:162
+msgid "Editing"
+msgstr "Muudan"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:172
+msgid "Editor"
+msgstr "Muutmisvaade"
+
+#: src/files-folder-view.tsx:156
+msgid "Drop files to upload"
+msgstr "Lohista siia üleslaaditavad failid"
+
+#: src/files-folder-view.tsx:164
+msgid "Cannot drop files, another upload is already in progress"
+msgstr ""
+"Kuna teine üleslaadimine on juba töös, siis faile ei saa siia lohistada"
+
 #: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
 msgstr "Valitud on $0 faili"
@@ -652,15 +685,6 @@ msgstr "Muud"
 #: src/files-footer-detail.tsx:144
 msgid "User"
 msgstr "Kasutaja"
-
-#: src/files-folder-view.tsx:156
-msgid "Drop files to upload"
-msgstr "Lohista siia üleslaaditavad failid"
-
-#: src/files-folder-view.tsx:164
-msgid "Cannot drop files, another upload is already in progress"
-msgstr ""
-"Kuna teine üleslaadimine on juba töös, siis faile ei saa siia lohistada"
 
 #: src/upload-button.tsx:56
 msgid "$0 files"
@@ -750,30 +774,6 @@ msgstr "Üleslaadimine on valmis: $0%"
 #: src/upload-button.tsx:513
 msgid "Upload"
 msgstr "Laadi üles"
-
-#: src/menu.tsx:53
-msgid "\"$0\" exists, not overwriting with paste."
-msgstr "„$0“ on olemas, ei kirjuta seda asetamisega üle."
-
-#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
-msgid "Edit permissions"
-msgstr "Muuda õigusi"
-
-#: src/menu.tsx:127 src/menu.tsx:188
-msgid "Open in terminal"
-msgstr "Ava terminalis"
-
-#: src/menu.tsx:144
-msgid "Open text file"
-msgstr "Ava tekstifail"
-
-#: src/menu.tsx:152 src/menu.tsx:206
-msgid "Copy"
-msgstr "Kopeeri"
-
-#: src/menu.tsx:179
-msgid "Download"
-msgstr "Laadi alla"
 
 #: src/files-card-body.tsx:506
 msgid "No matching results"

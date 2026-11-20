@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 10:02+0000\n"
+"POT-Creation-Date: 2026-11-20 10:27+0000\n"
 "PO-Revision-Date: 2026-09-15 09:17+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -122,45 +122,57 @@ msgstr "Nascondi elementi nascosti"
 msgid "Show hidden items"
 msgstr "Mostra elementi nascosti"
 
-#: src/files-breadcrumbs.tsx:46
-msgid "Home"
-msgstr "Home"
+#: src/menu.tsx:51 src/dialogs/copyPasteOwnership.tsx:56
+msgid "Pasting failed"
+msgstr "Operazione incolla fallita"
 
-#: src/files-breadcrumbs.tsx:94
-msgid "Unable to create bookmark directory"
-msgstr "Impossibile creare la cartella dei segnalibri"
+#: src/menu.tsx:53
+msgid "\"$0\" exists, not overwriting with paste."
+msgstr "“$0” esiste, non si sovrascrive con l'incolla."
 
-#: src/files-breadcrumbs.tsx:117
-msgid "Unable to save bookmark file"
-msgstr "Impossibile salvare il file dei segnalibri"
+#: src/menu.tsx:100 src/dialogs/copyPasteOwnership.tsx:168
+msgid "Paste"
+msgstr "Incolla"
 
-#: src/files-breadcrumbs.tsx:139
-msgid "Remove from bookmarks"
-msgstr "Rimuovi dai segnalibri"
+#: src/menu.tsx:107 src/dialogs/mkdir.tsx:80
+msgid "Create directory"
+msgstr "Crea directory"
 
-#: src/files-breadcrumbs.tsx:141
-msgid "Add to bookmarks"
-msgstr "Aggiungi ai segnalibri"
+#: src/menu.tsx:112 src/dialogs/create-file.tsx:151
+msgid "Create file"
+msgstr "Crea file"
 
-#: src/files-breadcrumbs.tsx:154
-msgid "Bookmarks"
-msgstr "Segnalibri"
+#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
+msgid "Edit permissions"
+msgstr "Modifica permessi"
 
-#: src/files-breadcrumbs.tsx:161
-msgid "Bookmarked"
-msgstr "Segnalibro aggiunto"
+#: src/menu.tsx:127 src/menu.tsx:188
+msgid "Open in terminal"
+msgstr "Apri nel terminale"
 
-#: src/files-breadcrumbs.tsx:161
-msgid "Not bookmarked"
-msgstr "Segnalibro non aggiunto"
+#: src/menu.tsx:144
+msgid "Open text file"
+msgstr "Apri file di testo"
 
-#: src/files-breadcrumbs.tsx:236
-msgid "Filesystem"
-msgstr "File system"
+#: src/menu.tsx:152 src/menu.tsx:206
+msgid "Copy"
+msgstr "copia"
 
-#: src/files-breadcrumbs.tsx:303 src/dialogs/keyboardShortcutsHelp.tsx:87
-msgid "Edit path"
-msgstr "Modifica percorso"
+#: src/menu.tsx:163 src/dialogs/rename.tsx:78
+msgid "Rename"
+msgstr "Rinomina"
+
+#: src/menu.tsx:169 src/menu.tsx:211 src/dialogs/delete.tsx:95
+msgid "Delete"
+msgstr "Elimina"
+
+#: src/menu.tsx:179
+msgid "Download"
+msgstr "Scarica"
+
+#: src/menu.tsx:198 src/dialogs/symlink.tsx:231
+msgid "Create link"
+msgstr "Crea link"
 
 #: src/common.ts:49
 msgid "None"
@@ -178,7 +190,7 @@ msgstr "Sola scrittura"
 msgid "Write and execute"
 msgstr "Scrittura ed esecuzione"
 
-#: src/common.ts:53 src/dialogs/editor.tsx:189 src/dialogs/permissions.tsx:230
+#: src/common.ts:53 src/dialogs/permissions.tsx:230 src/dialogs/editor.tsx:189
 msgid "Read-only"
 msgstr "Sola lettura"
 
@@ -246,271 +258,61 @@ msgstr "Esiste una cartella con lo stesso nome"
 msgid "File exists"
 msgstr "Il file esiste già"
 
-#: src/dialogs/delete.tsx:34
-msgid "Force delete $0 items"
-msgstr "Forza eliminazione di $0 elementi"
+#: src/files-breadcrumbs.tsx:46
+msgid "Home"
+msgstr "Home"
 
-#: src/dialogs/delete.tsx:34
-msgid "Delete $0 items?"
-msgstr "Cancella $0 oggetti?"
+#: src/files-breadcrumbs.tsx:94
+msgid "Unable to create bookmark directory"
+msgstr "Impossibile creare la cartella dei segnalibri"
 
-#: src/dialogs/delete.tsx:40
-msgid "Force delete file $0?"
-msgstr "Forzare l'eliminazione del file $0?"
+#: src/files-breadcrumbs.tsx:117
+msgid "Unable to save bookmark file"
+msgstr "Impossibile salvare il file dei segnalibri"
 
-#: src/dialogs/delete.tsx:40
-msgid "Delete file $0?"
-msgstr "Cancella file $0?"
+#: src/files-breadcrumbs.tsx:139
+msgid "Remove from bookmarks"
+msgstr "Rimuovi dai segnalibri"
 
-#: src/dialogs/delete.tsx:44
-msgid "Force delete link $0?"
-msgstr "Forzare l'eliminazione del collegamento $0?"
+#: src/files-breadcrumbs.tsx:141
+msgid "Add to bookmarks"
+msgstr "Aggiungi ai segnalibri"
 
-#: src/dialogs/delete.tsx:44
-msgid "Delete link $0?"
-msgstr "Cancella link $0?"
+#: src/files-breadcrumbs.tsx:154
+msgid "Bookmarks"
+msgstr "Segnalibri"
 
-#: src/dialogs/delete.tsx:48
-msgid "Force delete directory $0?"
-msgstr "Forzare l'eliminazione della cartella $0?"
+#: src/files-breadcrumbs.tsx:161
+msgid "Bookmarked"
+msgstr "Segnalibro aggiunto"
 
-#: src/dialogs/delete.tsx:48
-msgid "Delete directory $0?"
-msgstr "Eliminare la cartella $0?"
+#: src/files-breadcrumbs.tsx:161
+msgid "Not bookmarked"
+msgstr "Segnalibro non aggiunto"
 
-#: src/dialogs/delete.tsx:51
-msgid "Force delete $0"
-msgstr "Forza eliminazione di $0"
+#: src/files-breadcrumbs.tsx:236
+msgid "Filesystem"
+msgstr "File system"
 
-#: src/dialogs/delete.tsx:51
-msgid "Delete $0?"
-msgstr "Eliminare $0?"
-
-#: src/dialogs/delete.tsx:95 src/menu.tsx:169 src/menu.tsx:211
-msgid "Delete"
-msgstr "Elimina"
-
-#: src/dialogs/delete.tsx:97 src/dialogs/rename.tsx:87
-#: src/dialogs/copyPasteOwnership.tsx:170 src/dialogs/mkdir.tsx:137
-#: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
-#: src/dialogs/create-file.tsx:211 src/dialogs/symlink.tsx:233
-#: src/dialogs/permissions.tsx:424 src/upload-button.tsx:146
-msgid "Cancel"
-msgstr "Annulla"
-
-#: src/dialogs/rename.tsx:78 src/menu.tsx:163
-msgid "Rename"
-msgstr "Rinomina"
-
-#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:250
-#: src/dialogs/editor.tsx:307
-msgid "Overwrite"
-msgstr "Sovrascrivere"
-
-#: src/dialogs/rename.tsx:91
-msgid "New filename"
-msgstr "Nuovo nome file"
-
-#: src/dialogs/rename.tsx:91
-msgid "New name"
-msgstr "Nuovo nome"
-
-#: src/dialogs/rename.tsx:101
-msgid "Rename $0?"
-msgstr "Rinomina $0?"
-
-#: src/dialogs/copyPasteOwnership.tsx:56 src/menu.tsx:51
-msgid "Pasting failed"
-msgstr "Operazione incolla fallita"
-
-#: src/dialogs/copyPasteOwnership.tsx:110
-msgid "(original owner)"
-msgstr "(propietario originario)"
-
-#: src/dialogs/copyPasteOwnership.tsx:119
-msgid "keep original owners"
-msgstr "mantenere i proprietari originali"
-
-#: src/dialogs/copyPasteOwnership.tsx:168 src/menu.tsx:100
-msgid "Paste"
-msgstr "Incolla"
-
-#: src/dialogs/copyPasteOwnership.tsx:182
-msgid "Paste as owner"
-msgstr "Incolla come proprietario"
-
-#: src/dialogs/copyPasteOwnership.tsx:187
-msgid ""
-"Files being pasted have a different owner. By default, ownership will be "
-"changed to match the destination directory."
-msgstr ""
-"I file incollati hanno un proprietario diverso. Per impostazione "
-"predefinita, la proprietà verrà modificata per corrispondere alla cartella "
-"di destinazione."
-
-#: src/dialogs/copyPasteOwnership.tsx:190
-msgid "New owner"
-msgstr "Nuovo proprietario"
-
-#: src/dialogs/mkdir.tsx:31
-msgid "Directory name cannot be empty"
-msgstr "Il nome della cartella non può essere vuoto"
-
-#: src/dialogs/mkdir.tsx:33
-msgid "Directory name too long"
-msgstr "Nome della cartella troppo lungo"
-
-#: src/dialogs/mkdir.tsx:35
-msgid "Directory name cannot include a /"
-msgstr "Il nome della cartella non può includere /"
-
-#: src/dialogs/mkdir.tsx:80 src/menu.tsx:107
-msgid "Create directory"
-msgstr "Crea directory"
-
-#: src/dialogs/mkdir.tsx:96
-msgid "Directory name"
-msgstr "Nome cartella"
-
-#: src/dialogs/mkdir.tsx:110
-msgid "Directory owner"
-msgstr "Proprietario cartella"
-
-#: src/dialogs/mkdir.tsx:135 src/dialogs/create-file.tsx:208
-msgid "Create"
-msgstr "Crea"
-
-#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
-msgid "The file has been removed on disk"
-msgstr "Il file è stato rimosso dal disco"
-
-#: src/dialogs/editor.tsx:50
-msgid "The existing file changed unexpectedly"
-msgstr "Il file esistente è cambiato inaspettatamente"
-
-#. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:187
-msgid "Edit $0"
-msgstr "Modifica $0"
-
-#: src/dialogs/editor.tsx:187
-msgid "View $0"
-msgstr "Visualizza $0"
-
-#: src/dialogs/editor.tsx:222
-msgid "The file has changed on disk"
-msgstr "Il file è cambiato sul disco"
-
-#: src/dialogs/editor.tsx:227
-msgid "Reload"
-msgstr "Ricarica"
-
-#: src/dialogs/editor.tsx:230
-msgid "Ignore"
-msgstr "Ignora"
-
-#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
-msgid "Save"
-msgstr "Salva"
-
-#: src/dialogs/editor.tsx:270 src/dialogs/keyboardShortcutsHelp.tsx:33
-msgid "Close"
-msgstr "Chiudi"
-
-#: src/dialogs/editor.tsx:281
-msgid "Save changes?"
-msgstr "Salvare le modifiche?"
-
-#: src/dialogs/editor.tsx:290
-msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr ""
-"Il file è stato eliminato dopo essere stato aperto; il salvataggio lo "
-"ricreerà."
-
-#: src/dialogs/editor.tsx:291
-msgid "The file has changed on disk between when it was opened and now"
-msgstr ""
-"Il file sul disco è stato modificato nel periodo tra l'apertura e il momento "
-"attuale"
-
-#: src/dialogs/editor.tsx:296
-msgid "$0 has unsaved changes and which will be permanently lost if discarded."
-msgstr ""
-"$0 ha delle modifiche non salvate che andranno perse definitivamente se "
-"scartate."
-
-#: src/dialogs/editor.tsx:329
-msgid "Discard"
-msgstr "Scarta"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:55
-msgid "Go up a directory"
-msgstr "Tornare alla cartella superiore"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:61
-msgid "Go back"
-msgstr "Va indietro"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:67
-msgid "Go forward"
-msgstr "Avanti"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:73
-#: src/dialogs/keyboardShortcutsHelp.tsx:79
-msgid "Activate selected item, enter directory"
-msgstr "Attiva l'elemento selezionato, entra nella cartella"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:95
-msgid "Rename selected file or directory"
-msgstr "Rinomina file o cartella selezionata"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:102
-msgid "Create new directory"
-msgstr "Crea una nuova cartella"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:108
-msgid "Copy selected file or directory"
-msgstr "Copia i file o directory selezionati"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:114
-msgid "Paste file or directory"
-msgstr "Incolla file o cartella"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:120
-msgid "Select all"
-msgstr "Seleziona tutto"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:131
-msgid "Save current file"
-msgstr "Salva il file attuale"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:135
-msgid "Close editor"
-msgstr "Chiudi editor"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:148
-msgid "Keyboard shortcuts"
-msgstr "Scorciatoie da tastiera"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:152
-msgid "Navigation"
-msgstr "Navigazione"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:162
-msgid "Editing"
-msgstr "Modifica"
-
-#: src/dialogs/keyboardShortcutsHelp.tsx:172
-msgid "Editor"
-msgstr "Editor"
-
-#: src/dialogs/create-file.tsx:151 src/menu.tsx:112
-msgid "Create file"
-msgstr "Crea file"
+#: src/files-breadcrumbs.tsx:303 src/dialogs/keyboardShortcutsHelp.tsx:87
+msgid "Edit path"
+msgstr "Modifica percorso"
 
 #: src/dialogs/create-file.tsx:163
 msgid "File name"
 msgstr "Nome del file"
+
+#: src/dialogs/create-file.tsx:208 src/dialogs/mkdir.tsx:135
+msgid "Create"
+msgstr "Crea"
+
+#: src/dialogs/create-file.tsx:211 src/dialogs/permissions.tsx:424
+#: src/dialogs/mkdir.tsx:137 src/dialogs/copyPasteOwnership.tsx:170
+#: src/dialogs/symlink.tsx:233 src/dialogs/delete.tsx:97
+#: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
+#: src/dialogs/rename.tsx:87 src/upload-button.tsx:146
+msgid "Cancel"
+msgstr "Annulla"
 
 #: src/dialogs/create-file.tsx:228
 msgid "Cannot create file in current directory"
@@ -519,59 +321,6 @@ msgstr "Impossibile creare il file nella cartella corrente"
 #: src/dialogs/create-file.tsx:230
 msgid "Permission denied"
 msgstr "Permesso negato"
-
-#: src/dialogs/symlink.tsx:53
-msgid "link to $0"
-msgstr "Collega a $0"
-
-#: src/dialogs/symlink.tsx:128
-msgid "Create link to $0"
-msgstr "Crea link a $0"
-
-#: src/dialogs/symlink.tsx:157
-msgid "Target"
-msgstr "Target"
-
-#: src/dialogs/symlink.tsx:164
-msgid "Symlink name"
-msgstr "Nome collegamento simbolico"
-
-#: src/dialogs/symlink.tsx:180
-msgid "Type"
-msgstr "Tipo"
-
-#: src/dialogs/symlink.tsx:184
-msgid "Absolute vs. Relative"
-msgstr "Assoluto vs. Relativo"
-
-#: src/dialogs/symlink.tsx:188
-msgid ""
-"Absolute symlinks are ideal when referring to files or directories that "
-"won't move, such as system files."
-msgstr ""
-"I collegamenti simbolici assoluti sono ideali quando ci si riferisce a file "
-"o cartelle che non verranno spostati, come i file di sistema."
-
-#: src/dialogs/symlink.tsx:191
-msgid ""
-"Relative symlinks are useful when both a symlink and target might move at "
-"the same time, such as when renaming or moving a parent directory."
-msgstr ""
-"I collegamenti simbolici relativi sono utili quando sia un collegamento "
-"simbolico che la sua destinazione potrebbero spostarsi contemporaneamente, "
-"ad esempio rinominando o spostando una cartella principale."
-
-#: src/dialogs/symlink.tsx:202
-msgid "Absolute"
-msgstr "Assoluto"
-
-#: src/dialogs/symlink.tsx:209
-msgid "Relative"
-msgstr "Relativo"
-
-#: src/dialogs/symlink.tsx:231 src/menu.tsx:198
-msgid "Create link"
-msgstr "Crea link"
 
 #: src/dialogs/permissions.tsx:235
 msgid "No access"
@@ -638,6 +387,289 @@ msgstr "Modifica"
 msgid "Change permissions for enclosed files"
 msgstr "Modifica permessi per i file inclusi"
 
+#: src/dialogs/mkdir.tsx:31
+msgid "Directory name cannot be empty"
+msgstr "Il nome della cartella non può essere vuoto"
+
+#: src/dialogs/mkdir.tsx:33
+msgid "Directory name too long"
+msgstr "Nome della cartella troppo lungo"
+
+#: src/dialogs/mkdir.tsx:35
+msgid "Directory name cannot include a /"
+msgstr "Il nome della cartella non può includere /"
+
+#: src/dialogs/mkdir.tsx:96
+msgid "Directory name"
+msgstr "Nome cartella"
+
+#: src/dialogs/mkdir.tsx:110
+msgid "Directory owner"
+msgstr "Proprietario cartella"
+
+#: src/dialogs/copyPasteOwnership.tsx:110
+msgid "(original owner)"
+msgstr "(propietario originario)"
+
+#: src/dialogs/copyPasteOwnership.tsx:119
+msgid "keep original owners"
+msgstr "mantenere i proprietari originali"
+
+#: src/dialogs/copyPasteOwnership.tsx:182
+msgid "Paste as owner"
+msgstr "Incolla come proprietario"
+
+#: src/dialogs/copyPasteOwnership.tsx:187
+msgid ""
+"Files being pasted have a different owner. By default, ownership will be "
+"changed to match the destination directory."
+msgstr ""
+"I file incollati hanno un proprietario diverso. Per impostazione "
+"predefinita, la proprietà verrà modificata per corrispondere alla cartella "
+"di destinazione."
+
+#: src/dialogs/copyPasteOwnership.tsx:190
+msgid "New owner"
+msgstr "Nuovo proprietario"
+
+#: src/dialogs/symlink.tsx:53
+msgid "link to $0"
+msgstr "Collega a $0"
+
+#: src/dialogs/symlink.tsx:128
+msgid "Create link to $0"
+msgstr "Crea link a $0"
+
+#: src/dialogs/symlink.tsx:157
+msgid "Target"
+msgstr "Target"
+
+#: src/dialogs/symlink.tsx:164
+msgid "Symlink name"
+msgstr "Nome collegamento simbolico"
+
+#: src/dialogs/symlink.tsx:180
+msgid "Type"
+msgstr "Tipo"
+
+#: src/dialogs/symlink.tsx:184
+msgid "Absolute vs. Relative"
+msgstr "Assoluto vs. Relativo"
+
+#: src/dialogs/symlink.tsx:188
+msgid ""
+"Absolute symlinks are ideal when referring to files or directories that "
+"won't move, such as system files."
+msgstr ""
+"I collegamenti simbolici assoluti sono ideali quando ci si riferisce a file "
+"o cartelle che non verranno spostati, come i file di sistema."
+
+#: src/dialogs/symlink.tsx:191
+msgid ""
+"Relative symlinks are useful when both a symlink and target might move at "
+"the same time, such as when renaming or moving a parent directory."
+msgstr ""
+"I collegamenti simbolici relativi sono utili quando sia un collegamento "
+"simbolico che la sua destinazione potrebbero spostarsi contemporaneamente, "
+"ad esempio rinominando o spostando una cartella principale."
+
+#: src/dialogs/symlink.tsx:202
+msgid "Absolute"
+msgstr "Assoluto"
+
+#: src/dialogs/symlink.tsx:209
+msgid "Relative"
+msgstr "Relativo"
+
+#: src/dialogs/delete.tsx:34
+msgid "Force delete $0 items"
+msgstr "Forza eliminazione di $0 elementi"
+
+#: src/dialogs/delete.tsx:34
+msgid "Delete $0 items?"
+msgstr "Cancella $0 oggetti?"
+
+#: src/dialogs/delete.tsx:40
+msgid "Force delete file $0?"
+msgstr "Forzare l'eliminazione del file $0?"
+
+#: src/dialogs/delete.tsx:40
+msgid "Delete file $0?"
+msgstr "Cancella file $0?"
+
+#: src/dialogs/delete.tsx:44
+msgid "Force delete link $0?"
+msgstr "Forzare l'eliminazione del collegamento $0?"
+
+#: src/dialogs/delete.tsx:44
+msgid "Delete link $0?"
+msgstr "Cancella link $0?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Force delete directory $0?"
+msgstr "Forzare l'eliminazione della cartella $0?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Delete directory $0?"
+msgstr "Eliminare la cartella $0?"
+
+#: src/dialogs/delete.tsx:51
+msgid "Force delete $0"
+msgstr "Forza eliminazione di $0"
+
+#: src/dialogs/delete.tsx:51
+msgid "Delete $0?"
+msgstr "Eliminare $0?"
+
+#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
+msgid "The file has been removed on disk"
+msgstr "Il file è stato rimosso dal disco"
+
+#: src/dialogs/editor.tsx:50
+msgid "The existing file changed unexpectedly"
+msgstr "Il file esistente è cambiato inaspettatamente"
+
+#. Translators: This is the title of a modal dialog.  $0 represents a filename.
+#: src/dialogs/editor.tsx:187
+msgid "Edit $0"
+msgstr "Modifica $0"
+
+#: src/dialogs/editor.tsx:187
+msgid "View $0"
+msgstr "Visualizza $0"
+
+#: src/dialogs/editor.tsx:222
+msgid "The file has changed on disk"
+msgstr "Il file è cambiato sul disco"
+
+#: src/dialogs/editor.tsx:227
+msgid "Reload"
+msgstr "Ricarica"
+
+#: src/dialogs/editor.tsx:230
+msgid "Ignore"
+msgstr "Ignora"
+
+#: src/dialogs/editor.tsx:250 src/dialogs/editor.tsx:307
+#: src/dialogs/rename.tsx:85
+msgid "Overwrite"
+msgstr "Sovrascrivere"
+
+#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
+msgid "Save"
+msgstr "Salva"
+
+#: src/dialogs/editor.tsx:270 src/dialogs/keyboardShortcutsHelp.tsx:33
+msgid "Close"
+msgstr "Chiudi"
+
+#: src/dialogs/editor.tsx:281
+msgid "Save changes?"
+msgstr "Salvare le modifiche?"
+
+#: src/dialogs/editor.tsx:290
+msgid "The file was deleted after it was opened, saving will recreate it."
+msgstr ""
+"Il file è stato eliminato dopo essere stato aperto; il salvataggio lo "
+"ricreerà."
+
+#: src/dialogs/editor.tsx:291
+msgid "The file has changed on disk between when it was opened and now"
+msgstr ""
+"Il file sul disco è stato modificato nel periodo tra l'apertura e il momento "
+"attuale"
+
+#: src/dialogs/editor.tsx:296
+msgid "$0 has unsaved changes and which will be permanently lost if discarded."
+msgstr ""
+"$0 ha delle modifiche non salvate che andranno perse definitivamente se "
+"scartate."
+
+#: src/dialogs/editor.tsx:329
+msgid "Discard"
+msgstr "Scarta"
+
+#: src/dialogs/rename.tsx:91
+msgid "New filename"
+msgstr "Nuovo nome file"
+
+#: src/dialogs/rename.tsx:91
+msgid "New name"
+msgstr "Nuovo nome"
+
+#: src/dialogs/rename.tsx:101
+msgid "Rename $0?"
+msgstr "Rinomina $0?"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:55
+msgid "Go up a directory"
+msgstr "Tornare alla cartella superiore"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:61
+msgid "Go back"
+msgstr "Va indietro"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:67
+msgid "Go forward"
+msgstr "Avanti"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:73
+#: src/dialogs/keyboardShortcutsHelp.tsx:79
+msgid "Activate selected item, enter directory"
+msgstr "Attiva l'elemento selezionato, entra nella cartella"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:95
+msgid "Rename selected file or directory"
+msgstr "Rinomina file o cartella selezionata"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:102
+msgid "Create new directory"
+msgstr "Crea una nuova cartella"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:108
+msgid "Copy selected file or directory"
+msgstr "Copia i file o directory selezionati"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:114
+msgid "Paste file or directory"
+msgstr "Incolla file o cartella"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:120
+msgid "Select all"
+msgstr "Seleziona tutto"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:131
+msgid "Save current file"
+msgstr "Salva il file attuale"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:135
+msgid "Close editor"
+msgstr "Chiudi editor"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:148
+msgid "Keyboard shortcuts"
+msgstr "Scorciatoie da tastiera"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:152
+msgid "Navigation"
+msgstr "Navigazione"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:162
+msgid "Editing"
+msgstr "Modifica"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:172
+msgid "Editor"
+msgstr "Editor"
+
+#: src/files-folder-view.tsx:156
+msgid "Drop files to upload"
+msgstr "Trascina i file qui per caricarli"
+
+#: src/files-folder-view.tsx:164
+msgid "Cannot drop files, another upload is already in progress"
+msgstr "Impossibile rilasciare i file, un altro caricamento è già in corso"
+
 #: src/files-footer-detail.tsx:36
 msgid "$0 files selected"
 msgstr "$0 file selezionati"
@@ -657,14 +689,6 @@ msgstr "Altri"
 #: src/files-footer-detail.tsx:144
 msgid "User"
 msgstr "Utente"
-
-#: src/files-folder-view.tsx:156
-msgid "Drop files to upload"
-msgstr "Trascina i file qui per caricarli"
-
-#: src/files-folder-view.tsx:164
-msgid "Cannot drop files, another upload is already in progress"
-msgstr "Impossibile rilasciare i file, un altro caricamento è già in corso"
 
 #: src/upload-button.tsx:56
 msgid "$0 files"
@@ -754,30 +778,6 @@ msgstr "Caricamento $0 completato"
 #: src/upload-button.tsx:513
 msgid "Upload"
 msgstr "Caricare"
-
-#: src/menu.tsx:53
-msgid "\"$0\" exists, not overwriting with paste."
-msgstr "“$0” esiste, non si sovrascrive con l'incolla."
-
-#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
-msgid "Edit permissions"
-msgstr "Modifica permessi"
-
-#: src/menu.tsx:127 src/menu.tsx:188
-msgid "Open in terminal"
-msgstr "Apri nel terminale"
-
-#: src/menu.tsx:144
-msgid "Open text file"
-msgstr "Apri file di testo"
-
-#: src/menu.tsx:152 src/menu.tsx:206
-msgid "Copy"
-msgstr "copia"
-
-#: src/menu.tsx:179
-msgid "Download"
-msgstr "Scarica"
 
 #: src/files-card-body.tsx:506
 msgid "No matching results"
