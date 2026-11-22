@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:27+0000\n"
+"POT-Creation-Date: 2026-11-22 10:16+0000\n"
 "PO-Revision-Date: 2026-10-21 08:18+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -30,9 +30,66 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr "Cockpit 檔案"
 
-#: src/header.tsx:53 src/files-card-body.tsx:534
+#: src/files-card-body.tsx:506
+msgid "No matching results"
+msgstr ""
+
+#: src/files-card-body.tsx:507
+msgid "Clear filter"
+msgstr ""
+
+#: src/files-card-body.tsx:514
+msgid "Directory is empty"
+msgstr ""
+
+#: src/files-card-body.tsx:519
+msgid "$0 item is hidden"
+msgid_plural "$0 items are hidden"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/files-card-body.tsx:522 src/header.tsx:271
+msgid "Show hidden items"
+msgstr "顯示己隱藏項目"
+
+#: src/files-card-body.tsx:534 src/header.tsx:53
 msgid "Name"
 msgstr "名稱"
+
+#: src/files-card-body.tsx:535 src/files-card-body.tsx:652 src/header.tsx:64
+msgid "Size"
+msgstr "占用大小"
+
+#: src/files-card-body.tsx:539 src/files-card-body.tsx:659 src/header.tsx:75
+msgid "Modified"
+msgstr "已修改"
+
+#: src/files-card-body.tsx:544 src/files-card-body.tsx:591
+#: src/files-card-body.tsx:667 src/header.tsx:86 src/files-footer-detail.tsx:80
+#: src/dialogs/permissions.tsx:319 src/dialogs/create-file.tsx:185
+msgid "Owner"
+msgstr "擁有人"
+
+#: src/files-card-body.tsx:549 src/files-card-body.tsx:674 src/header.tsx:97
+msgid "Permissions"
+msgstr "權限"
+
+#: src/files-card-body.tsx:578
+msgid "Folder"
+msgstr ""
+
+#: src/files-card-body.tsx:580
+msgid "File"
+msgstr ""
+
+#: src/files-card-body.tsx:591 src/files-footer-detail.tsx:80
+#: src/files-footer-detail.tsx:152 src/dialogs/permissions.tsx:334
+msgid "Group"
+msgstr ""
+
+#: src/files-card-body.tsx:591 src/files-footer-detail.tsx:80
+msgid "Others"
+msgstr ""
 
 #: src/header.tsx:56
 msgid "A-Z"
@@ -42,10 +99,6 @@ msgstr "A-Z"
 msgid "Z-A"
 msgstr "Z-A"
 
-#: src/header.tsx:64 src/files-card-body.tsx:535 src/files-card-body.tsx:652
-msgid "Size"
-msgstr "占用大小"
-
 #: src/header.tsx:67
 msgid "Largest size"
 msgstr "最大占用大小"
@@ -53,10 +106,6 @@ msgstr "最大占用大小"
 #: src/header.tsx:71
 msgid "Smallest size"
 msgstr "最小占用大小"
-
-#: src/header.tsx:75 src/files-card-body.tsx:539 src/files-card-body.tsx:659
-msgid "Modified"
-msgstr "已修改"
 
 #: src/header.tsx:78
 msgid "First modified"
@@ -66,13 +115,6 @@ msgstr "最近已修改"
 msgid "Last modified"
 msgstr "最後已修改"
 
-#: src/header.tsx:86 src/dialogs/create-file.tsx:185
-#: src/dialogs/permissions.tsx:319 src/files-footer-detail.tsx:80
-#: src/files-card-body.tsx:544 src/files-card-body.tsx:591
-#: src/files-card-body.tsx:667
-msgid "Owner"
-msgstr "擁有人"
-
 #: src/header.tsx:89
 msgid "Owner ascending"
 msgstr "正在增加擁有人"
@@ -80,10 +122,6 @@ msgstr "正在增加擁有人"
 #: src/header.tsx:93
 msgid "Owner descending"
 msgstr "正在減少擁有人"
-
-#: src/header.tsx:97 src/files-card-body.tsx:549 src/files-card-body.tsx:674
-msgid "Permissions"
-msgstr "權限"
 
 #: src/header.tsx:100
 msgid "Most permissive"
@@ -117,60 +155,115 @@ msgstr "排序"
 msgid "Hide hidden items"
 msgstr "隱藏己隱藏項目"
 
-#: src/header.tsx:271 src/files-card-body.tsx:522
-msgid "Show hidden items"
-msgstr "顯示己隱藏項目"
-
-#: src/menu.tsx:51 src/dialogs/copyPasteOwnership.tsx:56
-msgid "Pasting failed"
+#: src/files-footer-detail.tsx:36
+msgid "$0 files selected"
 msgstr ""
 
-#: src/menu.tsx:53
-msgid "\"$0\" exists, not overwriting with paste."
+#: src/files-footer-detail.tsx:64
+msgid "Directory contains $0 directories, $1 files"
 msgstr ""
 
-#: src/menu.tsx:100 src/dialogs/copyPasteOwnership.tsx:168
-msgid "Paste"
+#: src/files-footer-detail.tsx:65
+msgid "Directory contains $0 directories, $1 files, $2 hidden"
 msgstr ""
 
-#: src/menu.tsx:107 src/dialogs/mkdir.tsx:80
-msgid "Create directory"
+#: src/files-footer-detail.tsx:144
+msgid "User"
 msgstr ""
 
-#: src/menu.tsx:112 src/dialogs/create-file.tsx:151
-msgid "Create file"
+#: src/upload-button.tsx:56
+msgid "$0 files"
+msgstr "$0 個檔案"
+
+#: src/upload-button.tsx:60
+msgid "Uploaded as $0, $1"
+msgstr "上傳時標記為 $0、$1"
+
+#: src/upload-button.tsx:95
+msgid "Replace file $0?"
+msgstr "要覆寫檔案 $0 嗎？"
+
+#: src/upload-button.tsx:102
+msgid ""
+"A file with the same name already exists in \"$0\". Replacing it will "
+"overwrite its content."
+msgstr "在 「$0」 中已存在同名的檔案。若進行替換，將覆寫該檔案的內容。"
+
+#: src/upload-button.tsx:123
+msgid "New file"
+msgstr "新建檔案"
+
+#: src/upload-button.tsx:128
+msgid "Original file on server"
+msgstr "伺服器上的原始檔案"
+
+#: src/upload-button.tsx:137
+msgid "Apply this action to all conflicting files"
+msgstr "將此動作套用至所有發生衝突的檔案"
+
+#: src/upload-button.tsx:143
+msgid "Replace"
+msgstr "替換"
+
+#: src/upload-button.tsx:145
+msgid "Keep original"
+msgstr "保留原檔"
+
+#: src/upload-button.tsx:146 src/dialogs/delete.tsx:97
+#: src/dialogs/permissions.tsx:424 src/dialogs/symlink.tsx:233
+#: src/dialogs/rename.tsx:87 src/dialogs/mkdir.tsx:137
+#: src/dialogs/copyPasteOwnership.tsx:170 src/dialogs/editor.tsx:270
+#: src/dialogs/editor.tsx:336 src/dialogs/create-file.tsx:211
+msgid "Cancel"
+msgstr "取消"
+
+#: src/upload-button.tsx:278
+msgid "Failed"
+msgstr "己失敗"
+
+#: src/upload-button.tsx:322 src/upload-button.tsx:352
+msgid "Upload error"
+msgstr "上傳錯誤"
+
+#: src/upload-button.tsx:324
+msgid "Unable to move uploaded file to final destination"
+msgstr "無法將上傳的檔案移動至最終目的地"
+
+#: src/upload-button.tsx:346
+msgid "Cancelled"
+msgstr "己取消"
+
+#: src/upload-button.tsx:348
+msgid "Cancelled upload of $0"
+msgstr "已取消上傳 $0"
+
+#: src/upload-button.tsx:374
+msgid "File uploaded"
+msgstr "檔案己上傳"
+
+#: src/upload-button.tsx:374
+msgid "Files uploaded"
+msgstr "已上傳的檔案"
+
+#: src/upload-button.tsx:405
+msgid "Change permissions"
+msgstr "變更權限"
+
+#: src/upload-button.tsx:458
+msgid "Uploads"
+msgstr "上傳"
+
+#: src/upload-button.tsx:477
+msgid "Cancel upload of $0"
 msgstr ""
 
-#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
-msgid "Edit permissions"
+#
+#: src/upload-button.tsx:494
+msgid "Upload $0% completed"
 msgstr ""
 
-#: src/menu.tsx:127 src/menu.tsx:188
-msgid "Open in terminal"
-msgstr ""
-
-#: src/menu.tsx:144
-msgid "Open text file"
-msgstr ""
-
-#: src/menu.tsx:152 src/menu.tsx:206
-msgid "Copy"
-msgstr ""
-
-#: src/menu.tsx:163 src/dialogs/rename.tsx:78
-msgid "Rename"
-msgstr ""
-
-#: src/menu.tsx:169 src/menu.tsx:211 src/dialogs/delete.tsx:95
-msgid "Delete"
-msgstr ""
-
-#: src/menu.tsx:179
-msgid "Download"
-msgstr ""
-
-#: src/menu.tsx:198 src/dialogs/symlink.tsx:231
-msgid "Create link"
+#: src/upload-button.tsx:513
+msgid "Upload"
 msgstr ""
 
 #: src/common.ts:49
@@ -257,6 +350,66 @@ msgstr ""
 msgid "File exists"
 msgstr ""
 
+#: src/menu.tsx:51 src/dialogs/copyPasteOwnership.tsx:56
+msgid "Pasting failed"
+msgstr ""
+
+#: src/menu.tsx:53
+msgid "\"$0\" exists, not overwriting with paste."
+msgstr ""
+
+#: src/menu.tsx:100 src/dialogs/copyPasteOwnership.tsx:168
+msgid "Paste"
+msgstr ""
+
+#: src/menu.tsx:107 src/dialogs/mkdir.tsx:80
+msgid "Create directory"
+msgstr ""
+
+#: src/menu.tsx:112 src/dialogs/create-file.tsx:151
+msgid "Create file"
+msgstr ""
+
+#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
+msgid "Edit permissions"
+msgstr ""
+
+#: src/menu.tsx:127 src/menu.tsx:188
+msgid "Open in terminal"
+msgstr ""
+
+#: src/menu.tsx:144
+msgid "Open text file"
+msgstr ""
+
+#: src/menu.tsx:152 src/menu.tsx:206
+msgid "Copy"
+msgstr ""
+
+#: src/menu.tsx:163 src/dialogs/rename.tsx:78
+msgid "Rename"
+msgstr ""
+
+#: src/menu.tsx:169 src/menu.tsx:211 src/dialogs/delete.tsx:95
+msgid "Delete"
+msgstr ""
+
+#: src/menu.tsx:179
+msgid "Download"
+msgstr ""
+
+#: src/menu.tsx:198 src/dialogs/symlink.tsx:231
+msgid "Create link"
+msgstr ""
+
+#: src/files-folder-view.tsx:156
+msgid "Drop files to upload"
+msgstr ""
+
+#: src/files-folder-view.tsx:164
+msgid "Cannot drop files, another upload is already in progress"
+msgstr ""
+
 #: src/files-breadcrumbs.tsx:46
 msgid "Home"
 msgstr "主頁"
@@ -297,28 +450,44 @@ msgstr "檔案系統"
 msgid "Edit path"
 msgstr "編輯路徑"
 
-#: src/dialogs/create-file.tsx:163
-msgid "File name"
+#: src/dialogs/delete.tsx:34
+msgid "Force delete $0 items"
 msgstr ""
 
-#: src/dialogs/create-file.tsx:208 src/dialogs/mkdir.tsx:135
-msgid "Create"
+#: src/dialogs/delete.tsx:34
+msgid "Delete $0 items?"
 msgstr ""
 
-#: src/dialogs/create-file.tsx:211 src/dialogs/permissions.tsx:424
-#: src/dialogs/mkdir.tsx:137 src/dialogs/copyPasteOwnership.tsx:170
-#: src/dialogs/symlink.tsx:233 src/dialogs/delete.tsx:97
-#: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
-#: src/dialogs/rename.tsx:87 src/upload-button.tsx:146
-msgid "Cancel"
-msgstr "取消"
-
-#: src/dialogs/create-file.tsx:228
-msgid "Cannot create file in current directory"
+#: src/dialogs/delete.tsx:40
+msgid "Force delete file $0?"
 msgstr ""
 
-#: src/dialogs/create-file.tsx:230
-msgid "Permission denied"
+#: src/dialogs/delete.tsx:40
+msgid "Delete file $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:44
+msgid "Force delete link $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:44
+msgid "Delete link $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:48
+msgid "Force delete directory $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:48
+msgid "Delete directory $0?"
+msgstr ""
+
+#: src/dialogs/delete.tsx:51
+msgid "Force delete $0"
+msgstr ""
+
+#: src/dialogs/delete.tsx:51
+msgid "Delete $0?"
 msgstr ""
 
 #: src/dialogs/permissions.tsx:235
@@ -347,11 +516,6 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:318
 msgid "Ownership"
-msgstr ""
-
-#: src/dialogs/permissions.tsx:334 src/files-footer-detail.tsx:80
-#: src/files-footer-detail.tsx:152 src/files-card-body.tsx:591
-msgid "Group"
 msgstr ""
 
 #: src/dialogs/permissions.tsx:351
@@ -384,48 +548,6 @@ msgstr ""
 
 #: src/dialogs/permissions.tsx:422
 msgid "Change permissions for enclosed files"
-msgstr ""
-
-#: src/dialogs/mkdir.tsx:31
-msgid "Directory name cannot be empty"
-msgstr ""
-
-#: src/dialogs/mkdir.tsx:33
-msgid "Directory name too long"
-msgstr ""
-
-#: src/dialogs/mkdir.tsx:35
-msgid "Directory name cannot include a /"
-msgstr ""
-
-#: src/dialogs/mkdir.tsx:96
-msgid "Directory name"
-msgstr ""
-
-#: src/dialogs/mkdir.tsx:110
-msgid "Directory owner"
-msgstr ""
-
-#: src/dialogs/copyPasteOwnership.tsx:110
-msgid "(original owner)"
-msgstr ""
-
-#: src/dialogs/copyPasteOwnership.tsx:119
-msgid "keep original owners"
-msgstr ""
-
-#: src/dialogs/copyPasteOwnership.tsx:182
-msgid "Paste as owner"
-msgstr ""
-
-#: src/dialogs/copyPasteOwnership.tsx:187
-msgid ""
-"Files being pasted have a different owner. By default, ownership will be "
-"changed to match the destination directory."
-msgstr ""
-
-#: src/dialogs/copyPasteOwnership.tsx:190
-msgid "New owner"
 msgstr ""
 
 #: src/dialogs/symlink.tsx:53
@@ -472,106 +594,9 @@ msgstr ""
 msgid "Relative"
 msgstr ""
 
-#: src/dialogs/delete.tsx:34
-msgid "Force delete $0 items"
-msgstr ""
-
-#: src/dialogs/delete.tsx:34
-msgid "Delete $0 items?"
-msgstr ""
-
-#: src/dialogs/delete.tsx:40
-msgid "Force delete file $0?"
-msgstr ""
-
-#: src/dialogs/delete.tsx:40
-msgid "Delete file $0?"
-msgstr ""
-
-#: src/dialogs/delete.tsx:44
-msgid "Force delete link $0?"
-msgstr ""
-
-#: src/dialogs/delete.tsx:44
-msgid "Delete link $0?"
-msgstr ""
-
-#: src/dialogs/delete.tsx:48
-msgid "Force delete directory $0?"
-msgstr ""
-
-#: src/dialogs/delete.tsx:48
-msgid "Delete directory $0?"
-msgstr ""
-
-#: src/dialogs/delete.tsx:51
-msgid "Force delete $0"
-msgstr ""
-
-#: src/dialogs/delete.tsx:51
-msgid "Delete $0?"
-msgstr ""
-
-#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
-msgid "The file has been removed on disk"
-msgstr ""
-
-#: src/dialogs/editor.tsx:50
-msgid "The existing file changed unexpectedly"
-msgstr ""
-
-#. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:187
-msgid "Edit $0"
-msgstr ""
-
-#: src/dialogs/editor.tsx:187
-msgid "View $0"
-msgstr ""
-
-#: src/dialogs/editor.tsx:222
-msgid "The file has changed on disk"
-msgstr ""
-
-#: src/dialogs/editor.tsx:227
-msgid "Reload"
-msgstr ""
-
-#: src/dialogs/editor.tsx:230
-msgid "Ignore"
-msgstr ""
-
-#: src/dialogs/editor.tsx:250 src/dialogs/editor.tsx:307
-#: src/dialogs/rename.tsx:85
+#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:250
+#: src/dialogs/editor.tsx:307
 msgid "Overwrite"
-msgstr ""
-
-#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
-msgid "Save"
-msgstr ""
-
-#: src/dialogs/editor.tsx:270 src/dialogs/keyboardShortcutsHelp.tsx:33
-msgid "Close"
-msgstr ""
-
-#: src/dialogs/editor.tsx:281
-msgid "Save changes?"
-msgstr ""
-
-#: src/dialogs/editor.tsx:290
-msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr ""
-
-#: src/dialogs/editor.tsx:291
-msgid "The file has changed on disk between when it was opened and now"
-msgstr ""
-
-#: src/dialogs/editor.tsx:296
-msgid "$0 has unsaved changes and which will be permanently lost if discarded."
-msgstr ""
-
-#: src/dialogs/editor.tsx:329
-msgid "Discard"
 msgstr ""
 
 #: src/dialogs/rename.tsx:91
@@ -584,6 +609,56 @@ msgstr ""
 
 #: src/dialogs/rename.tsx:101
 msgid "Rename $0?"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:31
+msgid "Directory name cannot be empty"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:33
+msgid "Directory name too long"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:35
+msgid "Directory name cannot include a /"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:96
+msgid "Directory name"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:110
+msgid "Directory owner"
+msgstr ""
+
+#: src/dialogs/mkdir.tsx:135 src/dialogs/create-file.tsx:208
+msgid "Create"
+msgstr ""
+
+#: src/dialogs/copyPasteOwnership.tsx:110
+msgid "(original owner)"
+msgstr ""
+
+#: src/dialogs/copyPasteOwnership.tsx:119
+msgid "keep original owners"
+msgstr ""
+
+#: src/dialogs/copyPasteOwnership.tsx:182
+msgid "Paste as owner"
+msgstr ""
+
+#: src/dialogs/copyPasteOwnership.tsx:187
+msgid ""
+"Files being pasted have a different owner. By default, ownership will be "
+"changed to match the destination directory."
+msgstr ""
+
+#: src/dialogs/copyPasteOwnership.tsx:190
+msgid "New owner"
+msgstr ""
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:33 src/dialogs/editor.tsx:270
+msgid "Close"
 msgstr ""
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:55
@@ -647,145 +722,69 @@ msgstr ""
 msgid "Editor"
 msgstr ""
 
-#: src/files-folder-view.tsx:156
-msgid "Drop files to upload"
+#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
+msgid "The file has been removed on disk"
 msgstr ""
 
-#: src/files-folder-view.tsx:164
-msgid "Cannot drop files, another upload is already in progress"
+#: src/dialogs/editor.tsx:50
+msgid "The existing file changed unexpectedly"
 msgstr ""
 
-#: src/files-footer-detail.tsx:36
-msgid "$0 files selected"
+#. Translators: This is the title of a modal dialog.  $0 represents a filename.
+#: src/dialogs/editor.tsx:187
+msgid "Edit $0"
 msgstr ""
 
-#: src/files-footer-detail.tsx:64
-msgid "Directory contains $0 directories, $1 files"
+#: src/dialogs/editor.tsx:187
+msgid "View $0"
 msgstr ""
 
-#: src/files-footer-detail.tsx:65
-msgid "Directory contains $0 directories, $1 files, $2 hidden"
+#: src/dialogs/editor.tsx:222
+msgid "The file has changed on disk"
 msgstr ""
 
-#: src/files-footer-detail.tsx:80 src/files-card-body.tsx:591
-msgid "Others"
+#: src/dialogs/editor.tsx:227
+msgid "Reload"
 msgstr ""
 
-#: src/files-footer-detail.tsx:144
-msgid "User"
+#: src/dialogs/editor.tsx:230
+msgid "Ignore"
 msgstr ""
 
-#: src/upload-button.tsx:56
-msgid "$0 files"
-msgstr "$0 個檔案"
-
-#: src/upload-button.tsx:60
-msgid "Uploaded as $0, $1"
-msgstr "上傳時標記為 $0、$1"
-
-#: src/upload-button.tsx:95
-msgid "Replace file $0?"
-msgstr "要覆寫檔案 $0 嗎？"
-
-#: src/upload-button.tsx:102
-msgid ""
-"A file with the same name already exists in \"$0\". Replacing it will "
-"overwrite its content."
-msgstr "在 「$0」 中已存在同名的檔案。若進行替換，將覆寫該檔案的內容。"
-
-#: src/upload-button.tsx:123
-msgid "New file"
-msgstr "新建檔案"
-
-#: src/upload-button.tsx:128
-msgid "Original file on server"
-msgstr "伺服器上的原始檔案"
-
-#: src/upload-button.tsx:137
-msgid "Apply this action to all conflicting files"
-msgstr "將此動作套用至所有發生衝突的檔案"
-
-#: src/upload-button.tsx:143
-msgid "Replace"
-msgstr "替換"
-
-#: src/upload-button.tsx:145
-msgid "Keep original"
-msgstr "保留原檔"
-
-#: src/upload-button.tsx:278
-msgid "Failed"
-msgstr "己失敗"
-
-#: src/upload-button.tsx:322 src/upload-button.tsx:352
-msgid "Upload error"
-msgstr "上傳錯誤"
-
-#: src/upload-button.tsx:324
-msgid "Unable to move uploaded file to final destination"
-msgstr "無法將上傳的檔案移動至最終目的地"
-
-#: src/upload-button.tsx:346
-msgid "Cancelled"
-msgstr "己取消"
-
-#: src/upload-button.tsx:348
-msgid "Cancelled upload of $0"
-msgstr "已取消上傳 $0"
-
-#: src/upload-button.tsx:374
-msgid "File uploaded"
-msgstr "檔案己上傳"
-
-#: src/upload-button.tsx:374
-msgid "Files uploaded"
-msgstr "已上傳的檔案"
-
-#: src/upload-button.tsx:405
-msgid "Change permissions"
-msgstr "變更權限"
-
-#: src/upload-button.tsx:458
-msgid "Uploads"
-msgstr "上傳"
-
-#: src/upload-button.tsx:477
-msgid "Cancel upload of $0"
+#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
+msgid "Save"
 msgstr ""
 
-#
-#: src/upload-button.tsx:494
-msgid "Upload $0% completed"
+#: src/dialogs/editor.tsx:281
+msgid "Save changes?"
 msgstr ""
 
-#: src/upload-button.tsx:513
-msgid "Upload"
+#: src/dialogs/editor.tsx:290
+msgid "The file was deleted after it was opened, saving will recreate it."
 msgstr ""
 
-#: src/files-card-body.tsx:506
-msgid "No matching results"
+#: src/dialogs/editor.tsx:291
+msgid "The file has changed on disk between when it was opened and now"
 msgstr ""
 
-#: src/files-card-body.tsx:507
-msgid "Clear filter"
+#: src/dialogs/editor.tsx:296
+msgid "$0 has unsaved changes and which will be permanently lost if discarded."
 msgstr ""
 
-#: src/files-card-body.tsx:514
-msgid "Directory is empty"
+#: src/dialogs/editor.tsx:329
+msgid "Discard"
 msgstr ""
 
-#: src/files-card-body.tsx:519
-msgid "$0 item is hidden"
-msgid_plural "$0 items are hidden"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/files-card-body.tsx:578
-msgid "Folder"
+#: src/dialogs/create-file.tsx:163
+msgid "File name"
 msgstr ""
 
-#: src/files-card-body.tsx:580
-msgid "File"
+#: src/dialogs/create-file.tsx:228
+msgid "Cannot create file in current directory"
+msgstr ""
+
+#: src/dialogs/create-file.tsx:230
+msgid "Permission denied"
 msgstr ""
 
 #: src/manifest.json:0

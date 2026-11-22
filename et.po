@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:27+0000\n"
+"POT-Creation-Date: 2026-11-22 10:16+0000\n"
 "PO-Revision-Date: 2026-09-27 07:17+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
@@ -31,9 +31,66 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr "Cockpiti failid"
 
-#: src/header.tsx:53 src/files-card-body.tsx:534
+#: src/files-card-body.tsx:506
+msgid "No matching results"
+msgstr "Vastavaid tulemusi pole"
+
+#: src/files-card-body.tsx:507
+msgid "Clear filter"
+msgstr "Tühjenda filter"
+
+#: src/files-card-body.tsx:514
+msgid "Directory is empty"
+msgstr "Kaust on tühi"
+
+#: src/files-card-body.tsx:519
+msgid "$0 item is hidden"
+msgid_plural "$0 items are hidden"
+msgstr[0] "$0 objekt on peidetud"
+msgstr[1] "$0 objekti on peidetud"
+
+#: src/files-card-body.tsx:522 src/header.tsx:271
+msgid "Show hidden items"
+msgstr "Näita peidetud objekte"
+
+#: src/files-card-body.tsx:534 src/header.tsx:53
 msgid "Name"
 msgstr "Nimi"
+
+#: src/files-card-body.tsx:535 src/files-card-body.tsx:652 src/header.tsx:64
+msgid "Size"
+msgstr "Suurus"
+
+#: src/files-card-body.tsx:539 src/files-card-body.tsx:659 src/header.tsx:75
+msgid "Modified"
+msgstr "Muudetud"
+
+#: src/files-card-body.tsx:544 src/files-card-body.tsx:591
+#: src/files-card-body.tsx:667 src/header.tsx:86 src/files-footer-detail.tsx:80
+#: src/dialogs/permissions.tsx:319 src/dialogs/create-file.tsx:185
+msgid "Owner"
+msgstr "Omanik"
+
+#: src/files-card-body.tsx:549 src/files-card-body.tsx:674 src/header.tsx:97
+msgid "Permissions"
+msgstr "Õigused"
+
+#: src/files-card-body.tsx:578
+msgid "Folder"
+msgstr "Kaust"
+
+#: src/files-card-body.tsx:580
+msgid "File"
+msgstr "Fail"
+
+#: src/files-card-body.tsx:591 src/files-footer-detail.tsx:80
+#: src/files-footer-detail.tsx:152 src/dialogs/permissions.tsx:334
+msgid "Group"
+msgstr "Grupp"
+
+#: src/files-card-body.tsx:591 src/files-footer-detail.tsx:80
+msgid "Others"
+msgstr "Muud"
 
 #: src/header.tsx:56
 msgid "A-Z"
@@ -43,10 +100,6 @@ msgstr "A-Z"
 msgid "Z-A"
 msgstr "Z-A"
 
-#: src/header.tsx:64 src/files-card-body.tsx:535 src/files-card-body.tsx:652
-msgid "Size"
-msgstr "Suurus"
-
 #: src/header.tsx:67
 msgid "Largest size"
 msgstr "Suurim suurus"
@@ -54,10 +107,6 @@ msgstr "Suurim suurus"
 #: src/header.tsx:71
 msgid "Smallest size"
 msgstr "Väikseim suurus"
-
-#: src/header.tsx:75 src/files-card-body.tsx:539 src/files-card-body.tsx:659
-msgid "Modified"
-msgstr "Muudetud"
 
 #: src/header.tsx:78
 msgid "First modified"
@@ -67,13 +116,6 @@ msgstr "Esmalt muudetud"
 msgid "Last modified"
 msgstr "Viimati muudetud"
 
-#: src/header.tsx:86 src/dialogs/create-file.tsx:185
-#: src/dialogs/permissions.tsx:319 src/files-footer-detail.tsx:80
-#: src/files-card-body.tsx:544 src/files-card-body.tsx:591
-#: src/files-card-body.tsx:667
-msgid "Owner"
-msgstr "Omanik"
-
 #: src/header.tsx:89
 msgid "Owner ascending"
 msgstr "Omaniku järgi kasvavalt"
@@ -81,10 +123,6 @@ msgstr "Omaniku järgi kasvavalt"
 #: src/header.tsx:93
 msgid "Owner descending"
 msgstr "Omaniku järgi kahanevalt"
-
-#: src/header.tsx:97 src/files-card-body.tsx:549 src/files-card-body.tsx:674
-msgid "Permissions"
-msgstr "Õigused"
 
 #: src/header.tsx:100
 msgid "Most permissive"
@@ -118,61 +156,118 @@ msgstr "Järjestus"
 msgid "Hide hidden items"
 msgstr "Peida peidetud objektid"
 
-#: src/header.tsx:271 src/files-card-body.tsx:522
-msgid "Show hidden items"
-msgstr "Näita peidetud objekte"
+#: src/files-footer-detail.tsx:36
+msgid "$0 files selected"
+msgstr "Valitud on $0 faili"
 
-#: src/menu.tsx:51 src/dialogs/copyPasteOwnership.tsx:56
-msgid "Pasting failed"
-msgstr "Asetamine ei õnnestunud"
+#: src/files-footer-detail.tsx:64
+msgid "Directory contains $0 directories, $1 files"
+msgstr "Kaustas on $0 alamkausta ja $1 faili"
 
-#: src/menu.tsx:53
-msgid "\"$0\" exists, not overwriting with paste."
-msgstr "„$0“ on olemas, ei kirjuta seda asetamisega üle."
+#: src/files-footer-detail.tsx:65
+msgid "Directory contains $0 directories, $1 files, $2 hidden"
+msgstr "Kaustas on $0 alamkausta ja $1 faili, neist $2 on peidetud"
 
-#: src/menu.tsx:100 src/dialogs/copyPasteOwnership.tsx:168
-msgid "Paste"
-msgstr "Aseta"
+#: src/files-footer-detail.tsx:144
+msgid "User"
+msgstr "Kasutaja"
 
-#: src/menu.tsx:107 src/dialogs/mkdir.tsx:80
-msgid "Create directory"
-msgstr "Loo kaust"
+#: src/upload-button.tsx:56
+msgid "$0 files"
+msgstr "$0 faili"
 
-#: src/menu.tsx:112 src/dialogs/create-file.tsx:151
-msgid "Create file"
-msgstr "Loo fail"
+#: src/upload-button.tsx:60
+msgid "Uploaded as $0, $1"
+msgstr "Üleslaaditud kui: $0, $1"
 
-#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
-msgid "Edit permissions"
+#: src/upload-button.tsx:95
+msgid "Replace file $0?"
+msgstr "Kas asendada „$0“ faili?"
+
+#: src/upload-button.tsx:102
+msgid ""
+"A file with the same name already exists in \"$0\". Replacing it will "
+"overwrite its content."
+msgstr ""
+"Kasutas „$0“ on juba olemas sellise nimega fail. Kui kavatsed ta asendada, "
+"sis kirjutatakse ka sisu üle."
+
+#: src/upload-button.tsx:123
+msgid "New file"
+msgstr "Uus fail"
+
+#: src/upload-button.tsx:128
+msgid "Original file on server"
+msgstr "Algne fail serveris"
+
+#: src/upload-button.tsx:137
+msgid "Apply this action to all conflicting files"
+msgstr "Rakenda seda tegevust kõikidele vastuolus failidele"
+
+#: src/upload-button.tsx:143
+msgid "Replace"
+msgstr "Asenda"
+
+#: src/upload-button.tsx:145
+msgid "Keep original"
+msgstr "Säilita algne"
+
+#: src/upload-button.tsx:146 src/dialogs/delete.tsx:97
+#: src/dialogs/permissions.tsx:424 src/dialogs/symlink.tsx:233
+#: src/dialogs/rename.tsx:87 src/dialogs/mkdir.tsx:137
+#: src/dialogs/copyPasteOwnership.tsx:170 src/dialogs/editor.tsx:270
+#: src/dialogs/editor.tsx:336 src/dialogs/create-file.tsx:211
+msgid "Cancel"
+msgstr "Katkesta"
+
+#: src/upload-button.tsx:278
+msgid "Failed"
+msgstr "Ebaõnnestunud"
+
+#: src/upload-button.tsx:322 src/upload-button.tsx:352
+msgid "Upload error"
+msgstr "Üleslaadimisviga"
+
+#: src/upload-button.tsx:324
+msgid "Unable to move uploaded file to final destination"
+msgstr "Üleslaaditud faili sihtkausta tõstmine ei õnnestu"
+
+#: src/upload-button.tsx:346
+msgid "Cancelled"
+msgstr "Katkestatud"
+
+#: src/upload-button.tsx:348
+msgid "Cancelled upload of $0"
+msgstr "Üleslaadimine on katkestatud: „$0“"
+
+#: src/upload-button.tsx:374
+msgid "File uploaded"
+msgstr "Fail on laaditud üles"
+
+#: src/upload-button.tsx:374
+msgid "Files uploaded"
+msgstr "Failid on laaditud üles"
+
+#: src/upload-button.tsx:405
+msgid "Change permissions"
 msgstr "Muuda õigusi"
 
-#: src/menu.tsx:127 src/menu.tsx:188
-msgid "Open in terminal"
-msgstr "Ava terminalis"
+#: src/upload-button.tsx:458
+msgid "Uploads"
+msgstr "Üleslaadimised"
 
-#: src/menu.tsx:144
-msgid "Open text file"
-msgstr "Ava tekstifail"
+#: src/upload-button.tsx:477
+msgid "Cancel upload of $0"
+msgstr "Katkesta üleslaadimine: „$0“"
 
-#: src/menu.tsx:152 src/menu.tsx:206
-msgid "Copy"
-msgstr "Kopeeri"
+#
+#: src/upload-button.tsx:494
+msgid "Upload $0% completed"
+msgstr "Üleslaadimine on valmis: $0%"
 
-#: src/menu.tsx:163 src/dialogs/rename.tsx:78
-msgid "Rename"
-msgstr "Muuda nime"
-
-#: src/menu.tsx:169 src/menu.tsx:211 src/dialogs/delete.tsx:95
-msgid "Delete"
-msgstr "Kustuta"
-
-#: src/menu.tsx:179
-msgid "Download"
-msgstr "Laadi alla"
-
-#: src/menu.tsx:198 src/dialogs/symlink.tsx:231
-msgid "Create link"
-msgstr "Loo link"
+#: src/upload-button.tsx:513
+msgid "Upload"
+msgstr "Laadi üles"
 
 #: src/common.ts:49
 msgid "None"
@@ -258,6 +353,67 @@ msgstr "Sellise nimega kaust on juba olemas"
 msgid "File exists"
 msgstr "Fail on olemas"
 
+#: src/menu.tsx:51 src/dialogs/copyPasteOwnership.tsx:56
+msgid "Pasting failed"
+msgstr "Asetamine ei õnnestunud"
+
+#: src/menu.tsx:53
+msgid "\"$0\" exists, not overwriting with paste."
+msgstr "„$0“ on olemas, ei kirjuta seda asetamisega üle."
+
+#: src/menu.tsx:100 src/dialogs/copyPasteOwnership.tsx:168
+msgid "Paste"
+msgstr "Aseta"
+
+#: src/menu.tsx:107 src/dialogs/mkdir.tsx:80
+msgid "Create directory"
+msgstr "Loo kaust"
+
+#: src/menu.tsx:112 src/dialogs/create-file.tsx:151
+msgid "Create file"
+msgstr "Loo fail"
+
+#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
+msgid "Edit permissions"
+msgstr "Muuda õigusi"
+
+#: src/menu.tsx:127 src/menu.tsx:188
+msgid "Open in terminal"
+msgstr "Ava terminalis"
+
+#: src/menu.tsx:144
+msgid "Open text file"
+msgstr "Ava tekstifail"
+
+#: src/menu.tsx:152 src/menu.tsx:206
+msgid "Copy"
+msgstr "Kopeeri"
+
+#: src/menu.tsx:163 src/dialogs/rename.tsx:78
+msgid "Rename"
+msgstr "Muuda nime"
+
+#: src/menu.tsx:169 src/menu.tsx:211 src/dialogs/delete.tsx:95
+msgid "Delete"
+msgstr "Kustuta"
+
+#: src/menu.tsx:179
+msgid "Download"
+msgstr "Laadi alla"
+
+#: src/menu.tsx:198 src/dialogs/symlink.tsx:231
+msgid "Create link"
+msgstr "Loo link"
+
+#: src/files-folder-view.tsx:156
+msgid "Drop files to upload"
+msgstr "Lohista siia üleslaaditavad failid"
+
+#: src/files-folder-view.tsx:164
+msgid "Cannot drop files, another upload is already in progress"
+msgstr ""
+"Kuna teine üleslaadimine on juba töös, siis faile ei saa siia lohistada"
+
 #: src/files-breadcrumbs.tsx:46
 msgid "Home"
 msgstr "Avaleht"
@@ -298,29 +454,45 @@ msgstr "Failisüsteem"
 msgid "Edit path"
 msgstr "Muuda asukohta"
 
-#: src/dialogs/create-file.tsx:163
-msgid "File name"
-msgstr "Failinimi"
+#: src/dialogs/delete.tsx:34
+msgid "Force delete $0 items"
+msgstr "Kustuta $0 objekti sundkorras"
 
-#: src/dialogs/create-file.tsx:208 src/dialogs/mkdir.tsx:135
-msgid "Create"
-msgstr "Loo"
+#: src/dialogs/delete.tsx:34
+msgid "Delete $0 items?"
+msgstr "Kas kustutad $0 objekti?"
 
-#: src/dialogs/create-file.tsx:211 src/dialogs/permissions.tsx:424
-#: src/dialogs/mkdir.tsx:137 src/dialogs/copyPasteOwnership.tsx:170
-#: src/dialogs/symlink.tsx:233 src/dialogs/delete.tsx:97
-#: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
-#: src/dialogs/rename.tsx:87 src/upload-button.tsx:146
-msgid "Cancel"
-msgstr "Katkesta"
+#: src/dialogs/delete.tsx:40
+msgid "Force delete file $0?"
+msgstr "Kas kustutad „$0“ faili sundkorras?"
 
-#: src/dialogs/create-file.tsx:228
-msgid "Cannot create file in current directory"
-msgstr "Faili ei õnnestu sellesse kausta luua"
+#: src/dialogs/delete.tsx:40
+msgid "Delete file $0?"
+msgstr "Kas kustutad „$0“ faili?"
 
-#: src/dialogs/create-file.tsx:230
-msgid "Permission denied"
-msgstr "Juurepääs keelatud"
+#: src/dialogs/delete.tsx:44
+msgid "Force delete link $0?"
+msgstr "Kas kustutad „$0“ lingi sundkorras?"
+
+#: src/dialogs/delete.tsx:44
+msgid "Delete link $0?"
+msgstr "Kas kustutad „$0“ lingi?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Force delete directory $0?"
+msgstr "Kas kustutad „$0“ kausta sundkorras?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Delete directory $0?"
+msgstr "Kas kustutad „$0“ kausta?"
+
+#: src/dialogs/delete.tsx:51
+msgid "Force delete $0"
+msgstr "Kustuta „$0“ sundkorras"
+
+#: src/dialogs/delete.tsx:51
+msgid "Delete $0?"
+msgstr "Kas kustutad: $0?"
 
 #: src/dialogs/permissions.tsx:235
 msgid "No access"
@@ -349,11 +521,6 @@ msgstr "„$0“ faili õigused"
 #: src/dialogs/permissions.tsx:318
 msgid "Ownership"
 msgstr "Omand"
-
-#: src/dialogs/permissions.tsx:334 src/files-footer-detail.tsx:80
-#: src/files-footer-detail.tsx:152 src/files-card-body.tsx:591
-msgid "Group"
-msgstr "Grupp"
 
 #: src/dialogs/permissions.tsx:351
 msgid "Access"
@@ -386,50 +553,6 @@ msgstr "Muuda"
 #: src/dialogs/permissions.tsx:422
 msgid "Change permissions for enclosed files"
 msgstr "Muuda kaasatud failide õigusi"
-
-#: src/dialogs/mkdir.tsx:31
-msgid "Directory name cannot be empty"
-msgstr "Kausta nimi ei saa jääda tühjaks"
-
-#: src/dialogs/mkdir.tsx:33
-msgid "Directory name too long"
-msgstr "Kausta nimi on liiga pikk"
-
-#: src/dialogs/mkdir.tsx:35
-msgid "Directory name cannot include a /"
-msgstr "Kausta nimes ei saa olla kaldkriipsu /"
-
-#: src/dialogs/mkdir.tsx:96
-msgid "Directory name"
-msgstr "Kausta nimi"
-
-#: src/dialogs/mkdir.tsx:110
-msgid "Directory owner"
-msgstr "Kausta omanik"
-
-#: src/dialogs/copyPasteOwnership.tsx:110
-msgid "(original owner)"
-msgstr "(algne omanik)"
-
-#: src/dialogs/copyPasteOwnership.tsx:119
-msgid "keep original owners"
-msgstr "jäta algsed omanikus alles"
-
-#: src/dialogs/copyPasteOwnership.tsx:182
-msgid "Paste as owner"
-msgstr "Aseta omanikuna"
-
-#: src/dialogs/copyPasteOwnership.tsx:187
-msgid ""
-"Files being pasted have a different owner. By default, ownership will be "
-"changed to match the destination directory."
-msgstr ""
-"Asetamisel failidel on erinevad omanikud. Vaikimisi kohendatakse omanik "
-"vastavaks sihtkausta omanikule."
-
-#: src/dialogs/copyPasteOwnership.tsx:190
-msgid "New owner"
-msgstr "Uus omanik"
 
 #: src/dialogs/symlink.tsx:53
 msgid "link to $0"
@@ -480,109 +603,10 @@ msgstr "Absoluutne"
 msgid "Relative"
 msgstr "Suhteline"
 
-#: src/dialogs/delete.tsx:34
-msgid "Force delete $0 items"
-msgstr "Kustuta $0 objekti sundkorras"
-
-#: src/dialogs/delete.tsx:34
-msgid "Delete $0 items?"
-msgstr "Kas kustutad $0 objekti?"
-
-#: src/dialogs/delete.tsx:40
-msgid "Force delete file $0?"
-msgstr "Kas kustutad „$0“ faili sundkorras?"
-
-#: src/dialogs/delete.tsx:40
-msgid "Delete file $0?"
-msgstr "Kas kustutad „$0“ faili?"
-
-#: src/dialogs/delete.tsx:44
-msgid "Force delete link $0?"
-msgstr "Kas kustutad „$0“ lingi sundkorras?"
-
-#: src/dialogs/delete.tsx:44
-msgid "Delete link $0?"
-msgstr "Kas kustutad „$0“ lingi?"
-
-#: src/dialogs/delete.tsx:48
-msgid "Force delete directory $0?"
-msgstr "Kas kustutad „$0“ kausta sundkorras?"
-
-#: src/dialogs/delete.tsx:48
-msgid "Delete directory $0?"
-msgstr "Kas kustutad „$0“ kausta?"
-
-#: src/dialogs/delete.tsx:51
-msgid "Force delete $0"
-msgstr "Kustuta „$0“ sundkorras"
-
-#: src/dialogs/delete.tsx:51
-msgid "Delete $0?"
-msgstr "Kas kustutad: $0?"
-
-#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
-msgid "The file has been removed on disk"
-msgstr "Fail on andmekandjalt eemaldatud"
-
-#: src/dialogs/editor.tsx:50
-msgid "The existing file changed unexpectedly"
-msgstr "Olemasolev fail muutus ootamatult"
-
-#. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:187
-msgid "Edit $0"
-msgstr "Muuda: $0"
-
-#: src/dialogs/editor.tsx:187
-msgid "View $0"
-msgstr "Vaata: $0"
-
-#: src/dialogs/editor.tsx:222
-msgid "The file has changed on disk"
-msgstr "Fail on andmekandjal muutunud"
-
-#: src/dialogs/editor.tsx:227
-msgid "Reload"
-msgstr "Laadi uuesti"
-
-#: src/dialogs/editor.tsx:230
-msgid "Ignore"
-msgstr "Eira"
-
-#: src/dialogs/editor.tsx:250 src/dialogs/editor.tsx:307
-#: src/dialogs/rename.tsx:85
+#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:250
+#: src/dialogs/editor.tsx:307
 msgid "Overwrite"
 msgstr "Kirjuta üle"
-
-#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
-msgid "Save"
-msgstr "Salvesta"
-
-#: src/dialogs/editor.tsx:270 src/dialogs/keyboardShortcutsHelp.tsx:33
-msgid "Close"
-msgstr "Sulge"
-
-#: src/dialogs/editor.tsx:281
-msgid "Save changes?"
-msgstr "Kas salvestad muudatused?"
-
-#: src/dialogs/editor.tsx:290
-msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr "Fail on peale avamist kustutatud ning salvestamisel ta luuakse uuesti."
-
-#: src/dialogs/editor.tsx:291
-msgid "The file has changed on disk between when it was opened and now"
-msgstr "Fail on andmekandjal muutunud avamishetke ja praeguse hetke vahel"
-
-#: src/dialogs/editor.tsx:296
-msgid "$0 has unsaved changes and which will be permanently lost if discarded."
-msgstr ""
-"„$0“ sisaldab salvestamata muudatusi, mis lähevad loobumisel jäädavalt "
-"kaotsi."
-
-#: src/dialogs/editor.tsx:329
-msgid "Discard"
-msgstr "Loobu"
 
 #: src/dialogs/rename.tsx:91
 msgid "New filename"
@@ -595,6 +619,58 @@ msgstr "Uus nimi"
 #: src/dialogs/rename.tsx:101
 msgid "Rename $0?"
 msgstr "Kas muudad nime: $0?"
+
+#: src/dialogs/mkdir.tsx:31
+msgid "Directory name cannot be empty"
+msgstr "Kausta nimi ei saa jääda tühjaks"
+
+#: src/dialogs/mkdir.tsx:33
+msgid "Directory name too long"
+msgstr "Kausta nimi on liiga pikk"
+
+#: src/dialogs/mkdir.tsx:35
+msgid "Directory name cannot include a /"
+msgstr "Kausta nimes ei saa olla kaldkriipsu /"
+
+#: src/dialogs/mkdir.tsx:96
+msgid "Directory name"
+msgstr "Kausta nimi"
+
+#: src/dialogs/mkdir.tsx:110
+msgid "Directory owner"
+msgstr "Kausta omanik"
+
+#: src/dialogs/mkdir.tsx:135 src/dialogs/create-file.tsx:208
+msgid "Create"
+msgstr "Loo"
+
+#: src/dialogs/copyPasteOwnership.tsx:110
+msgid "(original owner)"
+msgstr "(algne omanik)"
+
+#: src/dialogs/copyPasteOwnership.tsx:119
+msgid "keep original owners"
+msgstr "jäta algsed omanikus alles"
+
+#: src/dialogs/copyPasteOwnership.tsx:182
+msgid "Paste as owner"
+msgstr "Aseta omanikuna"
+
+#: src/dialogs/copyPasteOwnership.tsx:187
+msgid ""
+"Files being pasted have a different owner. By default, ownership will be "
+"changed to match the destination directory."
+msgstr ""
+"Asetamisel failidel on erinevad omanikud. Vaikimisi kohendatakse omanik "
+"vastavaks sihtkausta omanikule."
+
+#: src/dialogs/copyPasteOwnership.tsx:190
+msgid "New owner"
+msgstr "Uus omanik"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:33 src/dialogs/editor.tsx:270
+msgid "Close"
+msgstr "Sulge"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:55
 msgid "Go up a directory"
@@ -657,149 +733,72 @@ msgstr "Muudan"
 msgid "Editor"
 msgstr "Muutmisvaade"
 
-#: src/files-folder-view.tsx:156
-msgid "Drop files to upload"
-msgstr "Lohista siia üleslaaditavad failid"
+#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
+msgid "The file has been removed on disk"
+msgstr "Fail on andmekandjalt eemaldatud"
 
-#: src/files-folder-view.tsx:164
-msgid "Cannot drop files, another upload is already in progress"
+#: src/dialogs/editor.tsx:50
+msgid "The existing file changed unexpectedly"
+msgstr "Olemasolev fail muutus ootamatult"
+
+#. Translators: This is the title of a modal dialog.  $0 represents a filename.
+#: src/dialogs/editor.tsx:187
+msgid "Edit $0"
+msgstr "Muuda: $0"
+
+#: src/dialogs/editor.tsx:187
+msgid "View $0"
+msgstr "Vaata: $0"
+
+#: src/dialogs/editor.tsx:222
+msgid "The file has changed on disk"
+msgstr "Fail on andmekandjal muutunud"
+
+#: src/dialogs/editor.tsx:227
+msgid "Reload"
+msgstr "Laadi uuesti"
+
+#: src/dialogs/editor.tsx:230
+msgid "Ignore"
+msgstr "Eira"
+
+#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
+msgid "Save"
+msgstr "Salvesta"
+
+#: src/dialogs/editor.tsx:281
+msgid "Save changes?"
+msgstr "Kas salvestad muudatused?"
+
+#: src/dialogs/editor.tsx:290
+msgid "The file was deleted after it was opened, saving will recreate it."
+msgstr "Fail on peale avamist kustutatud ning salvestamisel ta luuakse uuesti."
+
+#: src/dialogs/editor.tsx:291
+msgid "The file has changed on disk between when it was opened and now"
+msgstr "Fail on andmekandjal muutunud avamishetke ja praeguse hetke vahel"
+
+#: src/dialogs/editor.tsx:296
+msgid "$0 has unsaved changes and which will be permanently lost if discarded."
 msgstr ""
-"Kuna teine üleslaadimine on juba töös, siis faile ei saa siia lohistada"
+"„$0“ sisaldab salvestamata muudatusi, mis lähevad loobumisel jäädavalt "
+"kaotsi."
 
-#: src/files-footer-detail.tsx:36
-msgid "$0 files selected"
-msgstr "Valitud on $0 faili"
+#: src/dialogs/editor.tsx:329
+msgid "Discard"
+msgstr "Loobu"
 
-#: src/files-footer-detail.tsx:64
-msgid "Directory contains $0 directories, $1 files"
-msgstr "Kaustas on $0 alamkausta ja $1 faili"
+#: src/dialogs/create-file.tsx:163
+msgid "File name"
+msgstr "Failinimi"
 
-#: src/files-footer-detail.tsx:65
-msgid "Directory contains $0 directories, $1 files, $2 hidden"
-msgstr "Kaustas on $0 alamkausta ja $1 faili, neist $2 on peidetud"
+#: src/dialogs/create-file.tsx:228
+msgid "Cannot create file in current directory"
+msgstr "Faili ei õnnestu sellesse kausta luua"
 
-#: src/files-footer-detail.tsx:80 src/files-card-body.tsx:591
-msgid "Others"
-msgstr "Muud"
-
-#: src/files-footer-detail.tsx:144
-msgid "User"
-msgstr "Kasutaja"
-
-#: src/upload-button.tsx:56
-msgid "$0 files"
-msgstr "$0 faili"
-
-#: src/upload-button.tsx:60
-msgid "Uploaded as $0, $1"
-msgstr "Üleslaaditud kui: $0, $1"
-
-#: src/upload-button.tsx:95
-msgid "Replace file $0?"
-msgstr "Kas asendada „$0“ faili?"
-
-#: src/upload-button.tsx:102
-msgid ""
-"A file with the same name already exists in \"$0\". Replacing it will "
-"overwrite its content."
-msgstr ""
-"Kasutas „$0“ on juba olemas sellise nimega fail. Kui kavatsed ta asendada, "
-"sis kirjutatakse ka sisu üle."
-
-#: src/upload-button.tsx:123
-msgid "New file"
-msgstr "Uus fail"
-
-#: src/upload-button.tsx:128
-msgid "Original file on server"
-msgstr "Algne fail serveris"
-
-#: src/upload-button.tsx:137
-msgid "Apply this action to all conflicting files"
-msgstr "Rakenda seda tegevust kõikidele vastuolus failidele"
-
-#: src/upload-button.tsx:143
-msgid "Replace"
-msgstr "Asenda"
-
-#: src/upload-button.tsx:145
-msgid "Keep original"
-msgstr "Säilita algne"
-
-#: src/upload-button.tsx:278
-msgid "Failed"
-msgstr "Ebaõnnestunud"
-
-#: src/upload-button.tsx:322 src/upload-button.tsx:352
-msgid "Upload error"
-msgstr "Üleslaadimisviga"
-
-#: src/upload-button.tsx:324
-msgid "Unable to move uploaded file to final destination"
-msgstr "Üleslaaditud faili sihtkausta tõstmine ei õnnestu"
-
-#: src/upload-button.tsx:346
-msgid "Cancelled"
-msgstr "Katkestatud"
-
-#: src/upload-button.tsx:348
-msgid "Cancelled upload of $0"
-msgstr "Üleslaadimine on katkestatud: „$0“"
-
-#: src/upload-button.tsx:374
-msgid "File uploaded"
-msgstr "Fail on laaditud üles"
-
-#: src/upload-button.tsx:374
-msgid "Files uploaded"
-msgstr "Failid on laaditud üles"
-
-#: src/upload-button.tsx:405
-msgid "Change permissions"
-msgstr "Muuda õigusi"
-
-#: src/upload-button.tsx:458
-msgid "Uploads"
-msgstr "Üleslaadimised"
-
-#: src/upload-button.tsx:477
-msgid "Cancel upload of $0"
-msgstr "Katkesta üleslaadimine: „$0“"
-
-#
-#: src/upload-button.tsx:494
-msgid "Upload $0% completed"
-msgstr "Üleslaadimine on valmis: $0%"
-
-#: src/upload-button.tsx:513
-msgid "Upload"
-msgstr "Laadi üles"
-
-#: src/files-card-body.tsx:506
-msgid "No matching results"
-msgstr "Vastavaid tulemusi pole"
-
-#: src/files-card-body.tsx:507
-msgid "Clear filter"
-msgstr "Tühjenda filter"
-
-#: src/files-card-body.tsx:514
-msgid "Directory is empty"
-msgstr "Kaust on tühi"
-
-#: src/files-card-body.tsx:519
-msgid "$0 item is hidden"
-msgid_plural "$0 items are hidden"
-msgstr[0] "$0 objekt on peidetud"
-msgstr[1] "$0 objekti on peidetud"
-
-#: src/files-card-body.tsx:578
-msgid "Folder"
-msgstr "Kaust"
-
-#: src/files-card-body.tsx:580
-msgid "File"
-msgstr "Fail"
+#: src/dialogs/create-file.tsx:230
+msgid "Permission denied"
+msgstr "Juurepääs keelatud"
 
 #: src/manifest.json:0
 msgid "File browser"

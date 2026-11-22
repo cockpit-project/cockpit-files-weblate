@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:27+0000\n"
+"POT-Creation-Date: 2026-11-22 10:16+0000\n"
 "PO-Revision-Date: 2026-05-07 03:59+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/cockpit/"
@@ -30,9 +30,65 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr "Cockpit Files"
 
-#: src/header.tsx:53 src/files-card-body.tsx:534
+#: src/files-card-body.tsx:506
+msgid "No matching results"
+msgstr "ບໍ່ພົບຜົນລັບທີ່ກົງກັນ"
+
+#: src/files-card-body.tsx:507
+msgid "Clear filter"
+msgstr "ລຶບຕົວຕອງ"
+
+#: src/files-card-body.tsx:514
+msgid "Directory is empty"
+msgstr "ໄດເຣັກທໍຣີວ່າງເປົ່າ"
+
+#: src/files-card-body.tsx:519
+msgid "$0 item is hidden"
+msgid_plural "$0 items are hidden"
+msgstr[0] "$0 ລາຍການຖືກເຊື່ອງໄວ້"
+
+#: src/files-card-body.tsx:522 src/header.tsx:271
+msgid "Show hidden items"
+msgstr "ສະແດງລາຍການທີ່ຖືກເຊື່ອງ"
+
+#: src/files-card-body.tsx:534 src/header.tsx:53
 msgid "Name"
 msgstr "ຊື່"
+
+#: src/files-card-body.tsx:535 src/files-card-body.tsx:652 src/header.tsx:64
+msgid "Size"
+msgstr "ຂະໜາດ"
+
+#: src/files-card-body.tsx:539 src/files-card-body.tsx:659 src/header.tsx:75
+msgid "Modified"
+msgstr "ແກ້ໄຂເມື່ອ"
+
+#: src/files-card-body.tsx:544 src/files-card-body.tsx:591
+#: src/files-card-body.tsx:667 src/header.tsx:86 src/files-footer-detail.tsx:80
+#: src/dialogs/permissions.tsx:319 src/dialogs/create-file.tsx:185
+msgid "Owner"
+msgstr "ເຈົ້າຂອງ"
+
+#: src/files-card-body.tsx:549 src/files-card-body.tsx:674 src/header.tsx:97
+msgid "Permissions"
+msgstr "ການອະນຸຍາດ"
+
+#: src/files-card-body.tsx:578
+msgid "Folder"
+msgstr "ໂຟນເດີ"
+
+#: src/files-card-body.tsx:580
+msgid "File"
+msgstr "ໄຟລ໌"
+
+#: src/files-card-body.tsx:591 src/files-footer-detail.tsx:80
+#: src/files-footer-detail.tsx:152 src/dialogs/permissions.tsx:334
+msgid "Group"
+msgstr "ກຸ່ມ"
+
+#: src/files-card-body.tsx:591 src/files-footer-detail.tsx:80
+msgid "Others"
+msgstr "ອື່ນໆ"
 
 #: src/header.tsx:56
 msgid "A-Z"
@@ -42,10 +98,6 @@ msgstr "A-Z"
 msgid "Z-A"
 msgstr "Z-A"
 
-#: src/header.tsx:64 src/files-card-body.tsx:535 src/files-card-body.tsx:652
-msgid "Size"
-msgstr "ຂະໜາດ"
-
 #: src/header.tsx:67
 msgid "Largest size"
 msgstr "ຂະໜາດໃຫຍ່ທີ່ສຸດ"
@@ -53,10 +105,6 @@ msgstr "ຂະໜາດໃຫຍ່ທີ່ສຸດ"
 #: src/header.tsx:71
 msgid "Smallest size"
 msgstr "ຂະໜາດນ້ອຍທີ່ສຸດ"
-
-#: src/header.tsx:75 src/files-card-body.tsx:539 src/files-card-body.tsx:659
-msgid "Modified"
-msgstr "ແກ້ໄຂເມື່ອ"
 
 #: src/header.tsx:78
 msgid "First modified"
@@ -66,13 +114,6 @@ msgstr "ແກ້ໄຂຄັ້ງທຳອິດ"
 msgid "Last modified"
 msgstr "ແກ້ໄຂຫຼ້າສຸດ"
 
-#: src/header.tsx:86 src/dialogs/create-file.tsx:185
-#: src/dialogs/permissions.tsx:319 src/files-footer-detail.tsx:80
-#: src/files-card-body.tsx:544 src/files-card-body.tsx:591
-#: src/files-card-body.tsx:667
-msgid "Owner"
-msgstr "ເຈົ້າຂອງ"
-
 #: src/header.tsx:89
 msgid "Owner ascending"
 msgstr "ເຈົ້າຂອງ (ນ້ອຍໄປຫາຫຼາຍ)"
@@ -80,10 +121,6 @@ msgstr "ເຈົ້າຂອງ (ນ້ອຍໄປຫາຫຼາຍ)"
 #: src/header.tsx:93
 msgid "Owner descending"
 msgstr "ເຈົ້າຂອງ (ຫຼາຍໄປຫານ້ອຍ)"
-
-#: src/header.tsx:97 src/files-card-body.tsx:549 src/files-card-body.tsx:674
-msgid "Permissions"
-msgstr "ການອະນຸຍາດ"
 
 #: src/header.tsx:100
 msgid "Most permissive"
@@ -117,61 +154,116 @@ msgstr "ຈັດລຽງ"
 msgid "Hide hidden items"
 msgstr "ເຊື່ອງລາຍການທີ່ຖືກເຊື່ອງ"
 
-#: src/header.tsx:271 src/files-card-body.tsx:522
-msgid "Show hidden items"
-msgstr "ສະແດງລາຍການທີ່ຖືກເຊື່ອງ"
+#: src/files-footer-detail.tsx:36
+msgid "$0 files selected"
+msgstr "ເລືອກແລ້ວ $0 ໄຟລ໌"
 
-#: src/menu.tsx:51 src/dialogs/copyPasteOwnership.tsx:56
-msgid "Pasting failed"
-msgstr "ການວາງຫຼົ້ມເຫຼວ"
+#: src/files-footer-detail.tsx:64
+msgid "Directory contains $0 directories, $1 files"
+msgstr "ໄດເຣັກທໍຣີປະກອບມີ $0 ໄດເຣັກທໍຣີ, $1 ໄຟລ໌"
 
-#: src/menu.tsx:53
-msgid "\"$0\" exists, not overwriting with paste."
-msgstr "\"$0\" ມີຢູ່ແລ້ວ, ຈະບໍ່ວາງທັບ."
+#: src/files-footer-detail.tsx:65
+msgid "Directory contains $0 directories, $1 files, $2 hidden"
+msgstr "ໄດເຣັກທໍຣີປະກອບມີ $0 ໄດເຣັກທໍຣີ, $1 ໄຟລ໌, ເຊື່ອງໄວ້ $2"
 
-#: src/menu.tsx:100 src/dialogs/copyPasteOwnership.tsx:168
-msgid "Paste"
-msgstr "ວາງ (Paste)"
+#: src/files-footer-detail.tsx:144
+msgid "User"
+msgstr "ຜູ້ໃຊ້"
 
-#: src/menu.tsx:107 src/dialogs/mkdir.tsx:80
-msgid "Create directory"
-msgstr "ສ້າງໄດເຣັກທໍຣີ"
+#: src/upload-button.tsx:56
+msgid "$0 files"
+msgstr "$0 ໄຟລ໌"
 
-#: src/menu.tsx:112 src/dialogs/create-file.tsx:151
-msgid "Create file"
-msgstr "ສ້າງໄຟລ໌"
+#: src/upload-button.tsx:60
+msgid "Uploaded as $0, $1"
+msgstr "ອັບໂຫຼດເປັນ $0, $1"
 
-#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
-msgid "Edit permissions"
-msgstr "ແກ້ໄຂການອະນຸຍາດ"
+#: src/upload-button.tsx:95
+msgid "Replace file $0?"
+msgstr "ແທນທີ່ໄຟລ໌ $0 ບໍ່?"
 
-#: src/menu.tsx:127 src/menu.tsx:188
-msgid "Open in terminal"
-msgstr "ເປີດໃນເທີມິນໍ (Terminal)"
+#: src/upload-button.tsx:102
+msgid ""
+"A file with the same name already exists in \"$0\". Replacing it will "
+"overwrite its content."
+msgstr "ມີໄຟລ໌ທີ່ມີຊື່ດຽວກັນນີ້ຢູ່ແລ້ວໃນ \"$0\". ການແທນທີ່ມັນຈະເປັນການຂຽນທັບເນື້ອໃນຂອງມັນ."
 
-#: src/menu.tsx:144
-msgid "Open text file"
-msgstr "ເປີດໄຟລ໌ຂໍ້ຄວາມ"
+#: src/upload-button.tsx:123
+msgid "New file"
+msgstr "ໄຟລ໌ໃໝ່"
 
-#: src/menu.tsx:152 src/menu.tsx:206
-msgid "Copy"
-msgstr "ກັອບປີ້"
+#: src/upload-button.tsx:128
+msgid "Original file on server"
+msgstr "ໄຟລ໌ເດີມໃນເຊີເວີ"
 
-#: src/menu.tsx:163 src/dialogs/rename.tsx:78
-msgid "Rename"
-msgstr "ປ່ຽນຊື່"
+#: src/upload-button.tsx:137
+msgid "Apply this action to all conflicting files"
+msgstr "ນຳໃຊ້ການດຳເນີນການນີ້ກັບທຸກໄຟລ໌ທີ່ມີຂໍ້ຂັດແຍ່ງ"
 
-#: src/menu.tsx:169 src/menu.tsx:211 src/dialogs/delete.tsx:95
-msgid "Delete"
-msgstr "ລຶບ"
+#: src/upload-button.tsx:143
+msgid "Replace"
+msgstr "ແທນທີ່"
 
-#: src/menu.tsx:179
-msgid "Download"
-msgstr "ດາວໂຫຼດ"
+#: src/upload-button.tsx:145
+msgid "Keep original"
+msgstr "ຮັກສາແບບເດີມໄວ້"
 
-#: src/menu.tsx:198 src/dialogs/symlink.tsx:231
-msgid "Create link"
-msgstr "ສ້າງລິ້ງ"
+#: src/upload-button.tsx:146 src/dialogs/delete.tsx:97
+#: src/dialogs/permissions.tsx:424 src/dialogs/symlink.tsx:233
+#: src/dialogs/rename.tsx:87 src/dialogs/mkdir.tsx:137
+#: src/dialogs/copyPasteOwnership.tsx:170 src/dialogs/editor.tsx:270
+#: src/dialogs/editor.tsx:336 src/dialogs/create-file.tsx:211
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#: src/upload-button.tsx:278
+msgid "Failed"
+msgstr "ຫຼົ້ມເຫຼວ"
+
+#: src/upload-button.tsx:322 src/upload-button.tsx:352
+msgid "Upload error"
+msgstr "ການອັບໂຫຼດຜິດພາດ"
+
+#: src/upload-button.tsx:324
+msgid "Unable to move uploaded file to final destination"
+msgstr "ບໍ່ສາມາດຍ້າຍໄຟລ໌ທີ່ອັບໂຫຼດໄປຫາປາຍທາງສຸດທ້າຍໄດ້"
+
+#: src/upload-button.tsx:346
+msgid "Cancelled"
+msgstr "ຍົກເລີກແລ້ວ"
+
+#: src/upload-button.tsx:348
+msgid "Cancelled upload of $0"
+msgstr "ຍົກເລີກການອັບໂຫຼດຂອງ $0 ແລ້ວ"
+
+#: src/upload-button.tsx:374
+msgid "File uploaded"
+msgstr "ອັບໂຫຼດໄຟລ໌ສຳເລັດແລ້ວ"
+
+#: src/upload-button.tsx:374
+msgid "Files uploaded"
+msgstr "ອັບໂຫຼດໄຟລ໌ສຳເລັດແລ້ວ"
+
+#: src/upload-button.tsx:405
+msgid "Change permissions"
+msgstr "ປ່ຽນການອະນຸຍາດ"
+
+#: src/upload-button.tsx:458
+msgid "Uploads"
+msgstr "ລາຍການອັບໂຫຼດ"
+
+#: src/upload-button.tsx:477
+msgid "Cancel upload of $0"
+msgstr "ຍົກເລີກການອັບໂຫຼດຂອງ $0"
+
+#
+#: src/upload-button.tsx:494
+msgid "Upload $0% completed"
+msgstr "ອັບໂຫຼດ $0% ສຳເລັດແລ້ວ"
+
+#: src/upload-button.tsx:513
+msgid "Upload"
+msgstr "ອັບໂຫຼດ"
 
 #: src/common.ts:49
 msgid "None"
@@ -257,6 +349,66 @@ msgstr "ມີໄດເຣັກທໍຣີທີ່ມີຊື່ດຽວກ
 msgid "File exists"
 msgstr "ໄຟລ໌ມີຢູ່ແລ້ວ"
 
+#: src/menu.tsx:51 src/dialogs/copyPasteOwnership.tsx:56
+msgid "Pasting failed"
+msgstr "ການວາງຫຼົ້ມເຫຼວ"
+
+#: src/menu.tsx:53
+msgid "\"$0\" exists, not overwriting with paste."
+msgstr "\"$0\" ມີຢູ່ແລ້ວ, ຈະບໍ່ວາງທັບ."
+
+#: src/menu.tsx:100 src/dialogs/copyPasteOwnership.tsx:168
+msgid "Paste"
+msgstr "ວາງ (Paste)"
+
+#: src/menu.tsx:107 src/dialogs/mkdir.tsx:80
+msgid "Create directory"
+msgstr "ສ້າງໄດເຣັກທໍຣີ"
+
+#: src/menu.tsx:112 src/dialogs/create-file.tsx:151
+msgid "Create file"
+msgstr "ສ້າງໄຟລ໌"
+
+#: src/menu.tsx:118 src/menu.tsx:158 src/menu.tsx:225
+msgid "Edit permissions"
+msgstr "ແກ້ໄຂການອະນຸຍາດ"
+
+#: src/menu.tsx:127 src/menu.tsx:188
+msgid "Open in terminal"
+msgstr "ເປີດໃນເທີມິນໍ (Terminal)"
+
+#: src/menu.tsx:144
+msgid "Open text file"
+msgstr "ເປີດໄຟລ໌ຂໍ້ຄວາມ"
+
+#: src/menu.tsx:152 src/menu.tsx:206
+msgid "Copy"
+msgstr "ກັອບປີ້"
+
+#: src/menu.tsx:163 src/dialogs/rename.tsx:78
+msgid "Rename"
+msgstr "ປ່ຽນຊື່"
+
+#: src/menu.tsx:169 src/menu.tsx:211 src/dialogs/delete.tsx:95
+msgid "Delete"
+msgstr "ລຶບ"
+
+#: src/menu.tsx:179
+msgid "Download"
+msgstr "ດາວໂຫຼດ"
+
+#: src/menu.tsx:198 src/dialogs/symlink.tsx:231
+msgid "Create link"
+msgstr "ສ້າງລິ້ງ"
+
+#: src/files-folder-view.tsx:156
+msgid "Drop files to upload"
+msgstr "ວາງໄຟລ໌ເພື່ອອັບໂຫຼດ"
+
+#: src/files-folder-view.tsx:164
+msgid "Cannot drop files, another upload is already in progress"
+msgstr "ບໍ່ສາມາດວາງໄຟລ໌ໄດ້, ກຳລັງມີການອັບໂຫຼດອື່ນດຳເນີນການຢູ່"
+
 #: src/files-breadcrumbs.tsx:46
 msgid "Home"
 msgstr "ໜ້າຫຼັກ (Home)"
@@ -301,29 +453,45 @@ msgstr "ລະບົບໄຟລ໌"
 msgid "Edit path"
 msgstr "ແກ້ໄຂເສັ້ນທາງ (Path)"
 
-#: src/dialogs/create-file.tsx:163
-msgid "File name"
-msgstr "ຊື່ໄຟລ໌"
+#: src/dialogs/delete.tsx:34
+msgid "Force delete $0 items"
+msgstr "ບັງຄັບລຶບ $0 ລາຍການ"
 
-#: src/dialogs/create-file.tsx:208 src/dialogs/mkdir.tsx:135
-msgid "Create"
-msgstr "ສ້າງ"
+#: src/dialogs/delete.tsx:34
+msgid "Delete $0 items?"
+msgstr "ລຶບ $0 ລາຍການບໍ່?"
 
-#: src/dialogs/create-file.tsx:211 src/dialogs/permissions.tsx:424
-#: src/dialogs/mkdir.tsx:137 src/dialogs/copyPasteOwnership.tsx:170
-#: src/dialogs/symlink.tsx:233 src/dialogs/delete.tsx:97
-#: src/dialogs/editor.tsx:270 src/dialogs/editor.tsx:336
-#: src/dialogs/rename.tsx:87 src/upload-button.tsx:146
-msgid "Cancel"
-msgstr "ຍົກເລີກ"
+#: src/dialogs/delete.tsx:40
+msgid "Force delete file $0?"
+msgstr "ບັງຄັບລຶບໄຟລ໌ $0 ບໍ່?"
 
-#: src/dialogs/create-file.tsx:228
-msgid "Cannot create file in current directory"
-msgstr "ບໍ່ສາມາດສ້າງໄຟລ໌ໃນໄດເຣັກທໍຣີປັດຈຸບັນໄດ້"
+#: src/dialogs/delete.tsx:40
+msgid "Delete file $0?"
+msgstr "ລຶບໄຟລ໌ $0 ບໍ່?"
 
-#: src/dialogs/create-file.tsx:230
-msgid "Permission denied"
-msgstr "ການອະນຸຍາດຖືກປະຕິເສດ"
+#: src/dialogs/delete.tsx:44
+msgid "Force delete link $0?"
+msgstr "ບັງຄັບລຶບລິ້ງ $0 ບໍ່?"
+
+#: src/dialogs/delete.tsx:44
+msgid "Delete link $0?"
+msgstr "ລຶບລິ້ງ $0 ບໍ່?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Force delete directory $0?"
+msgstr "ບັງຄັບລຶບໄດເຣັກທໍຣີ $0 ບໍ່?"
+
+#: src/dialogs/delete.tsx:48
+msgid "Delete directory $0?"
+msgstr "ລຶບໄດເຣັກທໍຣີ $0 ບໍ່?"
+
+#: src/dialogs/delete.tsx:51
+msgid "Force delete $0"
+msgstr "ບັງຄັບລຶບ $0"
+
+#: src/dialogs/delete.tsx:51
+msgid "Delete $0?"
+msgstr "ລຶບ $0 ບໍ່?"
 
 #: src/dialogs/permissions.tsx:235
 msgid "No access"
@@ -352,11 +520,6 @@ msgstr "ການອະນຸຍາດສຳລັບ $0 ໄຟລ໌"
 #: src/dialogs/permissions.tsx:318
 msgid "Ownership"
 msgstr "ຄວາມເປັນເຈົ້າຂອງ"
-
-#: src/dialogs/permissions.tsx:334 src/files-footer-detail.tsx:80
-#: src/files-footer-detail.tsx:152 src/files-card-body.tsx:591
-msgid "Group"
-msgstr "ກຸ່ມ"
 
 #: src/dialogs/permissions.tsx:351
 msgid "Access"
@@ -389,50 +552,6 @@ msgstr "ປ່ຽນ"
 #: src/dialogs/permissions.tsx:422
 msgid "Change permissions for enclosed files"
 msgstr "ປ່ຽນການອະນຸຍາດສຳລັບໄຟລ໌ທີ່ຢູ່ພາຍໃນ"
-
-#: src/dialogs/mkdir.tsx:31
-msgid "Directory name cannot be empty"
-msgstr "ຊື່ໄດເຣັກທໍຣີບໍ່ສາມາດວ່າງເປົ່າໄດ້"
-
-#: src/dialogs/mkdir.tsx:33
-msgid "Directory name too long"
-msgstr "ຊື່ໄດເຣັກທໍຣີຍາວເກີນໄປ"
-
-#: src/dialogs/mkdir.tsx:35
-msgid "Directory name cannot include a /"
-msgstr "ຊື່ໄດເຣັກທໍຣີບໍ່ສາມາດມີເຄື່ອງໝາຍ /"
-
-#: src/dialogs/mkdir.tsx:96
-msgid "Directory name"
-msgstr "ຊື່ໄດເຣັກທໍຣີ"
-
-#: src/dialogs/mkdir.tsx:110
-msgid "Directory owner"
-msgstr "ເຈົ້າຂອງໄດເຣັກທໍຣີ"
-
-#: src/dialogs/copyPasteOwnership.tsx:110
-msgid "(original owner)"
-msgstr "(ເຈົ້າຂອງເດີມ)"
-
-#: src/dialogs/copyPasteOwnership.tsx:119
-msgid "keep original owners"
-msgstr "ຮັກສາເຈົ້າຂອງເດີມໄວ້"
-
-#: src/dialogs/copyPasteOwnership.tsx:182
-msgid "Paste as owner"
-msgstr "ວາງໃນຖານະເຈົ້າຂອງ"
-
-#: src/dialogs/copyPasteOwnership.tsx:187
-msgid ""
-"Files being pasted have a different owner. By default, ownership will be "
-"changed to match the destination directory."
-msgstr ""
-"ໄຟລ໌ທີ່ກຳລັງວາງມີເຈົ້າຂອງທີ່ແຕກຕ່າງກັນ. ໂດຍຄ່າເລີ່ມຕົ້ນ, "
-"ຄວາມເປັນເຈົ້າຂອງຈະຖືກປ່ຽນໃຫ້ກົງກັບໄດເຣັກທໍຣີປາຍທາງ."
-
-#: src/dialogs/copyPasteOwnership.tsx:190
-msgid "New owner"
-msgstr "ເຈົ້າຂອງໃໝ່"
 
 #: src/dialogs/symlink.tsx:53
 msgid "link to $0"
@@ -482,107 +601,10 @@ msgstr "ສົມບູນ (Absolute)"
 msgid "Relative"
 msgstr "ແບບສຳພັດ (Relative)"
 
-#: src/dialogs/delete.tsx:34
-msgid "Force delete $0 items"
-msgstr "ບັງຄັບລຶບ $0 ລາຍການ"
-
-#: src/dialogs/delete.tsx:34
-msgid "Delete $0 items?"
-msgstr "ລຶບ $0 ລາຍການບໍ່?"
-
-#: src/dialogs/delete.tsx:40
-msgid "Force delete file $0?"
-msgstr "ບັງຄັບລຶບໄຟລ໌ $0 ບໍ່?"
-
-#: src/dialogs/delete.tsx:40
-msgid "Delete file $0?"
-msgstr "ລຶບໄຟລ໌ $0 ບໍ່?"
-
-#: src/dialogs/delete.tsx:44
-msgid "Force delete link $0?"
-msgstr "ບັງຄັບລຶບລິ້ງ $0 ບໍ່?"
-
-#: src/dialogs/delete.tsx:44
-msgid "Delete link $0?"
-msgstr "ລຶບລິ້ງ $0 ບໍ່?"
-
-#: src/dialogs/delete.tsx:48
-msgid "Force delete directory $0?"
-msgstr "ບັງຄັບລຶບໄດເຣັກທໍຣີ $0 ບໍ່?"
-
-#: src/dialogs/delete.tsx:48
-msgid "Delete directory $0?"
-msgstr "ລຶບໄດເຣັກທໍຣີ $0 ບໍ່?"
-
-#: src/dialogs/delete.tsx:51
-msgid "Force delete $0"
-msgstr "ບັງຄັບລຶບ $0"
-
-#: src/dialogs/delete.tsx:51
-msgid "Delete $0?"
-msgstr "ລຶບ $0 ບໍ່?"
-
-#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
-msgid "The file has been removed on disk"
-msgstr "ໄຟລ໌ຖືກລຶບອອກຈາກດິສກ໌ແລ້ວ"
-
-#: src/dialogs/editor.tsx:50
-msgid "The existing file changed unexpectedly"
-msgstr "ໄຟລ໌ທີ່ມີຢູ່ໄດ້ປ່ຽນແປງໂດຍບໍ່ຄາດຄິດ"
-
-#. Translators: This is the title of a modal dialog.  $0 represents a filename.
-#: src/dialogs/editor.tsx:187
-msgid "Edit $0"
-msgstr "ແກ້ໄຂ $0"
-
-#: src/dialogs/editor.tsx:187
-msgid "View $0"
-msgstr "ເບິ່ງ $0"
-
-#: src/dialogs/editor.tsx:222
-msgid "The file has changed on disk"
-msgstr "ໄຟລ໌ມີການປ່ຽນແປງໃນດິສກ໌"
-
-#: src/dialogs/editor.tsx:227
-msgid "Reload"
-msgstr "ໂຫລດໃໝ່"
-
-#: src/dialogs/editor.tsx:230
-msgid "Ignore"
-msgstr "ລະເວັ້ນ"
-
-#: src/dialogs/editor.tsx:250 src/dialogs/editor.tsx:307
-#: src/dialogs/rename.tsx:85
+#: src/dialogs/rename.tsx:85 src/dialogs/editor.tsx:250
+#: src/dialogs/editor.tsx:307
 msgid "Overwrite"
 msgstr "ຂຽນທັບ"
-
-#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
-msgid "Save"
-msgstr "ບັນທຶກ"
-
-#: src/dialogs/editor.tsx:270 src/dialogs/keyboardShortcutsHelp.tsx:33
-msgid "Close"
-msgstr "ປິດ"
-
-#: src/dialogs/editor.tsx:281
-msgid "Save changes?"
-msgstr "ບັນທຶກການປ່ຽນແປງບໍ່?"
-
-#: src/dialogs/editor.tsx:290
-msgid "The file was deleted after it was opened, saving will recreate it."
-msgstr "ໄຟລ໌ຖືກລຶບໄປຫຼັງຈາກທີ່ມັນຖືກເປີດ, ການບັນທຶກຈະເປັນການສ້າງມັນຄືນໃໝ່."
-
-#: src/dialogs/editor.tsx:291
-msgid "The file has changed on disk between when it was opened and now"
-msgstr "ໄຟລ໌ມີການປ່ຽນແປງໃນດິສກ໌ລະຫວ່າງຕອນທີ່ມັນຖືກເປີດ ແລະ ຕອນນີ້"
-
-#: src/dialogs/editor.tsx:296
-msgid "$0 has unsaved changes and which will be permanently lost if discarded."
-msgstr "$0 ມີການປ່ຽນແປງທີ່ຍັງບໍ່ທັນໄດ້ບັນທຶກ ເຊິ່ງຈະສູນຫາຍໄປຢ່າງຖາວອນຫາກຖິ້ມໄປ."
-
-#: src/dialogs/editor.tsx:329
-msgid "Discard"
-msgstr "ຖິ້ມໄປ"
 
 #: src/dialogs/rename.tsx:91
 msgid "New filename"
@@ -595,6 +617,58 @@ msgstr "ຊື່ໃໝ່"
 #: src/dialogs/rename.tsx:101
 msgid "Rename $0?"
 msgstr "ປ່ຽນຊື່ $0 ບໍ່?"
+
+#: src/dialogs/mkdir.tsx:31
+msgid "Directory name cannot be empty"
+msgstr "ຊື່ໄດເຣັກທໍຣີບໍ່ສາມາດວ່າງເປົ່າໄດ້"
+
+#: src/dialogs/mkdir.tsx:33
+msgid "Directory name too long"
+msgstr "ຊື່ໄດເຣັກທໍຣີຍາວເກີນໄປ"
+
+#: src/dialogs/mkdir.tsx:35
+msgid "Directory name cannot include a /"
+msgstr "ຊື່ໄດເຣັກທໍຣີບໍ່ສາມາດມີເຄື່ອງໝາຍ /"
+
+#: src/dialogs/mkdir.tsx:96
+msgid "Directory name"
+msgstr "ຊື່ໄດເຣັກທໍຣີ"
+
+#: src/dialogs/mkdir.tsx:110
+msgid "Directory owner"
+msgstr "ເຈົ້າຂອງໄດເຣັກທໍຣີ"
+
+#: src/dialogs/mkdir.tsx:135 src/dialogs/create-file.tsx:208
+msgid "Create"
+msgstr "ສ້າງ"
+
+#: src/dialogs/copyPasteOwnership.tsx:110
+msgid "(original owner)"
+msgstr "(ເຈົ້າຂອງເດີມ)"
+
+#: src/dialogs/copyPasteOwnership.tsx:119
+msgid "keep original owners"
+msgstr "ຮັກສາເຈົ້າຂອງເດີມໄວ້"
+
+#: src/dialogs/copyPasteOwnership.tsx:182
+msgid "Paste as owner"
+msgstr "ວາງໃນຖານະເຈົ້າຂອງ"
+
+#: src/dialogs/copyPasteOwnership.tsx:187
+msgid ""
+"Files being pasted have a different owner. By default, ownership will be "
+"changed to match the destination directory."
+msgstr ""
+"ໄຟລ໌ທີ່ກຳລັງວາງມີເຈົ້າຂອງທີ່ແຕກຕ່າງກັນ. ໂດຍຄ່າເລີ່ມຕົ້ນ, "
+"ຄວາມເປັນເຈົ້າຂອງຈະຖືກປ່ຽນໃຫ້ກົງກັບໄດເຣັກທໍຣີປາຍທາງ."
+
+#: src/dialogs/copyPasteOwnership.tsx:190
+msgid "New owner"
+msgstr "ເຈົ້າຂອງໃໝ່"
+
+#: src/dialogs/keyboardShortcutsHelp.tsx:33 src/dialogs/editor.tsx:270
+msgid "Close"
+msgstr "ປິດ"
 
 #: src/dialogs/keyboardShortcutsHelp.tsx:55
 msgid "Go up a directory"
@@ -659,145 +733,70 @@ msgstr "ກຳລັງແກ້ໄຂ"
 msgid "Editor"
 msgstr "ແກ້ໄຂ $0"
 
-#: src/files-folder-view.tsx:156
-msgid "Drop files to upload"
-msgstr "ວາງໄຟລ໌ເພື່ອອັບໂຫຼດ"
+#: src/dialogs/editor.tsx:48 src/dialogs/editor.tsx:221
+msgid "The file has been removed on disk"
+msgstr "ໄຟລ໌ຖືກລຶບອອກຈາກດິສກ໌ແລ້ວ"
 
-#: src/files-folder-view.tsx:164
-msgid "Cannot drop files, another upload is already in progress"
-msgstr "ບໍ່ສາມາດວາງໄຟລ໌ໄດ້, ກຳລັງມີການອັບໂຫຼດອື່ນດຳເນີນການຢູ່"
+#: src/dialogs/editor.tsx:50
+msgid "The existing file changed unexpectedly"
+msgstr "ໄຟລ໌ທີ່ມີຢູ່ໄດ້ປ່ຽນແປງໂດຍບໍ່ຄາດຄິດ"
 
-#: src/files-footer-detail.tsx:36
-msgid "$0 files selected"
-msgstr "ເລືອກແລ້ວ $0 ໄຟລ໌"
+#. Translators: This is the title of a modal dialog.  $0 represents a filename.
+#: src/dialogs/editor.tsx:187
+msgid "Edit $0"
+msgstr "ແກ້ໄຂ $0"
 
-#: src/files-footer-detail.tsx:64
-msgid "Directory contains $0 directories, $1 files"
-msgstr "ໄດເຣັກທໍຣີປະກອບມີ $0 ໄດເຣັກທໍຣີ, $1 ໄຟລ໌"
+#: src/dialogs/editor.tsx:187
+msgid "View $0"
+msgstr "ເບິ່ງ $0"
 
-#: src/files-footer-detail.tsx:65
-msgid "Directory contains $0 directories, $1 files, $2 hidden"
-msgstr "ໄດເຣັກທໍຣີປະກອບມີ $0 ໄດເຣັກທໍຣີ, $1 ໄຟລ໌, ເຊື່ອງໄວ້ $2"
+#: src/dialogs/editor.tsx:222
+msgid "The file has changed on disk"
+msgstr "ໄຟລ໌ມີການປ່ຽນແປງໃນດິສກ໌"
 
-#: src/files-footer-detail.tsx:80 src/files-card-body.tsx:591
-msgid "Others"
-msgstr "ອື່ນໆ"
+#: src/dialogs/editor.tsx:227
+msgid "Reload"
+msgstr "ໂຫລດໃໝ່"
 
-#: src/files-footer-detail.tsx:144
-msgid "User"
-msgstr "ຜູ້ໃຊ້"
+#: src/dialogs/editor.tsx:230
+msgid "Ignore"
+msgstr "ລະເວັ້ນ"
 
-#: src/upload-button.tsx:56
-msgid "$0 files"
-msgstr "$0 ໄຟລ໌"
+#: src/dialogs/editor.tsx:264 src/dialogs/editor.tsx:321
+msgid "Save"
+msgstr "ບັນທຶກ"
 
-#: src/upload-button.tsx:60
-msgid "Uploaded as $0, $1"
-msgstr "ອັບໂຫຼດເປັນ $0, $1"
+#: src/dialogs/editor.tsx:281
+msgid "Save changes?"
+msgstr "ບັນທຶກການປ່ຽນແປງບໍ່?"
 
-#: src/upload-button.tsx:95
-msgid "Replace file $0?"
-msgstr "ແທນທີ່ໄຟລ໌ $0 ບໍ່?"
+#: src/dialogs/editor.tsx:290
+msgid "The file was deleted after it was opened, saving will recreate it."
+msgstr "ໄຟລ໌ຖືກລຶບໄປຫຼັງຈາກທີ່ມັນຖືກເປີດ, ການບັນທຶກຈະເປັນການສ້າງມັນຄືນໃໝ່."
 
-#: src/upload-button.tsx:102
-msgid ""
-"A file with the same name already exists in \"$0\". Replacing it will "
-"overwrite its content."
-msgstr "ມີໄຟລ໌ທີ່ມີຊື່ດຽວກັນນີ້ຢູ່ແລ້ວໃນ \"$0\". ການແທນທີ່ມັນຈະເປັນການຂຽນທັບເນື້ອໃນຂອງມັນ."
+#: src/dialogs/editor.tsx:291
+msgid "The file has changed on disk between when it was opened and now"
+msgstr "ໄຟລ໌ມີການປ່ຽນແປງໃນດິສກ໌ລະຫວ່າງຕອນທີ່ມັນຖືກເປີດ ແລະ ຕອນນີ້"
 
-#: src/upload-button.tsx:123
-msgid "New file"
-msgstr "ໄຟລ໌ໃໝ່"
+#: src/dialogs/editor.tsx:296
+msgid "$0 has unsaved changes and which will be permanently lost if discarded."
+msgstr "$0 ມີການປ່ຽນແປງທີ່ຍັງບໍ່ທັນໄດ້ບັນທຶກ ເຊິ່ງຈະສູນຫາຍໄປຢ່າງຖາວອນຫາກຖິ້ມໄປ."
 
-#: src/upload-button.tsx:128
-msgid "Original file on server"
-msgstr "ໄຟລ໌ເດີມໃນເຊີເວີ"
+#: src/dialogs/editor.tsx:329
+msgid "Discard"
+msgstr "ຖິ້ມໄປ"
 
-#: src/upload-button.tsx:137
-msgid "Apply this action to all conflicting files"
-msgstr "ນຳໃຊ້ການດຳເນີນການນີ້ກັບທຸກໄຟລ໌ທີ່ມີຂໍ້ຂັດແຍ່ງ"
+#: src/dialogs/create-file.tsx:163
+msgid "File name"
+msgstr "ຊື່ໄຟລ໌"
 
-#: src/upload-button.tsx:143
-msgid "Replace"
-msgstr "ແທນທີ່"
+#: src/dialogs/create-file.tsx:228
+msgid "Cannot create file in current directory"
+msgstr "ບໍ່ສາມາດສ້າງໄຟລ໌ໃນໄດເຣັກທໍຣີປັດຈຸບັນໄດ້"
 
-#: src/upload-button.tsx:145
-msgid "Keep original"
-msgstr "ຮັກສາແບບເດີມໄວ້"
-
-#: src/upload-button.tsx:278
-msgid "Failed"
-msgstr "ຫຼົ້ມເຫຼວ"
-
-#: src/upload-button.tsx:322 src/upload-button.tsx:352
-msgid "Upload error"
-msgstr "ການອັບໂຫຼດຜິດພາດ"
-
-#: src/upload-button.tsx:324
-msgid "Unable to move uploaded file to final destination"
-msgstr "ບໍ່ສາມາດຍ້າຍໄຟລ໌ທີ່ອັບໂຫຼດໄປຫາປາຍທາງສຸດທ້າຍໄດ້"
-
-#: src/upload-button.tsx:346
-msgid "Cancelled"
-msgstr "ຍົກເລີກແລ້ວ"
-
-#: src/upload-button.tsx:348
-msgid "Cancelled upload of $0"
-msgstr "ຍົກເລີກການອັບໂຫຼດຂອງ $0 ແລ້ວ"
-
-#: src/upload-button.tsx:374
-msgid "File uploaded"
-msgstr "ອັບໂຫຼດໄຟລ໌ສຳເລັດແລ້ວ"
-
-#: src/upload-button.tsx:374
-msgid "Files uploaded"
-msgstr "ອັບໂຫຼດໄຟລ໌ສຳເລັດແລ້ວ"
-
-#: src/upload-button.tsx:405
-msgid "Change permissions"
-msgstr "ປ່ຽນການອະນຸຍາດ"
-
-#: src/upload-button.tsx:458
-msgid "Uploads"
-msgstr "ລາຍການອັບໂຫຼດ"
-
-#: src/upload-button.tsx:477
-msgid "Cancel upload of $0"
-msgstr "ຍົກເລີກການອັບໂຫຼດຂອງ $0"
-
-#
-#: src/upload-button.tsx:494
-msgid "Upload $0% completed"
-msgstr "ອັບໂຫຼດ $0% ສຳເລັດແລ້ວ"
-
-#: src/upload-button.tsx:513
-msgid "Upload"
-msgstr "ອັບໂຫຼດ"
-
-#: src/files-card-body.tsx:506
-msgid "No matching results"
-msgstr "ບໍ່ພົບຜົນລັບທີ່ກົງກັນ"
-
-#: src/files-card-body.tsx:507
-msgid "Clear filter"
-msgstr "ລຶບຕົວຕອງ"
-
-#: src/files-card-body.tsx:514
-msgid "Directory is empty"
-msgstr "ໄດເຣັກທໍຣີວ່າງເປົ່າ"
-
-#: src/files-card-body.tsx:519
-msgid "$0 item is hidden"
-msgid_plural "$0 items are hidden"
-msgstr[0] "$0 ລາຍການຖືກເຊື່ອງໄວ້"
-
-#: src/files-card-body.tsx:578
-msgid "Folder"
-msgstr "ໂຟນເດີ"
-
-#: src/files-card-body.tsx:580
-msgid "File"
-msgstr "ໄຟລ໌"
+#: src/dialogs/create-file.tsx:230
+msgid "Permission denied"
+msgstr "ການອະນຸຍາດຖືກປະຕິເສດ"
 
 #: src/manifest.json:0
 msgid "File browser"
