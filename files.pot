@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-27 11:23+0000\n"
+"POT-Creation-Date: 2026-11-28 10:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,64 +22,64 @@ msgstr ""
 msgid "Cockpit Files"
 msgstr ""
 
-#: src/files-card-body.tsx:506
+#: src/files-card-body.tsx:550
 msgid "No matching results"
 msgstr ""
 
-#: src/files-card-body.tsx:507
+#: src/files-card-body.tsx:551
 msgid "Clear filter"
 msgstr ""
 
-#: src/files-card-body.tsx:514
+#: src/files-card-body.tsx:558
 msgid "Directory is empty"
 msgstr ""
 
-#: src/files-card-body.tsx:519
+#: src/files-card-body.tsx:563
 msgid "$0 item is hidden"
 msgid_plural "$0 items are hidden"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/files-card-body.tsx:522 src/header.tsx:271
+#: src/files-card-body.tsx:566 src/header.tsx:271
 msgid "Show hidden items"
 msgstr ""
 
-#: src/files-card-body.tsx:534 src/header.tsx:53
+#: src/files-card-body.tsx:578 src/header.tsx:53
 msgid "Name"
 msgstr ""
 
-#: src/files-card-body.tsx:535 src/files-card-body.tsx:652 src/header.tsx:64
+#: src/files-card-body.tsx:579 src/files-card-body.tsx:696 src/header.tsx:64
 msgid "Size"
 msgstr ""
 
-#: src/files-card-body.tsx:539 src/files-card-body.tsx:659 src/header.tsx:75
+#: src/files-card-body.tsx:583 src/files-card-body.tsx:703 src/header.tsx:75
 msgid "Modified"
 msgstr ""
 
-#: src/files-card-body.tsx:544 src/files-card-body.tsx:591
-#: src/files-card-body.tsx:667 src/header.tsx:86 src/files-footer-detail.tsx:80
+#: src/files-card-body.tsx:588 src/files-card-body.tsx:635
+#: src/files-card-body.tsx:711 src/header.tsx:86 src/files-footer-detail.tsx:80
 #: src/dialogs/permissions.tsx:319 src/dialogs/create-file.tsx:185
 msgid "Owner"
 msgstr ""
 
-#: src/files-card-body.tsx:549 src/files-card-body.tsx:674 src/header.tsx:97
+#: src/files-card-body.tsx:593 src/files-card-body.tsx:718 src/header.tsx:97
 msgid "Permissions"
 msgstr ""
 
-#: src/files-card-body.tsx:578
+#: src/files-card-body.tsx:622
 msgid "Folder"
 msgstr ""
 
-#: src/files-card-body.tsx:580
+#: src/files-card-body.tsx:624
 msgid "File"
 msgstr ""
 
-#: src/files-card-body.tsx:591 src/files-footer-detail.tsx:80
+#: src/files-card-body.tsx:635 src/files-footer-detail.tsx:80
 #: src/files-footer-detail.tsx:152 src/dialogs/permissions.tsx:334
 msgid "Group"
 msgstr ""
 
-#: src/files-card-body.tsx:591 src/files-footer-detail.tsx:80
+#: src/files-card-body.tsx:635 src/files-footer-detail.tsx:80
 msgid "Others"
 msgstr ""
 
